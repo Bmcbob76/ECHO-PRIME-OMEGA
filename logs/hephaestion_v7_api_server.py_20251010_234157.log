@@ -1,0 +1,4 @@
+  File "E:\ECHO_XV4\MLS\servers\ACTIVE_SERVERS\hephaestion_v7_api_server.py", line 5
+    🏗️ HEPHAESTION FORGE V7 API SERVER - MLS INTEGRATION🏗️ HEPHAESTION FORGE V7 API SERVER
+    ^
+SyntaxError: invalid character '🏗' (U+1F3D7)

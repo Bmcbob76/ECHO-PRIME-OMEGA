@@ -1,0 +1,281 @@
+{
+    "servers": [
+        {
+            "id": "unified_developer_api",
+            "name": "Unified Developer API - Master Orchestrator",
+            "description": "Master coordinator for ECHO_XV4 Unified Developer API System - Routes commands to VS Code API, Windows API, and Desktop Commander",
+            "script_path": "E:/ECHO_XV4/MLS/servers/unified_developer_api.py",
+            "python_path": "H:/Tools/python.exe",
+            "port": 9000,
+            "auto_start": true,
+            "debug": true,
+            "diagnostics": true,
+            "health_endpoint": "http://localhost:9000/health",
+            "endpoints": [
+                {
+                    "path": "/health",
+                    "method": "GET",
+                    "description": "Health check and system status"
+                },
+                {
+                    "path": "/api/stats",
+                    "method": "GET",
+                    "description": "API router statistics"
+                },
+                {
+                    "path": "/api/endpoints",
+                    "method": "GET",
+                    "description": "List all available endpoints"
+                },
+                {
+                    "path": "/unified/workflow",
+                    "method": "POST",
+                    "description": "Execute multi-step development workflow"
+                },
+                {
+                    "path": "/vscode/*",
+                    "method": "POST",
+                    "description": "Proxy to VS Code API (port 9001)"
+                },
+                {
+                    "path": "/windows/*",
+                    "method": "POST",
+                    "description": "Proxy to Windows API (port 8343)"
+                }
+            ],
+            "requirements": [
+                "requests"
+            ],
+            "authority_level": "11.0",
+            "category": "orchestration",
+            "tags": ["unified-api", "orchestrator", "workflow-engine", "vscode-proxy", "windows-proxy"],
+            "subsystems": {
+                "vscode_api": "http://localhost:9001",
+                "windows_api": "http://localhost:8343",
+                "desktop_commander": "MCP (integrated)"
+            },
+            "workflows": [
+                "fix_bug - Fix bug in code file",
+                "create_component - Create new component with tests",
+                "debug_crash - Debug runtime crash",
+                "run_tests - Execute test suite"
+            ]
+        },
+        {
+            "id": "windows_api_ultimate",
+            "name": "Windows API Ultimate - Comprehensive Control",
+            "description": "COMPLETE 225+ Windows API endpoints with 4-Screen OCR System, GUI automation, and full OS control",
+            "script_path": "E:/ECHO_XV4/MLS/servers/WINDOWS_API_ULTIMATE.py",
+            "python_path": "H:/Tools/python.exe",
+            "port": 8343,
+            "auto_start": true,
+            "debug": true,
+            "diagnostics": true,
+            "health_endpoint": "http://localhost:8343/health",
+            "endpoints": [
+                {
+                    "path": "/health",
+                    "method": "GET",
+                    "description": "Health check and system status"
+                },
+                {
+                    "path": "/api/endpoints",
+                    "method": "GET",
+                    "description": "List all 225+ available API endpoints"
+                },
+                {
+                    "path": "/api/performance",
+                    "method": "GET",
+                    "description": "Performance statistics and metrics"
+                },
+                {
+                    "path": "/api/ocr/all_screens",
+                    "method": "POST",
+                    "description": "Capture and OCR all 4 screens simultaneously"
+                },
+                {
+                    "path": "/api/ocr/search",
+                    "method": "POST",
+                    "description": "Search for text across all screens"
+                },
+                {
+                    "path": "/api/ocr/screen/{screen_id}",
+                    "method": "POST",
+                    "description": "Capture specific screen with OCR"
+                },
+                {
+                    "path": "/api/windows/list",
+                    "method": "GET",
+                    "description": "List all open windows"
+                },
+                {
+                    "path": "/api/windows/focus",
+                    "method": "POST",
+                    "description": "Focus specific window"
+                },
+                {
+                    "path": "/api/processes/list",
+                    "method": "GET",
+                    "description": "List all running processes"
+                },
+                {
+                    "path": "/api/system/info",
+                    "method": "GET",
+                    "description": "Get system information"
+                }
+            ],
+            "requirements": [
+                "pywin32",
+                "opencv-python",
+                "pillow",
+                "numpy",
+                "pytesseract",
+                "rapidocr-onnxruntime"
+            ],
+            "authority_level": "11.0",
+            "category": "system_control",
+            "tags": ["windows-api", "ocr", "gui-automation", "system-control", "os-control", "225-endpoints"],
+            "tier_info": {
+                "tier_0": "Core System (4 endpoints)",
+                "tier_1": "System Intelligence & Monitoring (20+ endpoints)",
+                "tier_2": "Process & Memory Management (25+ endpoints)",
+                "tier_3": "Security & Cryptography (20+ endpoints)",
+                "tier_4": "Hardware & Device Control (25+ endpoints)",
+                "tier_5": "Network & Communication (30+ endpoints)",
+                "tier_6": "File System Operations (25+ endpoints)",
+                "tier_7": "Registry Operations (15+ endpoints)",
+                "tier_8": "Service Management (15+ endpoints)",
+                "tier_9": "Event Log Management (15+ endpoints)",
+                "tier_10": "4-Screen OCR System (20+ endpoints)",
+                "tier_11": "ECHO XV3 Specific (25+ endpoints)"
+            },
+            "performance_targets": {
+                "target_response_time_ms": 1,
+                "performance_level": "LUDICROUS",
+                "fallback_mode": "Graceful degradation if OCR unavailable"
+            }
+        },
+        {
+            "id": "phoenix_guilty_spark",
+            "name": "Phoenix Voice - Guilty Spark",
+            "description": "Real-time TTS synthesis using trained Glow-TTS model (343 Guilty Spark voice)",
+            "script_path": "E:/ECHO_XV4/MLS/servers/phoenix_voice_guilty_spark.py",
+            "python_path": "python",
+            "port": 7343,
+            "auto_start": false,
+            "debug": true,
+            "diagnostics": true,
+            "health_endpoint": "http://localhost:7343/health",
+            "endpoints": [
+                {
+                    "path": "/health",
+                    "method": "GET",
+                    "description": "Health check and status"
+                },
+                {
+                    "path": "/synthesize",
+                    "method": "POST",
+                    "description": "Synthesize speech from text (returns WAV file)"
+                },
+                {
+                    "path": "/synthesize_json",
+                    "method": "POST",
+                    "description": "Synthesize speech (returns base64 JSON)"
+                },
+                {
+                    "path": "/batch_synthesize",
+                    "method": "POST",
+                    "description": "Batch synthesize multiple texts"
+                },
+                {
+                    "path": "/model_info",
+                    "method": "GET",
+                    "description": "Model configuration and statistics"
+                },
+                {
+                    "path": "/test_voice",
+                    "method": "GET",
+                    "description": "Quick voice test"
+                }
+            ],
+            "requirements": [
+                "TTS",
+                "torch",
+                "flask",
+                "flask-cors",
+                "numpy"
+            ],
+            "authority_level": "11.0",
+            "category": "voice_synthesis",
+            "tags": ["voice", "tts", "guilty_spark", "phoenix", "glow-tts"],
+            "model_info": {
+                "training_epoch": "299/300",
+                "model_type": "GlowTTS",
+                "sample_rate": 22050,
+                "voice_character": "343 Guilty Spark (Halo)",
+                "model_path": "E:/ECHO_XV4/EPCP30/VOICE_CLONING/output/guilty_spark_voice-October-04-2025_05+19AM-78d05db"
+            }
+        },        {
+            "id": "epcp3_0_c3po",
+            "name": "EPCP3-0 C3PO Integration",
+            "description": "C3PO Voice + Personality + Reasoning using pretrained XTTS-v2_C3PO model",
+            "script_path": "E:/ECHO_XV4/MLS/servers/epcp3_0_c3po_server.py",
+            "python_path": "H:/Tools/python.exe",
+            "port": 8030,
+            "auto_start": false,
+            "debug": true,
+            "diagnostics": true,
+            "health_endpoint": "http://localhost:8030/health",
+            "endpoints": [
+                {
+                    "path": "/health",
+                    "method": "GET",
+                    "description": "Health check and C3PO system status"
+                },
+                {
+                    "path": "/respond",
+                    "method": "POST",
+                    "description": "Get C3PO response (text + optional voice)"
+                },
+                {
+                    "path": "/speak",
+                    "method": "POST",
+                    "description": "Generate C3PO voice from text"
+                },
+                {
+                    "path": "/personality",
+                    "method": "POST",
+                    "description": "Apply C3PO personality styling to text"
+                },
+                {
+                    "path": "/stats",
+                    "method": "GET",
+                    "description": "Get C3PO system statistics"
+                }
+            ],
+            "requirements": [
+                "TTS",
+                "torch",
+                "flask",
+                "flask-cors",
+                "numpy",
+                "soundfile",
+                "scipy"
+            ],
+            "authority_level": "11.0",
+            "category": "ai_personality",
+            "tags": ["voice", "tts", "c3po", "personality", "star-wars", "xtts", "epcp3-0"],
+            "model_info": {
+                "model_type": "XTTS-v2_C3PO",
+                "sample_rate": 22050,
+                "voice_character": "C-3PO (Star Wars)",
+                "pretrained_path": "C:/Users/bobmc/AppData/Local/tts/tts_models--multilingual--multi-dataset--xtts_v2_c3po",
+                "reference_audio": "E:/INTEGRATE INTO ECHO_XV4/ECHO_PRIME_SYSTEM/EPCP30/VOICE_CLONING/C3PO_AUDIO/hello-master-i-m-c3po-human-cyborg-relations-r2d2-you-know-better-than-to-trust-a-strange-computer.mp3",
+                "personality_module": "E:/ECHO_XV4/EPCP3-0/PERSONALITY/c3po_personality.py",
+                "voice_module": "E:/ECHO_XV4/EPCP3-0/AI/voice_c3po.py"
+            }
+        }
+    ],
+    "version": "1.5.0",
+    "last_updated": "2025-10-04T17:00:00.0000000-05:00"
+}

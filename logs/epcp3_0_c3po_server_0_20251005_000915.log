@@ -1,0 +1,67 @@
+✅ Process name set: ECHO_XV4: Epcp3 0 C3Po Server - Port 8009
+⚠️  GS343 Foundation not available - running standalone
+======================================================================
+🎖️ EPCP3-0 C3PO SERVER
+======================================================================
+Port: 8030
+Debug: False
+GS343 Foundation: UNAVAILABLE
+======================================================================
+
+Initializing C3PO Integration...
+🎖️ Initializing C3PO Integration...
+   ✅ C3PO Personality loaded
+🎤 Loading C3PO voice model...
+H:\Tools\lib\site-packages\librosa\core\intervals.py:8: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+❌ Failed to load C3PO voice model: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject
+Traceback (most recent call last):
+  File "E:\ECHO_XV4/EPCP3-0\AI\voice_c3po_standalone.py", line 58, in initialize
+    from TTS.api import TTS
+  File "H:\Tools\lib\site-packages\TTS\api.py", line 11, in <module>
+    from TTS.utils.synthesizer import Synthesizer
+  File "H:\Tools\lib\site-packages\TTS\utils\synthesizer.py", line 11, in <module>
+    from TTS.tts.configs.vits_config import VitsConfig
+  File "H:\Tools\lib\site-packages\TTS\tts\configs\vits_config.py", line 5, in <module>
+    from TTS.tts.models.vits import VitsArgs, VitsAudioConfig
+  File "H:\Tools\lib\site-packages\TTS\tts\models\vits.py", line 22, in <module>
+    from TTS.tts.datasets.dataset import TTSDataset, _parse_sample
+  File "H:\Tools\lib\site-packages\TTS\tts\datasets\__init__.py", line 10, in <module>
+    from TTS.tts.datasets.formatters import *
+  File "H:\Tools\lib\site-packages\TTS\tts\datasets\formatters.py", line 8, in <module>
+    import pandas as pd
+  File "H:\Tools\lib\site-packages\pandas\__init__.py", line 22, in <module>
+    from pandas.compat import is_numpy_dev as _is_numpy_dev  # pyright: ignore # noqa:F401
+  File "H:\Tools\lib\site-packages\pandas\compat\__init__.py", line 18, in <module>
+    from pandas.compat.numpy import (
+  File "H:\Tools\lib\site-packages\pandas\compat\numpy\__init__.py", line 4, in <module>
+    from pandas.util.version import Version
+  File "H:\Tools\lib\site-packages\pandas\util\__init__.py", line 2, in <module>
+    from pandas.util._decorators import (  # noqa:F401
+  File "H:\Tools\lib\site-packages\pandas\util\_decorators.py", line 14, in <module>
+    from pandas._libs.properties import cache_readonly
+  File "H:\Tools\lib\site-packages\pandas\_libs\__init__.py", line 13, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas\_libs\interval.pyx", line 1, in init pandas._libs.interval
+ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject
+   ⚠️  C3PO Voice failed (text-only mode)
+✅ C3PO Integration complete
+
+✅ C3PO Integration initialized successfully
+✅ C3PO Ready
+
+🚀 Starting server on http://localhost:8030
+📡 Health: http://localhost:8030/health
+🤖 Respond: POST http://localhost:8030/respond
+🔊 Speak: POST http://localhost:8030/speak
+💬 Personality: POST http://localhost:8030/personality
+📊 Stats: GET http://localhost:8030/stats
+======================================================================
+
+ * Serving Flask app 'epcp3_0_c3po_server'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8030
+ * Running on http://192.168.1.200:8030
+Press CTRL+C to quit

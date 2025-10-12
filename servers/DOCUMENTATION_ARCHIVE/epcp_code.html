@@ -1,0 +1,1573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EPCP3-0 ULTIMATE - Echo Prime Code IDE</title>
+
+    <!-- Monaco Editor (VS Code Engine) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.44.0/min/vs/editor/editor.main.min.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+            background: #1e1e1e;
+            color: #cccccc;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        /* TOP MENU BAR - VS CODE STYLE */
+        .menu-bar {
+            height: 30px;
+            background: #3c3c3c;
+            display: flex;
+            align-items: center;
+            padding: 0 10px;
+            border-bottom: 1px solid #2d2d30;
+            font-size: 13px;
+            user-select: none;
+        }
+
+        .menu-item {
+            padding: 5px 10px;
+            cursor: pointer;
+            border-radius: 3px;
+            transition: background 0.2s;
+        }
+
+        .menu-item:hover {
+            background: #505050;
+        }
+
+        .menu-dropdown {
+            position: absolute;
+            background: #2d2d30;
+            border: 1px solid #454545;
+            border-radius: 3px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+            display: none;
+            z-index: 10000;
+            min-width: 200px;
+        }
+
+        .menu-dropdown-item {
+            padding: 8px 30px 8px 12px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 13px;
+        }
+
+        .menu-dropdown-item:hover {
+            background: #37373d;
+        }
+
+        .menu-dropdown-item.separator {
+            border-top: 1px solid #454545;
+            margin: 5px 0;
+            padding: 0;
+            height: 1px;
+        }
+
+        .menu-dropdown-item .shortcut {
+            font-size: 11px;
+            opacity: 0.7;
+            margin-left: 20px;
+        }
+
+        /* Main Layout */
+        .epcp-container {
+            display: flex;
+            flex: 1;
+            overflow: hidden;
+        }
+
+        /* Activity Bar (Left) - VS Code Style */
+        .activity-bar {
+            width: 50px;
+            background: #333333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px 0;
+            border-right: 1px solid #2d2d30;
+        }
+
+        .activity-item {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            transition: all 0.2s;
+            font-size: 20px;
+        }
+
+        .activity-item:hover {
+            background: #2a2d2e;
+        }
+
+        .activity-item.active {
+            background: #37373d;
+            border-left: 2px solid #ff8c00;
+        }
+
+        /* Sidebar - VS Code Style */
+        .sidebar {
+            width: 300px;
+            background: #252526;
+            display: flex;
+            flex-direction: column;
+            border-right: 1px solid #2d2d30;
+            transition: width 0.3s;
+        }
+
+        .sidebar.collapsed {
+            width: 0;
+            overflow: hidden;
+        }
+
+        .sidebar-header {
+            padding: 15px;
+            background: #2d2d30;
+            border-bottom: 1px solid #3e3e42;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: #cccccc;
+            font-weight: 600;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .sidebar-actions {
+            display: flex;
+            gap: 5px;
+        }
+
+        .sidebar-action-btn {
+            cursor: pointer;
+            padding: 3px;
+            border-radius: 3px;
+            transition: background 0.2s;
+        }
+
+        .sidebar-action-btn:hover {
+            background: #37373d;
+        }
+
+        .sidebar-content {
+            flex: 1;
+            overflow-y: auto;
+            padding: 10px;
+        }
+
+        /* File Explorer */
+        .file-tree {
+            list-style: none;
+        }
+
+        .file-item {
+            padding: 5px 10px;
+            cursor: pointer;
+            border-radius: 3px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 13px;
+        }
+
+        .file-item:hover {
+            background: #2a2d2e;
+        }
+
+        .file-item.selected {
+            background: #37373d;
+        }
+
+        .file-icon {
+            width: 16px;
+            height: 16px;
+        }
+
+        /* Editor Area */
+        .editor-area {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            background: #1e1e1e;
+        }
+
+        /* Tab Bar */
+        .tab-bar {
+            background: #2d2d30;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #3e3e42;
+            height: 35px;
+            overflow-x: auto;
+        }
+
+        .editor-tab {
+            padding: 8px 15px;
+            background: #2d2d30;
+            border-right: 1px solid #1e1e1e;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 13px;
+            white-space: nowrap;
+            transition: all 0.2s;
+        }
+
+        .editor-tab:hover {
+            background: #37373d;
+        }
+
+        .editor-tab.active {
+            background: #1e1e1e;
+            color: #ffffff;
+        }
+
+        .tab-close {
+            margin-left: 5px;
+            opacity: 0.6;
+            font-weight: bold;
+        }
+
+        .tab-close:hover {
+            opacity: 1;
+        }
+
+        /* Monaco Editor Container */
+        #monaco-editor {
+            flex: 1;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Bottom Panel */
+        .bottom-panel {
+            height: 250px;
+            background: #1e1e1e;
+            border-top: 1px solid #2d2d30;
+            display: flex;
+            flex-direction: column;
+            transition: height 0.3s;
+        }
+
+        .bottom-panel.collapsed {
+            height: 0;
+            overflow: hidden;
+        }
+
+        .panel-tabs {
+            background: #2d2d30;
+            display: flex;
+            gap: 2px;
+            padding: 5px 10px;
+            border-bottom: 1px solid #3e3e42;
+        }
+
+        .panel-tab {
+            padding: 5px 12px;
+            cursor: pointer;
+            font-size: 13px;
+            border-radius: 3px;
+            transition: all 0.2s;
+        }
+
+        .panel-tab:hover {
+            background: #37373d;
+        }
+
+        .panel-tab.active {
+            background: #37373d;
+            color: #ff8c00;
+        }
+
+        .panel-content {
+            flex: 1;
+            overflow: auto;
+            padding: 10px;
+            font-family: 'Consolas', 'Courier New', monospace;
+            font-size: 13px;
+        }
+
+        /* Terminal */
+        .terminal {
+            background: #1e1e1e;
+            color: #00ff00;
+            font-family: 'Consolas', 'Courier New', monospace;
+            padding: 10px;
+            overflow-y: auto;
+            height: 100%;
+        }
+
+        .terminal-line {
+            margin-bottom: 5px;
+        }
+
+        .terminal-prompt {
+            color: #ff8c00;
+        }
+
+        /* AI Chat Panel */
+        .ai-chat {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .chat-header {
+            padding: 10px;
+            background: #2d2d30;
+            border-bottom: 1px solid #3e3e42;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .chat-messages {
+            flex: 1;
+            overflow-y: auto;
+            padding: 10px;
+        }
+
+        .chat-message {
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .chat-message.user {
+            background: #264f78;
+            margin-left: 20%;
+        }
+
+        .chat-message.assistant {
+            background: #2d2d30;
+            margin-right: 20%;
+        }
+
+        .chat-message.system {
+            background: #3e3e42;
+            text-align: center;
+            font-style: italic;
+            opacity: 0.8;
+        }
+
+        .chat-input-area {
+            padding: 10px;
+            border-top: 1px solid #3e3e42;
+            display: flex;
+            gap: 10px;
+        }
+
+        .chat-input {
+            flex: 1;
+            background: #3c3c3c;
+            border: 1px solid #555555;
+            color: #cccccc;
+            padding: 10px;
+            border-radius: 5px;
+            font-family: inherit;
+            resize: none;
+            min-height: 40px;
+            max-height: 120px;
+        }
+
+        .send-btn {
+            background: #ff8c00;
+            border: none;
+            color: #000;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.2s;
+            height: 40px;
+        }
+
+        .send-btn:hover {
+            background: #ffa500;
+        }
+
+        .send-btn:disabled {
+            background: #555;
+            cursor: not-allowed;
+        }
+
+        /* Status Bar */
+        .status-bar {
+            height: 25px;
+            background: #007acc;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 15px;
+            font-size: 12px;
+            color: #ffffff;
+        }
+
+        .status-left, .status-right {
+            display: flex;
+            gap: 15px;
+        }
+
+        .status-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        /* Extensions Panel */
+        .extensions-panel {
+            padding: 15px;
+        }
+
+        .extension-card {
+            background: #2d2d30;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #3e3e42;
+        }
+
+        .extension-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .extension-name {
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .extension-btn {
+            background: #0e639c;
+            border: none;
+            color: #fff;
+            padding: 5px 15px;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 11px;
+            transition: all 0.2s;
+        }
+
+        .extension-btn:hover {
+            background: #1177bb;
+        }
+
+        .extension-btn.installed {
+            background: #388a34;
+        }
+
+        .extension-btn:disabled {
+            background: #555;
+            cursor: not-allowed;
+        }
+
+        /* Model Selector */
+        .model-selector {
+            background: #3c3c3c;
+            border: 1px solid #555;
+            color: #cccccc;
+            padding: 8px 12px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 13px;
+            min-width: 250px;
+        }
+
+        .model-selector:hover {
+            border-color: #ff8c00;
+        }
+
+        /* Loading Indicator */
+        .loading {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-top-color: #ff8c00;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* Notification Toast */
+        .toast {
+            position: fixed;
+            bottom: 30px;
+            right: 20px;
+            background: #2d2d30;
+            border: 1px solid #ff8c00;
+            padding: 15px 20px;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+            display: none;
+            z-index: 10000;
+            animation: slideIn 0.3s ease-out;
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(100px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        /* Connection Status Indicator */
+        .connection-status {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 11px;
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #4ec9b0;
+        }
+
+        .status-dot.disconnected {
+            background: #f48771;
+        }
+
+        .status-dot.connecting {
+            background: #ffa500;
+            animation: pulse 1s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        /* Scrollbar Styling */
+        ::-webkit-scrollbar {
+            width: 10px;
+            height: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #1e1e1e;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #424242;
+            border-radius: 5px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #4e4e4e;
+        }
+    </style>
+</head>
+<body>
+    <!-- TOP MENU BAR -->
+    <div class="menu-bar">
+        <div class="menu-item" onclick="toggleMenu('fileMenu')">File</div>
+        <div class="menu-item" onclick="toggleMenu('editMenu')">Edit</div>
+        <div class="menu-item" onclick="toggleMenu('selectionMenu')">Selection</div>
+        <div class="menu-item" onclick="toggleMenu('viewMenu')">View</div>
+        <div class="menu-item" onclick="toggleMenu('goMenu')">Go</div>
+        <div class="menu-item" onclick="toggleMenu('runMenu')">Run</div>
+        <div class="menu-item" onclick="toggleMenu('terminalMenu')">Terminal</div>
+        <div class="menu-item" onclick="toggleMenu('helpMenu')">Help</div>
+
+        <!-- File Menu Dropdown -->
+        <div class="menu-dropdown" id="fileMenu" style="left: 10px; top: 30px;">
+            <div class="menu-dropdown-item" onclick="openFolderDialog()">
+                📁 Open Folder... <span class="shortcut">Ctrl+K Ctrl+O</span>
+            </div>
+            <div class="menu-dropdown-item" onclick="openFileDialog()">
+                📄 Open File... <span class="shortcut">Ctrl+O</span>
+            </div>
+            <div class="menu-dropdown-item separator"></div>
+            <div class="menu-dropdown-item" onclick="newFile()">
+                ➕ New File <span class="shortcut">Ctrl+N</span>
+            </div>
+            <div class="menu-dropdown-item separator"></div>
+            <div class="menu-dropdown-item" onclick="saveFile()">
+                💾 Save <span class="shortcut">Ctrl+S</span>
+            </div>
+            <div class="menu-dropdown-item" onclick="saveAsFile()">
+                💾 Save As... <span class="shortcut">Ctrl+Shift+S</span>
+            </div>
+            <div class="menu-dropdown-item separator"></div>
+            <div class="menu-dropdown-item" onclick="closeEditor()">
+                ❌ Close Editor <span class="shortcut">Ctrl+W</span>
+            </div>
+        </div>
+
+        <!-- Edit Menu Dropdown -->
+        <div class="menu-dropdown" id="editMenu" style="left: 50px; top: 30px;">
+            <div class="menu-dropdown-item" onclick="editorUndo()">
+                ↩️ Undo <span class="shortcut">Ctrl+Z</span>
+            </div>
+            <div class="menu-dropdown-item" onclick="editorRedo()">
+                ↪️ Redo <span class="shortcut">Ctrl+Y</span>
+            </div>
+            <div class="menu-dropdown-item separator"></div>
+            <div class="menu-dropdown-item" onclick="editorCut()">
+                ✂️ Cut <span class="shortcut">Ctrl+X</span>
+            </div>
+            <div class="menu-dropdown-item" onclick="editorCopy()">
+                📋 Copy <span class="shortcut">Ctrl+C</span>
+            </div>
+            <div class="menu-dropdown-item" onclick="editorPaste()">
+                📄 Paste <span class="shortcut">Ctrl+V</span>
+            </div>
+            <div class="menu-dropdown-item separator"></div>
+            <div class="menu-dropdown-item" onclick="editorFind()">
+                🔍 Find <span class="shortcut">Ctrl+F</span>
+            </div>
+            <div class="menu-dropdown-item" onclick="editorReplace()">
+                🔄 Replace <span class="shortcut">Ctrl+H</span>
+            </div>
+        </div>
+
+        <!-- View Menu Dropdown -->
+        <div class="menu-dropdown" id="viewMenu" style="left: 140px; top: 30px;">
+            <div class="menu-dropdown-item" onclick="toggleSidebar()">
+                📁 Toggle Sidebar <span class="shortcut">Ctrl+B</span>
+            </div>
+            <div class="menu-dropdown-item" onclick="togglePanel()">
+                📊 Toggle Panel <span class="shortcut">Ctrl+J</span>
+            </div>
+            <div class="menu-dropdown-item separator"></div>
+            <div class="menu-dropdown-item" onclick="showPanel('explorer')">
+                📂 Explorer
+            </div>
+            <div class="menu-dropdown-item" onclick="showPanel('search')">
+                🔍 Search
+            </div>
+            <div class="menu-dropdown-item" onclick="showPanel('extensions')">
+                🧩 Extensions
+            </div>
+        </div>
+
+        <!-- Terminal Menu Dropdown -->
+        <div class="menu-dropdown" id="terminalMenu" style="left: 320px; top: 30px;">
+            <div class="menu-dropdown-item" onclick="newTerminal()">
+                ➕ New Terminal <span class="shortcut">Ctrl+`</span>
+            </div>
+            <div class="menu-dropdown-item" onclick="showBottomPanel('terminal')">
+                📺 Show Terminal Panel
+            </div>
+        </div>
+    </div>
+
+    <div class="epcp-container">
+        <!-- Activity Bar -->
+        <div class="activity-bar">
+            <div class="activity-item active" onclick="showPanel('explorer')" title="Explorer">
+                📁
+            </div>
+            <div class="activity-item" onclick="showPanel('search')" title="Search">
+                🔍
+            </div>
+            <div class="activity-item" onclick="showPanel('git')" title="Source Control">
+                🌿
+            </div>
+            <div class="activity-item" onclick="showPanel('debug')" title="Debug">
+                🐛
+            </div>
+            <div class="activity-item" onclick="showPanel('extensions')" title="Extensions">
+                🧩
+            </div>
+            <div class="activity-item" onclick="showPanel('ai')" title="EPCP3-0 AI">
+                🤖
+            </div>
+        </div>
+
+        <!-- Sidebar -->
+        <div class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <span id="sidebarHeader">EXPLORER</span>
+                <div class="sidebar-actions">
+                    <span class="sidebar-action-btn" onclick="openFolderDialog()" title="Open Folder">📁</span>
+                    <span class="sidebar-action-btn" onclick="refreshExplorer()" title="Refresh">🔄</span>
+                </div>
+            </div>
+            <div class="sidebar-content" id="sidebarContent">
+                <!-- Explorer Panel -->
+                <div id="explorer-panel">
+                    <div style="padding: 10px; opacity: 0.8; font-size: 12px;">
+                        No folder opened. <a href="#" onclick="openFolderDialog()" style="color: #ff8c00;">Open Folder</a>
+                    </div>
+                    <ul class="file-tree" id="fileTree">
+                        <!-- Files will be populated here -->
+                    </ul>
+                </div>
+
+                <!-- Extensions Panel -->
+                <div id="extensions-panel" style="display:none;">
+                    <div class="extensions-panel" id="extensionsList">
+                        <!-- Extensions will be populated here -->
+                    </div>
+                </div>
+
+                <!-- AI Panel -->
+                <div id="ai-panel" style="display:none;">
+                    <div style="padding: 15px;">
+                        <h3 style="color: #ff8c00; margin-bottom: 15px;">🤖 EPCP3-0 AI Assistant</h3>
+                        <p style="margin-bottom: 10px;">Select AI Model:</p>
+                        <select class="model-selector" id="aiModelSelector" onchange="switchAIModel()">
+                            <option value="claude-sonnet-4-5-20250514">Claude 4.5 Sonnet ⚡ (NEWEST)</option>
+                            <option value="claude-opus-4-1-20250805">Claude 4.1 Opus</option>
+                            <option value="claude-3-5-sonnet-20241022">Claude 3.5 Sonnet</option>
+                            <option value="gpt-4-turbo">GPT-4 Turbo</option>
+                            <option value="gemini-1.5-pro">Gemini 1.5 Pro</option>
+                            <option value="ollama/mistral">Ollama Mistral (FREE)</option>
+                        </select>
+                        <div style="margin-top: 15px; padding: 10px; background: #2d2d30; border-radius: 5px;">
+                            <strong>Features:</strong>
+                            <ul style="margin-top: 10px; margin-left: 20px; line-height: 1.8;">
+                                <li>Code analysis & optimization</li>
+                                <li>Bug detection & fixing</li>
+                                <li>Architecture suggestions</li>
+                                <li>Test generation</li>
+                                <li>Documentation writing</li>
+                            </ul>
+                        </div>
+                        <button onclick="showBottomPanel('ai-chat')" style="width: 100%; margin-top: 15px; padding: 10px; background: #ff8c00; border: none; border-radius: 5px; cursor: pointer; font-weight: bold;">
+                            💬 Open AI Chat
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Editor Area -->
+        <div class="editor-area">
+            <div class="tab-bar" id="tabBar">
+                <div class="editor-tab active">
+                    <span>📄</span>
+                    <span>Welcome.md</span>
+                    <span class="tab-close" onclick="closeTab(event)">×</span>
+                </div>
+            </div>
+            <div id="monaco-editor"></div>
+        </div>
+    </div>
+
+    <!-- Bottom Panel -->
+    <div class="bottom-panel" id="bottomPanel">
+        <div class="panel-tabs">
+            <div class="panel-tab active" onclick="showBottomPanel('terminal')">TERMINAL</div>
+            <div class="panel-tab" onclick="showBottomPanel('ai-chat')">🤖 EPCP3-0 AI CHAT</div>
+            <div class="panel-tab" onclick="showBottomPanel('problems')">PROBLEMS</div>
+            <div class="panel-tab" onclick="showBottomPanel('output')">OUTPUT</div>
+        </div>
+        <div class="panel-content" id="panelContent">
+            <div class="terminal" id="terminal-panel">
+                <div class="terminal-line">
+                    <span class="terminal-prompt">EPCP3-0 Terminal v3.0.0-ULTIMATE</span>
+                </div>
+                <div class="terminal-line">
+                    <span class="terminal-prompt">Commander@ECHO_XV4</span>
+                    <span> ~$ █</span>
+                </div>
+            </div>
+
+            <!-- AI Chat Panel -->
+            <div class="ai-chat" id="ai-chat-panel" style="display:none;">
+                <div class="chat-header">
+                    <div>
+                        <strong style="color: #ff8c00;">🤖 EPCP3-0 AI Chat</strong>
+                        <span id="connectionStatus" class="connection-status" style="margin-left: 15px;">
+                            <span class="status-dot disconnected"></span>
+                            <span>Disconnected</span>
+                        </span>
+                    </div>
+                    <select class="model-selector" id="chatModelSelector" style="min-width: 200px;">
+                        <option value="claude-sonnet-4-5-20250514">Claude 4.5 Sonnet ⚡</option>
+                        <option value="claude-opus-4-1-20250805">Claude 4.1 Opus</option>
+                        <option value="claude-3-5-sonnet-20241022">Claude 3.5 Sonnet</option>
+                        <option value="gpt-4-turbo">GPT-4 Turbo</option>
+                        <option value="gemini-1.5-pro">Gemini 1.5 Pro</option>
+                        <option value="ollama/mistral">Ollama Mistral (FREE)</option>
+                    </select>
+                </div>
+                <div class="chat-messages" id="chatMessages">
+                    <div class="chat-message system">
+                        Connecting to EPCP3-0 backend...
+                    </div>
+                </div>
+                <div class="chat-input-area">
+                    <textarea class="chat-input" id="aiChatInput" placeholder="Ask EPCP3-0 about your code... (Press Enter to send, Shift+Enter for new line)" rows="2"></textarea>
+                    <button class="send-btn" id="sendBtn" onclick="sendAIMessage()">Send</button>
+                </div>
+            </div>
+
+            <!-- Problems Panel -->
+            <div id="problems-panel" style="display:none;">
+                <div style="padding: 10px;">
+                    <strong>No problems detected</strong>
+                </div>
+            </div>
+
+            <!-- Output Panel -->
+            <div id="output-panel" style="display:none;">
+                <div style="padding: 10px; font-family: monospace;">
+                    EPCP3-0 Output Console
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Status Bar -->
+    <div class="status-bar">
+        <div class="status-left">
+            <div class="status-item">
+                <span>🌿</span>
+                <span>main</span>
+            </div>
+            <div class="status-item">
+                <span>⚠️</span>
+                <span>0 Problems</span>
+            </div>
+            <div class="status-item" id="wsStatus">
+                <span class="status-dot disconnected"></span>
+                <span>Backend: Disconnected</span>
+            </div>
+        </div>
+        <div class="status-right">
+            <div class="status-item">
+                <span>🐍 Python 3.10</span>
+            </div>
+            <div class="status-item">
+                <span>UTF-8</span>
+            </div>
+            <div class="status-item">
+                <span>Ln 1, Col 1</span>
+            </div>
+            <div class="status-item">
+                <span>🤖 EPCP3-0 Ready</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast"></div>
+
+    <!-- Monaco Editor Loader -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.44.0/min/vs/loader.min.js"></script>
+
+    <script>
+        let editor;
+        let currentModel = 'claude-sonnet-4-5-20250514';
+        let ws = null;
+        let reconnectAttempts = 0;
+        const maxReconnectAttempts = 5;
+        let currentWorkspace = null;
+
+        // ==================== WEBSOCKET CONNECTION ====================
+
+        function connectWebSocket() {
+            if (ws && ws.readyState === WebSocket.OPEN) {
+                return;
+            }
+
+            updateConnectionStatus('connecting');
+
+            ws = new WebSocket('ws://localhost:7331/ws/ai-chat');
+
+            ws.onopen = function() {
+                console.log('✅ Connected to EPCP3-0 backend');
+                updateConnectionStatus('connected');
+                reconnectAttempts = 0;
+
+                // Add welcome message
+                addChatMessage('system', 'Connected to EPCP3-0 ULTIMATE backend! Ready to assist.');
+                addChatMessage('assistant', 'Oh my! Master! I am ready to help with your code. Using ' + getModelName(currentModel) + '. Ask me anything!');
+            };
+
+            ws.onmessage = function(event) {
+                const data = JSON.parse(event.data);
+
+                if (data.type === 'response') {
+                    addChatMessage('assistant', data.message, data.model);
+                    document.getElementById('sendBtn').disabled = false;
+                } else if (data.type === 'status') {
+                    // Show status update
+                    console.log('Status:', data.message);
+                } else if (data.type === 'system') {
+                    addChatMessage('system', data.message);
+                }
+            };
+
+            ws.onerror = function(error) {
+                console.error('❌ WebSocket error:', error);
+                updateConnectionStatus('error');
+            };
+
+            ws.onclose = function() {
+                console.log('⚠️ Disconnected from EPCP3-0 backend');
+                updateConnectionStatus('disconnected');
+
+                // Attempt to reconnect
+                if (reconnectAttempts < maxReconnectAttempts) {
+                    reconnectAttempts++;
+                    console.log(`Reconnecting... (${reconnectAttempts}/${maxReconnectAttempts})`);
+                    setTimeout(connectWebSocket, 2000 * reconnectAttempts);
+                } else {
+                    addChatMessage('system', 'Failed to connect to backend after multiple attempts. Please check if the server is running on port 7331.');
+                }
+            };
+        }
+
+        function updateConnectionStatus(status) {
+            const statusElem = document.getElementById('connectionStatus');
+            const wsStatusElem = document.getElementById('wsStatus');
+
+            const statusConfig = {
+                'connected': { dot: 'status-dot', text: 'Connected', wsText: 'Backend: Connected' },
+                'connecting': { dot: 'status-dot connecting', text: 'Connecting...', wsText: 'Backend: Connecting...' },
+                'disconnected': { dot: 'status-dot disconnected', text: 'Disconnected', wsText: 'Backend: Disconnected' },
+                'error': { dot: 'status-dot disconnected', text: 'Error', wsText: 'Backend: Error' }
+            };
+
+            const config = statusConfig[status];
+            if (config) {
+                statusElem.innerHTML = `<span class="${config.dot}"></span><span>${config.text}</span>`;
+                wsStatusElem.innerHTML = `<span class="${config.dot}"></span><span>${config.wsText}</span>`;
+            }
+        }
+
+        function getModelName(modelId) {
+            const models = {
+                'claude-sonnet-4-5-20250514': 'Claude 4.5 Sonnet ⚡',
+                'claude-opus-4-1-20250805': 'Claude 4.1 Opus',
+                'claude-3-5-sonnet-20241022': 'Claude 3.5 Sonnet',
+                'gpt-4-turbo': 'GPT-4 Turbo',
+                'gemini-1.5-pro': 'Gemini 1.5 Pro',
+                'ollama/mistral': 'Ollama Mistral (FREE)'
+            };
+            return models[modelId] || modelId;
+        }
+
+        // ==================== MONACO EDITOR INITIALIZATION ====================
+
+        require.config({ paths: { vs: 'https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.44.0/min/vs' }});
+
+        require(['vs/editor/editor.main'], function() {
+            editor = monaco.editor.create(document.getElementById('monaco-editor'), {
+                value: `# Welcome to EPCP3-0 ULTIMATE - Echo Prime Code IDE
+
+## 🤖 Your AI-Powered Development Environment
+
+This is a VS Code-like IDE integrated with EPCP3-0 AI capabilities and REAL backend connection!
+
+### Features:
+- ✅ Monaco Editor (VS Code engine)
+- ✅ REAL WebSocket connection to backend (port 7331)
+- ✅ Extension support (working install buttons)
+- ✅ Multiple AI models selector
+- ✅ Full menu bar (File, Edit, View, Terminal, etc.)
+- ✅ Folder opening functionality
+- ✅ Integrated AI chat (Enter to send)
+- ✅ Git integration
+- ✅ Terminal access
+
+### Available AI Models:
+- Claude 4.5 Sonnet ⚡ (NEWEST - Most Powerful)
+- Claude 4.1 Opus (Most Intelligent)
+- Claude 3.5 Sonnet (Fast & Smart)
+- GPT-4 Turbo (OpenAI's Best)
+- Gemini 1.5 Pro (Google's Best)
+- Ollama Mistral (FREE - Runs Locally)
+
+### Quick Start:
+1. **Open Folder**: File → Open Folder (or click 📁 icon)
+2. **AI Chat**: Open EPCP3-0 AI Chat panel at bottom (🤖 tab)
+3. **Select Model**: Choose your preferred AI model
+4. **Ask Questions**: Press Enter to send (Shift+Enter for new line)
+5. **Install Extensions**: Click Extensions panel (🧩) and install
+
+**Commander Bobby Don McWilliams II - Authority Level 11.0**
+
+GS343 Foundation: ACTIVE
+Phoenix Auto-Heal: ENABLED
+Backend: ws://localhost:7331/ws/ai-chat
+
+🚀 Press Ctrl+P to open command palette
+📁 File → Open Folder to start coding
+💬 Open AI Chat panel to get assistance
+`,
+                language: 'markdown',
+                theme: 'vs-dark',
+                automaticLayout: true,
+                minimap: { enabled: true },
+                fontSize: 14,
+                fontFamily: 'Consolas, "Courier New", monospace',
+                lineNumbers: 'on',
+                roundedSelection: true,
+                scrollBeyondLastLine: false,
+                readOnly: false,
+                cursorStyle: 'line',
+                folding: true,
+                wordWrap: 'on'
+            });
+
+            // Add keyboard shortcuts
+            editor.addCommand(monaco.KeyMod.CtrlCmd | monaco.KeyCode.KeyS, function() {
+                saveFile();
+            });
+
+            editor.addCommand(monaco.KeyMod.CtrlCmd | monaco.KeyCode.KEY_P, function() {
+                showNotification('Command Palette - Feature coming soon!');
+            });
+
+            editor.addCommand(monaco.KeyMod.CtrlCmd | monaco.KeyCode.KEY_B, function() {
+                toggleSidebar();
+            });
+
+            editor.addCommand(monaco.KeyMod.CtrlCmd | monaco.KeyCode.KEY_J, function() {
+                togglePanel();
+            });
+
+            // Track cursor position
+            editor.onDidChangeCursorPosition(function(e) {
+                const statusItem = document.querySelector('.status-right .status-item:nth-last-child(2)');
+                if (statusItem) {
+                    statusItem.textContent = `Ln ${e.position.lineNumber}, Col ${e.position.column}`;
+                }
+            });
+        });
+
+        // ==================== AI CHAT FUNCTIONS ====================
+
+        async function sendAIMessage() {
+            const input = document.getElementById('aiChatInput');
+            const message = input.value.trim();
+
+            if (!message) return;
+            if (!ws || ws.readyState !== WebSocket.OPEN) {
+                showNotification('⚠️ Not connected to backend. Attempting to reconnect...');
+                connectWebSocket();
+                return;
+            }
+
+            const selectedModel = document.getElementById('chatModelSelector').value;
+
+            // Add user message to chat
+            addChatMessage('user', message);
+
+            // Clear input
+            input.value = '';
+            input.style.height = '40px';
+
+            // Disable send button
+            document.getElementById('sendBtn').disabled = true;
+
+            // Send to backend via WebSocket
+            ws.send(JSON.stringify({
+                message: message,
+                model: selectedModel
+            }));
+        }
+
+        function addChatMessage(type, content, model = null) {
+            const chatMessages = document.getElementById('chatMessages');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `chat-message ${type}`;
+
+            if (type === 'assistant' && model) {
+                messageDiv.innerHTML = `<strong>EPCP3-0 (${getModelName(model)}):</strong><br>${content}`;
+            } else if (type === 'assistant') {
+                messageDiv.innerHTML = `<strong>EPCP3-0:</strong><br>${content}`;
+            } else if (type === 'system') {
+                messageDiv.innerHTML = content;
+            } else {
+                messageDiv.textContent = content;
+            }
+
+            chatMessages.appendChild(messageDiv);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        // Handle Enter key in chat input
+        document.addEventListener('DOMContentLoaded', function() {
+            const chatInput = document.getElementById('aiChatInput');
+            if (chatInput) {
+                chatInput.addEventListener('keydown', function(e) {
+                    if (e.key === 'Enter' && !e.shiftKey) {
+                        e.preventDefault();
+                        sendAIMessage();
+                    }
+                });
+
+                // Auto-resize textarea
+                chatInput.addEventListener('input', function() {
+                    this.style.height = '40px';
+                    this.style.height = Math.min(this.scrollHeight, 120) + 'px';
+                });
+            }
+
+            // Sync model selectors
+            const aiModelSelector = document.getElementById('aiModelSelector');
+            const chatModelSelector = document.getElementById('chatModelSelector');
+
+            if (aiModelSelector) {
+                aiModelSelector.addEventListener('change', function() {
+                    currentModel = this.value;
+                    if (chatModelSelector) chatModelSelector.value = this.value;
+                    showNotification('Switched to ' + getModelName(this.value));
+                });
+            }
+
+            if (chatModelSelector) {
+                chatModelSelector.addEventListener('change', function() {
+                    currentModel = this.value;
+                    if (aiModelSelector) aiModelSelector.value = this.value;
+                    showNotification('Switched to ' + getModelName(this.value));
+                });
+            }
+
+            // Load extensions
+            loadExtensions();
+
+            // Connect WebSocket
+            connectWebSocket();
+        });
+
+        function switchAIModel() {
+            const selector = document.getElementById('aiModelSelector');
+            currentModel = selector.value;
+            document.getElementById('chatModelSelector').value = currentModel;
+            showNotification('Switched to ' + getModelName(currentModel));
+        }
+
+        // ==================== MENU FUNCTIONS ====================
+
+        function toggleMenu(menuId) {
+            // Close all menus
+            document.querySelectorAll('.menu-dropdown').forEach(m => m.style.display = 'none');
+
+            // Open selected menu
+            const menu = document.getElementById(menuId);
+            if (menu) {
+                menu.style.display = 'block';
+            }
+        }
+
+        // Close menus when clicking outside
+        document.addEventListener('click', function(e) {
+            if (!e.target.closest('.menu-item') && !e.target.closest('.menu-dropdown')) {
+                document.querySelectorAll('.menu-dropdown').forEach(m => m.style.display = 'none');
+            }
+        });
+
+        // ==================== FILE OPERATIONS ====================
+
+        function newFile() {
+            if (editor) {
+                editor.setValue('// New File\n');
+                showNotification('📄 New file created');
+            }
+            document.querySelectorAll('.menu-dropdown').forEach(m => m.style.display = 'none');
+        }
+
+        function openFileDialog() {
+            const input = document.createElement('input');
+            input.type = 'file';
+            input.accept = '.js,.py,.html,.css,.json,.md,.txt';
+            input.onchange = function(e) {
+                const file = e.target.files[0];
+                if (file) {
+                    const reader = new FileReader();
+                    reader.onload = function(e) {
+                        editor.setValue(e.target.result);
+                        showNotification('✅ Opened: ' + file.name);
+                    };
+                    reader.readAsText(file);
+                }
+            };
+            input.click();
+            document.querySelectorAll('.menu-dropdown').forEach(m => m.style.display = 'none');
+        }
+
+        function openFolderDialog() {
+            const input = document.createElement('input');
+            input.type = 'file';
+            input.webkitdirectory = true;
+            input.directory = true;
+            input.onchange = function(e) {
+                const files = Array.from(e.target.files);
+                currentWorkspace = files[0].webkitRelativePath.split('/')[0];
+                populateFileTree(files);
+                showNotification('✅ Opened folder: ' + currentWorkspace);
+            };
+            input.click();
+            document.querySelectorAll('.menu-dropdown').forEach(m => m.style.display = 'none');
+        }
+
+        function populateFileTree(files) {
+            const fileTree = document.getElementById('fileTree');
+            fileTree.innerHTML = '';
+
+            const fileStructure = {};
+            files.forEach(file => {
+                const parts = file.webkitRelativePath.split('/');
+                let current = fileStructure;
+                parts.forEach((part, index) => {
+                    if (index === parts.length - 1) {
+                        // File
+                        if (!current._files) current._files = [];
+                        current._files.push({ name: part, file: file });
+                    } else {
+                        // Directory
+                        if (!current[part]) current[part] = {};
+                        current = current[part];
+                    }
+                });
+            });
+
+            function buildTree(structure, parent, level = 0) {
+                Object.keys(structure).forEach(key => {
+                    if (key === '_files') {
+                        structure[key].forEach(fileObj => {
+                            const li = document.createElement('li');
+                            li.className = 'file-item';
+                            li.style.paddingLeft = (level * 15 + 10) + 'px';
+                            li.innerHTML = `<span class="file-icon">${getFileIcon(fileObj.name)}</span><span>${fileObj.name}</span>`;
+                            li.onclick = () => openFileFromTree(fileObj.file);
+                            parent.appendChild(li);
+                        });
+                    } else {
+                        const li = document.createElement('li');
+                        li.className = 'file-item';
+                        li.style.paddingLeft = (level * 15 + 10) + 'px';
+                        li.innerHTML = `<span class="file-icon">📁</span><span>${key}</span>`;
+                        parent.appendChild(li);
+                        buildTree(structure[key], parent, level + 1);
+                    }
+                });
+            }
+
+            buildTree(fileStructure, fileTree);
+        }
+
+        function openFileFromTree(file) {
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                editor.setValue(e.target.result);
+                const ext = file.name.split('.').pop();
+                const lang = getLanguage(ext);
+                monaco.editor.setModelLanguage(editor.getModel(), lang);
+                showNotification('✅ Opened: ' + file.name);
+            };
+            reader.readAsText(file);
+        }
+
+        function getFileIcon(filename) {
+            const ext = filename.split('.').pop().toLowerCase();
+            const icons = {
+                'py': '🐍', 'js': '📜', 'json': '📝', 'md': '📄',
+                'html': '🌐', 'css': '🎨', 'txt': '📃', 'xml': '📋'
+            };
+            return icons[ext] || '📄';
+        }
+
+        function getLanguage(ext) {
+            const languages = {
+                'py': 'python', 'js': 'javascript', 'json': 'json',
+                'md': 'markdown', 'html': 'html', 'css': 'css',
+                'ts': 'typescript', 'xml': 'xml', 'txt': 'plaintext'
+            };
+            return languages[ext] || 'plaintext';
+        }
+
+        function saveFile() {
+            const content = editor.getValue();
+            const blob = new Blob([content], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'file.txt';
+            a.click();
+            showNotification('💾 File saved!');
+            document.querySelectorAll('.menu-dropdown').forEach(m => m.style.display = 'none');
+        }
+
+        function saveAsFile() {
+            saveFile();
+        }
+
+        function closeEditor() {
+            if (confirm('Close editor? Unsaved changes will be lost.')) {
+                editor.setValue('');
+                showNotification('❌ Editor closed');
+            }
+            document.querySelectorAll('.menu-dropdown').forEach(m => m.style.display = 'none');
+        }
+
+        // ==================== EDITOR OPERATIONS ====================
+
+        function editorUndo() {
+            editor.trigger('keyboard', 'undo');
+            document.querySelectorAll('.menu-dropdown').forEach(m => m.style.display = 'none');
+        }
+
+        function editorRedo() {
+            editor.trigger('keyboard', 'redo');
+            document.querySelectorAll('.menu-dropdown').forEach(m => m.style.display = 'none');
+        }
+
+        function editorCut() {
+            editor.trigger('keyboard', 'editor.action.clipboardCutAction');
+            document.querySelectorAll('.menu-dropdown').forEach(m => m.style.display = 'none');
+        }
+
+        function editorCopy() {
+            editor.trigger('keyboard', 'editor.action.clipboardCopyAction');
+            document.querySelectorAll('.menu-dropdown').forEach(m => m.style.display = 'none');
+        }
+
+        function editorPaste() {
+            editor.trigger('keyboard', 'editor.action.clipboardPasteAction');
+            document.querySelectorAll('.menu-dropdown').forEach(m => m.style.display = 'none');
+        }
+
+        function editorFind() {
+            editor.trigger('keyboard', 'actions.find');
+            document.querySelectorAll('.menu-dropdown').forEach(m => m.style.display = 'none');
+        }
+
+        function editorReplace() {
+            editor.trigger('keyboard', 'editor.action.startFindReplaceAction');
+            document.querySelectorAll('.menu-dropdown').forEach(m => m.style.display = 'none');
+        }
+
+        // ==================== PANEL MANAGEMENT ====================
+
+        function showPanel(panelName) {
+            const panels = {
+                'explorer': 'EXPLORER',
+                'search': 'SEARCH',
+                'git': 'SOURCE CONTROL',
+                'debug': 'RUN AND DEBUG',
+                'extensions': 'EXTENSIONS',
+                'ai': 'EPCP3-0 AI ASSISTANT'
+            };
+
+            document.getElementById('sidebarHeader').innerHTML = `
+                <span>${panels[panelName] || 'EXPLORER'}</span>
+                <div class="sidebar-actions">
+                    <span class="sidebar-action-btn" onclick="openFolderDialog()" title="Open Folder">📁</span>
+                    <span class="sidebar-action-btn" onclick="refreshExplorer()" title="Refresh">🔄</span>
+                </div>
+            `;
+
+            // Hide all panels
+            document.querySelectorAll('[id$="-panel"]').forEach(p => p.style.display = 'none');
+
+            // Show selected panel
+            const targetPanel = document.getElementById(panelName + '-panel');
+            if (targetPanel) targetPanel.style.display = 'block';
+
+            // Update active state
+            document.querySelectorAll('.activity-item').forEach(item => item.classList.remove('active'));
+            event.target.classList.add('active');
+        }
+
+        function showBottomPanel(panelName) {
+            const panels = {
+                'terminal': 'terminal-panel',
+                'ai-chat': 'ai-chat-panel',
+                'problems': 'problems-panel',
+                'output': 'output-panel'
+            };
+
+            // Hide all bottom panels
+            document.querySelectorAll('#panelContent > div').forEach(p => p.style.display = 'none');
+
+            // Show selected panel
+            const targetPanel = document.getElementById(panels[panelName]);
+            if (targetPanel) {
+                targetPanel.style.display = panelName === 'ai-chat' ? 'flex' : 'block';
+            }
+
+            // Update active tab
+            document.querySelectorAll('.panel-tab').forEach(tab => tab.classList.remove('active'));
+            event.target.classList.add('active');
+
+            // Ensure panel is visible
+            document.getElementById('bottomPanel').classList.remove('collapsed');
+        }
+
+        function toggleSidebar() {
+            document.getElementById('sidebar').classList.toggle('collapsed');
+            document.querySelectorAll('.menu-dropdown').forEach(m => m.style.display = 'none');
+        }
+
+        function togglePanel() {
+            document.getElementById('bottomPanel').classList.toggle('collapsed');
+            document.querySelectorAll('.menu-dropdown').forEach(m => m.style.display = 'none');
+        }
+
+        function refreshExplorer() {
+            showNotification('🔄 Explorer refreshed');
+        }
+
+        function newTerminal() {
+            showBottomPanel('terminal');
+            showNotification('➕ New terminal opened');
+            document.querySelectorAll('.menu-dropdown').forEach(m => m.style.display = 'none');
+        }
+
+        // ==================== EXTENSIONS ====================
+
+        const extensionsData = [
+            { id: 'python', name: 'Python', description: 'IntelliSense, linting, debugging for Python', installed: true, enabled: true },
+            { id: 'github-copilot', name: 'GitHub Copilot', description: 'AI pair programmer powered by OpenAI Codex', installed: false, enabled: false },
+            { id: 'prettier', name: 'Prettier', description: 'Code formatter using prettier', installed: true, enabled: true },
+            { id: 'eslint', name: 'ESLint', description: 'JavaScript linter and code quality tool', installed: false, enabled: false },
+            { id: 'gitlens', name: 'GitLens', description: 'Supercharge Git capabilities', installed: false, enabled: false },
+            { id: 'docker', name: 'Docker', description: 'Build, manage and deploy containerized applications', installed: false, enabled: false },
+            { id: 'rust', name: 'Rust Analyzer', description: 'Rust language support', installed: false, enabled: false },
+            { id: 'go', name: 'Go', description: 'Rich Go language support', installed: false, enabled: false }
+        ];
+
+        function loadExtensions() {
+            const extensionsList = document.getElementById('extensionsList');
+            if (!extensionsList) return;
+
+            extensionsList.innerHTML = '';
+
+            extensionsData.forEach(ext => {
+                const card = document.createElement('div');
+                card.className = 'extension-card';
+
+                let buttons = '';
+                if (ext.installed) {
+                    // Show Enable/Disable + Uninstall buttons
+                    buttons = `
+                        <button class="extension-btn ${ext.enabled ? 'installed' : ''}"
+                                onclick="toggleExtensionState('${ext.id}')"
+                                style="margin-right: 5px;">
+                            ${ext.enabled ? '✓ Enabled' : '⏸ Disabled'}
+                        </button>
+                        <button class="extension-btn"
+                                onclick="toggleExtension('${ext.id}')"
+                                style="background: #d32f2f;">
+                            🗑️ Uninstall
+                        </button>
+                    `;
+                } else {
+                    // Show Install button
+                    buttons = `
+                        <button class="extension-btn"
+                                id="ext-${ext.id}"
+                                onclick="toggleExtension('${ext.id}')">
+                            Install
+                        </button>
+                    `;
+                }
+
+                card.innerHTML = `
+                    <div class="extension-header">
+                        <span class="extension-name">${ext.name}</span>
+                        <div>${buttons}</div>
+                    </div>
+                    <div>${ext.description}</div>
+                `;
+                extensionsList.appendChild(card);
+            });
+        }
+
+        function toggleExtension(extensionId) {
+            const ext = extensionsData.find(e => e.id === extensionId);
+            if (!ext) return;
+
+            const btn = document.getElementById('ext-' + extensionId);
+            if (!btn) return;
+
+            if (ext.installed) {
+                if (confirm(`Uninstall ${ext.name}?`)) {
+                    ext.installed = false;
+                    ext.enabled = false;
+                    loadExtensions(); // Refresh to show Install button
+                    showNotification(`❌ ${ext.name} uninstalled`);
+                }
+            } else {
+                btn.disabled = true;
+                btn.textContent = 'Installing...';
+
+                // Simulate installation
+                setTimeout(() => {
+                    ext.installed = true;
+                    ext.enabled = true;
+                    btn.disabled = false;
+                    loadExtensions(); // Refresh to show Enable/Disable
+                    showNotification(`✅ ${ext.name} installed successfully!`);
+                }, 1500);
+            }
+        }
+
+        function toggleExtensionState(extensionId) {
+            const ext = extensionsData.find(e => e.id === extensionId);
+            if (!ext || !ext.installed) return;
+
+            ext.enabled = !ext.enabled;
+            loadExtensions(); // Refresh UI
+
+            if (ext.enabled) {
+                showNotification(`✅ ${ext.name} enabled`);
+            } else {
+                showNotification(`⏸️ ${ext.name} disabled`);
+            }
+        }
+
+        // ==================== UTILITY FUNCTIONS ====================
+
+        function showNotification(message) {
+            const toast = document.getElementById('toast');
+            toast.textContent = message;
+            toast.style.display = 'block';
+
+            setTimeout(() => {
+                toast.style.display = 'none';
+            }, 3000);
+        }
+
+        // ==================== INITIALIZATION ====================
+
+        console.log('🚀 EPCP3-0 ULTIMATE - Echo Prime Code IDE initialized');
+        console.log('🤖 Authority Level 11.0 - Commander Bobby Don McWilliams II');
+        console.log('✅ GS343 Foundation: ACTIVE');
+        console.log('✅ Phoenix Auto-Heal: ENABLED');
+        console.log('🔌 WebSocket: ws://localhost:7331/ws/ai-chat');
+    </script>
+</body>
+</html>

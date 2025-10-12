@@ -1,0 +1,9 @@
+⚠️ setproctitle not installed - process naming disabled
+⚠️ WARNING: GS343 Foundation not found. Running in standalone mode.
+⚠️ Model managers not available
+⚠️ Memory manager not available
+⚠️ Audio libraries not available. Install: pip install sounddevice numpy
+Traceback (most recent call last):
+  File "E:\ECHO_XV4\MLS\servers\ACTIVE_SERVERS\epcp3_backend.py", line 100, in <module>
+    from fastapi import FastAPI, WebSocket, WebSocketDisconnect
+ModuleNotFoundError: No module named 'fastapi'

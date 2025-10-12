@@ -1,0 +1,1787 @@
+2025-10-04 00:47:38,094 - MultiLLMDefense - INFO - Initializing Multi-LLM Defense Engines...
+2025-10-04 00:47:38,758 - MultiLLMDefense - INFO - ✅ gpt-4 initialized with REAL OpenAI API key
+2025-10-04 00:47:39,386 - MultiLLMDefense - INFO - ✅ gpt-3.5-turbo initialized with REAL OpenAI API key
+2025-10-04 00:47:39,387 - MultiLLMDefense - WARNING - ⚠️ claude-3-opus disabled - no Anthropic API key found
+2025-10-04 00:47:39,387 - MultiLLMDefense - WARNING - ⚠️ claude-3-sonnet disabled - no Anthropic API key found
+2025-10-04 00:47:39,387 - MultiLLMDefense - WARNING - ⚠️ llama3-70b-groq disabled - no Groq API key found
+2025-10-04 00:47:39,387 - MultiLLMDefense - WARNING - ⚠️ mixtral-8x7b-groq disabled - no Groq API key found
+2025-10-04 00:47:39,387 - MultiLLMDefense - WARNING - ⚠️ gemma-7b-groq disabled - no Groq API key found
+2025-10-04 00:47:39,395 - MultiLLMDefense - ERROR - ❌ Ollama connection failed for llama2-70b: 'name'
+2025-10-04 00:47:39,401 - MultiLLMDefense - ERROR - ❌ Ollama connection failed for codellama-34b: 'name'
+2025-10-04 00:47:39,409 - MultiLLMDefense - ERROR - ❌ Ollama connection failed for mistral-7b: 'name'
+2025-10-04 00:47:39,417 - MultiLLMDefense - ERROR - ❌ Ollama connection failed for neural-chat: 'name'
+2025-10-04 00:47:39,421 - MultiLLMDefense - ERROR - ❌ Ollama connection failed for orca-mini: 'name'
+2025-10-04 00:47:39,429 - MultiLLMDefense - ERROR - ❌ Ollama connection failed for wizard-coder: 'name'
+2025-10-04 00:47:39,442 - MultiLLMDefense - ERROR - ❌ Ollama connection failed for phi-2: 'name'
+2025-10-04 00:47:39,448 - MultiLLMDefense - ERROR - ❌ Ollama connection failed for gemma-7b: 'name'
+2025-10-04 00:47:39,453 - MultiLLMDefense - ERROR - ❌ Ollama connection failed for deepseek-coder: 'name'
+2025-10-04 00:47:39,459 - MultiLLMDefense - ERROR - ❌ Ollama connection failed for stablelm-zephyr: 'name'
+2025-10-04 00:47:39,459 - MultiLLMDefense - INFO - 🚀 Multi-LLM Defense System: 9/17 engines active
+2025-10-04 00:47:39,459 - MultiLLMDefense - INFO - 🔍 Starting real-time monitoring with Multi-LLM analysis...
+2025-10-04 00:47:39,467 - MultiLLMDefense - INFO - ✅ Started network_monitor
+2025-10-04 00:47:39,485 - MultiLLMDefense - INFO - ✅ Started process_monitor
+2025-10-04 00:47:39,491 - MultiLLMDefense - INFO - ✅ Started file_monitor
+2025-10-04 00:47:39,493 - MultiLLMDefense - INFO - ✅ Started registry_monitor
+2025-10-04 00:47:39,494 - MultiLLMDefense - INFO - ✅ Started system_health_monitor
+2025-10-04 00:47:39,495 - MultiLLMDefense - INFO - 🚀 All monitoring systems active with 6 threads
+🧪 Testing with sample threat...
+2025-10-04 00:47:39,496 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_threat
+2025-10-04 00:47:39,498 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:47:41,252 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:47:41,252 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:47:41,332 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:47:41,332 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:47:42,534 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+📊 Analysis consensus: {
+  "error": "No valid analyses available"
+}
+🔍 System running - monitoring for threats...
+Press Ctrl+C to stop
+📈 Status: 9 LLMs active, 78 threats queued
+2025-10-04 00:47:42,538 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:47:42,542 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:47:43,755 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:47:43,756 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:47:45,016 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:47:45,020 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:47:46,370 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:47:46,370 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:47:47,789 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:47:47,792 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:47:49,147 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:47:49,148 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:47:50,462 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:47:50,465 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:47:51,793 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:47:51,794 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:47:53,252 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:47:55,296 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:47:56,513 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:47:56,513 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:47:57,709 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:47:57,712 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:47:59,052 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:47:59,052 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:48:00,266 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:48:00,268 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:48:01,585 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:48:01,586 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:48:03,008 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:48:03,022 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:48:04,324 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:48:04,325 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:48:05,686 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:48:05,689 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:48:07,106 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:48:07,106 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:48:08,548 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:48:10,552 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:48:11,867 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:48:11,867 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+📈 Status: 9 LLMs active, 54 threats queued
+2025-10-04 00:48:13,063 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:48:13,065 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:48:14,491 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:48:14,491 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:48:15,837 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:48:15,839 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:48:17,058 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:48:17,058 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:48:18,476 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:48:18,479 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:48:19,820 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:48:19,820 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:48:21,029 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:48:21,029 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:48:22,249 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:48:22,249 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:48:23,512 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:48:25,596 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:48:26,895 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:48:26,896 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:48:28,254 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:48:28,256 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:48:29,519 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:48:29,519 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:48:30,914 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:48:30,917 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:48:32,146 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:48:32,146 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:48:33,596 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:48:33,600 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:48:34,948 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:48:34,948 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:48:36,229 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:48:36,231 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:48:37,623 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:48:37,623 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:48:39,222 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:48:41,226 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:48:42,526 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:48:42,527 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+📈 Status: 9 LLMs active, 54 threats queued
+2025-10-04 00:48:43,755 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:48:43,760 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:48:45,128 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:48:45,128 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:48:46,432 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:48:46,435 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:48:47,839 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:48:47,839 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:48:49,273 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:48:49,279 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:48:50,550 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:48:50,551 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:48:51,877 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:48:51,877 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:48:53,139 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:48:53,139 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:48:54,373 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:48:56,426 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:48:57,944 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:48:57,944 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:48:59,365 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:48:59,369 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:49:00,866 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:49:00,876 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:49:02,407 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:49:02,409 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:49:03,750 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:49:03,750 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:49:05,202 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:49:05,206 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:49:06,491 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:49:06,491 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:49:07,801 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:49:07,946 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:49:09,249 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:49:09,255 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:49:10,827 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+📈 Status: 9 LLMs active, 87 threats queued
+2025-10-04 00:49:12,990 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:49:14,246 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:49:14,246 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:49:15,652 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:49:15,654 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:49:17,027 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:49:17,044 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:49:18,511 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:49:18,514 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:49:20,044 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:49:20,045 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:49:21,467 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:49:21,471 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:49:22,922 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:49:22,922 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:49:24,349 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:49:24,473 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:49:25,825 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:49:25,825 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:49:27,437 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:49:29,512 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:49:31,050 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:49:31,052 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:49:32,472 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:49:32,522 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:49:33,949 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:49:33,949 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:49:35,253 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:49:35,258 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:49:36,664 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:49:36,679 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:49:38,163 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:49:38,266 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:49:39,683 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:49:39,696 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:49:41,014 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:49:41,340 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+📈 Status: 9 LLMs active, 87 threats queued
+2025-10-04 00:49:42,776 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:49:42,776 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:49:44,183 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:49:46,386 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:49:47,929 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:49:47,967 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:49:49,414 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:49:49,680 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:49:51,420 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:49:51,430 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:49:52,865 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:49:52,868 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:49:54,315 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:49:54,315 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:49:55,502 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:49:55,505 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:49:57,088 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:49:57,088 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:49:58,726 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:49:58,729 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:50:00,148 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:50:00,148 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:50:01,496 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:50:03,498 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:50:04,996 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:50:04,996 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:50:06,391 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:50:06,396 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:50:07,684 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:50:07,684 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:50:08,955 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:50:08,957 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:50:10,271 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:50:10,271 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:50:11,659 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:50:11,665 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+📈 Status: 9 LLMs active, 65 threats queued
+2025-10-04 00:50:13,078 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:50:13,080 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:50:14,311 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:50:14,311 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:50:15,757 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:50:15,757 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:50:17,137 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:50:19,141 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:50:20,479 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:50:20,479 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:50:21,929 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:50:21,933 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:50:23,415 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:50:23,432 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:50:24,983 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:50:24,985 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:50:26,467 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:50:26,469 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:50:27,949 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:50:27,950 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:50:29,400 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:50:29,400 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:50:31,033 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:50:31,168 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:50:32,634 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:50:32,635 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:50:34,153 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:50:36,164 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:50:37,824 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:50:37,824 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:50:39,420 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:50:39,424 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:50:40,871 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:50:40,871 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:50:42,354 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:50:42,361 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+📈 Status: 9 LLMs active, 68 threats queued
+2025-10-04 00:50:43,891 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:50:43,891 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:50:45,394 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:50:45,396 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:50:46,842 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:50:46,844 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:50:48,156 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:50:48,159 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:50:49,619 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:50:49,634 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:50:51,185 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:50:53,206 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:50:54,734 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:50:54,735 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:50:56,115 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:50:56,118 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:50:57,502 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:50:57,502 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:50:58,741 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:50:58,744 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:51:00,153 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:51:00,153 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:51:01,539 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:51:01,541 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:51:02,993 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:51:02,993 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:51:04,383 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:51:04,385 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:51:05,727 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:51:05,727 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:51:07,038 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:51:09,041 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:51:10,416 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:51:10,416 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:51:11,614 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:51:11,617 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+📈 Status: 9 LLMs active, 62 threats queued
+2025-10-04 00:51:13,033 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:51:13,033 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:51:14,396 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:51:14,396 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:51:15,837 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:51:15,837 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:51:17,277 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:51:17,279 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:51:18,675 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:51:18,682 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:51:20,199 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:51:20,201 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:51:21,611 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:51:21,611 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:51:23,024 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:51:25,030 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:51:26,406 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:51:26,406 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:51:27,853 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:51:27,856 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:51:29,258 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:51:29,258 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:51:30,595 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:51:30,598 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:51:32,087 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:51:32,087 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:51:33,440 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:51:33,444 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:51:34,883 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:51:34,883 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:51:36,275 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:51:36,277 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:51:37,524 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:51:37,524 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:51:38,894 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:51:40,956 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:51:42,202 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:51:42,203 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+📈 Status: 9 LLMs active, 72 threats queued
+2025-10-04 00:51:43,646 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:51:43,805 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:51:45,367 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:51:45,367 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:51:47,888 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:51:47,891 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:51:49,888 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:51:49,888 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:51:51,174 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:51:51,177 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:51:52,455 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:51:52,455 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:51:53,887 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:51:53,889 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:51:55,316 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:51:55,316 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:51:57,623 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:51:59,976 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:52:01,836 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:52:01,836 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:52:04,536 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:52:04,539 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:52:07,428 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:52:07,429 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:52:09,318 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:52:09,320 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:52:12,466 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:52:12,467 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+📈 Status: 9 LLMs active, 95 threats queued
+2025-10-04 00:52:13,973 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:52:14,055 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:52:15,594 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:52:15,594 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:52:17,086 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:52:17,089 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:52:18,631 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:52:18,631 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:52:19,989 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:52:22,037 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:52:24,725 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:52:24,726 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:52:27,077 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:52:27,079 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:52:28,850 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:52:28,851 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:52:30,555 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:52:30,594 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:52:32,197 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:52:32,205 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:52:34,090 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:52:34,091 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:52:36,293 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:52:36,295 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:52:38,956 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:52:39,067 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:52:40,822 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:52:40,823 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:52:42,712 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+📈 Status: 9 LLMs active, 52 threats queued
+2025-10-04 00:52:45,242 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:52:47,403 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:52:47,403 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:52:49,845 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:52:49,847 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:52:51,328 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:52:51,329 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:52:52,857 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:52:52,859 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:52:54,342 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:52:54,343 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:52:55,904 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:52:55,908 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:52:57,741 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:52:57,761 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:52:59,446 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:52:59,448 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:53:00,794 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:53:00,794 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:53:02,211 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:53:04,270 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:53:05,712 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:53:05,713 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:53:07,205 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:53:07,431 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:53:09,027 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:53:09,027 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:53:10,499 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:53:10,696 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:53:12,261 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:53:12,261 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+📈 Status: 9 LLMs active, 82 threats queued
+2025-10-04 00:53:13,592 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:53:13,594 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:53:15,244 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:53:15,244 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:53:16,882 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:53:16,910 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:53:18,457 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:53:18,458 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:53:20,335 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:53:22,668 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:53:24,141 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:53:24,141 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:53:25,573 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:53:25,709 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:53:27,292 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:53:27,292 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:53:28,585 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:53:28,589 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:53:30,062 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:53:30,062 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:53:31,509 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:53:31,652 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:53:33,093 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:53:33,100 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:53:34,832 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:53:34,835 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:53:36,263 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:53:36,264 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:53:37,666 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:53:39,669 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:53:40,954 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:53:40,955 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:53:42,478 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:53:42,604 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+📈 Status: 9 LLMs active, 78 threats queued
+2025-10-04 00:53:44,165 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:53:44,165 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:53:45,687 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:53:45,690 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:53:47,215 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:53:47,215 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:53:48,614 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:53:48,959 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:53:50,365 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:53:50,398 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:53:52,015 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:53:52,068 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:53:53,448 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:53:53,448 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:53:54,997 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:53:57,133 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:53:58,445 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:53:58,446 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:53:59,925 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:53:59,929 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:54:01,466 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:54:01,472 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:54:02,841 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:54:02,865 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:54:04,376 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:54:04,376 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:54:05,801 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:54:05,801 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:54:07,283 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:54:07,283 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:54:08,715 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:54:08,715 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:54:10,197 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:54:10,217 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:54:11,748 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+📈 Status: 9 LLMs active, 99 threats queued
+2025-10-04 00:54:13,796 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:54:15,169 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:54:15,169 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:54:16,468 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:54:16,471 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:54:17,831 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:54:17,848 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:54:19,251 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:54:19,367 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:54:20,701 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:54:20,701 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:54:22,211 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:54:22,213 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:54:23,560 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:54:23,561 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:54:25,231 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:54:25,269 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:54:26,668 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:54:26,668 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:54:29,061 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:54:31,135 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:54:32,635 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:54:32,635 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:54:34,878 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:54:35,321 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:54:36,948 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:54:36,979 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:54:38,931 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:54:38,935 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:54:40,619 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:54:40,619 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:54:42,857 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:54:42,859 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+📈 Status: 9 LLMs active, 80 threats queued
+2025-10-04 00:54:44,959 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:54:44,960 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:54:47,612 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:54:47,614 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:54:49,395 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:54:49,395 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:54:50,778 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:54:52,855 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:54:54,307 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:54:54,308 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:54:55,788 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:54:55,792 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:54:57,437 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:54:57,438 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:54:58,788 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:54:58,790 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:55:00,266 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:55:00,299 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:55:02,116 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:55:03,024 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:55:04,868 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:55:04,869 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:55:06,263 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:55:06,265 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:55:07,599 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:55:07,601 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:55:10,076 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:55:12,125 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:55:13,512 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:55:13,512 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+📈 Status: 9 LLMs active, 53 threats queued
+2025-10-04 00:55:15,025 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:55:15,027 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:55:16,471 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:55:16,472 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:55:18,023 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:55:18,026 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:55:19,244 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:55:19,244 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:55:21,057 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:55:21,059 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:55:22,457 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:55:22,458 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:55:24,025 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:55:24,028 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:55:25,460 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:55:25,461 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:55:27,316 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:55:30,437 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:55:32,439 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:55:32,440 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:55:33,931 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:55:34,173 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:55:35,865 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:55:35,866 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:55:38,452 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:55:38,454 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:55:39,997 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:55:39,997 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:55:41,695 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:55:41,704 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:55:43,196 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:55:43,196 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+📈 Status: 9 LLMs active, 78 threats queued
+2025-10-04 00:55:44,733 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:55:44,736 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:55:46,275 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:55:46,275 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:55:48,295 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:55:50,504 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:55:51,972 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:55:51,972 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:55:53,604 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:55:53,696 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:55:55,061 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:55:55,063 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:55:56,513 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:55:56,517 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:55:57,810 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:55:57,810 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:55:59,226 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:55:59,228 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:56:00,729 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:56:00,729 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:56:02,528 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:56:02,530 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:56:04,170 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:56:04,201 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:56:05,722 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:56:07,753 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:56:09,556 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:56:09,557 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:56:10,778 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:56:10,781 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:56:12,288 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:56:12,288 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+📈 Status: 9 LLMs active, 67 threats queued
+2025-10-04 00:56:13,951 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:56:13,953 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:56:15,374 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:56:15,374 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:56:16,897 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:56:16,900 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:56:18,402 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:56:18,433 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:56:20,019 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:56:20,092 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:56:21,631 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:56:21,661 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:56:23,407 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:56:25,415 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:56:26,780 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:56:26,780 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:56:28,143 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:56:28,146 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:56:29,482 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:56:29,482 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:56:30,775 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:56:30,809 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:56:32,143 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:56:32,143 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:56:33,668 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:56:33,670 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:56:35,311 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:56:35,311 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:56:36,788 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:56:36,792 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:56:38,112 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:56:38,112 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:56:39,607 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:56:41,612 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:56:42,980 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:56:42,980 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+📈 Status: 9 LLMs active, 72 threats queued
+2025-10-04 00:56:44,428 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:56:44,624 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:56:46,240 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:56:46,240 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:56:47,812 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:56:47,857 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:56:49,450 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:56:49,451 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:56:50,765 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:56:50,767 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:56:52,319 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:56:52,319 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:56:53,821 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:56:53,822 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:56:55,247 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:56:55,249 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:56:56,613 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:56:58,619 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:56:59,931 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:56:59,931 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:57:01,393 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:57:01,395 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:57:03,070 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:57:03,070 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:57:04,765 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:57:04,768 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:57:06,376 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:57:06,376 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:57:07,745 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:57:07,799 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:57:09,252 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:57:09,252 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:57:10,560 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:57:10,562 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:57:11,811 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:57:11,811 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:57:13,194 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+📈 Status: 9 LLMs active, 53 threats queued
+2025-10-04 00:57:15,281 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:57:16,650 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:57:16,650 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:57:18,176 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:57:18,201 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:57:19,512 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:57:19,512 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:57:21,078 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:57:21,427 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:57:22,876 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:57:22,892 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:57:24,409 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:57:24,561 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:57:25,962 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:57:25,962 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:57:27,696 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:57:27,758 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:57:29,405 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:57:29,421 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:57:30,868 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:57:33,002 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:57:34,460 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:57:34,495 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:57:36,046 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:57:36,048 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:57:37,595 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:57:37,596 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:57:39,029 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:57:39,311 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:57:40,795 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:57:40,796 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:57:42,420 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:57:42,570 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+📈 Status: 9 LLMs active, 97 threats queued
+2025-10-04 00:57:44,131 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:57:44,164 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:57:45,728 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:57:45,980 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:57:47,382 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:57:47,384 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:57:49,129 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:57:51,264 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:57:52,859 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:57:52,882 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:57:54,447 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:57:54,577 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:57:56,066 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:57:56,067 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:57:57,513 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:57:57,530 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:57:58,947 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:57:58,962 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:58:00,529 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:58:00,587 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:58:01,981 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:58:01,997 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:58:03,264 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:58:03,487 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:58:04,863 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:58:04,898 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:58:06,352 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:58:08,355 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:58:09,676 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:58:09,678 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:58:11,007 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:58:11,009 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:58:12,467 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:58:12,467 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+📈 Status: 9 LLMs active, 92 threats queued
+2025-10-04 00:58:13,996 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:58:14,132 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:58:15,624 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:58:15,624 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:58:17,024 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:58:17,028 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:58:18,586 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:58:18,586 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:58:19,994 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:58:19,994 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:58:21,501 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:58:21,501 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:58:22,896 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:58:24,899 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:58:26,246 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:58:26,246 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:58:27,492 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:58:27,495 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:58:28,959 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:58:28,959 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:58:30,406 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:58:30,410 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:58:31,868 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:58:31,868 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:58:33,292 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:58:33,369 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:58:34,798 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:58:34,831 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:58:36,365 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:58:36,433 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:58:37,682 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:58:37,714 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:58:39,117 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:58:41,251 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:58:42,489 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:58:42,489 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:58:43,803 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:58:43,805 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+📈 Status: 9 LLMs active, 52 threats queued
+2025-10-04 00:58:45,057 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:58:45,057 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:58:46,333 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:58:46,358 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:58:47,769 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:58:47,769 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:58:48,999 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:58:49,231 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:58:50,550 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:58:50,584 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:58:51,900 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:58:52,093 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:58:53,417 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:58:53,467 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:58:54,833 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:58:57,003 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:58:58,325 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:58:58,325 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:58:59,603 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:58:59,605 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:59:01,010 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:59:01,010 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:59:02,404 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:59:02,408 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:59:03,749 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:59:03,749 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:59:05,101 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:59:05,125 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:59:06,434 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:59:06,470 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:59:07,934 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:59:07,938 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:59:09,251 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:59:09,284 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:59:10,851 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:59:12,875 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+📈 Status: 9 LLMs active, 99 threats queued
+2025-10-04 00:59:14,264 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:59:14,264 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:59:15,427 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:59:15,431 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:59:16,769 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:59:16,769 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:59:18,165 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:59:18,169 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:59:19,367 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:59:19,371 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:59:20,784 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:59:20,786 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:59:22,117 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:59:22,153 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:59:23,485 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:59:23,642 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:59:24,852 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:59:24,873 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:59:26,251 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:59:28,286 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:59:29,600 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:59:29,602 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:59:31,127 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:59:31,129 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:59:32,481 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:59:32,481 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:59:33,857 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:59:33,860 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:59:35,203 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:59:35,236 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:59:36,536 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:59:36,565 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:59:37,771 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:59:37,802 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:59:39,284 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:59:39,332 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:59:40,672 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:59:40,678 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:59:42,233 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+📈 Status: 9 LLMs active, 100 threats queued
+2025-10-04 00:59:44,275 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:59:45,624 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:59:45,624 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:59:46,868 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:59:46,872 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:59:48,264 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:59:48,264 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:59:49,625 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:59:49,625 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:59:51,050 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:59:51,050 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:59:52,376 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:59:52,376 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:59:53,671 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:59:53,671 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:59:54,973 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:59:54,973 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 00:59:56,242 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 00:59:56,242 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 00:59:57,601 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 00:59:59,622 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:00:01,058 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:00:01,073 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:00:02,344 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:00:02,501 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:00:03,741 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:00:03,789 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:00:05,167 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:00:05,167 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:00:06,476 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:00:06,524 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+📈 Status: 9 LLMs active, 65 threats queued
+2025-10-04 01:00:14,458 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:00:14,460 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:00:19,073 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:00:19,073 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:00:42,542 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:00:42,544 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+📈 Status: 9 LLMs active, 86 threats queued
+2025-10-04 01:01:06,140 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:01:06,140 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:01:07,617 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:01:09,619 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:01:11,117 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:01:11,117 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:01:12,404 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:01:12,407 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:01:13,778 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:01:13,778 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+📈 Status: 9 LLMs active, 74 threats queued
+2025-10-04 01:01:15,134 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:01:15,137 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:01:16,554 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:01:16,554 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:01:17,750 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:01:17,751 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:01:19,115 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:01:19,115 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:01:20,612 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:01:20,612 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:01:22,133 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:01:22,133 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:01:23,534 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:01:25,569 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:01:32,372 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:01:32,372 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:01:33,793 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:01:33,795 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:01:35,154 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:01:35,154 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:01:36,593 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:01:36,596 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:01:38,166 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:01:38,166 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:01:39,463 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:01:39,467 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:01:41,116 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:01:41,116 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:01:42,453 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:01:42,456 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:01:43,817 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:01:43,817 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+📈 Status: 9 LLMs active, 60 threats queued
+2025-10-04 01:01:45,330 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:01:47,339 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:01:48,641 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:01:48,641 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:01:50,262 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:01:50,299 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:01:51,824 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:01:51,824 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:01:53,277 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:01:53,374 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:01:54,821 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:01:54,838 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:01:56,479 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:01:56,536 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:01:58,397 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:01:58,428 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:01:59,896 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:01:59,919 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:02:01,427 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:02:01,427 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:02:02,785 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:02:04,793 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:02:06,296 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:02:06,297 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:02:07,654 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:02:07,658 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:02:09,364 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:02:09,413 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:02:10,758 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:02:10,758 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:02:12,120 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:02:12,122 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:02:13,474 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:02:13,475 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+📈 Status: 9 LLMs active, 75 threats queued
+2025-10-04 01:02:14,774 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:02:14,774 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:02:16,215 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:02:16,215 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:02:17,487 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:02:17,487 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:02:18,973 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:02:21,105 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:02:22,624 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:02:22,624 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:02:24,117 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:02:24,119 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:02:25,374 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:02:25,378 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:02:26,777 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:02:26,777 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:02:28,171 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:02:28,172 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:02:29,433 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:02:29,435 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:02:30,898 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:02:30,898 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:02:32,532 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:02:32,616 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:02:34,146 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:02:34,146 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:02:35,493 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:02:37,496 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:02:39,123 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:02:39,123 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:02:40,380 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:02:40,383 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:02:41,722 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:02:41,722 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:02:43,025 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:02:43,027 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+📈 Status: 9 LLMs active, 82 threats queued
+2025-10-04 01:02:44,579 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:02:44,580 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:02:46,036 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:02:46,039 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:02:47,325 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:02:47,325 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:02:48,760 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:02:48,763 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:02:50,153 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:02:50,153 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:02:51,554 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:02:53,557 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:02:54,974 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:02:54,974 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:02:56,339 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:02:56,342 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:02:57,725 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:02:57,725 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:02:59,046 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:02:59,050 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:03:00,452 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:03:00,453 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:03:02,185 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:03:02,244 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:03:03,705 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:03:03,706 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:03:05,081 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:03:05,084 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:03:06,458 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:03:06,459 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:03:07,848 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:03:09,851 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:03:11,491 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:03:11,492 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:03:12,787 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:03:12,789 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+📈 Status: 9 LLMs active, 71 threats queued
+2025-10-04 01:03:14,203 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:03:14,203 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:03:15,817 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:03:15,931 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:03:17,290 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:03:17,290 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:03:18,747 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:03:18,750 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:03:20,144 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:03:20,144 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:03:21,646 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:03:21,649 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:03:23,137 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:03:23,152 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:03:24,716 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:03:26,877 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:03:28,154 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:03:28,154 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:03:29,472 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:03:29,474 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:03:30,894 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:03:30,894 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:03:32,237 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:03:32,239 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:03:33,649 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:03:33,649 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:03:35,214 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:03:35,217 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:03:36,455 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:03:36,456 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:03:37,929 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:03:37,994 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:03:39,397 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:03:39,397 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:03:40,749 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:03:42,802 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+📈 Status: 9 LLMs active, 86 threats queued
+2025-10-04 01:03:44,215 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:03:44,215 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:03:45,535 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:03:45,679 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:03:47,165 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:03:47,196 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:03:48,926 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:03:48,988 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:03:50,302 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:03:50,302 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:03:51,580 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:03:51,580 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:03:52,910 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:03:52,910 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:03:54,384 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:03:54,414 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:03:56,070 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:03:56,087 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:03:57,340 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:03:59,395 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:04:01,113 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:04:01,144 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:04:02,553 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:04:02,581 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:04:03,966 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:04:03,966 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:04:05,297 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:04:05,297 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:04:06,642 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:04:06,642 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:04:08,068 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:04:08,071 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:04:09,453 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:04:09,453 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:04:10,824 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:04:10,826 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:04:12,214 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:04:12,214 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:04:13,410 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+📈 Status: 9 LLMs active, 62 threats queued
+2025-10-04 01:04:15,411 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:04:17,013 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:04:17,013 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:04:18,240 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:04:18,243 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:04:19,659 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:04:19,661 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:04:20,940 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:04:20,944 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:04:22,189 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:04:22,190 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:04:23,703 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:04:23,706 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:04:25,117 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:04:25,117 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:04:26,515 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:04:26,517 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:04:28,003 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:04:28,003 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:04:29,320 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:04:31,441 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:04:32,738 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:04:32,752 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:04:34,341 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:04:34,478 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:04:35,808 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:04:35,808 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:04:37,267 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:04:37,274 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:04:38,645 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:04:38,645 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:04:39,995 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:04:39,999 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:04:41,353 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:04:41,353 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:04:42,747 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:04:42,747 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:04:44,080 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:04:44,080 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+📈 Status: 9 LLMs active, 71 threats queued
+2025-10-04 01:04:45,477 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:04:47,482 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:04:49,034 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:04:49,034 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:04:50,414 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:04:50,414 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:04:51,783 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:04:51,783 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:04:52,988 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:04:52,991 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:04:54,441 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:04:54,442 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:04:55,872 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:04:55,874 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:04:57,182 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:04:57,182 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:04:58,439 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:04:58,441 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:04:59,894 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:04:59,894 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:05:01,218 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:05:03,223 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:05:04,705 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:05:04,705 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:05:05,926 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:05:05,926 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:05:07,199 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:05:07,201 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:05:08,648 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:05:08,650 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:05:09,959 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:05:09,959 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:05:11,381 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:05:11,381 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:05:12,763 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:05:12,763 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+📈 Status: 9 LLMs active, 78 threats queued
+2025-10-04 01:05:14,112 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:05:14,114 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:05:15,442 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:05:15,444 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:05:16,889 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:05:18,891 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:05:20,230 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:05:20,232 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:05:21,877 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:05:21,877 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:05:23,211 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:05:23,211 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:05:24,629 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:05:24,631 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:05:25,934 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:05:25,936 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:05:27,361 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:05:27,368 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:05:28,631 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:05:28,631 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:05:30,054 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:05:30,059 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:05:31,477 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:05:31,478 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:05:32,990 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:05:35,047 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:05:36,413 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:05:36,427 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:05:37,864 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:05:37,864 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:05:39,188 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:05:39,188 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:05:40,694 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:05:40,749 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:05:42,212 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:05:42,212 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:05:43,530 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:05:43,727 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+📈 Status: 9 LLMs active, 85 threats queued
+2025-10-04 01:05:45,394 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:05:45,395 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:05:46,910 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:05:46,913 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:05:48,342 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:05:48,343 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:05:49,732 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:05:51,736 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:05:53,245 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:05:53,245 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:05:54,588 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:05:54,590 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:05:56,032 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:05:56,033 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:05:57,429 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:05:57,434 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:05:58,697 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:05:58,697 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:06:00,006 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:06:00,008 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:06:01,417 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:06:01,418 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:06:03,002 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:06:03,028 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:06:04,389 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:06:04,390 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:06:05,896 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:06:07,900 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:06:09,351 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:06:09,351 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:06:10,792 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:06:10,795 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:06:11,969 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:06:11,969 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:06:13,357 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:06:13,360 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+📈 Status: 9 LLMs active, 89 threats queued
+2025-10-04 01:06:14,886 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:06:14,886 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:06:16,237 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:06:16,385 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:06:17,921 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:06:17,952 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:06:19,439 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:06:19,499 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:06:20,788 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:06:20,788 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:06:22,207 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:06:24,312 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:06:25,535 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:06:25,536 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:06:26,953 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:06:26,955 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:06:28,460 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:06:28,461 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:06:29,952 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:06:29,955 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:06:31,344 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:06:31,345 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:06:32,818 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:06:32,821 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:06:34,591 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:06:34,592 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:06:36,097 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:06:36,109 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:06:37,475 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:06:37,475 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:06:38,932 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:06:40,935 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:06:42,383 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:06:42,383 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:06:43,781 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:06:43,784 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+📈 Status: 9 LLMs active, 66 threats queued
+2025-10-04 01:06:45,185 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:06:45,185 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:06:46,552 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:06:46,555 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:06:47,980 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:06:47,980 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:06:49,263 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:06:49,264 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:06:50,593 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:06:50,593 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:06:51,996 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:06:51,999 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:06:53,440 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:06:53,440 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:06:54,944 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:06:56,948 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:06:58,532 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:06:58,533 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:06:59,981 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:06:59,983 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:07:01,323 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:07:01,324 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:07:02,931 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:07:02,933 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:07:04,366 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:07:04,366 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:07:05,957 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:07:05,960 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:07:07,195 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:07:07,195 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:07:08,790 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:07:08,792 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:07:10,095 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:07:10,096 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:07:11,595 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:07:13,597 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+📈 Status: 9 LLMs active, 71 threats queued
+2025-10-04 01:07:14,935 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:07:14,950 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:07:16,495 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:07:16,497 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:07:17,910 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:07:17,911 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:07:19,342 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:07:19,450 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:07:20,923 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:07:20,923 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:07:22,430 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:07:22,443 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:07:23,904 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:07:23,904 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:07:25,496 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:07:25,647 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:07:27,113 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:07:27,114 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:07:28,570 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:07:30,588 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:07:32,076 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:07:32,076 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:07:33,486 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:07:33,489 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:07:35,065 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:07:35,098 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:07:36,517 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:07:36,654 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:07:38,050 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:07:38,051 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:07:39,363 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:07:39,366 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:07:40,905 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:07:40,906 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:07:42,327 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:07:42,331 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:07:43,730 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:07:43,731 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+📈 Status: 9 LLMs active, 78 threats queued
+2025-10-04 01:07:45,053 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:07:47,055 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:07:48,468 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:07:48,468 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:07:49,960 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:07:49,960 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:07:51,351 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:07:51,351 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:07:52,541 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:07:52,545 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:07:53,837 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:07:53,837 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:07:55,319 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:07:55,505 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:07:56,945 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:07:56,945 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:07:58,355 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:07:58,355 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:07:59,775 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:07:59,775 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:08:01,169 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:08:03,205 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:08:04,624 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:08:04,624 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:08:05,885 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:08:05,889 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:08:07,270 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:08:07,287 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:08:08,721 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:08:08,835 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:08:10,288 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:08:10,304 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:08:11,653 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:08:11,773 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:08:13,321 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:08:13,322 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+📈 Status: 9 LLMs active, 62 threats queued
+2025-10-04 01:08:14,621 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:08:14,987 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:08:16,271 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:08:16,287 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:08:17,705 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:08:19,790 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:08:21,121 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:08:21,125 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:08:22,611 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:08:22,615 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:08:23,888 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:08:23,921 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:08:25,327 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:08:25,327 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:08:26,622 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:08:26,671 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:08:28,005 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:08:28,122 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:08:29,356 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:08:29,373 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:08:30,672 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:08:30,976 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:08:32,290 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:08:32,357 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:08:33,711 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:08:35,754 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:08:37,111 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:08:37,111 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:08:38,325 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:08:38,328 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:08:39,551 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:08:39,551 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:08:40,805 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:08:40,807 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:08:42,107 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:08:42,107 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:08:43,440 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:08:43,495 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+📈 Status: 9 LLMs active, 79 threats queued
+2025-10-04 01:08:44,773 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:08:44,808 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:08:46,150 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:08:46,153 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:08:47,439 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:08:47,485 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:08:48,756 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:08:50,869 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:08:52,375 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:08:52,375 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:08:53,623 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:08:53,626 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:08:55,063 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:08:55,063 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:08:56,322 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:08:56,327 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:08:57,546 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:08:57,546 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:08:58,786 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:08:58,787 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:09:00,045 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:09:00,045 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:09:01,375 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:09:01,501 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:09:02,940 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:09:02,940 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:09:04,359 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:09:06,361 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:09:07,862 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:09:07,862 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:09:09,116 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:09:09,116 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:09:10,426 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:09:10,426 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:09:11,873 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:09:11,876 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:09:13,261 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:09:13,261 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+📈 Status: 9 LLMs active, 66 threats queued
+2025-10-04 01:09:14,680 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:09:14,682 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:09:16,049 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:09:16,049 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:09:17,322 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:09:17,325 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:09:18,541 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:09:18,576 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:09:19,858 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:09:21,912 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:09:23,247 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:09:23,277 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:09:24,610 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:09:24,860 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:09:26,286 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:09:26,290 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:09:27,729 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:09:27,729 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:09:29,076 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:09:29,142 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:09:30,613 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:09:30,613 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:09:31,976 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:09:31,987 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:09:33,419 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:09:33,422 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:09:34,643 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:09:34,659 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:09:36,143 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:09:38,170 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:09:39,478 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:09:39,478 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:09:40,780 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:09:40,783 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:09:42,136 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:09:42,136 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:09:43,497 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:09:43,499 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+📈 Status: 9 LLMs active, 86 threats queued
+2025-10-04 01:09:44,990 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:09:44,990 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:09:46,342 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:09:46,345 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:09:47,859 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:09:47,859 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:09:49,177 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:09:49,244 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:09:50,915 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:09:50,915 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:09:52,261 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:09:54,263 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:09:55,842 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:09:55,842 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:09:57,265 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:09:57,269 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:09:58,841 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:09:58,841 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:10:00,115 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:10:00,119 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:10:01,555 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:10:01,555 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:10:02,953 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:10:02,957 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:10:04,230 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:10:04,230 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:10:05,862 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:10:06,035 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:10:07,434 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:10:07,434 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:10:08,807 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:10:10,815 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:10:12,296 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:10:12,296 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:10:13,769 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:10:13,771 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+📈 Status: 9 LLMs active, 62 threats queued
+2025-10-04 01:10:15,344 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:10:15,344 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:10:16,731 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:10:16,735 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:10:18,087 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:10:18,087 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:10:19,308 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:10:19,308 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:10:20,649 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:10:20,649 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:10:22,010 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:10:22,013 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:10:23,583 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:10:23,583 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:10:24,847 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:10:26,850 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:10:28,240 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:10:28,240 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:10:29,624 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:10:29,624 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:10:31,115 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:10:31,115 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:10:32,538 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:10:32,540 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:10:33,874 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:10:33,874 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:10:35,245 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:10:35,249 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:10:36,631 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:10:36,632 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:10:37,969 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:10:37,969 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:10:39,315 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:10:39,315 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:10:40,715 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:10:42,724 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+📈 Status: 9 LLMs active, 98 threats queued
+2025-10-04 01:10:44,299 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:10:44,299 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:10:45,658 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:10:45,665 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:10:46,990 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:10:46,990 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:10:48,537 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:10:48,537 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:10:49,857 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:10:49,857 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:10:51,149 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:10:51,153 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:10:52,666 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:10:52,666 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:10:53,949 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:10:53,953 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:10:55,442 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:10:55,442 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:10:56,786 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:10:58,789 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:11:00,261 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:11:00,263 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:11:01,483 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:11:01,483 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:11:02,900 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:11:02,900 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:11:04,380 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:11:04,385 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:11:05,877 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:11:05,877 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:11:07,199 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:11:07,203 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:11:08,492 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:11:08,492 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:11:09,751 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:11:09,753 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:11:11,096 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:11:11,096 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:11:12,483 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+📈 Status: 9 LLMs active, 87 threats queued
+2025-10-04 01:11:14,485 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:11:15,847 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:11:15,847 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:11:17,114 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:11:17,117 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:11:18,328 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:11:18,328 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:11:19,671 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:11:19,671 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:11:21,121 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:11:21,122 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:11:22,429 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:11:22,429 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:11:23,688 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:11:23,689 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:11:25,117 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:11:25,118 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:11:26,530 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:11:26,530 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:11:27,886 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:11:29,890 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:11:31,321 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:11:31,321 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:11:32,627 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:11:32,631 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:11:34,095 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:11:34,095 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:11:35,428 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:11:35,436 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:11:36,832 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:11:36,834 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:11:38,324 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:11:38,324 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:11:39,576 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:11:39,578 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:11:41,165 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:11:41,170 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:11:42,884 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:11:42,901 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+📈 Status: 9 LLMs active, 90 threats queued
+2025-10-04 01:11:44,378 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:11:46,383 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:11:47,879 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:11:47,879 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:11:49,290 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:11:49,292 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:11:50,855 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:11:50,855 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:11:52,324 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:11:52,324 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:11:53,552 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:11:53,553 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:11:54,842 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:11:54,846 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:11:56,431 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:11:56,431 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:11:57,887 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:11:57,889 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:11:59,480 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:11:59,480 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:12:00,844 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:12:02,855 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:12:04,265 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:12:04,265 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:12:05,655 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:12:05,660 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:12:07,011 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:12:07,011 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:12:08,373 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:12:08,375 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:12:09,782 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:12:09,782 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:12:11,188 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:12:11,188 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-04 01:12:12,562 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:12:12,562 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:12:13,921 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:12:13,928 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+📈 Status: 9 LLMs active, 86 threats queued
+2025-10-04 01:12:15,272 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-3.5-turbo: Connection error.
+2025-10-04 01:12:15,272 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-04 01:12:16,631 - MultiLLMDefense - ERROR - Error analyzing threat with gpt-4: Connection error.
+2025-10-04 01:12:18,635 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly

@@ -1,0 +1,2 @@
+FastAPI not available - ECHO Fusion Server requires FastAPI
+❌ ECHO Fusion Server requires FastAPI. Install with: pip install fastapi uvicorn

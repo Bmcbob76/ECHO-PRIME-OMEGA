@@ -1,0 +1,202 @@
+╔═══════════════════════════════════════════════════════════════════════════════╗
+║                                                                               ║
+║         🔧 ECHO PRIME DIAGNOSTIC SYSTEM - QUICK REFERENCE CARD 🔧             ║
+║                                                                               ║
+║                      Commander Bobby Don McWilliams II                        ║
+║                           Authority Level 11.0                                ║
+║                                                                               ║
+╚═══════════════════════════════════════════════════════════════════════════════╝
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ 🚀 QUICK START                                                               │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+  START LAUNCHER:
+    python E:\ECHO_XV4\MLS\UNIFIED_SILENT_LAUNCHER.py
+
+  WHAT HAPPENS:
+    1. ✅ All 32 servers launch SILENTLY (no windows)
+    2. 🔧 Post-launch diagnostic runs automatically
+    3. 🎤 C3PO announces health status
+    4. 🔍 Real-time monitoring starts (5-min intervals)
+    5. ⌨️ Interactive mode begins
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ ⌨️ INTERACTIVE COMMANDS (Press + Enter)                                     │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+  D  →  Run full diagnostic (30 seconds)
+  H  →  Show current health score
+  S  →  List all server statuses
+  Q  →  Quit launcher (servers keep running)
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ 📊 DIAGNOSTIC COMPONENTS                                                     │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+  ✅ CORE SYSTEM    → Python version, directories, platform
+  ✅ MEMORY         → RAM usage, thresholds (warning >85%)
+  ✅ VOICE          → EPCP3O availability & initialization
+  ✅ SERVERS        → All MCP + Desktop server health
+  ✅ PERFORMANCE    → CPU, memory, threads, response time
+  ✅ STORAGE        → Disk usage, log file sizes
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ 🎯 HEALTH SCORE                                                              │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+  90-100  →  ✅ EXCELLENT   (All systems optimal)
+  70-89   →  ⚠️ GOOD        (Minor issues present)
+  50-69   →  ⚠️ DEGRADED    (Performance impacted)
+  30-49   →  ❌ POOR        (Significant problems)
+  0-29    →  ❌ CRITICAL    (Immediate attention needed)
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ 🎤 VOICE CHARACTERS                                                          │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+  C3PO (GS343)  →  Startup & health reports       [8ATB4Ory7NkyCVRpePdw]
+  Echo          →  Success confirmations           [keDMh3sQlEXKM4EQxvvi]
+  C3PO          →  Warnings & diagnostics          [0UTDtgGGkpqERQn1s0YK]
+  Bree          →  Critical alerts                 [pzKXffibtCDxnrVO8d1U]
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ 🚨 ALERT THRESHOLDS                                                          │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+  Memory:   0-85% ✅  |  85-95% ⚠️  |  >95% ❌
+  CPU:      0-80% ✅  |  >80% ⚠️
+  Disk:     0-80% ✅  |  80-90% ⚠️  |  >90% ❌
+  Logs:     <1GB ✅   |  >1GB ⚠️
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ 📁 KEY FILES                                                                 │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+  Launcher:
+    E:\ECHO_XV4\MLS\UNIFIED_SILENT_LAUNCHER.py
+
+  Database:
+    E:\ECHO_XV4\MLS\logs\echo_diagnostics.db
+
+  Reports:
+    E:\ECHO_XV4\MLS\logs\diagnostic_report_*.txt
+
+  Logs:
+    E:\ECHO_XV4\MLS\logs\unified_*.log
+    E:\ECHO_XV4\MLS\logs\[ServerName]_*.log
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ 💾 DATABASE QUICK QUERIES                                                    │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+  # View recent diagnostics
+  SELECT timestamp, overall_status, performance_score 
+  FROM diagnostic_runs 
+  ORDER BY timestamp DESC LIMIT 10;
+
+  # View performance trends (last hour)
+  SELECT timestamp, cpu_usage, memory_usage, disk_usage
+  FROM performance_metrics
+  WHERE timestamp > datetime('now', '-1 hour')
+  ORDER BY timestamp DESC;
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ 🔧 MAINTENANCE COMMANDS                                                      │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+  # Clean old logs (PowerShell)
+  Get-ChildItem "E:\ECHO_XV4\MLS\logs\*.log" | 
+    Where-Object {$_.LastWriteTime -lt (Get-Date).AddDays(-7)} | 
+    Remove-Item -Force
+
+  # Vacuum database (Python)
+  python -c "import sqlite3; conn = sqlite3.connect('E:/ECHO_XV4/MLS/logs/echo_diagnostics.db'); conn.execute('VACUUM'); conn.close()"
+
+  # View latest health (Python)
+  python -c "import sqlite3, json; conn = sqlite3.connect('E:/ECHO_XV4/MLS/logs/echo_diagnostics.db'); cursor = conn.cursor(); cursor.execute('SELECT details FROM diagnostic_runs ORDER BY timestamp DESC LIMIT 1'); result = cursor.fetchone(); data = json.loads(result[0]); print(f\"Status: {data['status']}, Score: {data['performance']['score']:.1f}/100\"); conn.close()"
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ 🔍 REAL-TIME MONITORING                                                      │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+  Interval:    Every 5 minutes (300 seconds)
+  Monitors:    CPU, Memory, Disk, Server Count, Thread Count
+  Alerts:      Voice announcement if CPU or Memory > 90%
+  Storage:     All metrics saved to database
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ 📝 TYPICAL DIAGNOSTIC OUTPUT                                                 │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+  ═══════════════════════════════════════════════════════════════════════
+  🔧 ECHO PRIME DIAGNOSTIC REPORT
+  ═══════════════════════════════════════════════════════════════════════
+  Timestamp: 2025-10-11T14:23:45.123456
+  Overall Status: HEALTHY
+  Health Score: 95.0/100
+
+  COMPONENT STATUS:
+  ────────────────────────────────────────────
+  ✅ CORE_SYSTEM: healthy
+  ✅ MEMORY: healthy
+  ✅ VOICE: healthy
+  ✅ SERVERS: healthy
+  ✅ PERFORMANCE: healthy
+  ✅ STORAGE: healthy
+
+  RECOMMENDATIONS:
+  ────────────────────────────────────────────
+  (none - all systems optimal)
+  ═══════════════════════════════════════════════════════════════════════
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ ⚠️ TROUBLESHOOTING                                                           │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+  Voice not working?
+    → Check: from UNIFIED_SILENT_LAUNCHER import VOICE_AVAILABLE
+    → Verify: EPCP3O voice system installed
+
+  Diagnostic not running?
+    → Check: Python 3.8+ installed
+    → Verify: asyncio available
+    → Test: python -c "import asyncio; print('OK')"
+
+  Database locked?
+    → Close all Python processes using it
+    → Delete .db-journal file if exists
+
+  High memory/CPU?
+    → Press 'D' to run diagnostic
+    → Review recommendations
+    → Consider restarting servers
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ 📚 FULL DOCUMENTATION                                                        │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+  Comprehensive Guide:
+    E:\ECHO_XV4\MLS\DIAGNOSTIC_INTEGRATION_COMPLETE.md
+
+  Integration Report:
+    E:\ECHO_XV4\MLS\DIAGNOSTIC_INTEGRATION_REPORT.txt
+
+  Original Briefing:
+    B:\BACKUP_ECHO_X\BRIEFINGS\# 🔧 ECHO PRIME DIAGNOSTIC SYSTEM -.txt
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ ✅ STATUS                                                                     │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+  Integration:      ✅ COMPLETE
+  Testing:          ⏳ PENDING FIRST RUN
+  Production:       ✅ READY
+  Commander Auth:   ✅ GRANTED (Level 11.0)
+
+╔═══════════════════════════════════════════════════════════════════════════════╗
+║                                                                               ║
+║                            SYSTEM OPERATIONAL                                 ║
+║                        Ready for Deployment! 🚀                               ║
+║                                                                               ║
+╚═══════════════════════════════════════════════════════════════════════════════╝

@@ -1,0 +1,41 @@
+⚠️  GS343 Foundation not available - running standalone
+======================================================================
+🎖️ EPCP3-0 C3PO SERVER
+======================================================================
+Port: 8030
+Debug: False
+GS343 Foundation: UNAVAILABLE
+======================================================================
+
+Initializing C3PO Integration...
+🎖️ Initializing C3PO Integration...
+   ✅ C3PO Personality loaded
+🎤 Loading C3PO voice model...
+H:\Tools\lib\site-packages\librosa\core\intervals.py:8: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+ > tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
+H:\Tools\lib\site-packages\transformers\utils\generic.py:311: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+  torch.utils._pytree._register_pytree_node(
+ > Using model: xtts
+✅ C3PO voice model loaded successfully
+   ✅ C3PO Voice loaded
+✅ C3PO Integration complete
+
+✅ C3PO Integration initialized successfully
+✅ C3PO Ready
+
+🚀 Starting server on http://localhost:8030
+📡 Health: http://localhost:8030/health
+🤖 Respond: POST http://localhost:8030/respond
+🔊 Speak: POST http://localhost:8030/speak
+💬 Personality: POST http://localhost:8030/personality
+📊 Stats: GET http://localhost:8030/stats
+======================================================================
+
+ * Serving Flask app 'epcp3_0_c3po_server'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8030
+ * Running on http://192.168.1.200:8030
+Press CTRL+C to quit

@@ -1,0 +1,1760 @@
+2025-10-11 09:04:04,670 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 09:04:28,512 | INFO | 📊 Error Database: False (45,962+ templates)
+2025-10-11 09:04:28,513 | INFO | 🎙️ Voice Cast: True
+2025-10-11 09:04:28,513 | INFO | 💾 Backups: E:\ECHO_XV4\MLS\BACKUPS
+2025-10-11 09:04:28,513 | INFO | 📋 Logs: E:\ECHO_XV4\MLS\logs
+2025-10-11 09:04:28,516 | INFO | ✅ Orchestrator already running (PID: 17708, Port: 8000)
+2025-10-11 09:04:29,637 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:04:32,483 | INFO | 🔒 Locked: mcp_orchestrator.py
+2025-10-11 09:04:34,505 | INFO | 🔓 Unlocked: mcp_filesystem.py
+2025-10-11 09:04:34,505 | INFO | 💾 Backed up: mcp_filesystem.py → mcp_filesystem_BACKUP_20251011_090434.py
+2025-10-11 09:04:34,507 | INFO | 🔒 Locked: mcp_filesystem_BACKUP_20251011_090434.py
+2025-10-11 09:04:34,507 | INFO | 🧪 Testing Filesystem...
+2025-10-11 09:04:39,523 | ERROR | ❌ Filesystem test failed: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 09:04:39,529 | ERROR | ❌ Filesystem failed startup test
+2025-10-11 09:04:39,530 | INFO | 🛡️ Phoenix healing Filesystem...
+2025-10-11 09:04:41,690 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 09:04:52,603 | INFO | 🔄 Restoring Filesystem from backup...
+2025-10-11 09:04:52,603 | INFO | 🔓 Unlocked: mcp_filesystem_BACKUP_20251011_090434.py
+2025-10-11 09:04:52,604 | INFO | 🔒 Locked: mcp_filesystem_BACKUP_20251011_090434.py
+2025-10-11 09:04:52,604 | INFO | 🔄 Restored: mcp_filesystem.py from mcp_filesystem_BACKUP_20251011_090434.py
+2025-10-11 09:04:53,612 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:04:56,759 | INFO | 🧪 Testing Filesystem...
+2025-10-11 09:05:01,809 | ERROR | ❌ Filesystem test failed: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 09:05:03,820 | INFO | 🔓 Unlocked: mcp_windows.py
+2025-10-11 09:05:03,820 | INFO | 💾 Backed up: mcp_windows.py → mcp_windows_BACKUP_20251011_090503.py
+2025-10-11 09:05:03,820 | INFO | 🔒 Locked: mcp_windows_BACKUP_20251011_090503.py
+2025-10-11 09:05:03,820 | INFO | 🧪 Testing Windows API...
+2025-10-11 09:05:08,848 | ERROR | ❌ Windows API test failed: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 09:05:08,849 | ERROR | ❌ Windows API failed startup test
+2025-10-11 09:05:08,849 | INFO | 🛡️ Phoenix healing Windows API...
+2025-10-11 09:05:10,935 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 09:05:21,868 | INFO | 🔄 Restoring Windows API from backup...
+2025-10-11 09:05:21,868 | INFO | 🔓 Unlocked: mcp_windows_BACKUP_20251011_090503.py
+2025-10-11 09:05:21,869 | INFO | 🔒 Locked: mcp_windows_BACKUP_20251011_090503.py
+2025-10-11 09:05:21,870 | INFO | 🔄 Restored: mcp_windows.py from mcp_windows_BACKUP_20251011_090503.py
+2025-10-11 09:05:22,823 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:05:26,168 | INFO | 🧪 Testing Windows API...
+2025-10-11 09:05:31,203 | ERROR | ❌ Windows API test failed: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 09:05:33,234 | INFO | 🔓 Unlocked: mcp_process.py
+2025-10-11 09:05:33,235 | INFO | 💾 Backed up: mcp_process.py → mcp_process_BACKUP_20251011_090533.py
+2025-10-11 09:05:33,235 | INFO | 🔒 Locked: mcp_process_BACKUP_20251011_090533.py
+2025-10-11 09:05:33,235 | INFO | 🧪 Testing Process Control...
+2025-10-11 09:05:38,245 | ERROR | ❌ Process Control test failed: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 09:05:38,245 | ERROR | ❌ Process Control failed startup test
+2025-10-11 09:05:38,246 | INFO | 🛡️ Phoenix healing Process Control...
+2025-10-11 09:05:40,439 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 09:05:51,886 | INFO | 🔄 Restoring Process Control from backup...
+2025-10-11 09:05:51,886 | INFO | 🔓 Unlocked: mcp_process_BACKUP_20251011_090533.py
+2025-10-11 09:05:51,887 | INFO | 🔒 Locked: mcp_process_BACKUP_20251011_090533.py
+2025-10-11 09:05:51,887 | INFO | 🔄 Restored: mcp_process.py from mcp_process_BACKUP_20251011_090533.py
+2025-10-11 09:05:52,867 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:05:56,322 | INFO | 🧪 Testing Process Control...
+2025-10-11 09:06:01,331 | ERROR | ❌ Process Control test failed: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 09:06:03,335 | INFO | 🔓 Unlocked: mcp_crystal.py
+2025-10-11 09:06:03,335 | INFO | 💾 Backed up: mcp_crystal.py → mcp_crystal_BACKUP_20251011_090603.py
+2025-10-11 09:06:03,336 | INFO | 🔒 Locked: mcp_crystal_BACKUP_20251011_090603.py
+2025-10-11 09:06:03,336 | INFO | 🧪 Testing Crystal Memory...
+2025-10-11 09:06:08,349 | ERROR | ❌ Crystal Memory test failed: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 09:06:08,349 | ERROR | ❌ Crystal Memory failed startup test
+2025-10-11 09:06:08,350 | INFO | 🛡️ Phoenix healing Crystal Memory...
+2025-10-11 09:06:10,432 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 09:06:20,904 | INFO | 🔄 Restoring Crystal Memory from backup...
+2025-10-11 09:06:20,905 | INFO | 🔓 Unlocked: mcp_crystal_BACKUP_20251011_090603.py
+2025-10-11 09:06:20,906 | INFO | 🔒 Locked: mcp_crystal_BACKUP_20251011_090603.py
+2025-10-11 09:06:20,906 | INFO | 🔄 Restored: mcp_crystal.py from mcp_crystal_BACKUP_20251011_090603.py
+2025-10-11 09:06:21,858 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:06:25,310 | INFO | 🧪 Testing Crystal Memory...
+2025-10-11 09:06:30,346 | ERROR | ❌ Crystal Memory test failed: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 09:06:32,398 | INFO | 🔓 Unlocked: mcp_workflow.py
+2025-10-11 09:06:32,400 | INFO | 💾 Backed up: mcp_workflow.py → mcp_workflow_BACKUP_20251011_090632.py
+2025-10-11 09:06:32,400 | INFO | 🔒 Locked: mcp_workflow_BACKUP_20251011_090632.py
+2025-10-11 09:06:32,400 | INFO | 🧪 Testing Workflow Engine...
+2025-10-11 09:06:37,422 | ERROR | ❌ Workflow Engine test failed: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 09:06:37,422 | ERROR | ❌ Workflow Engine failed startup test
+2025-10-11 09:06:37,423 | INFO | 🛡️ Phoenix healing Workflow Engine...
+2025-10-11 09:06:39,598 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 09:06:50,637 | INFO | 🔄 Restoring Workflow Engine from backup...
+2025-10-11 09:06:50,637 | INFO | 🔓 Unlocked: mcp_workflow_BACKUP_20251011_090632.py
+2025-10-11 09:06:50,638 | INFO | 🔒 Locked: mcp_workflow_BACKUP_20251011_090632.py
+2025-10-11 09:06:50,638 | INFO | 🔄 Restored: mcp_workflow.py from mcp_workflow_BACKUP_20251011_090632.py
+2025-10-11 09:06:51,585 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:06:54,939 | INFO | 🧪 Testing Workflow Engine...
+2025-10-11 09:06:59,989 | ERROR | ❌ Workflow Engine test failed: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 09:07:02,023 | INFO | 🔓 Unlocked: mcp_voice.py
+2025-10-11 09:07:02,024 | INFO | 💾 Backed up: mcp_voice.py → mcp_voice_BACKUP_20251011_090702.py
+2025-10-11 09:07:02,025 | INFO | 🔒 Locked: mcp_voice_BACKUP_20251011_090702.py
+2025-10-11 09:07:02,025 | INFO | 🧪 Testing Voice System...
+2025-10-11 09:07:35,396 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 09:07:59,291 | INFO | 📊 Error Database: False (45,962+ templates)
+2025-10-11 09:07:59,291 | INFO | 🎙️ Voice Cast: True
+2025-10-11 09:07:59,292 | INFO | 💾 Backups: E:\ECHO_XV4\MLS\BACKUPS
+2025-10-11 09:07:59,292 | INFO | 📋 Logs: E:\ECHO_XV4\MLS\logs
+2025-10-11 09:07:59,294 | INFO | ✅ Orchestrator already running (PID: 17708, Port: 8000)
+2025-10-11 09:08:00,263 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:08:02,906 | INFO | 🔒 Locked: mcp_orchestrator.py
+2025-10-11 09:08:04,928 | INFO | 🔓 Unlocked: mcp_filesystem.py
+2025-10-11 09:08:04,930 | INFO | 💾 Backed up: mcp_filesystem.py → mcp_filesystem_BACKUP_20251011_090804.py
+2025-10-11 09:08:04,930 | INFO | 🔒 Locked: mcp_filesystem_BACKUP_20251011_090804.py
+2025-10-11 09:08:04,930 | INFO | 🧪 Testing Filesystem...
+2025-10-11 09:08:09,967 | ERROR | ❌ Filesystem test failed: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 09:08:09,967 | ERROR | ❌ Filesystem failed startup test
+2025-10-11 09:08:09,968 | INFO | 🛡️ Phoenix healing Filesystem...
+2025-10-11 09:08:12,213 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 09:08:23,351 | INFO | 🔄 Restoring Filesystem from backup...
+2025-10-11 09:08:23,351 | INFO | 🔓 Unlocked: mcp_filesystem_BACKUP_20251011_090804.py
+2025-10-11 09:08:23,353 | INFO | 🔒 Locked: mcp_filesystem_BACKUP_20251011_090804.py
+2025-10-11 09:08:23,353 | INFO | 🔄 Restored: mcp_filesystem.py from mcp_filesystem_BACKUP_20251011_090804.py
+2025-10-11 09:08:24,317 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:08:27,872 | INFO | 🧪 Testing Filesystem...
+2025-10-11 09:08:32,938 | ERROR | ❌ Filesystem test failed: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 09:08:34,959 | INFO | 🔓 Unlocked: mcp_windows.py
+2025-10-11 09:08:34,960 | INFO | 💾 Backed up: mcp_windows.py → mcp_windows_BACKUP_20251011_090834.py
+2025-10-11 09:08:34,960 | INFO | 🔒 Locked: mcp_windows_BACKUP_20251011_090834.py
+2025-10-11 09:08:34,960 | INFO | 🧪 Testing Windows API...
+2025-10-11 09:08:39,989 | ERROR | ❌ Windows API test failed: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 09:08:39,989 | ERROR | ❌ Windows API failed startup test
+2025-10-11 09:08:39,990 | INFO | 🛡️ Phoenix healing Windows API...
+2025-10-11 09:08:42,511 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 09:08:53,748 | INFO | 🔄 Restoring Windows API from backup...
+2025-10-11 09:08:53,749 | INFO | 🔓 Unlocked: mcp_windows_BACKUP_20251011_090834.py
+2025-10-11 09:08:53,750 | INFO | 🔒 Locked: mcp_windows_BACKUP_20251011_090834.py
+2025-10-11 09:08:53,751 | INFO | 🔄 Restored: mcp_windows.py from mcp_windows_BACKUP_20251011_090834.py
+2025-10-11 09:08:54,730 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:08:57,878 | INFO | 🧪 Testing Windows API...
+2025-10-11 09:09:02,943 | ERROR | ❌ Windows API test failed: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 09:09:04,974 | INFO | 🔓 Unlocked: mcp_process.py
+2025-10-11 09:09:04,975 | INFO | 💾 Backed up: mcp_process.py → mcp_process_BACKUP_20251011_090904.py
+2025-10-11 09:09:04,975 | INFO | 🔒 Locked: mcp_process_BACKUP_20251011_090904.py
+2025-10-11 09:09:04,975 | INFO | 🧪 Testing Process Control...
+2025-10-11 09:09:10,018 | ERROR | ❌ Process Control test failed: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 09:09:10,019 | ERROR | ❌ Process Control failed startup test
+2025-10-11 09:09:10,019 | INFO | 🛡️ Phoenix healing Process Control...
+2025-10-11 09:09:12,218 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 09:09:13,792 | INFO | 🔄 Restoring Process Control from backup...
+2025-10-11 09:09:13,793 | INFO | 🔓 Unlocked: mcp_process_BACKUP_20251011_090904.py
+2025-10-11 09:09:13,794 | INFO | 🔒 Locked: mcp_process_BACKUP_20251011_090904.py
+2025-10-11 09:09:13,794 | INFO | 🔄 Restored: mcp_process.py from mcp_process_BACKUP_20251011_090904.py
+2025-10-11 09:09:14,622 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:09:16,537 | INFO | 🧪 Testing Process Control...
+2025-10-11 09:15:54,022 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 09:16:17,326 | INFO | 📊 Error Database: False (45,962+ templates)
+2025-10-11 09:16:17,327 | INFO | 🎙️ Voice Cast: True
+2025-10-11 09:16:17,327 | INFO | 💾 Backups: E:\ECHO_XV4\MLS\BACKUPS
+2025-10-11 09:16:17,327 | INFO | 📋 Logs: E:\ECHO_XV4\MLS\logs
+2025-10-11 09:16:17,331 | INFO | ✅ Orchestrator already running (PID: 17708, Port: 8000)
+2025-10-11 09:16:18,190 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:16:20,831 | INFO | 🔒 Locked: mcp_orchestrator.py
+2025-10-11 09:16:22,864 | INFO | 🔓 Unlocked: mcp_filesystem.py
+2025-10-11 09:16:22,865 | INFO | 💾 Backed up: mcp_filesystem.py → mcp_filesystem_BACKUP_20251011_091622.py
+2025-10-11 09:16:22,866 | INFO | 🔒 Locked: mcp_filesystem_BACKUP_20251011_091622.py
+2025-10-11 09:16:22,866 | INFO | 🧪 Testing Filesystem...
+2025-10-11 09:16:27,897 | ERROR | ❌ Filesystem test failed: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 09:16:27,898 | ERROR | ❌ Filesystem failed startup test
+2025-10-11 09:16:27,899 | INFO | 🛡️ Phoenix healing Filesystem...
+2025-10-11 09:16:29,941 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 09:16:40,656 | INFO | 🔄 Restoring Filesystem from backup...
+2025-10-11 09:16:40,657 | INFO | 🔓 Unlocked: mcp_filesystem_BACKUP_20251011_091622.py
+2025-10-11 09:16:40,658 | INFO | 🔒 Locked: mcp_filesystem_BACKUP_20251011_091622.py
+2025-10-11 09:16:40,658 | INFO | 🔄 Restored: mcp_filesystem.py from mcp_filesystem_BACKUP_20251011_091622.py
+2025-10-11 09:16:41,616 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:16:44,775 | INFO | 🧪 Testing Filesystem...
+2025-10-11 09:16:49,807 | ERROR | ❌ Filesystem test failed: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 09:16:51,841 | INFO | 🔓 Unlocked: mcp_windows.py
+2025-10-11 09:16:51,842 | INFO | 💾 Backed up: mcp_windows.py → mcp_windows_BACKUP_20251011_091651.py
+2025-10-11 09:16:51,842 | INFO | 🔒 Locked: mcp_windows_BACKUP_20251011_091651.py
+2025-10-11 09:16:51,842 | INFO | 🧪 Testing Windows API...
+2025-10-11 09:16:56,866 | ERROR | ❌ Windows API test failed: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 09:16:56,866 | ERROR | ❌ Windows API failed startup test
+2025-10-11 09:16:56,867 | INFO | 🛡️ Phoenix healing Windows API...
+2025-10-11 09:16:59,048 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 09:17:05,370 | INFO | 🔄 Restoring Windows API from backup...
+2025-10-11 09:17:05,371 | INFO | 🔓 Unlocked: mcp_windows_BACKUP_20251011_091651.py
+2025-10-11 09:17:05,372 | INFO | 🔒 Locked: mcp_windows_BACKUP_20251011_091651.py
+2025-10-11 09:17:05,372 | INFO | 🔄 Restored: mcp_windows.py from mcp_windows_BACKUP_20251011_091651.py
+2025-10-11 09:17:06,332 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:17:06,348 | INFO | 🧪 Testing Windows API...
+2025-10-11 09:21:07,391 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 09:21:31,170 | INFO | 📊 Error Database: False (45,962+ templates)
+2025-10-11 09:21:31,170 | INFO | 🎙️ Voice Cast: True
+2025-10-11 09:21:31,171 | INFO | 💾 Backups: E:\ECHO_XV4\MLS\BACKUPS
+2025-10-11 09:21:31,171 | INFO | 📋 Logs: E:\ECHO_XV4\MLS\logs
+2025-10-11 09:21:31,177 | INFO | ✅ Orchestrator already running (PID: 17708, Port: 8000)
+2025-10-11 09:21:32,070 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:21:34,832 | INFO | 🔒 Locked: mcp_orchestrator.py
+2025-10-11 09:21:36,874 | INFO | 🔓 Unlocked: mcp_filesystem.py
+2025-10-11 09:21:36,877 | INFO | 💾 Backed up: mcp_filesystem.py → mcp_filesystem_BACKUP_20251011_092136.py
+2025-10-11 09:21:36,877 | INFO | 🔒 Locked: mcp_filesystem_BACKUP_20251011_092136.py
+2025-10-11 09:21:36,877 | INFO | 🧪 Testing Filesystem...
+2025-10-11 09:21:41,917 | ERROR | ❌ Filesystem test failed: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 09:21:41,917 | ERROR | ❌ Filesystem failed startup test
+2025-10-11 09:21:41,919 | INFO | 🛡️ Phoenix healing Filesystem...
+2025-10-11 09:21:44,041 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 09:21:54,546 | INFO | 🔄 Restoring Filesystem from backup...
+2025-10-11 09:21:54,547 | INFO | 🔓 Unlocked: mcp_filesystem_BACKUP_20251011_092136.py
+2025-10-11 09:21:54,548 | INFO | 🔒 Locked: mcp_filesystem_BACKUP_20251011_092136.py
+2025-10-11 09:21:54,548 | INFO | 🔄 Restored: mcp_filesystem.py from mcp_filesystem_BACKUP_20251011_092136.py
+2025-10-11 09:21:55,622 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:21:58,781 | INFO | 🧪 Testing Filesystem...
+2025-10-11 09:22:03,831 | ERROR | ❌ Filesystem test failed: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 09:22:05,845 | INFO | 🔓 Unlocked: mcp_windows.py
+2025-10-11 09:22:05,846 | INFO | 💾 Backed up: mcp_windows.py → mcp_windows_BACKUP_20251011_092205.py
+2025-10-11 09:22:05,846 | INFO | 🔒 Locked: mcp_windows_BACKUP_20251011_092205.py
+2025-10-11 09:22:05,846 | INFO | 🧪 Testing Windows API...
+2025-10-11 09:22:10,876 | ERROR | ❌ Windows API test failed: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 09:22:10,876 | ERROR | ❌ Windows API failed startup test
+2025-10-11 09:22:10,877 | INFO | 🛡️ Phoenix healing Windows API...
+2025-10-11 09:22:13,192 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 09:22:24,821 | INFO | 🔄 Restoring Windows API from backup...
+2025-10-11 09:22:24,822 | INFO | 🔓 Unlocked: mcp_windows_BACKUP_20251011_092205.py
+2025-10-11 09:22:24,823 | INFO | 🔒 Locked: mcp_windows_BACKUP_20251011_092205.py
+2025-10-11 09:22:24,824 | INFO | 🔄 Restored: mcp_windows.py from mcp_windows_BACKUP_20251011_092205.py
+2025-10-11 09:22:25,757 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:22:29,013 | INFO | 🧪 Testing Windows API...
+2025-10-11 09:22:34,036 | ERROR | ❌ Windows API test failed: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 09:22:36,059 | INFO | 🔓 Unlocked: mcp_process.py
+2025-10-11 09:22:36,060 | INFO | 💾 Backed up: mcp_process.py → mcp_process_BACKUP_20251011_092236.py
+2025-10-11 09:22:36,060 | INFO | 🔒 Locked: mcp_process_BACKUP_20251011_092236.py
+2025-10-11 09:22:36,061 | INFO | 🧪 Testing Process Control...
+2025-10-11 09:22:41,079 | ERROR | ❌ Process Control test failed: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 09:22:41,079 | ERROR | ❌ Process Control failed startup test
+2025-10-11 09:22:41,081 | INFO | 🛡️ Phoenix healing Process Control...
+2025-10-11 09:22:43,234 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 09:22:54,534 | INFO | 🔄 Restoring Process Control from backup...
+2025-10-11 09:22:54,534 | INFO | 🔓 Unlocked: mcp_process_BACKUP_20251011_092236.py
+2025-10-11 09:22:54,535 | INFO | 🔒 Locked: mcp_process_BACKUP_20251011_092236.py
+2025-10-11 09:22:54,535 | INFO | 🔄 Restored: mcp_process.py from mcp_process_BACKUP_20251011_092236.py
+2025-10-11 09:22:55,469 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:22:58,727 | INFO | 🧪 Testing Process Control...
+2025-10-11 09:23:03,743 | ERROR | ❌ Process Control test failed: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 09:23:05,748 | INFO | 🔓 Unlocked: mcp_crystal.py
+2025-10-11 09:23:05,748 | INFO | 💾 Backed up: mcp_crystal.py → mcp_crystal_BACKUP_20251011_092305.py
+2025-10-11 09:23:05,748 | INFO | 🔒 Locked: mcp_crystal_BACKUP_20251011_092305.py
+2025-10-11 09:23:05,748 | INFO | 🧪 Testing Crystal Memory...
+2025-10-11 09:23:10,758 | ERROR | ❌ Crystal Memory test failed: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 09:23:10,758 | ERROR | ❌ Crystal Memory failed startup test
+2025-10-11 09:23:10,758 | INFO | 🛡️ Phoenix healing Crystal Memory...
+2025-10-11 09:23:12,960 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 09:23:23,594 | INFO | 🔄 Restoring Crystal Memory from backup...
+2025-10-11 09:23:23,595 | INFO | 🔓 Unlocked: mcp_crystal_BACKUP_20251011_092305.py
+2025-10-11 09:23:23,596 | INFO | 🔒 Locked: mcp_crystal_BACKUP_20251011_092305.py
+2025-10-11 09:23:23,596 | INFO | 🔄 Restored: mcp_crystal.py from mcp_crystal_BACKUP_20251011_092305.py
+2025-10-11 09:23:24,541 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:23:27,994 | INFO | 🧪 Testing Crystal Memory...
+2025-10-11 09:23:33,022 | ERROR | ❌ Crystal Memory test failed: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 09:23:35,036 | INFO | 🔓 Unlocked: mcp_workflow.py
+2025-10-11 09:23:35,037 | INFO | 💾 Backed up: mcp_workflow.py → mcp_workflow_BACKUP_20251011_092335.py
+2025-10-11 09:23:35,037 | INFO | 🔒 Locked: mcp_workflow_BACKUP_20251011_092335.py
+2025-10-11 09:23:35,037 | INFO | 🧪 Testing Workflow Engine...
+2025-10-11 09:23:40,078 | ERROR | ❌ Workflow Engine test failed: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 09:23:40,079 | ERROR | ❌ Workflow Engine failed startup test
+2025-10-11 09:23:40,079 | INFO | 🛡️ Phoenix healing Workflow Engine...
+2025-10-11 09:23:42,468 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 09:23:53,710 | INFO | 🔄 Restoring Workflow Engine from backup...
+2025-10-11 09:23:53,711 | INFO | 🔓 Unlocked: mcp_workflow_BACKUP_20251011_092335.py
+2025-10-11 09:23:53,711 | INFO | 🔒 Locked: mcp_workflow_BACKUP_20251011_092335.py
+2025-10-11 09:23:53,711 | INFO | 🔄 Restored: mcp_workflow.py from mcp_workflow_BACKUP_20251011_092335.py
+2025-10-11 09:23:54,716 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:23:58,072 | INFO | 🧪 Testing Workflow Engine...
+2025-10-11 09:24:03,103 | ERROR | ❌ Workflow Engine test failed: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 09:24:05,120 | INFO | 🔓 Unlocked: mcp_voice.py
+2025-10-11 09:24:05,121 | INFO | 💾 Backed up: mcp_voice.py → mcp_voice_BACKUP_20251011_092405.py
+2025-10-11 09:24:05,122 | INFO | 🔒 Locked: mcp_voice_BACKUP_20251011_092405.py
+2025-10-11 09:24:05,122 | INFO | 🧪 Testing Voice System...
+2025-10-11 09:24:10,160 | ERROR | ❌ Voice System test failed: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 09:24:10,160 | ERROR | ❌ Voice System failed startup test
+2025-10-11 09:24:10,161 | INFO | 🛡️ Phoenix healing Voice System...
+2025-10-11 09:24:12,258 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 09:24:23,180 | INFO | 🔄 Restoring Voice System from backup...
+2025-10-11 09:24:23,181 | INFO | 🔓 Unlocked: mcp_voice_BACKUP_20251011_092405.py
+2025-10-11 09:24:23,182 | INFO | 🔒 Locked: mcp_voice_BACKUP_20251011_092405.py
+2025-10-11 09:24:23,182 | INFO | 🔄 Restored: mcp_voice.py from mcp_voice_BACKUP_20251011_092405.py
+2025-10-11 09:24:24,149 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:24:27,300 | INFO | 🧪 Testing Voice System...
+2025-10-11 09:24:32,355 | ERROR | ❌ Voice System test failed: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 09:24:34,363 | INFO | 🔓 Unlocked: mcp_network.py
+2025-10-11 09:24:34,364 | INFO | 💾 Backed up: mcp_network.py → mcp_network_BACKUP_20251011_092434.py
+2025-10-11 09:24:34,364 | INFO | 🔒 Locked: mcp_network_BACKUP_20251011_092434.py
+2025-10-11 09:24:34,364 | INFO | 🧪 Testing Network Tools...
+2025-10-11 09:24:39,384 | ERROR | ❌ Network Tools test failed: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 09:24:39,384 | ERROR | ❌ Network Tools failed startup test
+2025-10-11 09:24:39,385 | INFO | 🛡️ Phoenix healing Network Tools...
+2025-10-11 09:24:41,547 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 09:24:52,356 | INFO | 🔄 Restoring Network Tools from backup...
+2025-10-11 09:24:52,356 | INFO | 🔓 Unlocked: mcp_network_BACKUP_20251011_092434.py
+2025-10-11 09:24:52,357 | INFO | 🔒 Locked: mcp_network_BACKUP_20251011_092434.py
+2025-10-11 09:24:52,357 | INFO | 🔄 Restored: mcp_network.py from mcp_network_BACKUP_20251011_092434.py
+2025-10-11 09:24:53,268 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:24:56,414 | INFO | 🧪 Testing Network Tools...
+2025-10-11 09:25:01,436 | ERROR | ❌ Network Tools test failed: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 09:25:03,447 | INFO | 🔓 Unlocked: mcp_healing.py
+2025-10-11 09:25:03,448 | INFO | 💾 Backed up: mcp_healing.py → mcp_healing_BACKUP_20251011_092503.py
+2025-10-11 09:25:03,448 | INFO | 🔒 Locked: mcp_healing_BACKUP_20251011_092503.py
+2025-10-11 09:25:03,448 | INFO | 🧪 Testing Healing Protocols...
+2025-10-11 09:25:08,473 | ERROR | ❌ Healing Protocols test failed: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 09:25:08,474 | ERROR | ❌ Healing Protocols failed startup test
+2025-10-11 09:25:08,474 | INFO | 🛡️ Phoenix healing Healing Protocols...
+2025-10-11 09:25:10,572 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 09:25:21,408 | INFO | 🔄 Restoring Healing Protocols from backup...
+2025-10-11 09:25:21,408 | INFO | 🔓 Unlocked: mcp_healing_BACKUP_20251011_092503.py
+2025-10-11 09:25:21,410 | INFO | 🔒 Locked: mcp_healing_BACKUP_20251011_092503.py
+2025-10-11 09:25:21,411 | INFO | 🔄 Restored: mcp_healing.py from mcp_healing_BACKUP_20251011_092503.py
+2025-10-11 09:25:22,348 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:25:25,597 | INFO | 🧪 Testing Healing Protocols...
+2025-10-11 09:25:30,632 | ERROR | ❌ Healing Protocols test failed: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 09:25:32,000 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 09:34:00,623 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 09:39:50,348 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 09:40:13,245 | INFO | 📊 Error Database: False (45,962+ templates)
+2025-10-11 09:40:13,246 | INFO | 🎙️ Voice Cast: True
+2025-10-11 09:40:13,246 | INFO | 💾 Backups: E:\ECHO_XV4\MLS\BACKUPS
+2025-10-11 09:40:13,247 | INFO | 📋 Logs: E:\ECHO_XV4\MLS\logs
+2025-10-11 09:40:15,270 | INFO | 🔓 Unlocked: mcp_orchestrator.py
+2025-10-11 09:40:15,271 | INFO | 💾 Backed up: mcp_orchestrator.py → mcp_orchestrator_BACKUP_20251011_094015.py
+2025-10-11 09:40:15,271 | INFO | 🔒 Locked: mcp_orchestrator_BACKUP_20251011_094015.py
+2025-10-11 09:40:15,271 | INFO | 🧪 Testing Orchestrator...
+2025-10-11 09:40:20,303 | ERROR | ❌ Orchestrator test failed: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 09:40:20,303 | ERROR | ❌ Orchestrator failed startup test
+2025-10-11 09:40:20,304 | INFO | 🛡️ Phoenix healing Orchestrator...
+2025-10-11 09:40:22,377 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 09:40:32,430 | INFO | 🔄 Restoring Orchestrator from backup...
+2025-10-11 09:40:32,515 | INFO | 🔓 Unlocked: mcp_orchestrator_BACKUP_20251011_094015.py
+2025-10-11 09:40:32,516 | INFO | 🔒 Locked: mcp_orchestrator_BACKUP_20251011_094015.py
+2025-10-11 09:40:32,719 | INFO | 🔄 Restored: mcp_orchestrator.py from mcp_orchestrator_BACKUP_20251011_094015.py
+2025-10-11 09:40:33,837 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:40:37,297 | INFO | 🧪 Testing Orchestrator...
+2025-10-11 09:40:42,675 | ERROR | ❌ Orchestrator test failed: 
+2025-10-11 09:40:44,731 | INFO | 🔓 Unlocked: mcp_filesystem.py
+2025-10-11 09:40:44,732 | INFO | 💾 Backed up: mcp_filesystem.py → mcp_filesystem_BACKUP_20251011_094044.py
+2025-10-11 09:40:44,732 | INFO | 🔒 Locked: mcp_filesystem_BACKUP_20251011_094044.py
+2025-10-11 09:40:44,732 | INFO | 🧪 Testing Filesystem...
+2025-10-11 09:40:49,777 | ERROR | ❌ Filesystem test failed: 
+2025-10-11 09:40:49,777 | ERROR | ❌ Filesystem failed startup test
+2025-10-11 09:40:49,778 | INFO | 🛡️ Phoenix healing Filesystem...
+2025-10-11 09:40:51,902 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 09:41:02,941 | INFO | 🔄 Restoring Filesystem from backup...
+2025-10-11 09:41:02,943 | INFO | 🔓 Unlocked: mcp_filesystem_BACKUP_20251011_094044.py
+2025-10-11 09:41:02,944 | INFO | 🔒 Locked: mcp_filesystem_BACKUP_20251011_094044.py
+2025-10-11 09:41:02,945 | INFO | 🔄 Restored: mcp_filesystem.py from mcp_filesystem_BACKUP_20251011_094044.py
+2025-10-11 09:41:03,911 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:41:07,575 | INFO | 🧪 Testing Filesystem...
+2025-10-11 09:41:12,619 | ERROR | ❌ Filesystem test failed: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 09:41:14,665 | INFO | 🔓 Unlocked: mcp_windows.py
+2025-10-11 09:41:14,667 | INFO | 💾 Backed up: mcp_windows.py → mcp_windows_BACKUP_20251011_094114.py
+2025-10-11 09:41:14,668 | INFO | 🔒 Locked: mcp_windows_BACKUP_20251011_094114.py
+2025-10-11 09:41:14,668 | INFO | 🧪 Testing Windows API...
+2025-10-11 09:41:19,703 | ERROR | ❌ Windows API test failed: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 09:41:19,703 | ERROR | ❌ Windows API failed startup test
+2025-10-11 09:41:19,704 | INFO | 🛡️ Phoenix healing Windows API...
+2025-10-11 09:41:21,832 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 09:41:32,371 | INFO | 🔄 Restoring Windows API from backup...
+2025-10-11 09:41:32,373 | INFO | 🔓 Unlocked: mcp_windows_BACKUP_20251011_094114.py
+2025-10-11 09:41:32,375 | INFO | 🔒 Locked: mcp_windows_BACKUP_20251011_094114.py
+2025-10-11 09:41:32,376 | INFO | 🔄 Restored: mcp_windows.py from mcp_windows_BACKUP_20251011_094114.py
+2025-10-11 09:41:33,324 | INFO | 🧪 Testing Windows API...
+2025-10-11 09:48:12,580 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 09:48:36,401 | INFO | 📊 Error Database: False (45,962+ templates)
+2025-10-11 09:48:36,402 | INFO | 🎙️ Voice Cast: True
+2025-10-11 09:48:36,402 | INFO | 💾 Backups: E:\ECHO_XV4\MLS\BACKUPS
+2025-10-11 09:48:36,402 | INFO | 📋 Logs: E:\ECHO_XV4\MLS\logs
+2025-10-11 09:48:36,406 | INFO | ✅ Orchestrator already running (PID: 22948, Port: 8000)
+2025-10-11 09:48:37,260 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:48:39,898 | INFO | 🔒 Locked: mcp_orchestrator.py
+2025-10-11 09:48:41,923 | INFO | 🔓 Unlocked: mcp_filesystem.py
+2025-10-11 09:48:41,925 | INFO | 💾 Backed up: mcp_filesystem.py → mcp_filesystem_BACKUP_20251011_094841.py
+2025-10-11 09:48:41,925 | INFO | 🔒 Locked: mcp_filesystem_BACKUP_20251011_094841.py
+2025-10-11 09:48:41,925 | INFO | 🧪 Testing Filesystem...
+2025-10-11 09:48:46,955 | ERROR | ❌ Filesystem test failed: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 09:48:46,955 | ERROR | ❌ Filesystem failed startup test
+2025-10-11 09:48:46,955 | INFO | 🛡️ Phoenix healing Filesystem...
+2025-10-11 09:48:50,232 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 09:49:01,138 | INFO | 🔄 Restoring Filesystem from backup...
+2025-10-11 09:49:01,139 | INFO | 🔓 Unlocked: mcp_filesystem_BACKUP_20251011_094841.py
+2025-10-11 09:49:01,141 | INFO | 🔒 Locked: mcp_filesystem_BACKUP_20251011_094841.py
+2025-10-11 09:49:01,141 | INFO | 🔄 Restored: mcp_filesystem.py from mcp_filesystem_BACKUP_20251011_094841.py
+2025-10-11 09:49:02,096 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:49:05,545 | INFO | 🧪 Testing Filesystem...
+2025-10-11 09:49:10,589 | ERROR | ❌ Filesystem test failed: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 09:49:12,610 | INFO | 🔓 Unlocked: mcp_windows.py
+2025-10-11 09:49:12,612 | INFO | 💾 Backed up: mcp_windows.py → mcp_windows_BACKUP_20251011_094912.py
+2025-10-11 09:49:12,612 | INFO | 🔒 Locked: mcp_windows_BACKUP_20251011_094912.py
+2025-10-11 09:49:12,612 | INFO | 🧪 Testing Windows API...
+2025-10-11 09:49:17,644 | ERROR | ❌ Windows API test failed: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 09:49:17,645 | ERROR | ❌ Windows API failed startup test
+2025-10-11 09:49:17,645 | INFO | 🛡️ Phoenix healing Windows API...
+2025-10-11 09:49:19,825 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 09:49:31,244 | INFO | 🔄 Restoring Windows API from backup...
+2025-10-11 09:49:31,245 | INFO | 🔓 Unlocked: mcp_windows_BACKUP_20251011_094912.py
+2025-10-11 09:49:31,247 | INFO | 🔒 Locked: mcp_windows_BACKUP_20251011_094912.py
+2025-10-11 09:49:31,247 | INFO | 🔄 Restored: mcp_windows.py from mcp_windows_BACKUP_20251011_094912.py
+2025-10-11 09:49:32,432 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:49:35,678 | INFO | 🧪 Testing Windows API...
+2025-10-11 09:49:40,701 | ERROR | ❌ Windows API test failed: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 09:49:42,725 | INFO | 🔓 Unlocked: mcp_process.py
+2025-10-11 09:49:42,727 | INFO | 💾 Backed up: mcp_process.py → mcp_process_BACKUP_20251011_094942.py
+2025-10-11 09:49:42,727 | INFO | 🔒 Locked: mcp_process_BACKUP_20251011_094942.py
+2025-10-11 09:49:42,727 | INFO | 🧪 Testing Process Control...
+2025-10-11 09:49:47,759 | ERROR | ❌ Process Control test failed: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 09:49:47,759 | ERROR | ❌ Process Control failed startup test
+2025-10-11 09:49:47,760 | INFO | 🛡️ Phoenix healing Process Control...
+2025-10-11 09:49:51,584 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 09:50:02,601 | INFO | 🔄 Restoring Process Control from backup...
+2025-10-11 09:50:02,602 | INFO | 🔓 Unlocked: mcp_process_BACKUP_20251011_094942.py
+2025-10-11 09:50:02,602 | INFO | 🔒 Locked: mcp_process_BACKUP_20251011_094942.py
+2025-10-11 09:50:02,603 | INFO | 🔄 Restored: mcp_process.py from mcp_process_BACKUP_20251011_094942.py
+2025-10-11 09:50:03,576 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:50:06,832 | INFO | 🧪 Testing Process Control...
+2025-10-11 09:50:11,871 | ERROR | ❌ Process Control test failed: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 09:50:13,901 | INFO | 🔓 Unlocked: mcp_crystal.py
+2025-10-11 09:50:13,902 | INFO | 💾 Backed up: mcp_crystal.py → mcp_crystal_BACKUP_20251011_095013.py
+2025-10-11 09:50:13,902 | INFO | 🔒 Locked: mcp_crystal_BACKUP_20251011_095013.py
+2025-10-11 09:50:13,902 | INFO | 🧪 Testing Crystal Memory...
+2025-10-11 09:50:18,928 | ERROR | ❌ Crystal Memory test failed: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 09:50:18,929 | ERROR | ❌ Crystal Memory failed startup test
+2025-10-11 09:50:18,930 | INFO | 🛡️ Phoenix healing Crystal Memory...
+2025-10-11 09:50:21,078 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 09:50:31,894 | INFO | 🔄 Restoring Crystal Memory from backup...
+2025-10-11 09:50:31,895 | INFO | 🔓 Unlocked: mcp_crystal_BACKUP_20251011_095013.py
+2025-10-11 09:50:31,896 | INFO | 🔒 Locked: mcp_crystal_BACKUP_20251011_095013.py
+2025-10-11 09:50:31,896 | INFO | 🔄 Restored: mcp_crystal.py from mcp_crystal_BACKUP_20251011_095013.py
+2025-10-11 09:50:32,842 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:50:35,990 | INFO | 🧪 Testing Crystal Memory...
+2025-10-11 09:51:03,823 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 09:51:27,713 | INFO | 📊 Error Database: False (45,962+ templates)
+2025-10-11 09:51:27,713 | INFO | 🎙️ Voice Cast: True
+2025-10-11 09:51:27,714 | INFO | 💾 Backups: E:\ECHO_XV4\MLS\BACKUPS
+2025-10-11 09:51:27,714 | INFO | 📋 Logs: E:\ECHO_XV4\MLS\logs
+2025-10-11 09:51:27,717 | INFO | ✅ Orchestrator already running (PID: 22948, Port: 8000)
+2025-10-11 09:51:28,600 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:51:31,542 | INFO | 🔒 Locked: mcp_orchestrator.py
+2025-10-11 09:51:33,574 | INFO | 🔓 Unlocked: mcp_filesystem.py
+2025-10-11 09:51:33,576 | INFO | 💾 Backed up: mcp_filesystem.py → mcp_filesystem_BACKUP_20251011_095133.py
+2025-10-11 09:51:33,576 | INFO | 🔒 Locked: mcp_filesystem_BACKUP_20251011_095133.py
+2025-10-11 09:51:33,576 | INFO | 🧪 Testing Filesystem...
+2025-10-11 09:51:38,604 | ERROR | ❌ Filesystem test failed: 
+2025-10-11 09:51:38,604 | ERROR | ❌ Filesystem failed startup test
+2025-10-11 09:51:38,605 | INFO | 🛡️ Phoenix healing Filesystem...
+2025-10-11 09:51:40,702 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 09:51:51,907 | INFO | 🔄 Restoring Filesystem from backup...
+2025-10-11 09:51:51,908 | INFO | 🔓 Unlocked: mcp_filesystem_BACKUP_20251011_095133.py
+2025-10-11 09:51:51,908 | INFO | 🔒 Locked: mcp_filesystem_BACKUP_20251011_095133.py
+2025-10-11 09:51:51,908 | INFO | 🔄 Restored: mcp_filesystem.py from mcp_filesystem_BACKUP_20251011_095133.py
+2025-10-11 09:51:52,903 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:51:56,354 | INFO | 🧪 Testing Filesystem...
+2025-10-11 09:52:01,388 | ERROR | ❌ Filesystem test failed: 
+2025-10-11 09:52:03,412 | INFO | 🔓 Unlocked: mcp_windows.py
+2025-10-11 09:52:03,413 | INFO | 💾 Backed up: mcp_windows.py → mcp_windows_BACKUP_20251011_095203.py
+2025-10-11 09:52:03,414 | INFO | 🔒 Locked: mcp_windows_BACKUP_20251011_095203.py
+2025-10-11 09:52:03,414 | INFO | 🧪 Testing Windows API...
+2025-10-11 09:52:08,437 | ERROR | ❌ Windows API test failed: 
+2025-10-11 09:52:08,437 | ERROR | ❌ Windows API failed startup test
+2025-10-11 09:52:08,438 | INFO | 🛡️ Phoenix healing Windows API...
+2025-10-11 09:52:10,605 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 09:52:21,818 | INFO | 🔄 Restoring Windows API from backup...
+2025-10-11 09:52:21,819 | INFO | 🔓 Unlocked: mcp_windows_BACKUP_20251011_095203.py
+2025-10-11 09:52:21,820 | INFO | 🔒 Locked: mcp_windows_BACKUP_20251011_095203.py
+2025-10-11 09:52:21,820 | INFO | 🔄 Restored: mcp_windows.py from mcp_windows_BACKUP_20251011_095203.py
+2025-10-11 09:52:22,913 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:52:26,164 | INFO | 🧪 Testing Windows API...
+2025-10-11 09:52:31,198 | ERROR | ❌ Windows API test failed: 
+2025-10-11 09:52:33,222 | INFO | 🔓 Unlocked: mcp_process.py
+2025-10-11 09:52:33,223 | INFO | 💾 Backed up: mcp_process.py → mcp_process_BACKUP_20251011_095233.py
+2025-10-11 09:52:33,223 | INFO | 🔒 Locked: mcp_process_BACKUP_20251011_095233.py
+2025-10-11 09:52:33,224 | INFO | 🧪 Testing Process Control...
+2025-10-11 09:52:38,272 | ERROR | ❌ Process Control test failed: 
+2025-10-11 09:52:38,272 | ERROR | ❌ Process Control failed startup test
+2025-10-11 09:52:38,273 | INFO | 🛡️ Phoenix healing Process Control...
+2025-10-11 09:52:40,316 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 09:52:50,725 | INFO | 🔄 Restoring Process Control from backup...
+2025-10-11 09:52:50,726 | INFO | 🔓 Unlocked: mcp_process_BACKUP_20251011_095233.py
+2025-10-11 09:52:50,727 | INFO | 🔒 Locked: mcp_process_BACKUP_20251011_095233.py
+2025-10-11 09:52:50,728 | INFO | 🔄 Restored: mcp_process.py from mcp_process_BACKUP_20251011_095233.py
+2025-10-11 09:52:51,630 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:52:54,572 | INFO | 🧪 Testing Process Control...
+2025-10-11 09:52:59,607 | ERROR | ❌ Process Control test failed: 
+2025-10-11 09:53:01,650 | INFO | 🔓 Unlocked: mcp_crystal.py
+2025-10-11 09:53:01,650 | INFO | 💾 Backed up: mcp_crystal.py → mcp_crystal_BACKUP_20251011_095301.py
+2025-10-11 09:53:01,650 | INFO | 🔒 Locked: mcp_crystal_BACKUP_20251011_095301.py
+2025-10-11 09:53:01,650 | INFO | 🧪 Testing Crystal Memory...
+2025-10-11 09:53:06,704 | ERROR | ❌ Crystal Memory test failed: 
+2025-10-11 09:53:06,704 | ERROR | ❌ Crystal Memory failed startup test
+2025-10-11 09:53:06,705 | INFO | 🛡️ Phoenix healing Crystal Memory...
+2025-10-11 09:53:08,826 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 09:53:14,129 | INFO | 🔄 Restoring Crystal Memory from backup...
+2025-10-11 09:53:14,130 | INFO | 🔓 Unlocked: mcp_crystal_BACKUP_20251011_095301.py
+2025-10-11 09:53:14,131 | INFO | 🔒 Locked: mcp_crystal_BACKUP_20251011_095301.py
+2025-10-11 09:53:14,131 | INFO | 🔄 Restored: mcp_crystal.py from mcp_crystal_BACKUP_20251011_095301.py
+2025-10-11 09:53:15,157 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:53:15,292 | INFO | 🧪 Testing Crystal Memory...
+2025-10-11 09:57:48,351 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 09:58:11,749 | INFO | 📊 Error Database: False (45,962+ templates)
+2025-10-11 09:58:11,750 | INFO | 🎙️ Voice Cast: True
+2025-10-11 09:58:11,750 | INFO | 💾 Backups: E:\ECHO_XV4\MLS\BACKUPS
+2025-10-11 09:58:11,750 | INFO | 📋 Logs: E:\ECHO_XV4\MLS\logs
+2025-10-11 09:58:13,773 | INFO | 🔓 Unlocked: mcp_orchestrator.py
+2025-10-11 09:58:13,774 | INFO | 💾 Backed up: mcp_orchestrator.py → mcp_orchestrator_BACKUP_20251011_095813.py
+2025-10-11 09:58:13,775 | INFO | 🔒 Locked: mcp_orchestrator_BACKUP_20251011_095813.py
+2025-10-11 09:58:13,775 | INFO | ?? Launching Orchestrator on port 8000...
+2025-10-11 09:58:14,641 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:58:19,886 | ERROR | ? Orchestrator failed to launch
+2025-10-11 09:58:21,916 | INFO | 🔓 Unlocked: mcp_filesystem.py
+2025-10-11 09:58:21,916 | INFO | 💾 Backed up: mcp_filesystem.py → mcp_filesystem_BACKUP_20251011_095821.py
+2025-10-11 09:58:21,917 | INFO | 🔒 Locked: mcp_filesystem_BACKUP_20251011_095821.py
+2025-10-11 09:58:21,917 | INFO | ?? Launching Filesystem on port 8001...
+2025-10-11 09:58:22,805 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:58:28,251 | ERROR | ? Filesystem failed to launch
+2025-10-11 09:58:30,266 | INFO | 🔓 Unlocked: mcp_windows.py
+2025-10-11 09:58:30,268 | INFO | 💾 Backed up: mcp_windows.py → mcp_windows_BACKUP_20251011_095830.py
+2025-10-11 09:58:30,268 | INFO | 🔒 Locked: mcp_windows_BACKUP_20251011_095830.py
+2025-10-11 09:58:30,269 | INFO | ?? Launching Windows API on port 8002...
+2025-10-11 09:58:31,140 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:58:36,687 | ERROR | ? Windows API failed to launch
+2025-10-11 09:58:38,708 | INFO | 🔓 Unlocked: mcp_process.py
+2025-10-11 09:58:38,710 | INFO | 💾 Backed up: mcp_process.py → mcp_process_BACKUP_20251011_095838.py
+2025-10-11 09:58:38,710 | INFO | 🔒 Locked: mcp_process_BACKUP_20251011_095838.py
+2025-10-11 09:58:38,710 | INFO | ?? Launching Process Control on port 8003...
+2025-10-11 09:58:39,575 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:58:45,540 | ERROR | ? Process Control failed to launch
+2025-10-11 09:58:47,554 | INFO | 🔓 Unlocked: mcp_crystal.py
+2025-10-11 09:58:47,555 | INFO | 💾 Backed up: mcp_crystal.py → mcp_crystal_BACKUP_20251011_095847.py
+2025-10-11 09:58:47,556 | INFO | 🔒 Locked: mcp_crystal_BACKUP_20251011_095847.py
+2025-10-11 09:58:47,556 | INFO | ?? Launching Crystal Memory on port 8004...
+2025-10-11 09:58:48,415 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:58:54,058 | ERROR | ? Crystal Memory failed to launch
+2025-10-11 09:58:56,088 | INFO | 🔓 Unlocked: mcp_workflow.py
+2025-10-11 09:58:56,088 | INFO | 💾 Backed up: mcp_workflow.py → mcp_workflow_BACKUP_20251011_095856.py
+2025-10-11 09:58:56,090 | INFO | 🔒 Locked: mcp_workflow_BACKUP_20251011_095856.py
+2025-10-11 09:58:56,090 | INFO | ?? Launching Workflow Engine on port 8005...
+2025-10-11 09:58:56,954 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:59:02,705 | ERROR | ? Workflow Engine failed to launch
+2025-10-11 09:59:04,735 | INFO | 🔓 Unlocked: mcp_voice.py
+2025-10-11 09:59:04,735 | INFO | 💾 Backed up: mcp_voice.py → mcp_voice_BACKUP_20251011_095904.py
+2025-10-11 09:59:04,735 | INFO | 🔒 Locked: mcp_voice_BACKUP_20251011_095904.py
+2025-10-11 09:59:04,735 | INFO | ?? Launching Voice System on port 8006...
+2025-10-11 09:59:05,596 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:59:11,145 | ERROR | ? Voice System failed to launch
+2025-10-11 09:59:13,177 | INFO | 🔓 Unlocked: mcp_network.py
+2025-10-11 09:59:13,178 | INFO | 💾 Backed up: mcp_network.py → mcp_network_BACKUP_20251011_095913.py
+2025-10-11 09:59:13,178 | INFO | 🔒 Locked: mcp_network_BACKUP_20251011_095913.py
+2025-10-11 09:59:13,178 | INFO | ?? Launching Network Tools on port 8007...
+2025-10-11 09:59:14,107 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:59:19,956 | ERROR | ? Network Tools failed to launch
+2025-10-11 10:01:06,633 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 10:01:30,435 | INFO | 📊 Error Database: False (45,962+ templates)
+2025-10-11 10:01:30,435 | INFO | 🎙️ Voice Cast: True
+2025-10-11 10:01:30,436 | INFO | 💾 Backups: E:\ECHO_XV4\MLS\BACKUPS
+2025-10-11 10:01:30,436 | INFO | 📋 Logs: E:\ECHO_XV4\MLS\logs
+2025-10-11 10:01:30,474 | INFO | 🔓 Unlocked: mcp_orchestrator.py
+2025-10-11 10:01:30,475 | INFO | 💾 Backed up: mcp_orchestrator.py → mcp_orchestrator_BACKUP_20251011_100130.py
+2025-10-11 10:01:30,476 | INFO | 🔒 Locked: mcp_orchestrator_BACKUP_20251011_100130.py
+2025-10-11 10:01:30,476 | INFO | 🚀 Launching Orchestrator...
+2025-10-11 10:01:31,240 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 10:01:34,774 | ERROR | ❌ Orchestrator crashed on launch: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 10:01:34,796 | INFO | 🔓 Unlocked: mcp_filesystem.py
+2025-10-11 10:01:34,797 | INFO | 💾 Backed up: mcp_filesystem.py → mcp_filesystem_BACKUP_20251011_100134.py
+2025-10-11 10:01:34,797 | INFO | 🔒 Locked: mcp_filesystem_BACKUP_20251011_100134.py
+2025-10-11 10:01:34,797 | INFO | 🚀 Launching Filesystem...
+2025-10-11 10:01:35,492 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 10:01:39,016 | ERROR | ❌ Filesystem crashed on launch: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 10:01:39,038 | INFO | 🔓 Unlocked: mcp_windows.py
+2025-10-11 10:01:39,039 | INFO | 💾 Backed up: mcp_windows.py → mcp_windows_BACKUP_20251011_100139.py
+2025-10-11 10:01:39,040 | INFO | 🔒 Locked: mcp_windows_BACKUP_20251011_100139.py
+2025-10-11 10:01:39,040 | INFO | 🚀 Launching Windows API...
+2025-10-11 10:01:39,850 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 10:01:43,576 | ERROR | ❌ Windows API crashed on launch: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 10:01:43,598 | INFO | 🔓 Unlocked: mcp_process.py
+2025-10-11 10:01:43,598 | INFO | 💾 Backed up: mcp_process.py → mcp_process_BACKUP_20251011_100143.py
+2025-10-11 10:01:43,599 | INFO | 🔒 Locked: mcp_process_BACKUP_20251011_100143.py
+2025-10-11 10:01:43,599 | INFO | 🚀 Launching Process Control...
+2025-10-11 10:01:44,332 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 10:01:48,057 | ERROR | ❌ Process Control crashed on launch: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 10:01:48,077 | INFO | 🔓 Unlocked: mcp_crystal.py
+2025-10-11 10:01:48,078 | INFO | 💾 Backed up: mcp_crystal.py → mcp_crystal_BACKUP_20251011_100148.py
+2025-10-11 10:01:48,078 | INFO | 🔒 Locked: mcp_crystal_BACKUP_20251011_100148.py
+2025-10-11 10:01:48,078 | INFO | 🚀 Launching Crystal Memory...
+2025-10-11 10:01:48,800 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 10:01:52,325 | ERROR | ❌ Crystal Memory crashed on launch: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 10:01:52,348 | INFO | 🔓 Unlocked: mcp_workflow.py
+2025-10-11 10:01:52,348 | INFO | 💾 Backed up: mcp_workflow.py → mcp_workflow_BACKUP_20251011_100152.py
+2025-10-11 10:01:52,349 | INFO | 🔒 Locked: mcp_workflow_BACKUP_20251011_100152.py
+2025-10-11 10:01:52,349 | INFO | 🚀 Launching Workflow Engine...
+2025-10-11 10:01:53,052 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 10:01:56,574 | ERROR | ❌ Workflow Engine crashed on launch: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 10:01:56,595 | INFO | 🔓 Unlocked: mcp_voice.py
+2025-10-11 10:01:56,596 | INFO | 💾 Backed up: mcp_voice.py → mcp_voice_BACKUP_20251011_100156.py
+2025-10-11 10:01:56,597 | INFO | 🔒 Locked: mcp_voice_BACKUP_20251011_100156.py
+2025-10-11 10:01:56,597 | INFO | 🚀 Launching Voice System...
+2025-10-11 10:01:57,372 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 10:02:00,801 | ERROR | ❌ Voice System crashed on launch: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 10:02:00,823 | INFO | 🔓 Unlocked: mcp_network.py
+2025-10-11 10:02:00,824 | INFO | 💾 Backed up: mcp_network.py → mcp_network_BACKUP_20251011_100200.py
+2025-10-11 10:02:00,825 | INFO | 🔒 Locked: mcp_network_BACKUP_20251011_100200.py
+2025-10-11 10:02:00,825 | INFO | 🚀 Launching Network Tools...
+2025-10-11 10:02:01,545 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 10:02:05,168 | ERROR | ❌ Network Tools crashed on launch: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 10:02:05,192 | INFO | 🔓 Unlocked: mcp_healing.py
+2025-10-11 10:02:05,193 | INFO | 💾 Backed up: mcp_healing.py → mcp_healing_BACKUP_20251011_100205.py
+2025-10-11 10:02:05,193 | INFO | 🔒 Locked: mcp_healing_BACKUP_20251011_100205.py
+2025-10-11 10:02:05,193 | INFO | 🚀 Launching Healing Protocols...
+2025-10-11 10:02:05,933 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 10:02:09,657 | ERROR | ❌ Healing Protocols crashed on launch: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 10:02:11,003 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 10:04:11,501 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 10:04:21,557 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 10:04:26,464 | INFO | 📊 Error Database: False (45,962+ templates)
+2025-10-11 10:04:26,464 | INFO | 🎙️ Voice Cast: True
+2025-10-11 10:04:26,464 | INFO | 💾 Backups: E:\ECHO_XV4\MLS\BACKUPS
+2025-10-11 10:04:26,464 | INFO | 📋 Logs: E:\ECHO_XV4\MLS\logs
+2025-10-11 10:04:26,500 | INFO | 🔓 Unlocked: mcp_orchestrator.py
+2025-10-11 10:04:26,502 | INFO | 💾 Backed up: mcp_orchestrator.py → mcp_orchestrator_BACKUP_20251011_100426.py
+2025-10-11 10:04:26,502 | INFO | 🔒 Locked: mcp_orchestrator_BACKUP_20251011_100426.py
+2025-10-11 10:04:26,502 | INFO | 🚀 Launching Orchestrator...
+2025-10-11 10:04:27,218 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 10:04:30,735 | ERROR | ❌ Orchestrator crashed on launch: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 10:04:30,756 | INFO | 🔓 Unlocked: mcp_filesystem.py
+2025-10-11 10:04:30,757 | INFO | 💾 Backed up: mcp_filesystem.py → mcp_filesystem_BACKUP_20251011_100430.py
+2025-10-11 10:04:30,757 | INFO | 🔒 Locked: mcp_filesystem_BACKUP_20251011_100430.py
+2025-10-11 10:04:30,757 | INFO | 🚀 Launching Filesystem...
+2025-10-11 10:04:31,471 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 10:04:34,883 | ERROR | ❌ Filesystem crashed on launch: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 10:04:34,904 | INFO | 🔓 Unlocked: mcp_windows.py
+2025-10-11 10:04:34,904 | INFO | 💾 Backed up: mcp_windows.py → mcp_windows_BACKUP_20251011_100434.py
+2025-10-11 10:04:34,905 | INFO | 🔒 Locked: mcp_windows_BACKUP_20251011_100434.py
+2025-10-11 10:04:34,905 | INFO | 🚀 Launching Windows API...
+2025-10-11 10:04:35,634 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 10:04:39,352 | ERROR | ❌ Windows API crashed on launch: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 10:04:39,374 | INFO | 🔓 Unlocked: mcp_process.py
+2025-10-11 10:04:39,375 | INFO | 💾 Backed up: mcp_process.py → mcp_process_BACKUP_20251011_100439.py
+2025-10-11 10:04:39,375 | INFO | 🔒 Locked: mcp_process_BACKUP_20251011_100439.py
+2025-10-11 10:04:39,376 | INFO | 🚀 Launching Process Control...
+2025-10-11 10:04:40,990 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 10:04:44,709 | ERROR | ❌ Process Control crashed on launch: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 10:04:44,729 | INFO | 🔓 Unlocked: mcp_crystal.py
+2025-10-11 10:04:44,730 | INFO | 💾 Backed up: mcp_crystal.py → mcp_crystal_BACKUP_20251011_100444.py
+2025-10-11 10:04:44,730 | INFO | 🔒 Locked: mcp_crystal_BACKUP_20251011_100444.py
+2025-10-11 10:04:44,730 | INFO | 🚀 Launching Crystal Memory...
+2025-10-11 10:04:47,079 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 10:04:50,603 | ERROR | ❌ Crystal Memory crashed on launch: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 10:04:50,623 | INFO | 🔓 Unlocked: mcp_workflow.py
+2025-10-11 10:04:50,624 | INFO | 💾 Backed up: mcp_workflow.py → mcp_workflow_BACKUP_20251011_100450.py
+2025-10-11 10:04:50,624 | INFO | 🔒 Locked: mcp_workflow_BACKUP_20251011_100450.py
+2025-10-11 10:04:50,624 | INFO | 🚀 Launching Workflow Engine...
+2025-10-11 10:04:51,614 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 10:04:55,238 | ERROR | ❌ Workflow Engine crashed on launch: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 10:04:55,260 | INFO | 🔓 Unlocked: mcp_voice.py
+2025-10-11 10:04:55,261 | INFO | 💾 Backed up: mcp_voice.py → mcp_voice_BACKUP_20251011_100455.py
+2025-10-11 10:04:55,261 | INFO | 🔒 Locked: mcp_voice_BACKUP_20251011_100455.py
+2025-10-11 10:04:55,261 | INFO | 🚀 Launching Voice System...
+2025-10-11 10:04:55,995 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 10:04:59,414 | ERROR | ❌ Voice System crashed on launch: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 10:04:59,435 | INFO | 🔓 Unlocked: mcp_network.py
+2025-10-11 10:04:59,436 | INFO | 💾 Backed up: mcp_network.py → mcp_network_BACKUP_20251011_100459.py
+2025-10-11 10:04:59,436 | INFO | 🔒 Locked: mcp_network_BACKUP_20251011_100459.py
+2025-10-11 10:04:59,436 | INFO | 🚀 Launching Network Tools...
+2025-10-11 10:05:00,224 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 10:05:03,750 | ERROR | ❌ Network Tools crashed on launch: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 10:05:03,772 | INFO | 🔓 Unlocked: mcp_healing.py
+2025-10-11 10:05:03,773 | INFO | 💾 Backed up: mcp_healing.py → mcp_healing_BACKUP_20251011_100503.py
+2025-10-11 10:05:03,773 | INFO | 🔒 Locked: mcp_healing_BACKUP_20251011_100503.py
+2025-10-11 10:05:03,773 | INFO | 🚀 Launching Healing Protocols...
+2025-10-11 10:05:04,528 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 10:05:08,351 | ERROR | ❌ Healing Protocols crashed on launch: Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, typ
+2025-10-11 10:05:09,757 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 10:08:23,274 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 10:08:25,268 | INFO | 📊 Error Database: False (45,962+ templates)
+2025-10-11 10:08:25,268 | INFO | 🎙️ Voice Cast: True
+2025-10-11 10:08:25,269 | INFO | 💾 Backups: E:\ECHO_XV4\MLS\BACKUPS
+2025-10-11 10:08:25,269 | INFO | 📋 Logs: E:\ECHO_XV4\MLS\logs
+2025-10-11 10:08:25,310 | INFO | 🔓 Unlocked: mcp_orchestrator.py
+2025-10-11 10:08:25,310 | INFO | 💾 Backed up: mcp_orchestrator.py → mcp_orchestrator_BACKUP_20251011_100825.py
+2025-10-11 10:08:25,312 | INFO | 🔒 Locked: mcp_orchestrator_BACKUP_20251011_100825.py
+2025-10-11 10:08:25,312 | INFO | 🚀 Launching Orchestrator...
+2025-10-11 10:08:26,046 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 10:08:29,572 | INFO | ✅ Orchestrator launched successfully (PID: 22416)
+2025-10-11 10:08:30,345 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 10:08:32,660 | INFO | 🔒 Locked: mcp_orchestrator.py
+2025-10-11 10:08:34,706 | INFO | 🔓 Unlocked: mcp_filesystem.py
+2025-10-11 10:08:34,708 | INFO | 💾 Backed up: mcp_filesystem.py → mcp_filesystem_BACKUP_20251011_100834.py
+2025-10-11 10:08:34,708 | INFO | 🔒 Locked: mcp_filesystem_BACKUP_20251011_100834.py
+2025-10-11 10:08:34,708 | INFO | 🚀 Launching Filesystem...
+2025-10-11 10:08:35,434 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 10:08:38,848 | INFO | ✅ Filesystem launched successfully (PID: 3448)
+2025-10-11 10:08:39,637 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 10:08:42,155 | INFO | 🔒 Locked: mcp_filesystem.py
+2025-10-11 10:08:44,193 | INFO | 🔓 Unlocked: mcp_windows.py
+2025-10-11 10:08:44,194 | INFO | 💾 Backed up: mcp_windows.py → mcp_windows_BACKUP_20251011_100844.py
+2025-10-11 10:08:44,194 | INFO | 🔒 Locked: mcp_windows_BACKUP_20251011_100844.py
+2025-10-11 10:08:44,194 | INFO | 🚀 Launching Windows API...
+2025-10-11 10:08:44,905 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 10:08:48,621 | INFO | ✅ Windows API launched successfully (PID: 21516)
+2025-10-11 10:08:49,451 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 10:08:52,270 | INFO | 🔒 Locked: mcp_windows.py
+2025-10-11 10:08:54,317 | INFO | 🔓 Unlocked: mcp_process.py
+2025-10-11 10:08:54,317 | INFO | 💾 Backed up: mcp_process.py → mcp_process_BACKUP_20251011_100854.py
+2025-10-11 10:08:54,318 | INFO | 🔒 Locked: mcp_process_BACKUP_20251011_100854.py
+2025-10-11 10:08:54,318 | INFO | 🚀 Launching Process Control...
+2025-10-11 10:08:55,087 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 10:08:58,802 | INFO | ✅ Process Control launched successfully (PID: 5412)
+2025-10-11 10:08:59,691 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 10:09:02,208 | INFO | 🔒 Locked: mcp_process.py
+2025-10-11 10:09:04,256 | INFO | 🔓 Unlocked: mcp_crystal.py
+2025-10-11 10:09:04,256 | INFO | 💾 Backed up: mcp_crystal.py → mcp_crystal_BACKUP_20251011_100904.py
+2025-10-11 10:09:04,257 | INFO | 🔒 Locked: mcp_crystal_BACKUP_20251011_100904.py
+2025-10-11 10:09:04,257 | INFO | 🚀 Launching Crystal Memory...
+2025-10-11 10:09:04,973 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 10:09:08,688 | INFO | ✅ Crystal Memory launched successfully (PID: 7852)
+2025-10-11 10:09:09,508 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 10:09:12,223 | INFO | 🔒 Locked: mcp_crystal.py
+2025-10-11 10:09:14,273 | INFO | 🔓 Unlocked: mcp_workflow.py
+2025-10-11 10:09:14,274 | INFO | 💾 Backed up: mcp_workflow.py → mcp_workflow_BACKUP_20251011_100914.py
+2025-10-11 10:09:14,274 | INFO | 🔒 Locked: mcp_workflow_BACKUP_20251011_100914.py
+2025-10-11 10:09:14,274 | INFO | 🚀 Launching Workflow Engine...
+2025-10-11 10:09:15,026 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 10:09:18,645 | INFO | ✅ Workflow Engine launched successfully (PID: 18756)
+2025-10-11 10:09:19,508 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 10:09:22,229 | INFO | 🔒 Locked: mcp_workflow.py
+2025-10-11 10:09:24,274 | INFO | 🔓 Unlocked: mcp_voice.py
+2025-10-11 10:09:24,276 | INFO | 💾 Backed up: mcp_voice.py → mcp_voice_BACKUP_20251011_100924.py
+2025-10-11 10:09:24,276 | INFO | 🔒 Locked: mcp_voice_BACKUP_20251011_100924.py
+2025-10-11 10:09:24,276 | INFO | 🚀 Launching Voice System...
+2025-10-11 10:09:24,990 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 10:09:28,504 | INFO | ✅ Voice System launched successfully (PID: 22472)
+2025-10-11 10:09:29,371 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 10:09:31,985 | INFO | 🔒 Locked: mcp_voice.py
+2025-10-11 10:09:34,023 | INFO | 🔓 Unlocked: mcp_network.py
+2025-10-11 10:09:34,024 | INFO | 💾 Backed up: mcp_network.py → mcp_network_BACKUP_20251011_100934.py
+2025-10-11 10:09:34,024 | INFO | 🔒 Locked: mcp_network_BACKUP_20251011_100934.py
+2025-10-11 10:09:34,024 | INFO | 🚀 Launching Network Tools...
+2025-10-11 10:09:34,723 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 10:09:38,238 | INFO | ✅ Network Tools launched successfully (PID: 11576)
+2025-10-11 10:09:39,335 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 10:09:41,955 | INFO | 🔒 Locked: mcp_network.py
+2025-10-11 10:09:44,001 | INFO | 🔓 Unlocked: mcp_healing.py
+2025-10-11 10:09:44,002 | INFO | 💾 Backed up: mcp_healing.py → mcp_healing_BACKUP_20251011_100944.py
+2025-10-11 10:09:44,002 | INFO | 🔒 Locked: mcp_healing_BACKUP_20251011_100944.py
+2025-10-11 10:09:44,002 | INFO | 🚀 Launching Healing Protocols...
+2025-10-11 10:09:44,740 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 10:09:48,556 | INFO | ✅ Healing Protocols launched successfully (PID: 8512)
+2025-10-11 10:09:49,356 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 10:09:52,070 | INFO | 🔒 Locked: mcp_healing.py
+2025-10-11 10:09:56,482 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 15:45:09,048 | INFO | 📊 Error Database: False (45,962+ templates)
+2025-10-11 15:45:09,049 | INFO | 🎙️ Voice Cast: True
+2025-10-11 15:45:09,049 | INFO | 💾 Backups: E:\ECHO_XV4\MLS\BACKUPS
+2025-10-11 15:45:09,050 | INFO | 📋 Logs: E:\ECHO_XV4\MLS\logs
+2025-10-11 15:45:09,128 | INFO | 🔓 Unlocked: mcp_orchestrator.py
+2025-10-11 15:45:09,129 | INFO | 💾 Backed up: mcp_orchestrator.py → mcp_orchestrator_BACKUP_20251011_154509.py
+2025-10-11 15:45:09,129 | INFO | 🔒 Locked: mcp_orchestrator_BACKUP_20251011_154509.py
+2025-10-11 15:45:09,130 | INFO | 🚀 Launching Orchestrator...
+2025-10-11 15:45:11,145 | INFO | ✅ Orchestrator launched successfully (PID: 18092)
+2025-10-11 15:45:11,147 | INFO | 🔒 Locked: mcp_orchestrator.py
+2025-10-11 15:45:13,216 | INFO | 🔓 Unlocked: mcp_filesystem.py
+2025-10-11 15:45:13,218 | INFO | 💾 Backed up: mcp_filesystem.py → mcp_filesystem_BACKUP_20251011_154513.py
+2025-10-11 15:45:13,218 | INFO | 🔒 Locked: mcp_filesystem_BACKUP_20251011_154513.py
+2025-10-11 15:45:13,218 | INFO | 🚀 Launching Filesystem...
+2025-10-11 15:45:15,226 | INFO | ✅ Filesystem launched successfully (PID: 2008)
+2025-10-11 15:45:15,228 | INFO | 🔒 Locked: mcp_filesystem.py
+2025-10-11 15:45:17,285 | INFO | 🔓 Unlocked: mcp_windows.py
+2025-10-11 15:45:17,286 | INFO | 💾 Backed up: mcp_windows.py → mcp_windows_BACKUP_20251011_154517.py
+2025-10-11 15:45:17,287 | INFO | 🔒 Locked: mcp_windows_BACKUP_20251011_154517.py
+2025-10-11 15:45:17,287 | INFO | 🚀 Launching Windows API...
+2025-10-11 15:45:19,294 | INFO | ✅ Windows API launched successfully (PID: 6568)
+2025-10-11 15:45:19,296 | INFO | 🔒 Locked: mcp_windows.py
+2025-10-11 15:45:21,339 | INFO | 🔓 Unlocked: mcp_process.py
+2025-10-11 15:45:21,341 | INFO | 💾 Backed up: mcp_process.py → mcp_process_BACKUP_20251011_154521.py
+2025-10-11 15:45:21,341 | INFO | 🔒 Locked: mcp_process_BACKUP_20251011_154521.py
+2025-10-11 15:45:21,341 | INFO | 🚀 Launching Process Control...
+2025-10-11 15:45:23,348 | INFO | ✅ Process Control launched successfully (PID: 18144)
+2025-10-11 15:45:23,349 | INFO | 🔒 Locked: mcp_process.py
+2025-10-11 15:45:25,393 | INFO | 🔓 Unlocked: mcp_crystal.py
+2025-10-11 15:45:25,395 | INFO | 💾 Backed up: mcp_crystal.py → mcp_crystal_BACKUP_20251011_154525.py
+2025-10-11 15:45:25,395 | INFO | 🔒 Locked: mcp_crystal_BACKUP_20251011_154525.py
+2025-10-11 15:45:25,395 | INFO | 🚀 Launching Crystal Memory...
+2025-10-11 15:45:27,401 | INFO | ✅ Crystal Memory launched successfully (PID: 18800)
+2025-10-11 15:45:27,404 | INFO | 🔒 Locked: mcp_crystal.py
+2025-10-11 15:45:29,460 | INFO | 🔓 Unlocked: mcp_workflow.py
+2025-10-11 15:45:29,462 | INFO | 💾 Backed up: mcp_workflow.py → mcp_workflow_BACKUP_20251011_154529.py
+2025-10-11 15:45:29,463 | INFO | 🔒 Locked: mcp_workflow_BACKUP_20251011_154529.py
+2025-10-11 15:45:29,463 | INFO | 🚀 Launching Workflow Engine...
+2025-10-11 15:45:31,469 | INFO | ✅ Workflow Engine launched successfully (PID: 18416)
+2025-10-11 15:45:31,471 | INFO | 🔒 Locked: mcp_workflow.py
+2025-10-11 15:45:33,533 | INFO | 🔓 Unlocked: mcp_voice.py
+2025-10-11 15:45:33,535 | INFO | 💾 Backed up: mcp_voice.py → mcp_voice_BACKUP_20251011_154533.py
+2025-10-11 15:45:33,535 | INFO | 🔒 Locked: mcp_voice_BACKUP_20251011_154533.py
+2025-10-11 15:45:33,535 | INFO | 🚀 Launching Voice System...
+2025-10-11 15:45:35,541 | INFO | ✅ Voice System launched successfully (PID: 15236)
+2025-10-11 15:45:35,544 | INFO | 🔒 Locked: mcp_voice.py
+2025-10-11 15:45:37,611 | INFO | 🔓 Unlocked: mcp_network.py
+2025-10-11 15:45:37,613 | INFO | 💾 Backed up: mcp_network.py → mcp_network_BACKUP_20251011_154537.py
+2025-10-11 15:45:37,613 | INFO | 🔒 Locked: mcp_network_BACKUP_20251011_154537.py
+2025-10-11 15:45:37,613 | INFO | 🚀 Launching Network Tools...
+2025-10-11 15:45:39,620 | INFO | ✅ Network Tools launched successfully (PID: 4688)
+2025-10-11 15:45:39,621 | INFO | 🔒 Locked: mcp_network.py
+2025-10-11 15:45:41,684 | INFO | 🔓 Unlocked: mcp_healing.py
+2025-10-11 15:45:41,686 | INFO | 💾 Backed up: mcp_healing.py → mcp_healing_BACKUP_20251011_154541.py
+2025-10-11 15:45:41,686 | INFO | 🔒 Locked: mcp_healing_BACKUP_20251011_154541.py
+2025-10-11 15:45:41,686 | INFO | 🚀 Launching Healing Protocols...
+2025-10-11 15:45:43,693 | INFO | ✅ Healing Protocols launched successfully (PID: 17168)
+2025-10-11 15:45:43,696 | INFO | 🔒 Locked: mcp_healing.py
+2025-10-11 15:53:14,519 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 15:53:37,676 | INFO | 📊 Error Database: False (45,962+ templates)
+2025-10-11 15:53:37,676 | INFO | 🎙️ Voice Cast: True
+2025-10-11 15:53:37,676 | INFO | 💾 Backups: E:\ECHO_XV4\MLS\BACKUPS
+2025-10-11 15:53:37,676 | INFO | 📋 Logs: E:\ECHO_XV4\MLS\logs
+2025-10-11 15:53:37,711 | INFO | 🔓 Unlocked: mcp_orchestrator.py
+2025-10-11 15:53:37,712 | INFO | 💾 Backed up: mcp_orchestrator.py → mcp_orchestrator_BACKUP_20251011_155337.py
+2025-10-11 15:53:37,712 | INFO | 🔒 Locked: mcp_orchestrator_BACKUP_20251011_155337.py
+2025-10-11 15:53:37,712 | INFO | 🚀 Launching Orchestrator...
+2025-10-11 15:53:38,530 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 15:53:42,162 | INFO | ✅ Orchestrator launched successfully (PID: 19312)
+2025-10-11 15:53:43,019 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 15:53:45,243 | INFO | 🔒 Locked: mcp_orchestrator.py
+2025-10-11 15:53:47,291 | INFO | 🔓 Unlocked: mcp_filesystem.py
+2025-10-11 15:53:47,292 | INFO | 💾 Backed up: mcp_filesystem.py → mcp_filesystem_BACKUP_20251011_155347.py
+2025-10-11 15:53:47,292 | INFO | 🔒 Locked: mcp_filesystem_BACKUP_20251011_155347.py
+2025-10-11 15:53:47,292 | INFO | 🚀 Launching Filesystem...
+2025-10-11 15:53:48,053 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 15:53:51,474 | INFO | ✅ Filesystem launched successfully (PID: 15516)
+2025-10-11 15:53:52,253 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 15:53:54,575 | INFO | 🔒 Locked: mcp_filesystem.py
+2025-10-11 15:53:56,632 | INFO | 🔓 Unlocked: mcp_windows.py
+2025-10-11 15:53:56,633 | INFO | 💾 Backed up: mcp_windows.py → mcp_windows_BACKUP_20251011_155356.py
+2025-10-11 15:53:56,633 | INFO | 🔒 Locked: mcp_windows_BACKUP_20251011_155356.py
+2025-10-11 15:53:56,633 | INFO | 🚀 Launching Windows API...
+2025-10-11 15:53:57,368 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 15:54:00,986 | INFO | ✅ Windows API launched successfully (PID: 16508)
+2025-10-11 15:54:01,851 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 15:54:04,785 | INFO | 🔒 Locked: mcp_windows.py
+2025-10-11 15:54:06,825 | INFO | 🔓 Unlocked: mcp_process.py
+2025-10-11 15:54:06,826 | INFO | 💾 Backed up: mcp_process.py → mcp_process_BACKUP_20251011_155406.py
+2025-10-11 15:54:06,826 | INFO | 🔒 Locked: mcp_process_BACKUP_20251011_155406.py
+2025-10-11 15:54:06,826 | INFO | 🚀 Launching Process Control...
+2025-10-11 15:54:07,573 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 15:54:11,191 | INFO | ✅ Process Control launched successfully (PID: 18964)
+2025-10-11 15:54:12,021 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 15:54:14,656 | INFO | 🔒 Locked: mcp_process.py
+2025-10-11 15:54:19,209 | INFO | 🔓 Unlocked: mcp_crystal.py
+2025-10-11 15:54:19,377 | INFO | 💾 Backed up: mcp_crystal.py → mcp_crystal_BACKUP_20251011_155419.py
+2025-10-11 15:54:19,459 | INFO | 🔒 Locked: mcp_crystal_BACKUP_20251011_155419.py
+2025-10-11 15:54:19,534 | INFO | 🚀 Launching Crystal Memory...
+2025-10-11 15:54:20,953 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 15:54:24,651 | INFO | ✅ Crystal Memory launched successfully (PID: 7080)
+2025-10-11 15:54:25,689 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 15:54:28,166 | INFO | 🔒 Locked: mcp_crystal.py
+2025-10-11 15:54:30,458 | INFO | 🔓 Unlocked: mcp_workflow.py
+2025-10-11 15:54:30,554 | INFO | 💾 Backed up: mcp_workflow.py → mcp_workflow_BACKUP_20251011_155430.py
+2025-10-11 15:54:30,624 | INFO | 🔒 Locked: mcp_workflow_BACKUP_20251011_155430.py
+2025-10-11 15:54:30,691 | INFO | 🚀 Launching Workflow Engine...
+2025-10-11 15:54:32,033 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 15:54:35,905 | INFO | ✅ Workflow Engine launched successfully (PID: 19100)
+2025-10-11 15:54:36,854 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 15:54:39,506 | INFO | 🔒 Locked: mcp_workflow.py
+2025-10-11 15:54:41,641 | INFO | 🔓 Unlocked: mcp_voice.py
+2025-10-11 15:54:41,643 | INFO | 💾 Backed up: mcp_voice.py → mcp_voice_BACKUP_20251011_155441.py
+2025-10-11 15:54:41,643 | INFO | 🔒 Locked: mcp_voice_BACKUP_20251011_155441.py
+2025-10-11 15:54:41,643 | INFO | 🚀 Launching Voice System...
+2025-10-11 15:54:42,405 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 15:54:45,789 | INFO | ✅ Voice System launched successfully (PID: 8584)
+2025-10-11 15:54:46,589 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 15:54:49,005 | INFO | 🔒 Locked: mcp_voice.py
+2025-10-11 15:54:51,115 | INFO | 🔓 Unlocked: mcp_network.py
+2025-10-11 15:54:51,144 | INFO | 💾 Backed up: mcp_network.py → mcp_network_BACKUP_20251011_155451.py
+2025-10-11 15:54:51,146 | INFO | 🔒 Locked: mcp_network_BACKUP_20251011_155451.py
+2025-10-11 15:54:51,153 | INFO | 🚀 Launching Network Tools...
+2025-10-11 15:54:52,194 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 15:54:55,849 | INFO | ✅ Network Tools launched successfully (PID: 2332)
+2025-10-11 15:54:56,999 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 15:54:59,747 | INFO | 🔒 Locked: mcp_network.py
+2025-10-11 15:55:01,800 | INFO | 🔓 Unlocked: mcp_healing.py
+2025-10-11 15:55:01,801 | INFO | 💾 Backed up: mcp_healing.py → mcp_healing_BACKUP_20251011_155501.py
+2025-10-11 15:55:01,801 | INFO | 🔒 Locked: mcp_healing_BACKUP_20251011_155501.py
+2025-10-11 15:55:01,802 | INFO | 🚀 Launching Healing Protocols...
+2025-10-11 15:55:02,595 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 15:55:06,309 | INFO | ✅ Healing Protocols launched successfully (PID: 1884)
+2025-10-11 15:55:07,145 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 15:55:09,781 | INFO | 🔒 Locked: mcp_healing.py
+2025-10-11 15:55:13,822 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:00:45,791 | INFO | 🔍 Starting health check cycle...
+2025-10-11 16:00:47,822 | WARNING | ⚠️ Orchestrator is DOWN - Auto-relaunching...
+2025-10-11 16:00:47,824 | INFO | 🔄 Force restarting Orchestrator (killing PID: 868)
+2025-10-11 16:00:48,846 | INFO | 🔓 Unlocked: mcp_orchestrator.py
+2025-10-11 16:00:48,847 | INFO | 💾 Backed up: mcp_orchestrator.py → mcp_orchestrator_BACKUP_20251011_160048.py
+2025-10-11 16:00:48,848 | INFO | 🔒 Locked: mcp_orchestrator_BACKUP_20251011_160048.py
+2025-10-11 16:00:48,848 | INFO | 🚀 Launching Orchestrator...
+2025-10-11 16:00:50,853 | INFO | ✅ Orchestrator launched successfully (PID: 13520)
+2025-10-11 16:00:50,855 | INFO | 🔒 Locked: mcp_orchestrator.py
+2025-10-11 16:00:52,885 | WARNING | ⚠️ Filesystem is DOWN - Auto-relaunching...
+2025-10-11 16:00:52,904 | INFO | 🔄 Force restarting Filesystem (killing PID: 14536)
+2025-10-11 16:00:53,908 | INFO | 🔓 Unlocked: mcp_filesystem.py
+2025-10-11 16:00:53,909 | INFO | 💾 Backed up: mcp_filesystem.py → mcp_filesystem_BACKUP_20251011_160053.py
+2025-10-11 16:00:53,909 | INFO | 🔒 Locked: mcp_filesystem_BACKUP_20251011_160053.py
+2025-10-11 16:00:53,910 | INFO | 🚀 Launching Filesystem...
+2025-10-11 16:00:55,915 | INFO | ✅ Filesystem launched successfully (PID: 20028)
+2025-10-11 16:00:55,916 | INFO | 🔒 Locked: mcp_filesystem.py
+2025-10-11 16:00:57,946 | WARNING | ⚠️ Windows API is DOWN - Auto-relaunching...
+2025-10-11 16:00:57,963 | INFO | 🔄 Force restarting Windows API (killing PID: 11476)
+2025-10-11 16:00:58,970 | INFO | 🔓 Unlocked: mcp_windows.py
+2025-10-11 16:00:58,972 | INFO | 💾 Backed up: mcp_windows.py → mcp_windows_BACKUP_20251011_160058.py
+2025-10-11 16:00:58,972 | INFO | 🔒 Locked: mcp_windows_BACKUP_20251011_160058.py
+2025-10-11 16:00:58,972 | INFO | 🚀 Launching Windows API...
+2025-10-11 16:01:00,978 | INFO | ✅ Windows API launched successfully (PID: 5240)
+2025-10-11 16:01:00,979 | INFO | 🔒 Locked: mcp_windows.py
+2025-10-11 16:01:03,010 | WARNING | ⚠️ Process Control is DOWN - Auto-relaunching...
+2025-10-11 16:01:03,043 | INFO | 🔄 Force restarting Process Control (killing PID: 18032)
+2025-10-11 16:01:04,045 | INFO | 🔓 Unlocked: mcp_process.py
+2025-10-11 16:01:04,047 | INFO | 💾 Backed up: mcp_process.py → mcp_process_BACKUP_20251011_160104.py
+2025-10-11 16:01:04,047 | INFO | 🔒 Locked: mcp_process_BACKUP_20251011_160104.py
+2025-10-11 16:01:04,047 | INFO | 🚀 Launching Process Control...
+2025-10-11 16:01:06,052 | INFO | ✅ Process Control launched successfully (PID: 20980)
+2025-10-11 16:01:06,053 | INFO | 🔒 Locked: mcp_process.py
+2025-10-11 16:01:08,087 | WARNING | ⚠️ Crystal Memory is DOWN - Auto-relaunching...
+2025-10-11 16:01:08,100 | INFO | 🔄 Force restarting Crystal Memory (killing PID: 7080)
+2025-10-11 16:01:09,111 | INFO | 🔓 Unlocked: mcp_crystal.py
+2025-10-11 16:01:09,112 | INFO | 💾 Backed up: mcp_crystal.py → mcp_crystal_BACKUP_20251011_160109.py
+2025-10-11 16:01:09,112 | INFO | 🔒 Locked: mcp_crystal_BACKUP_20251011_160109.py
+2025-10-11 16:01:09,113 | INFO | 🚀 Launching Crystal Memory...
+2025-10-11 16:01:11,118 | INFO | ✅ Crystal Memory launched successfully (PID: 11832)
+2025-10-11 16:01:11,120 | INFO | 🔒 Locked: mcp_crystal.py
+2025-10-11 16:01:13,141 | WARNING | ⚠️ Workflow Engine is DOWN - Auto-relaunching...
+2025-10-11 16:01:13,159 | INFO | 🔄 Force restarting Workflow Engine (killing PID: 13048)
+2025-10-11 16:01:14,164 | INFO | 🔓 Unlocked: mcp_workflow.py
+2025-10-11 16:01:14,165 | INFO | 💾 Backed up: mcp_workflow.py → mcp_workflow_BACKUP_20251011_160114.py
+2025-10-11 16:01:14,166 | INFO | 🔒 Locked: mcp_workflow_BACKUP_20251011_160114.py
+2025-10-11 16:01:14,166 | INFO | 🚀 Launching Workflow Engine...
+2025-10-11 16:01:16,172 | INFO | ✅ Workflow Engine launched successfully (PID: 21392)
+2025-10-11 16:01:16,173 | INFO | 🔒 Locked: mcp_workflow.py
+2025-10-11 16:01:18,203 | WARNING | ⚠️ Voice System is DOWN - Auto-relaunching...
+2025-10-11 16:01:18,217 | INFO | 🔄 Force restarting Voice System (killing PID: 8584)
+2025-10-11 16:01:19,226 | INFO | 🔓 Unlocked: mcp_voice.py
+2025-10-11 16:01:19,227 | INFO | 💾 Backed up: mcp_voice.py → mcp_voice_BACKUP_20251011_160119.py
+2025-10-11 16:01:19,227 | INFO | 🔒 Locked: mcp_voice_BACKUP_20251011_160119.py
+2025-10-11 16:01:19,227 | INFO | 🚀 Launching Voice System...
+2025-10-11 16:01:21,233 | INFO | ✅ Voice System launched successfully (PID: 18808)
+2025-10-11 16:01:21,234 | INFO | 🔒 Locked: mcp_voice.py
+2025-10-11 16:01:23,264 | WARNING | ⚠️ Network Tools is DOWN - Auto-relaunching...
+2025-10-11 16:01:23,268 | INFO | 🔄 Force restarting Network Tools (killing PID: 2332)
+2025-10-11 16:01:24,287 | INFO | 🔓 Unlocked: mcp_network.py
+2025-10-11 16:01:24,288 | INFO | 💾 Backed up: mcp_network.py → mcp_network_BACKUP_20251011_160124.py
+2025-10-11 16:01:24,288 | INFO | 🔒 Locked: mcp_network_BACKUP_20251011_160124.py
+2025-10-11 16:01:24,288 | INFO | 🚀 Launching Network Tools...
+2025-10-11 16:01:26,295 | INFO | ✅ Network Tools launched successfully (PID: 19484)
+2025-10-11 16:01:26,296 | INFO | 🔒 Locked: mcp_network.py
+2025-10-11 16:01:28,329 | WARNING | ⚠️ Healing Protocols is DOWN - Auto-relaunching...
+2025-10-11 16:01:28,333 | INFO | 🔄 Force restarting Healing Protocols (killing PID: 1884)
+2025-10-11 16:01:29,352 | INFO | 🔓 Unlocked: mcp_healing.py
+2025-10-11 16:01:29,354 | INFO | 💾 Backed up: mcp_healing.py → mcp_healing_BACKUP_20251011_160129.py
+2025-10-11 16:01:29,354 | INFO | 🔒 Locked: mcp_healing_BACKUP_20251011_160129.py
+2025-10-11 16:01:29,354 | INFO | 🚀 Launching Healing Protocols...
+2025-10-11 16:01:31,359 | INFO | ✅ Healing Protocols launched successfully (PID: 3340)
+2025-10-11 16:01:31,360 | INFO | 🔒 Locked: mcp_healing.py
+2025-10-11 16:01:31,361 | INFO | 📊 Health check complete: 0 healthy, 9 relaunched
+2025-10-11 16:10:27,526 | INFO | 🔍 Starting health check cycle...
+2025-10-11 16:10:28,701 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:10:36,090 | WARNING | ⚠️ Orchestrator is DOWN - Auto-relaunching...
+2025-10-11 16:10:37,102 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:10:41,281 | INFO | 🔄 Force restarting Orchestrator (killing PID: 13520)
+2025-10-11 16:10:42,291 | INFO | 🔓 Unlocked: mcp_orchestrator.py
+2025-10-11 16:10:42,293 | INFO | 💾 Backed up: mcp_orchestrator.py → mcp_orchestrator_BACKUP_20251011_161042.py
+2025-10-11 16:10:42,293 | INFO | 🔒 Locked: mcp_orchestrator_BACKUP_20251011_161042.py
+2025-10-11 16:10:42,293 | INFO | 🚀 Launching Orchestrator...
+2025-10-11 16:10:43,128 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:10:46,658 | INFO | ✅ Orchestrator launched successfully (PID: 17956)
+2025-10-11 16:10:47,497 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:10:49,820 | INFO | 🔒 Locked: mcp_orchestrator.py
+2025-10-11 16:10:50,750 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:10:56,014 | WARNING | ⚠️ Filesystem is DOWN - Auto-relaunching...
+2025-10-11 16:10:57,118 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:11:01,409 | INFO | 🔄 Force restarting Filesystem (killing PID: 18340)
+2025-10-11 16:11:02,412 | INFO | 🔓 Unlocked: mcp_filesystem.py
+2025-10-11 16:11:02,413 | INFO | 💾 Backed up: mcp_filesystem.py → mcp_filesystem_BACKUP_20251011_161102.py
+2025-10-11 16:11:02,413 | INFO | 🔒 Locked: mcp_filesystem_BACKUP_20251011_161102.py
+2025-10-11 16:11:02,413 | INFO | 🚀 Launching Filesystem...
+2025-10-11 16:11:03,195 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:11:06,838 | INFO | ✅ Filesystem launched successfully (PID: 19060)
+2025-10-11 16:11:07,626 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:11:10,052 | INFO | 🔒 Locked: mcp_filesystem.py
+2025-10-11 16:11:10,917 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:11:16,176 | WARNING | ⚠️ Windows API is DOWN - Auto-relaunching...
+2025-10-11 16:11:17,187 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:11:21,260 | INFO | 🔄 Force restarting Windows API (killing PID: 5240)
+2025-10-11 16:11:22,274 | INFO | 🔓 Unlocked: mcp_windows.py
+2025-10-11 16:11:22,276 | INFO | 💾 Backed up: mcp_windows.py → mcp_windows_BACKUP_20251011_161122.py
+2025-10-11 16:11:22,276 | INFO | 🔒 Locked: mcp_windows_BACKUP_20251011_161122.py
+2025-10-11 16:11:22,276 | INFO | 🚀 Launching Windows API...
+2025-10-11 16:11:23,060 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:11:26,687 | INFO | ✅ Windows API launched successfully (PID: 21456)
+2025-10-11 16:11:27,683 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:11:30,409 | INFO | 🔒 Locked: mcp_windows.py
+2025-10-11 16:11:31,409 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:11:37,385 | WARNING | ⚠️ Process Control is DOWN - Auto-relaunching...
+2025-10-11 16:11:38,443 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:11:42,722 | INFO | 🔓 Unlocked: mcp_process.py
+2025-10-11 16:11:42,724 | INFO | 💾 Backed up: mcp_process.py → mcp_process_BACKUP_20251011_161142.py
+2025-10-11 16:11:42,725 | INFO | 🔒 Locked: mcp_process_BACKUP_20251011_161142.py
+2025-10-11 16:11:42,725 | INFO | 🚀 Launching Process Control...
+2025-10-11 16:11:43,500 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:11:47,122 | INFO | ✅ Process Control launched successfully (PID: 18440)
+2025-10-11 16:11:47,975 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:11:50,392 | INFO | 🔒 Locked: mcp_process.py
+2025-10-11 16:11:51,303 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:11:56,765 | WARNING | ⚠️ Crystal Memory is DOWN - Auto-relaunching...
+2025-10-11 16:11:57,832 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:12:01,999 | INFO | 🔄 Force restarting Crystal Memory (killing PID: 7212)
+2025-10-11 16:12:03,010 | INFO | 🔓 Unlocked: mcp_crystal.py
+2025-10-11 16:12:03,011 | INFO | 💾 Backed up: mcp_crystal.py → mcp_crystal_BACKUP_20251011_161203.py
+2025-10-11 16:12:03,012 | INFO | 🔒 Locked: mcp_crystal_BACKUP_20251011_161203.py
+2025-10-11 16:12:03,012 | INFO | 🚀 Launching Crystal Memory...
+2025-10-11 16:12:03,816 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:12:07,446 | INFO | ✅ Crystal Memory launched successfully (PID: 19832)
+2025-10-11 16:12:08,325 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:12:11,053 | INFO | 🔒 Locked: mcp_crystal.py
+2025-10-11 16:12:11,982 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:12:17,326 | WARNING | ⚠️ Workflow Engine is DOWN - Auto-relaunching...
+2025-10-11 16:12:18,322 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:12:23,006 | INFO | 🔄 Force restarting Workflow Engine (killing PID: 2792)
+2025-10-11 16:12:28,122 | INFO | 🔓 Unlocked: mcp_workflow.py
+2025-10-11 16:12:28,333 | INFO | 💾 Backed up: mcp_workflow.py → mcp_workflow_BACKUP_20251011_161228.py
+2025-10-11 16:12:28,563 | INFO | 🔒 Locked: mcp_workflow_BACKUP_20251011_161228.py
+2025-10-11 16:12:28,831 | INFO | 🚀 Launching Workflow Engine...
+2025-10-11 16:12:31,329 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:12:35,536 | INFO | ✅ Workflow Engine launched successfully (PID: 18760)
+2025-10-11 16:12:36,802 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:12:39,400 | INFO | 🔒 Locked: mcp_workflow.py
+2025-10-11 16:12:40,501 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:12:46,173 | WARNING | ⚠️ Voice System is DOWN - Auto-relaunching...
+2025-10-11 16:12:47,447 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:12:57,421 | INFO | 🔄 Force restarting Voice System (killing PID: 16232)
+2025-10-11 16:12:59,312 | INFO | 🔓 Unlocked: mcp_voice.py
+2025-10-11 16:12:59,461 | INFO | 💾 Backed up: mcp_voice.py → mcp_voice_BACKUP_20251011_161259.py
+2025-10-11 16:12:59,461 | INFO | 🔒 Locked: mcp_voice_BACKUP_20251011_161259.py
+2025-10-11 16:12:59,516 | INFO | 🚀 Launching Voice System...
+2025-10-11 16:13:00,634 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:13:04,254 | INFO | ✅ Voice System launched successfully (PID: 18464)
+2025-10-11 16:13:05,177 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:13:07,687 | INFO | 🔒 Locked: mcp_voice.py
+2025-10-11 16:13:09,134 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:13:14,647 | WARNING | ⚠️ Network Tools is DOWN - Auto-relaunching...
+2025-10-11 16:13:17,087 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:13:21,426 | INFO | 🔄 Force restarting Network Tools (killing PID: 19484)
+2025-10-11 16:13:22,429 | INFO | 🔓 Unlocked: mcp_network.py
+2025-10-11 16:13:22,431 | INFO | 💾 Backed up: mcp_network.py → mcp_network_BACKUP_20251011_161322.py
+2025-10-11 16:13:22,431 | INFO | 🔒 Locked: mcp_network_BACKUP_20251011_161322.py
+2025-10-11 16:13:22,432 | INFO | 🚀 Launching Network Tools...
+2025-10-11 16:13:23,206 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:13:26,814 | INFO | ✅ Network Tools launched successfully (PID: 19316)
+2025-10-11 16:13:27,689 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:13:30,416 | INFO | 🔒 Locked: mcp_network.py
+2025-10-11 16:13:31,607 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:13:37,452 | WARNING | ⚠️ Healing Protocols is DOWN - Auto-relaunching...
+2025-10-11 16:13:38,591 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:13:43,553 | INFO | 🔄 Force restarting Healing Protocols (killing PID: 3340)
+2025-10-11 16:13:45,374 | INFO | 🔓 Unlocked: mcp_healing.py
+2025-10-11 16:13:45,385 | INFO | 💾 Backed up: mcp_healing.py → mcp_healing_BACKUP_20251011_161345.py
+2025-10-11 16:13:45,419 | INFO | 🔒 Locked: mcp_healing_BACKUP_20251011_161345.py
+2025-10-11 16:13:45,425 | INFO | 🚀 Launching Healing Protocols...
+2025-10-11 16:13:46,287 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:13:50,008 | INFO | ✅ Healing Protocols launched successfully (PID: 9112)
+2025-10-11 16:13:50,884 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:13:53,591 | INFO | 🔒 Locked: mcp_healing.py
+2025-10-11 16:13:54,521 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:13:58,344 | INFO | 📊 Health check complete: 0 healthy, 9 relaunched
+2025-10-11 16:16:31,723 | INFO | 🔍 Starting health check cycle...
+2025-10-11 16:16:33,765 | WARNING | ⚠️ Orchestrator is DOWN - Auto-relaunching...
+2025-10-11 16:16:33,783 | INFO | 🔄 Force restarting Orchestrator (killing PID: 10112)
+2025-10-11 16:16:34,793 | INFO | 🔓 Unlocked: mcp_orchestrator.py
+2025-10-11 16:16:34,794 | INFO | 💾 Backed up: mcp_orchestrator.py → mcp_orchestrator_BACKUP_20251011_161634.py
+2025-10-11 16:16:34,795 | INFO | 🔒 Locked: mcp_orchestrator_BACKUP_20251011_161634.py
+2025-10-11 16:16:34,795 | INFO | 🚀 Launching Orchestrator...
+2025-10-11 16:16:36,801 | INFO | ✅ Orchestrator launched successfully (PID: 6708)
+2025-10-11 16:16:36,803 | INFO | 🔒 Locked: mcp_orchestrator.py
+2025-10-11 16:16:38,838 | WARNING | ⚠️ Filesystem is DOWN - Auto-relaunching...
+2025-10-11 16:16:38,864 | INFO | 🔄 Force restarting Filesystem (killing PID: 19060)
+2025-10-11 16:16:39,868 | INFO | 🔓 Unlocked: mcp_filesystem.py
+2025-10-11 16:16:39,869 | INFO | 💾 Backed up: mcp_filesystem.py → mcp_filesystem_BACKUP_20251011_161639.py
+2025-10-11 16:16:39,870 | INFO | 🔒 Locked: mcp_filesystem_BACKUP_20251011_161639.py
+2025-10-11 16:16:39,870 | INFO | 🚀 Launching Filesystem...
+2025-10-11 16:16:41,876 | INFO | ✅ Filesystem launched successfully (PID: 12716)
+2025-10-11 16:16:41,878 | INFO | 🔒 Locked: mcp_filesystem.py
+2025-10-11 16:16:43,900 | WARNING | ⚠️ Windows API is DOWN - Auto-relaunching...
+2025-10-11 16:16:43,928 | INFO | 🔄 Force restarting Windows API (killing PID: 20132)
+2025-10-11 16:16:44,932 | INFO | 🔓 Unlocked: mcp_windows.py
+2025-10-11 16:16:44,934 | INFO | 💾 Backed up: mcp_windows.py → mcp_windows_BACKUP_20251011_161644.py
+2025-10-11 16:16:44,934 | INFO | 🔒 Locked: mcp_windows_BACKUP_20251011_161644.py
+2025-10-11 16:16:44,935 | INFO | 🚀 Launching Windows API...
+2025-10-11 16:16:46,941 | INFO | ✅ Windows API launched successfully (PID: 2732)
+2025-10-11 16:16:46,943 | INFO | 🔒 Locked: mcp_windows.py
+2025-10-11 16:16:48,973 | WARNING | ⚠️ Process Control is DOWN - Auto-relaunching...
+2025-10-11 16:16:48,996 | INFO | 🔄 Force restarting Process Control (killing PID: 16452)
+2025-10-11 16:16:50,000 | INFO | 🔓 Unlocked: mcp_process.py
+2025-10-11 16:16:50,002 | INFO | 💾 Backed up: mcp_process.py → mcp_process_BACKUP_20251011_161650.py
+2025-10-11 16:16:50,002 | INFO | 🔒 Locked: mcp_process_BACKUP_20251011_161650.py
+2025-10-11 16:16:50,003 | INFO | 🚀 Launching Process Control...
+2025-10-11 16:16:52,008 | INFO | ✅ Process Control launched successfully (PID: 8748)
+2025-10-11 16:16:52,010 | INFO | 🔒 Locked: mcp_process.py
+2025-10-11 16:16:54,040 | WARNING | ⚠️ Crystal Memory is DOWN - Auto-relaunching...
+2025-10-11 16:16:54,071 | INFO | 🔄 Force restarting Crystal Memory (killing PID: 19832)
+2025-10-11 16:16:55,074 | INFO | 🔓 Unlocked: mcp_crystal.py
+2025-10-11 16:16:55,077 | INFO | 💾 Backed up: mcp_crystal.py → mcp_crystal_BACKUP_20251011_161655.py
+2025-10-11 16:16:55,077 | INFO | 🔒 Locked: mcp_crystal_BACKUP_20251011_161655.py
+2025-10-11 16:16:55,078 | INFO | 🚀 Launching Crystal Memory...
+2025-10-11 16:16:57,084 | INFO | ✅ Crystal Memory launched successfully (PID: 18704)
+2025-10-11 16:16:57,086 | INFO | 🔒 Locked: mcp_crystal.py
+2025-10-11 16:16:59,105 | WARNING | ⚠️ Workflow Engine is DOWN - Auto-relaunching...
+2025-10-11 16:16:59,124 | INFO | 🔄 Force restarting Workflow Engine (killing PID: 8924)
+2025-10-11 16:17:00,137 | INFO | 🔓 Unlocked: mcp_workflow.py
+2025-10-11 16:17:00,139 | INFO | 💾 Backed up: mcp_workflow.py → mcp_workflow_BACKUP_20251011_161700.py
+2025-10-11 16:17:00,140 | INFO | 🔒 Locked: mcp_workflow_BACKUP_20251011_161700.py
+2025-10-11 16:17:00,140 | INFO | 🚀 Launching Workflow Engine...
+2025-10-11 16:17:02,147 | INFO | ✅ Workflow Engine launched successfully (PID: 17972)
+2025-10-11 16:17:02,149 | INFO | 🔒 Locked: mcp_workflow.py
+2025-10-11 16:17:04,187 | WARNING | ⚠️ Voice System is DOWN - Auto-relaunching...
+2025-10-11 16:17:04,218 | INFO | 🔄 Force restarting Voice System (killing PID: 18464)
+2025-10-11 16:17:05,221 | INFO | 🔓 Unlocked: mcp_voice.py
+2025-10-11 16:17:05,222 | INFO | 💾 Backed up: mcp_voice.py → mcp_voice_BACKUP_20251011_161705.py
+2025-10-11 16:17:05,223 | INFO | 🔒 Locked: mcp_voice_BACKUP_20251011_161705.py
+2025-10-11 16:17:05,223 | INFO | 🚀 Launching Voice System...
+2025-10-11 16:17:07,431 | INFO | ✅ Voice System launched successfully (PID: 22392)
+2025-10-11 16:17:07,816 | INFO | 🔒 Locked: mcp_voice.py
+2025-10-11 16:17:10,053 | WARNING | ⚠️ Network Tools is DOWN - Auto-relaunching...
+2025-10-11 16:17:10,117 | INFO | 🔄 Force restarting Network Tools (killing PID: 18016)
+2025-10-11 16:17:11,939 | INFO | 🔄 Force restarting Network Tools (killing PID: 19316)
+2025-10-11 16:17:13,636 | INFO | 🔓 Unlocked: mcp_network.py
+2025-10-11 16:17:13,637 | INFO | 💾 Backed up: mcp_network.py → mcp_network_BACKUP_20251011_161713.py
+2025-10-11 16:17:13,638 | INFO | 🔒 Locked: mcp_network_BACKUP_20251011_161713.py
+2025-10-11 16:17:13,638 | INFO | 🚀 Launching Network Tools...
+2025-10-11 16:17:16,076 | INFO | ✅ Network Tools launched successfully (PID: 8580)
+2025-10-11 16:17:16,411 | INFO | 🔒 Locked: mcp_network.py
+2025-10-11 16:17:20,544 | WARNING | ⚠️ Healing Protocols is DOWN - Auto-relaunching...
+2025-10-11 16:17:20,574 | INFO | 🔄 Force restarting Healing Protocols (killing PID: 9112)
+2025-10-11 16:17:22,046 | INFO | 🔓 Unlocked: mcp_healing.py
+2025-10-11 16:17:22,048 | INFO | 💾 Backed up: mcp_healing.py → mcp_healing_BACKUP_20251011_161722.py
+2025-10-11 16:17:22,050 | INFO | 🔒 Locked: mcp_healing_BACKUP_20251011_161722.py
+2025-10-11 16:17:22,050 | INFO | 🚀 Launching Healing Protocols...
+2025-10-11 16:17:24,246 | INFO | ✅ Healing Protocols launched successfully (PID: 14648)
+2025-10-11 16:17:25,005 | INFO | 🔒 Locked: mcp_healing.py
+2025-10-11 16:17:25,028 | INFO | 📊 Health check complete: 0 healthy, 9 relaunched
+2025-10-11 16:28:58,611 | INFO | 🔍 Starting health check cycle...
+2025-10-11 16:29:00,126 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:29:07,219 | WARNING | ⚠️ Orchestrator is DOWN - Auto-relaunching...
+2025-10-11 16:29:08,305 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:29:12,672 | INFO | 🔄 Force restarting Orchestrator (killing PID: 6708)
+2025-10-11 16:29:13,688 | INFO | 🔓 Unlocked: mcp_orchestrator.py
+2025-10-11 16:29:13,689 | INFO | 💾 Backed up: mcp_orchestrator.py → mcp_orchestrator_BACKUP_20251011_162913.py
+2025-10-11 16:29:13,689 | INFO | 🔒 Locked: mcp_orchestrator_BACKUP_20251011_162913.py
+2025-10-11 16:29:13,690 | INFO | 🚀 Launching Orchestrator...
+2025-10-11 16:29:14,469 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:29:18,096 | INFO | ✅ Orchestrator launched successfully (PID: 22360)
+2025-10-11 16:29:18,867 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:29:21,186 | INFO | 🔒 Locked: mcp_orchestrator.py
+2025-10-11 16:29:22,030 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:29:27,083 | WARNING | ⚠️ Filesystem is DOWN - Auto-relaunching...
+2025-10-11 16:29:28,092 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:29:31,957 | INFO | 🔄 Force restarting Filesystem (killing PID: 12716)
+2025-10-11 16:29:34,398 | INFO | 🔓 Unlocked: mcp_filesystem.py
+2025-10-11 16:29:34,770 | INFO | 💾 Backed up: mcp_filesystem.py → mcp_filesystem_BACKUP_20251011_162934.py
+2025-10-11 16:29:35,085 | INFO | 🔒 Locked: mcp_filesystem_BACKUP_20251011_162934.py
+2025-10-11 16:29:35,299 | INFO | 🚀 Launching Filesystem...
+2025-10-11 16:29:36,659 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:29:40,717 | INFO | ✅ Filesystem launched successfully (PID: 19056)
+2025-10-11 16:29:41,799 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:29:44,254 | INFO | 🔒 Locked: mcp_filesystem.py
+2025-10-11 16:29:45,354 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:29:51,106 | WARNING | ⚠️ Windows API is DOWN - Auto-relaunching...
+2025-10-11 16:29:52,184 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:29:57,158 | INFO | 🔄 Force restarting Windows API (killing PID: 2732)
+2025-10-11 16:30:04,392 | INFO | 🔓 Unlocked: mcp_windows.py
+2025-10-11 16:30:04,641 | INFO | 💾 Backed up: mcp_windows.py → mcp_windows_BACKUP_20251011_163004.py
+2025-10-11 16:30:04,771 | INFO | 🔒 Locked: mcp_windows_BACKUP_20251011_163004.py
+2025-10-11 16:30:04,771 | INFO | 🚀 Launching Windows API...
+2025-10-11 16:30:05,665 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:30:09,524 | INFO | ✅ Windows API launched successfully (PID: 17460)
+2025-10-11 16:30:10,347 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:30:13,273 | INFO | 🔒 Locked: mcp_windows.py
+2025-10-11 16:30:14,213 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:30:19,939 | WARNING | ⚠️ Process Control is DOWN - Auto-relaunching...
+2025-10-11 16:30:21,140 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:30:27,369 | INFO | 🔄 Force restarting Process Control (killing PID: 8748)
+2025-10-11 16:30:30,866 | INFO | 🔓 Unlocked: mcp_process.py
+2025-10-11 16:30:31,002 | INFO | 💾 Backed up: mcp_process.py → mcp_process_BACKUP_20251011_163030.py
+2025-10-11 16:30:31,086 | INFO | 🔒 Locked: mcp_process_BACKUP_20251011_163030.py
+2025-10-11 16:30:31,170 | INFO | 🚀 Launching Process Control...
+2025-10-11 16:30:32,469 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:30:36,206 | INFO | ✅ Process Control launched successfully (PID: 20320)
+2025-10-11 16:30:37,063 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:30:39,557 | INFO | 🔒 Locked: mcp_process.py
+2025-10-11 16:30:40,510 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:30:45,850 | WARNING | ⚠️ Crystal Memory is DOWN - Auto-relaunching...
+2025-10-11 16:30:46,893 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:30:51,251 | INFO | 🔄 Force restarting Crystal Memory (killing PID: 2352)
+2025-10-11 16:30:52,289 | INFO | 🔓 Unlocked: mcp_crystal.py
+2025-10-11 16:30:52,290 | INFO | 💾 Backed up: mcp_crystal.py → mcp_crystal_BACKUP_20251011_163052.py
+2025-10-11 16:30:52,291 | INFO | 🔒 Locked: mcp_crystal_BACKUP_20251011_163052.py
+2025-10-11 16:30:52,291 | INFO | 🚀 Launching Crystal Memory...
+2025-10-11 16:30:53,057 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:30:56,594 | INFO | ✅ Crystal Memory launched successfully (PID: 4072)
+2025-10-11 16:30:57,412 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:31:00,046 | INFO | 🔒 Locked: mcp_crystal.py
+2025-10-11 16:31:01,008 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:31:06,390 | WARNING | ⚠️ Workflow Engine is DOWN - Auto-relaunching...
+2025-10-11 16:31:07,452 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:31:11,575 | INFO | 🔄 Force restarting Workflow Engine (killing PID: 17972)
+2025-10-11 16:31:12,579 | INFO | 🔓 Unlocked: mcp_workflow.py
+2025-10-11 16:31:12,580 | INFO | 💾 Backed up: mcp_workflow.py → mcp_workflow_BACKUP_20251011_163112.py
+2025-10-11 16:31:12,580 | INFO | 🔒 Locked: mcp_workflow_BACKUP_20251011_163112.py
+2025-10-11 16:31:12,581 | INFO | 🚀 Launching Workflow Engine...
+2025-10-11 16:31:13,369 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:31:17,212 | INFO | ✅ Workflow Engine launched successfully (PID: 21948)
+2025-10-11 16:31:18,694 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:31:21,889 | INFO | 🔒 Locked: mcp_workflow.py
+2025-10-11 16:31:22,821 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:31:28,603 | WARNING | ⚠️ Voice System is DOWN - Auto-relaunching...
+2025-10-11 16:31:29,647 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:31:33,908 | INFO | 🔄 Force restarting Voice System (killing PID: 6836)
+2025-10-11 16:31:35,602 | INFO | 🔓 Unlocked: mcp_voice.py
+2025-10-11 16:31:35,604 | INFO | 💾 Backed up: mcp_voice.py → mcp_voice_BACKUP_20251011_163135.py
+2025-10-11 16:31:35,604 | INFO | 🔒 Locked: mcp_voice_BACKUP_20251011_163135.py
+2025-10-11 16:31:35,604 | INFO | 🚀 Launching Voice System...
+2025-10-11 16:31:36,414 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:31:39,953 | INFO | ✅ Voice System launched successfully (PID: 23312)
+2025-10-11 16:31:40,892 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:31:43,297 | INFO | 🔒 Locked: mcp_voice.py
+2025-10-11 16:31:44,291 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:31:49,807 | WARNING | ⚠️ Network Tools is DOWN - Auto-relaunching...
+2025-10-11 16:31:50,931 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:31:55,303 | INFO | 🔄 Force restarting Network Tools (killing PID: 8580)
+2025-10-11 16:31:56,334 | INFO | 🔓 Unlocked: mcp_network.py
+2025-10-11 16:31:56,338 | INFO | 💾 Backed up: mcp_network.py → mcp_network_BACKUP_20251011_163156.py
+2025-10-11 16:31:56,340 | INFO | 🔒 Locked: mcp_network_BACKUP_20251011_163156.py
+2025-10-11 16:31:56,340 | INFO | 🚀 Launching Network Tools...
+2025-10-11 16:31:57,231 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:32:00,978 | INFO | ✅ Network Tools launched successfully (PID: 19304)
+2025-10-11 16:32:02,119 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:32:04,646 | INFO | 🔒 Locked: mcp_network.py
+2025-10-11 16:32:05,720 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:32:10,936 | WARNING | ⚠️ Healing Protocols is DOWN - Auto-relaunching...
+2025-10-11 16:32:12,406 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:32:20,396 | INFO | 🔄 Force restarting Healing Protocols (killing PID: 14648)
+2025-10-11 16:32:22,187 | INFO | 🔓 Unlocked: mcp_healing.py
+2025-10-11 16:32:22,279 | INFO | 💾 Backed up: mcp_healing.py → mcp_healing_BACKUP_20251011_163222.py
+2025-10-11 16:32:22,279 | INFO | 🔒 Locked: mcp_healing_BACKUP_20251011_163222.py
+2025-10-11 16:32:22,344 | INFO | 🚀 Launching Healing Protocols...
+2025-10-11 16:32:23,488 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:32:25,034 | INFO | 🔍 Starting health check cycle...
+2025-10-11 16:32:27,068 | WARNING | ⚠️ Orchestrator is DOWN - Auto-relaunching...
+2025-10-11 16:32:27,089 | INFO | 🔄 Force restarting Orchestrator (killing PID: 5536)
+2025-10-11 16:32:27,241 | INFO | ✅ Healing Protocols launched successfully (PID: 23528)
+2025-10-11 16:32:28,121 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:32:28,129 | INFO | 🔓 Unlocked: mcp_orchestrator.py
+2025-10-11 16:32:28,131 | INFO | 💾 Backed up: mcp_orchestrator.py → mcp_orchestrator_BACKUP_20251011_163228.py
+2025-10-11 16:32:28,133 | INFO | 🔒 Locked: mcp_orchestrator_BACKUP_20251011_163228.py
+2025-10-11 16:32:28,134 | INFO | 🚀 Launching Orchestrator...
+2025-10-11 16:32:30,200 | INFO | ✅ Orchestrator launched successfully (PID: 13152)
+2025-10-11 16:32:30,208 | INFO | 🔒 Locked: mcp_orchestrator.py
+2025-10-11 16:32:30,799 | INFO | 🔒 Locked: mcp_healing.py
+2025-10-11 16:32:31,729 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:32:32,240 | WARNING | ⚠️ Filesystem is DOWN - Auto-relaunching...
+2025-10-11 16:32:32,284 | INFO | 🔄 Force restarting Filesystem (killing PID: 19056)
+2025-10-11 16:32:33,291 | INFO | 🔓 Unlocked: mcp_filesystem.py
+2025-10-11 16:32:33,292 | INFO | 💾 Backed up: mcp_filesystem.py → mcp_filesystem_BACKUP_20251011_163233.py
+2025-10-11 16:32:33,293 | INFO | 🔒 Locked: mcp_filesystem_BACKUP_20251011_163233.py
+2025-10-11 16:32:33,294 | INFO | 🚀 Launching Filesystem...
+2025-10-11 16:32:35,305 | INFO | ✅ Filesystem launched successfully (PID: 22284)
+2025-10-11 16:32:35,316 | INFO | 🔒 Locked: mcp_filesystem.py
+2025-10-11 16:32:35,345 | INFO | 📊 Health check complete: 0 healthy, 9 relaunched
+2025-10-11 16:32:37,362 | WARNING | ⚠️ Windows API is DOWN - Auto-relaunching...
+2025-10-11 16:32:37,400 | INFO | 🔄 Force restarting Windows API (killing PID: 15608)
+2025-10-11 16:32:37,403 | INFO | 🔄 Force restarting Windows API (killing PID: 17460)
+2025-10-11 16:32:38,409 | INFO | 🔓 Unlocked: mcp_windows.py
+2025-10-11 16:32:38,410 | INFO | 💾 Backed up: mcp_windows.py → mcp_windows_BACKUP_20251011_163238.py
+2025-10-11 16:32:38,410 | INFO | 🔒 Locked: mcp_windows_BACKUP_20251011_163238.py
+2025-10-11 16:32:38,418 | INFO | 🚀 Launching Windows API...
+2025-10-11 16:32:40,429 | INFO | ✅ Windows API launched successfully (PID: 20356)
+2025-10-11 16:32:40,431 | INFO | 🔒 Locked: mcp_windows.py
+2025-10-11 16:32:42,454 | WARNING | ⚠️ Process Control is DOWN - Auto-relaunching...
+2025-10-11 16:32:42,482 | INFO | 🔄 Force restarting Process Control (killing PID: 20320)
+2025-10-11 16:32:43,485 | INFO | 🔓 Unlocked: mcp_process.py
+2025-10-11 16:32:43,487 | INFO | 💾 Backed up: mcp_process.py → mcp_process_BACKUP_20251011_163243.py
+2025-10-11 16:32:43,487 | INFO | 🔒 Locked: mcp_process_BACKUP_20251011_163243.py
+2025-10-11 16:32:43,488 | INFO | 🚀 Launching Process Control...
+2025-10-11 16:32:45,495 | INFO | ✅ Process Control launched successfully (PID: 21408)
+2025-10-11 16:32:45,497 | INFO | 🔒 Locked: mcp_process.py
+2025-10-11 16:32:47,535 | WARNING | ⚠️ Crystal Memory is DOWN - Auto-relaunching...
+2025-10-11 16:32:47,544 | INFO | 🔄 Force restarting Crystal Memory (killing PID: 4072)
+2025-10-11 16:32:48,563 | INFO | 🔓 Unlocked: mcp_crystal.py
+2025-10-11 16:32:48,564 | INFO | 💾 Backed up: mcp_crystal.py → mcp_crystal_BACKUP_20251011_163248.py
+2025-10-11 16:32:48,564 | INFO | 🔒 Locked: mcp_crystal_BACKUP_20251011_163248.py
+2025-10-11 16:32:48,564 | INFO | 🚀 Launching Crystal Memory...
+2025-10-11 16:32:50,571 | INFO | ✅ Crystal Memory launched successfully (PID: 5308)
+2025-10-11 16:32:50,573 | INFO | 🔒 Locked: mcp_crystal.py
+2025-10-11 16:32:52,604 | WARNING | ⚠️ Workflow Engine is DOWN - Auto-relaunching...
+2025-10-11 16:32:52,628 | INFO | 🔄 Force restarting Workflow Engine (killing PID: 21948)
+2025-10-11 16:32:53,630 | INFO | 🔓 Unlocked: mcp_workflow.py
+2025-10-11 16:32:53,631 | INFO | 💾 Backed up: mcp_workflow.py → mcp_workflow_BACKUP_20251011_163253.py
+2025-10-11 16:32:53,631 | INFO | 🔒 Locked: mcp_workflow_BACKUP_20251011_163253.py
+2025-10-11 16:32:53,631 | INFO | 🚀 Launching Workflow Engine...
+2025-10-11 16:32:55,637 | INFO | ✅ Workflow Engine launched successfully (PID: 20440)
+2025-10-11 16:32:55,638 | INFO | 🔒 Locked: mcp_workflow.py
+2025-10-11 16:32:57,669 | WARNING | ⚠️ Voice System is DOWN - Auto-relaunching...
+2025-10-11 16:32:57,671 | INFO | 🔄 Force restarting Voice System (killing PID: 384)
+2025-10-11 16:32:58,694 | INFO | 🔓 Unlocked: mcp_voice.py
+2025-10-11 16:32:58,696 | INFO | 💾 Backed up: mcp_voice.py → mcp_voice_BACKUP_20251011_163258.py
+2025-10-11 16:32:58,696 | INFO | 🔒 Locked: mcp_voice_BACKUP_20251011_163258.py
+2025-10-11 16:32:58,696 | INFO | 🚀 Launching Voice System...
+2025-10-11 16:33:00,702 | INFO | ✅ Voice System launched successfully (PID: 10452)
+2025-10-11 16:33:00,703 | INFO | 🔒 Locked: mcp_voice.py
+2025-10-11 16:33:02,736 | WARNING | ⚠️ Network Tools is DOWN - Auto-relaunching...
+2025-10-11 16:33:02,760 | INFO | 🔄 Force restarting Network Tools (killing PID: 19304)
+2025-10-11 16:33:03,763 | INFO | 🔓 Unlocked: mcp_network.py
+2025-10-11 16:33:03,764 | INFO | 💾 Backed up: mcp_network.py → mcp_network_BACKUP_20251011_163303.py
+2025-10-11 16:33:03,764 | INFO | 🔒 Locked: mcp_network_BACKUP_20251011_163303.py
+2025-10-11 16:33:03,764 | INFO | 🚀 Launching Network Tools...
+2025-10-11 16:33:05,770 | INFO | ✅ Network Tools launched successfully (PID: 23108)
+2025-10-11 16:33:05,771 | INFO | 🔒 Locked: mcp_network.py
+2025-10-11 16:33:07,814 | WARNING | ⚠️ Healing Protocols is DOWN - Auto-relaunching...
+2025-10-11 16:33:07,831 | INFO | 🔄 Force restarting Healing Protocols (killing PID: 8948)
+2025-10-11 16:33:08,841 | INFO | 🔓 Unlocked: mcp_healing.py
+2025-10-11 16:33:08,842 | INFO | 💾 Backed up: mcp_healing.py → mcp_healing_BACKUP_20251011_163308.py
+2025-10-11 16:33:08,842 | INFO | 🔒 Locked: mcp_healing_BACKUP_20251011_163308.py
+2025-10-11 16:33:08,842 | INFO | 🚀 Launching Healing Protocols...
+2025-10-11 16:33:10,849 | INFO | ✅ Healing Protocols launched successfully (PID: 22492)
+2025-10-11 16:33:10,851 | INFO | 🔒 Locked: mcp_healing.py
+2025-10-11 16:33:10,852 | INFO | 📊 Health check complete: 0 healthy, 9 relaunched
+2025-10-11 16:47:35,471 | INFO | 🔍 Starting health check cycle...
+2025-10-11 16:47:36,646 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:47:43,834 | WARNING | ⚠️ Orchestrator is DOWN - Auto-relaunching...
+2025-10-11 16:47:44,845 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:47:48,773 | INFO | 🔄 Force restarting Orchestrator (killing PID: 5520)
+2025-10-11 16:47:49,952 | INFO | 🔓 Unlocked: mcp_orchestrator.py
+2025-10-11 16:47:49,959 | INFO | 💾 Backed up: mcp_orchestrator.py → mcp_orchestrator_BACKUP_20251011_164749.py
+2025-10-11 16:47:49,960 | INFO | 🔒 Locked: mcp_orchestrator_BACKUP_20251011_164749.py
+2025-10-11 16:47:49,962 | INFO | 🚀 Launching Orchestrator...
+2025-10-11 16:47:50,843 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:47:54,474 | INFO | ✅ Orchestrator launched successfully (PID: 22188)
+2025-10-11 16:47:55,262 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:47:57,611 | INFO | 🔒 Locked: mcp_orchestrator.py
+2025-10-11 16:47:58,592 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:48:03,880 | WARNING | ⚠️ Filesystem is DOWN - Auto-relaunching...
+2025-10-11 16:48:04,834 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:48:08,503 | INFO | 🔄 Force restarting Filesystem (killing PID: 4952)
+2025-10-11 16:48:09,515 | INFO | 🔓 Unlocked: mcp_filesystem.py
+2025-10-11 16:48:09,516 | INFO | 💾 Backed up: mcp_filesystem.py → mcp_filesystem_BACKUP_20251011_164809.py
+2025-10-11 16:48:09,516 | INFO | 🔒 Locked: mcp_filesystem_BACKUP_20251011_164809.py
+2025-10-11 16:48:09,517 | INFO | 🚀 Launching Filesystem...
+2025-10-11 16:48:10,209 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:48:13,728 | INFO | ✅ Filesystem launched successfully (PID: 4688)
+2025-10-11 16:48:14,537 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:48:17,061 | INFO | 🔒 Locked: mcp_filesystem.py
+2025-10-11 16:48:18,026 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:48:23,599 | WARNING | ⚠️ Windows API is DOWN - Auto-relaunching...
+2025-10-11 16:48:24,591 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:48:28,896 | INFO | 🔄 Force restarting Windows API (killing PID: 8460)
+2025-10-11 16:48:29,904 | INFO | 🔓 Unlocked: mcp_windows.py
+2025-10-11 16:48:29,905 | INFO | 💾 Backed up: mcp_windows.py → mcp_windows_BACKUP_20251011_164829.py
+2025-10-11 16:48:29,905 | INFO | 🔒 Locked: mcp_windows_BACKUP_20251011_164829.py
+2025-10-11 16:48:29,905 | INFO | 🚀 Launching Windows API...
+2025-10-11 16:48:30,687 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:48:34,321 | INFO | ✅ Windows API launched successfully (PID: 20776)
+2025-10-11 16:48:35,110 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:48:37,738 | INFO | 🔒 Locked: mcp_windows.py
+2025-10-11 16:48:38,680 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:48:44,557 | WARNING | ⚠️ Process Control is DOWN - Auto-relaunching...
+2025-10-11 16:48:45,867 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:48:49,941 | INFO | 🔄 Force restarting Process Control (killing PID: 20668)
+2025-10-11 16:48:50,962 | INFO | 🔓 Unlocked: mcp_process.py
+2025-10-11 16:48:50,970 | INFO | 💾 Backed up: mcp_process.py → mcp_process_BACKUP_20251011_164850.py
+2025-10-11 16:48:50,971 | INFO | 🔒 Locked: mcp_process_BACKUP_20251011_164850.py
+2025-10-11 16:48:50,971 | INFO | 🚀 Launching Process Control...
+2025-10-11 16:48:51,729 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:48:55,470 | INFO | ✅ Process Control launched successfully (PID: 16048)
+2025-10-11 16:48:56,264 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:48:58,892 | INFO | 🔒 Locked: mcp_process.py
+2025-10-11 16:48:59,814 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:49:05,467 | WARNING | ⚠️ Crystal Memory is DOWN - Auto-relaunching...
+2025-10-11 16:49:06,807 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:49:11,089 | INFO | 🔄 Force restarting Crystal Memory (killing PID: 12156)
+2025-10-11 16:49:12,094 | INFO | 🔓 Unlocked: mcp_crystal.py
+2025-10-11 16:49:12,095 | INFO | 💾 Backed up: mcp_crystal.py → mcp_crystal_BACKUP_20251011_164912.py
+2025-10-11 16:49:12,095 | INFO | 🔒 Locked: mcp_crystal_BACKUP_20251011_164912.py
+2025-10-11 16:49:12,095 | INFO | 🚀 Launching Crystal Memory...
+2025-10-11 16:49:12,855 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:49:16,488 | INFO | ✅ Crystal Memory launched successfully (PID: 19364)
+2025-10-11 16:49:18,804 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:49:21,333 | INFO | 🔒 Locked: mcp_crystal.py
+2025-10-11 16:49:22,236 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:49:27,608 | WARNING | ⚠️ Workflow Engine is DOWN - Auto-relaunching...
+2025-10-11 16:49:28,629 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:49:33,008 | INFO | 🔄 Force restarting Workflow Engine (killing PID: 8092)
+2025-10-11 16:49:34,018 | INFO | 🔓 Unlocked: mcp_workflow.py
+2025-10-11 16:49:34,019 | INFO | 💾 Backed up: mcp_workflow.py → mcp_workflow_BACKUP_20251011_164934.py
+2025-10-11 16:49:34,019 | INFO | 🔒 Locked: mcp_workflow_BACKUP_20251011_164934.py
+2025-10-11 16:49:34,019 | INFO | 🚀 Launching Workflow Engine...
+2025-10-11 16:49:34,795 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:49:38,528 | INFO | ✅ Workflow Engine launched successfully (PID: 21308)
+2025-10-11 16:49:39,374 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:49:42,338 | INFO | 🔒 Locked: mcp_workflow.py
+2025-10-11 16:49:43,377 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:49:49,346 | WARNING | ⚠️ Voice System is DOWN - Auto-relaunching...
+2025-10-11 16:49:50,828 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:49:54,897 | INFO | 🔄 Force restarting Voice System (killing PID: 4616)
+2025-10-11 16:49:55,912 | INFO | 🔓 Unlocked: mcp_voice.py
+2025-10-11 16:49:55,913 | INFO | 💾 Backed up: mcp_voice.py → mcp_voice_BACKUP_20251011_164955.py
+2025-10-11 16:49:55,914 | INFO | 🔒 Locked: mcp_voice_BACKUP_20251011_164955.py
+2025-10-11 16:49:55,914 | INFO | 🚀 Launching Voice System...
+2025-10-11 16:49:56,666 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:50:00,099 | INFO | ✅ Voice System launched successfully (PID: 22612)
+2025-10-11 16:50:00,945 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:50:03,677 | INFO | 🔒 Locked: mcp_voice.py
+2025-10-11 16:50:04,621 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:50:10,069 | WARNING | ⚠️ Network Tools is DOWN - Auto-relaunching...
+2025-10-11 16:50:11,115 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:50:15,297 | INFO | 🔄 Force restarting Network Tools (killing PID: 21304)
+2025-10-11 16:50:16,300 | INFO | 🔓 Unlocked: mcp_network.py
+2025-10-11 16:50:16,301 | INFO | 💾 Backed up: mcp_network.py → mcp_network_BACKUP_20251011_165016.py
+2025-10-11 16:50:16,301 | INFO | 🔒 Locked: mcp_network_BACKUP_20251011_165016.py
+2025-10-11 16:50:16,301 | INFO | 🚀 Launching Network Tools...
+2025-10-11 16:50:17,058 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:50:20,692 | INFO | ✅ Network Tools launched successfully (PID: 18096)
+2025-10-11 16:50:21,542 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:50:24,278 | INFO | 🔒 Locked: mcp_network.py
+2025-10-11 16:50:25,220 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:50:30,977 | WARNING | ⚠️ Healing Protocols is DOWN - Auto-relaunching...
+2025-10-11 16:50:32,077 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:50:36,646 | INFO | 🔄 Force restarting Healing Protocols (killing PID: 3328)
+2025-10-11 16:50:37,664 | INFO | 🔓 Unlocked: mcp_healing.py
+2025-10-11 16:50:37,665 | INFO | 💾 Backed up: mcp_healing.py → mcp_healing_BACKUP_20251011_165037.py
+2025-10-11 16:50:37,665 | INFO | 🔒 Locked: mcp_healing_BACKUP_20251011_165037.py
+2025-10-11 16:50:37,666 | INFO | 🚀 Launching Healing Protocols...
+2025-10-11 16:50:38,474 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 16:50:42,310 | INFO | ✅ Healing Protocols launched successfully (PID: 22588)
+2025-10-11 16:50:43,125 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:50:45,767 | INFO | 🔒 Locked: mcp_healing.py
+2025-10-11 16:50:46,950 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 16:50:50,991 | INFO | 📊 Health check complete: 0 healthy, 9 relaunched
+2025-10-11 17:05:51,357 | INFO | 🔍 Starting health check cycle...
+2025-10-11 17:05:54,600 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 17:06:02,342 | WARNING | ⚠️ Orchestrator is DOWN - Auto-relaunching...
+2025-10-11 17:06:03,350 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 17:06:07,434 | INFO | 🔓 Unlocked: mcp_orchestrator.py
+2025-10-11 17:06:07,436 | INFO | 💾 Backed up: mcp_orchestrator.py → mcp_orchestrator_BACKUP_20251011_170607.py
+2025-10-11 17:06:07,436 | INFO | 🔒 Locked: mcp_orchestrator_BACKUP_20251011_170607.py
+2025-10-11 17:06:07,437 | INFO | 🚀 Launching Orchestrator...
+2025-10-11 17:06:08,149 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 17:06:11,819 | INFO | ✅ Orchestrator launched successfully (PID: 19536)
+2025-10-11 17:06:12,577 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 17:06:14,902 | INFO | 🔒 Locked: mcp_orchestrator.py
+2025-10-11 17:06:15,777 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 17:06:21,026 | WARNING | ⚠️ Filesystem is DOWN - Auto-relaunching...
+2025-10-11 17:06:22,040 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 17:06:26,858 | INFO | 🔓 Unlocked: mcp_filesystem.py
+2025-10-11 17:06:26,967 | INFO | 💾 Backed up: mcp_filesystem.py → mcp_filesystem_BACKUP_20251011_170626.py
+2025-10-11 17:06:27,029 | INFO | 🔒 Locked: mcp_filesystem_BACKUP_20251011_170626.py
+2025-10-11 17:06:27,059 | INFO | 🚀 Launching Filesystem...
+2025-10-11 17:06:28,001 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 17:06:31,542 | INFO | ✅ Filesystem launched successfully (PID: 19984)
+2025-10-11 17:06:32,344 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 17:06:34,815 | INFO | 🔒 Locked: mcp_filesystem.py
+2025-10-11 17:06:36,224 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 17:06:41,539 | WARNING | ⚠️ Windows API is DOWN - Auto-relaunching...
+2025-10-11 17:06:42,573 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 17:06:47,295 | INFO | 🔓 Unlocked: mcp_windows.py
+2025-10-11 17:06:47,331 | INFO | 💾 Backed up: mcp_windows.py → mcp_windows_BACKUP_20251011_170647.py
+2025-10-11 17:06:47,341 | INFO | 🔒 Locked: mcp_windows_BACKUP_20251011_170647.py
+2025-10-11 17:06:47,352 | INFO | 🚀 Launching Windows API...
+2025-10-11 17:06:48,167 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 17:06:51,922 | INFO | ✅ Windows API launched successfully (PID: 3912)
+2025-10-11 17:06:52,818 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 17:06:55,959 | INFO | 🔒 Locked: mcp_windows.py
+2025-10-11 17:06:56,925 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 17:07:02,573 | WARNING | ⚠️ Process Control is DOWN - Auto-relaunching...
+2025-10-11 17:07:03,742 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 17:07:08,116 | INFO | 🔓 Unlocked: mcp_process.py
+2025-10-11 17:07:08,118 | INFO | 💾 Backed up: mcp_process.py → mcp_process_BACKUP_20251011_170708.py
+2025-10-11 17:07:08,118 | INFO | 🔒 Locked: mcp_process_BACKUP_20251011_170708.py
+2025-10-11 17:07:08,118 | INFO | 🚀 Launching Process Control...
+2025-10-11 17:07:08,844 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 17:07:12,364 | INFO | ✅ Process Control launched successfully (PID: 20848)
+2025-10-11 17:07:13,233 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 17:07:15,553 | INFO | 🔒 Locked: mcp_process.py
+2025-10-11 17:07:16,503 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 17:07:21,996 | WARNING | ⚠️ Crystal Memory is DOWN - Auto-relaunching...
+2025-10-11 17:07:23,092 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 17:07:27,377 | INFO | 🔓 Unlocked: mcp_crystal.py
+2025-10-11 17:07:27,379 | INFO | 💾 Backed up: mcp_crystal.py → mcp_crystal_BACKUP_20251011_170727.py
+2025-10-11 17:07:27,379 | INFO | 🔒 Locked: mcp_crystal_BACKUP_20251011_170727.py
+2025-10-11 17:07:27,379 | INFO | 🚀 Launching Crystal Memory...
+2025-10-11 17:07:28,898 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 17:07:32,418 | INFO | ✅ Crystal Memory launched successfully (PID: 7780)
+2025-10-11 17:07:33,210 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 17:07:35,733 | INFO | 🔒 Locked: mcp_crystal.py
+2025-10-11 17:07:36,719 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 17:07:42,281 | WARNING | ⚠️ Workflow Engine is DOWN - Auto-relaunching...
+2025-10-11 17:07:45,078 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 17:07:49,366 | INFO | 🔓 Unlocked: mcp_workflow.py
+2025-10-11 17:07:49,367 | INFO | 💾 Backed up: mcp_workflow.py → mcp_workflow_BACKUP_20251011_170749.py
+2025-10-11 17:07:49,367 | INFO | 🔒 Locked: mcp_workflow_BACKUP_20251011_170749.py
+2025-10-11 17:07:49,367 | INFO | 🚀 Launching Workflow Engine...
+2025-10-11 17:07:50,092 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 17:07:53,711 | INFO | ✅ Workflow Engine launched successfully (PID: 20812)
+2025-10-11 17:07:55,638 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 17:07:58,462 | INFO | 🔒 Locked: mcp_workflow.py
+2025-10-11 17:07:59,336 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 17:08:04,887 | WARNING | ⚠️ Voice System is DOWN - Auto-relaunching...
+2025-10-11 17:08:05,933 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 17:08:10,114 | INFO | 🔓 Unlocked: mcp_voice.py
+2025-10-11 17:08:10,115 | INFO | 💾 Backed up: mcp_voice.py → mcp_voice_BACKUP_20251011_170810.py
+2025-10-11 17:08:10,115 | INFO | 🔒 Locked: mcp_voice_BACKUP_20251011_170810.py
+2025-10-11 17:08:10,116 | INFO | 🚀 Launching Voice System...
+2025-10-11 17:08:11,676 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 17:08:15,199 | INFO | ✅ Voice System launched successfully (PID: 21184)
+2025-10-11 17:08:15,999 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 17:08:18,623 | INFO | 🔒 Locked: mcp_voice.py
+2025-10-11 17:08:19,570 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 17:08:25,132 | WARNING | ⚠️ Network Tools is DOWN - Auto-relaunching...
+2025-10-11 17:08:26,155 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 17:08:30,437 | INFO | 🔓 Unlocked: mcp_network.py
+2025-10-11 17:08:30,439 | INFO | 💾 Backed up: mcp_network.py → mcp_network_BACKUP_20251011_170830.py
+2025-10-11 17:08:30,439 | INFO | 🔒 Locked: mcp_network_BACKUP_20251011_170830.py
+2025-10-11 17:08:30,439 | INFO | 🚀 Launching Network Tools...
+2025-10-11 17:08:31,170 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 17:08:34,786 | INFO | ✅ Network Tools launched successfully (PID: 21224)
+2025-10-11 17:08:35,650 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 17:08:38,083 | INFO | 🔒 Locked: mcp_network.py
+2025-10-11 17:08:38,989 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 17:08:44,245 | WARNING | ⚠️ Healing Protocols is DOWN - Auto-relaunching...
+2025-10-11 17:08:45,317 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 17:08:49,707 | INFO | 🔓 Unlocked: mcp_healing.py
+2025-10-11 17:08:49,708 | INFO | 💾 Backed up: mcp_healing.py → mcp_healing_BACKUP_20251011_170849.py
+2025-10-11 17:08:49,708 | INFO | 🔒 Locked: mcp_healing_BACKUP_20251011_170849.py
+2025-10-11 17:08:49,709 | INFO | 🚀 Launching Healing Protocols...
+2025-10-11 17:08:50,588 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 17:08:54,416 | INFO | ✅ Healing Protocols launched successfully (PID: 22524)
+2025-10-11 17:08:55,255 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 17:08:57,978 | INFO | 🔒 Locked: mcp_healing.py
+2025-10-11 17:08:58,898 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 17:09:02,732 | INFO | 📊 Health check complete: 0 healthy, 9 relaunched
+2025-10-11 17:24:02,759 | INFO | 🔍 Starting health check cycle...
+2025-10-11 17:24:04,215 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 17:24:11,440 | WARNING | ⚠️ Orchestrator is DOWN - Auto-relaunching...
+2025-10-11 17:24:12,456 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 17:24:16,737 | INFO | 🔓 Unlocked: mcp_orchestrator.py
+2025-10-11 17:24:16,739 | INFO | 💾 Backed up: mcp_orchestrator.py → mcp_orchestrator_BACKUP_20251011_172416.py
+2025-10-11 17:24:16,739 | INFO | 🔒 Locked: mcp_orchestrator_BACKUP_20251011_172416.py
+2025-10-11 17:24:16,739 | INFO | 🚀 Launching Orchestrator...
+2025-10-11 17:24:17,431 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 17:24:20,849 | INFO | ✅ Orchestrator launched successfully (PID: 14736)
+2025-10-11 17:24:21,640 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 17:24:24,266 | INFO | 🔒 Locked: mcp_orchestrator.py
+2025-10-11 17:24:25,267 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 17:24:30,545 | WARNING | ⚠️ Filesystem is DOWN - Auto-relaunching...
+2025-10-11 17:24:31,564 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 17:24:35,443 | INFO | 🔓 Unlocked: mcp_filesystem.py
+2025-10-11 17:24:35,443 | INFO | 💾 Backed up: mcp_filesystem.py → mcp_filesystem_BACKUP_20251011_172435.py
+2025-10-11 17:24:35,444 | INFO | 🔒 Locked: mcp_filesystem_BACKUP_20251011_172435.py
+2025-10-11 17:24:35,444 | INFO | 🚀 Launching Filesystem...
+2025-10-11 17:24:36,192 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 17:24:39,610 | INFO | ✅ Filesystem launched successfully (PID: 19692)
+2025-10-11 17:24:40,614 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 17:24:43,143 | INFO | 🔒 Locked: mcp_filesystem.py
+2025-10-11 17:24:44,066 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 17:24:49,519 | WARNING | ⚠️ Windows API is DOWN - Auto-relaunching...
+2025-10-11 17:24:50,922 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 17:24:54,900 | INFO | 🔓 Unlocked: mcp_windows.py
+2025-10-11 17:24:54,901 | INFO | 💾 Backed up: mcp_windows.py → mcp_windows_BACKUP_20251011_172454.py
+2025-10-11 17:24:54,901 | INFO | 🔒 Locked: mcp_windows_BACKUP_20251011_172454.py
+2025-10-11 17:24:54,901 | INFO | 🚀 Launching Windows API...
+2025-10-11 17:24:55,624 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 17:24:59,346 | INFO | ✅ Windows API launched successfully (PID: 21708)
+2025-10-11 17:25:00,183 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 17:25:03,212 | INFO | 🔒 Locked: mcp_windows.py
+2025-10-11 17:25:04,138 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 17:25:10,217 | WARNING | ⚠️ Process Control is DOWN - Auto-relaunching...
+2025-10-11 17:25:11,217 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 17:25:15,398 | INFO | 🔓 Unlocked: mcp_process.py
+2025-10-11 17:25:15,399 | INFO | 💾 Backed up: mcp_process.py → mcp_process_BACKUP_20251011_172515.py
+2025-10-11 17:25:15,399 | INFO | 🔒 Locked: mcp_process_BACKUP_20251011_172515.py
+2025-10-11 17:25:15,399 | INFO | 🚀 Launching Process Control...
+2025-10-11 17:25:16,127 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 17:25:19,646 | INFO | ✅ Process Control launched successfully (PID: 8072)
+2025-10-11 17:25:20,493 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 17:25:23,320 | INFO | 🔒 Locked: mcp_process.py
+2025-10-11 17:25:24,241 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 17:25:30,006 | WARNING | ⚠️ Crystal Memory is DOWN - Auto-relaunching...
+2025-10-11 17:25:31,049 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 17:25:35,341 | INFO | 🔓 Unlocked: mcp_crystal.py
+2025-10-11 17:25:35,342 | INFO | 💾 Backed up: mcp_crystal.py → mcp_crystal_BACKUP_20251011_172535.py
+2025-10-11 17:25:35,342 | INFO | 🔒 Locked: mcp_crystal_BACKUP_20251011_172535.py
+2025-10-11 17:25:35,342 | INFO | 🚀 Launching Crystal Memory...
+2025-10-11 17:25:36,067 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 17:25:39,685 | INFO | ✅ Crystal Memory launched successfully (PID: 1600)
+2025-10-11 17:25:40,511 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 17:25:43,134 | INFO | 🔒 Locked: mcp_crystal.py
+2025-10-11 17:25:44,011 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 17:25:49,382 | WARNING | ⚠️ Workflow Engine is DOWN - Auto-relaunching...
+2025-10-11 17:25:50,376 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 17:25:54,568 | INFO | 🔄 Force restarting Workflow Engine (killing PID: 18316)
+2025-10-11 17:25:55,571 | INFO | 🔓 Unlocked: mcp_workflow.py
+2025-10-11 17:25:55,572 | INFO | 💾 Backed up: mcp_workflow.py → mcp_workflow_BACKUP_20251011_172555.py
+2025-10-11 17:25:55,572 | INFO | 🔒 Locked: mcp_workflow_BACKUP_20251011_172555.py
+2025-10-11 17:25:55,572 | INFO | 🚀 Launching Workflow Engine...
+2025-10-11 17:25:56,333 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 17:25:59,965 | INFO | ✅ Workflow Engine launched successfully (PID: 13120)
+2025-10-11 17:26:00,804 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 17:26:03,658 | INFO | 🔒 Locked: mcp_workflow.py
+2025-10-11 17:26:04,611 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 17:26:10,177 | WARNING | ⚠️ Voice System is DOWN - Auto-relaunching...
+2025-10-11 17:26:11,215 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 17:26:15,421 | INFO | 🔓 Unlocked: mcp_voice.py
+2025-10-11 17:26:15,422 | INFO | 💾 Backed up: mcp_voice.py → mcp_voice_BACKUP_20251011_172615.py
+2025-10-11 17:26:15,422 | INFO | 🔒 Locked: mcp_voice_BACKUP_20251011_172615.py
+2025-10-11 17:26:15,422 | INFO | 🚀 Launching Voice System...
+2025-10-11 17:26:16,178 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 17:26:19,699 | INFO | ✅ Voice System launched successfully (PID: 4320)
+2025-10-11 17:26:20,502 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 17:26:23,025 | INFO | 🔒 Locked: mcp_voice.py
+2025-10-11 17:26:23,926 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 17:26:29,473 | WARNING | ⚠️ Network Tools is DOWN - Auto-relaunching...
+2025-10-11 17:26:30,522 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 17:26:34,801 | INFO | 🔄 Force restarting Network Tools (killing PID: 21224)
+2025-10-11 17:26:35,802 | INFO | 🔓 Unlocked: mcp_network.py
+2025-10-11 17:26:35,803 | INFO | 💾 Backed up: mcp_network.py → mcp_network_BACKUP_20251011_172635.py
+2025-10-11 17:26:35,803 | INFO | 🔒 Locked: mcp_network_BACKUP_20251011_172635.py
+2025-10-11 17:26:35,804 | INFO | 🚀 Launching Network Tools...
+2025-10-11 17:26:36,600 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 17:26:40,132 | ERROR | ❌ Network Tools crashed on launch: 
+2025-10-11 17:26:42,160 | WARNING | ⚠️ Healing Protocols is DOWN - Auto-relaunching...
+2025-10-11 17:26:43,226 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 17:26:47,600 | INFO | 🔄 Force restarting Healing Protocols (killing PID: 18112)
+2025-10-11 17:26:48,604 | INFO | 🔓 Unlocked: mcp_healing.py
+2025-10-11 17:26:48,605 | INFO | 💾 Backed up: mcp_healing.py → mcp_healing_BACKUP_20251011_172648.py
+2025-10-11 17:26:48,605 | INFO | 🔒 Locked: mcp_healing_BACKUP_20251011_172648.py
+2025-10-11 17:26:48,605 | INFO | 🚀 Launching Healing Protocols...
+2025-10-11 17:26:49,378 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 17:26:53,115 | INFO | ✅ Healing Protocols launched successfully (PID: 20748)
+2025-10-11 17:26:53,925 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 17:26:56,554 | INFO | 🔒 Locked: mcp_healing.py
+2025-10-11 17:26:57,486 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 17:27:00,920 | INFO | 📊 Health check complete: 0 healthy, 8 relaunched

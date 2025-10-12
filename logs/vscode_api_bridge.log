@@ -1,0 +1,160 @@
+2025-10-05 11:23:27,614 - INFO - VS Code API MCP Bridge initializing...
+2025-10-05 11:23:27,614 - INFO - VS Code API MCP Bridge ready for requests
+2025-10-05 11:23:27,615 - INFO - Backend: http://localhost:9001
+2025-10-05 11:23:27,629 - INFO - VS Code API backend is OPERATIONAL
+2025-10-05 11:25:11,543 - INFO - VS Code API MCP Bridge initializing...
+2025-10-05 11:25:11,544 - INFO - VS Code API MCP Bridge ready for requests
+2025-10-05 11:25:11,544 - INFO - Backend: http://localhost:9001
+2025-10-05 11:25:11,566 - INFO - VS Code API backend is OPERATIONAL
+2025-10-05 11:33:41,232 - INFO - VS Code API MCP Bridge initializing...
+2025-10-05 11:33:41,232 - INFO - VS Code API MCP Bridge ready for requests
+2025-10-05 11:33:41,233 - INFO - Backend: http://localhost:9001
+2025-10-05 11:33:41,248 - INFO - VS Code API backend is OPERATIONAL
+2025-10-05 16:55:40,857 - INFO - VS Code API MCP Bridge initializing...
+2025-10-05 16:55:40,858 - INFO - VS Code API MCP Bridge ready for requests
+2025-10-05 16:55:40,858 - INFO - Backend: http://localhost:9001
+2025-10-05 16:55:40,975 - INFO - VS Code API backend is OPERATIONAL
+2025-10-05 21:38:21,299 - INFO - VS Code API MCP Bridge initializing...
+2025-10-05 21:38:21,300 - INFO - VS Code API MCP Bridge ready for requests
+2025-10-05 21:38:21,300 - INFO - Backend: http://localhost:9001
+2025-10-05 21:38:25,426 - ERROR - Backend health check failed: HTTPConnectionPool(host='localhost', port=9001): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000184AD6FE8F0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-10-05 21:38:25,426 - WARNING - VS Code API backend may not be available
+2025-10-06 18:12:34,308 - INFO - VS Code API MCP Bridge initializing...
+2025-10-06 18:12:34,309 - INFO - VS Code API MCP Bridge ready for requests
+2025-10-06 18:12:34,309 - INFO - Backend: http://localhost:9001
+2025-10-06 18:12:34,335 - INFO - VS Code API backend is OPERATIONAL
+2025-10-06 20:41:33,121 - INFO - VS Code API MCP Bridge initializing...
+2025-10-06 20:41:33,121 - INFO - VS Code API MCP Bridge ready for requests
+2025-10-06 20:41:33,121 - INFO - Backend: http://localhost:9001
+2025-10-06 20:41:33,133 - INFO - VS Code API backend is OPERATIONAL
+2025-10-07 16:17:00,777 - INFO - VS Code API MCP Bridge initializing...
+2025-10-07 16:17:00,777 - INFO - VS Code API MCP Bridge ready for requests
+2025-10-07 16:17:00,777 - INFO - Backend: http://localhost:9001
+2025-10-07 16:17:00,808 - INFO - VS Code API backend is OPERATIONAL
+2025-10-08 13:27:30,155 - INFO - VS Code API MCP Bridge initializing...
+2025-10-08 13:27:30,157 - INFO - VS Code API MCP Bridge ready for requests
+2025-10-08 13:27:30,158 - INFO - Backend: http://localhost:9001
+2025-10-08 13:27:30,209 - INFO - VS Code API backend is OPERATIONAL
+2025-10-09 01:17:27,759 - INFO - VS Code API MCP Bridge initializing...
+2025-10-09 01:17:27,760 - INFO - VS Code API MCP Bridge ready for requests
+2025-10-09 01:17:27,760 - INFO - Backend: http://localhost:9001
+2025-10-09 01:17:27,774 - INFO - VS Code API backend is OPERATIONAL
+2025-10-09 01:18:07,105 - INFO - VS Code API MCP Bridge initializing...
+2025-10-09 01:18:07,105 - INFO - VS Code API MCP Bridge ready for requests
+2025-10-09 01:18:07,105 - INFO - Backend: http://localhost:9001
+2025-10-09 01:18:07,127 - INFO - VS Code API backend is OPERATIONAL
+2025-10-09 01:26:26,427 - INFO - VS Code API MCP Bridge initializing...
+2025-10-09 01:26:26,427 - INFO - VS Code API MCP Bridge ready for requests
+2025-10-09 01:26:26,429 - INFO - Backend: http://localhost:9001
+2025-10-09 01:26:26,498 - INFO - VS Code API backend is OPERATIONAL
+2025-10-09 01:36:35,239 - INFO - VS Code API MCP Bridge initializing...
+2025-10-09 01:36:35,239 - INFO - VS Code API MCP Bridge ready for requests
+2025-10-09 01:36:35,239 - INFO - Backend: http://localhost:9001
+2025-10-09 01:36:35,285 - INFO - VS Code API backend is OPERATIONAL
+2025-10-09 01:38:05,987 - INFO - VS Code API MCP Bridge initializing...
+2025-10-09 01:38:05,987 - INFO - VS Code API MCP Bridge ready for requests
+2025-10-09 01:38:05,987 - INFO - Backend: http://localhost:9001
+2025-10-09 01:38:06,005 - INFO - VS Code API backend is OPERATIONAL
+2025-10-09 01:39:41,065 - INFO - VS Code API MCP Bridge initializing...
+2025-10-09 01:39:41,065 - INFO - VS Code API MCP Bridge ready for requests
+2025-10-09 01:39:41,065 - INFO - Backend: http://localhost:9001
+2025-10-09 01:39:41,083 - INFO - VS Code API backend is OPERATIONAL
+2025-10-09 19:36:27,882 - INFO - VS Code API MCP Bridge initializing...
+2025-10-09 19:36:27,882 - INFO - VS Code API MCP Bridge ready for requests
+2025-10-09 19:36:27,882 - INFO - Backend: http://localhost:9001
+2025-10-09 19:36:27,907 - INFO - VS Code API backend is OPERATIONAL
+2025-10-09 21:29:57,865 - INFO - VS Code API MCP Bridge initializing...
+2025-10-09 21:29:57,865 - INFO - VS Code API MCP Bridge ready for requests
+2025-10-09 21:29:57,865 - INFO - Backend: http://localhost:9001
+2025-10-09 21:29:57,912 - INFO - VS Code API backend is OPERATIONAL
+2025-10-09 21:29:57,915 - INFO - Tool call: vscode_open_file with args: {'filepath': 'C:\\Users\\bobmc\\Downloads\\Best Local Coding LLMs for 8GB & 12GB VRAM_ Models, Hybrid Strategies, and Benchmarks.docx'}
+2025-10-10 00:57:01,342 - INFO - Tool call: vscode_health with args: {}
+2025-10-10 00:57:21,418 - INFO - Tool call: vscode_get_workspace_folders with args: {}
+2025-10-10 01:03:05,551 - INFO - Tool call: vscode_list_open_files with args: {}
+2025-10-10 02:08:46,515 - INFO - Tool call: vscode_health with args: {}
+2025-10-10 02:08:53,203 - INFO - Tool call: vscode_get_active_file with args: {}
+2025-10-10 02:08:57,992 - INFO - Tool call: vscode_list_open_files with args: {}
+2025-10-10 02:09:07,105 - INFO - Tool call: vscode_execute_command with args: {'command': 'workbench.action.showCommands'}
+2025-10-10 02:09:14,939 - INFO - Tool call: vscode_execute_command with args: {'command': 'github.copilot.signOut'}
+2025-10-10 02:09:25,871 - INFO - Tool call: vscode_get_workspace_folders with args: {}
+2025-10-10 02:37:12,012 - INFO - Tool call: vscode_health with args: {}
+2025-10-10 02:37:17,361 - INFO - Tool call: vscode_get_active_file with args: {}
+2025-10-10 02:37:23,141 - INFO - Tool call: vscode_execute_command with args: {'command': 'workbench.action.reloadWindow'}
+2025-10-10 02:37:54,530 - INFO - Tool call: vscode_health with args: {}
+2025-10-10 02:37:59,864 - INFO - Tool call: vscode_get_active_file with args: {}
+2025-10-10 02:38:05,512 - INFO - Tool call: vscode_get_workspace_folders with args: {}
+2025-10-10 02:38:14,292 - INFO - Tool call: vscode_run_terminal_command with args: {'command': 'echo "VS Code API Test"'}
+2025-10-10 02:45:50,015 - INFO - Tool call: vscode_execute_command with args: {'command': 'github.copilot.signOut'}
+2025-10-10 02:45:56,149 - INFO - Tool call: vscode_execute_command with args: {'command': 'workbench.extensions.action.showInstalledExtensions'}
+2025-10-10 04:28:46,255 - INFO - Tool call: vscode_health with args: {}
+2025-10-10 07:07:47,415 - INFO - VS Code API MCP Bridge initializing...
+2025-10-10 07:07:47,415 - INFO - VS Code API MCP Bridge ready for requests
+2025-10-10 07:07:47,415 - INFO - Backend: http://localhost:9001
+2025-10-10 07:07:47,425 - INFO - VS Code API backend is OPERATIONAL
+2025-10-10 08:28:27,782 - INFO - VS Code API MCP Bridge initializing...
+2025-10-10 08:28:27,782 - INFO - VS Code API MCP Bridge ready for requests
+2025-10-10 08:28:27,782 - INFO - Backend: http://localhost:9001
+2025-10-10 08:28:27,945 - ERROR - Backend health check failed: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-10-10 08:28:27,946 - WARNING - VS Code API backend may not be available
+2025-10-10 08:32:14,076 - INFO - VS Code API MCP Bridge initializing...
+2025-10-10 08:32:14,077 - INFO - VS Code API MCP Bridge ready for requests
+2025-10-10 08:32:14,077 - INFO - Backend: http://localhost:9001
+2025-10-10 08:32:18,169 - ERROR - Backend health check failed: HTTPConnectionPool(host='localhost', port=9001): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024034430FD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-10-10 08:32:18,169 - WARNING - VS Code API backend may not be available
+2025-10-10 08:45:09,258 - INFO - VS Code API MCP Bridge initializing...
+2025-10-10 08:45:09,259 - INFO - VS Code API MCP Bridge ready for requests
+2025-10-10 08:45:09,259 - INFO - Backend: http://localhost:9001
+2025-10-10 08:45:09,279 - INFO - VS Code API backend is OPERATIONAL
+2025-10-10 17:30:49,214 - INFO - VS Code API MCP Bridge initializing...
+2025-10-10 17:30:49,215 - INFO - VS Code API MCP Bridge ready for requests
+2025-10-10 17:30:49,215 - INFO - Backend: http://localhost:9001
+2025-10-10 17:30:49,254 - INFO - VS Code API backend is OPERATIONAL
+2025-10-11 04:05:27,968 - INFO - VS Code API MCP Bridge initializing...
+2025-10-11 04:05:27,968 - INFO - VS Code API MCP Bridge ready for requests
+2025-10-11 04:05:27,968 - INFO - Backend: http://localhost:9001
+2025-10-11 04:05:27,979 - INFO - VS Code API backend is OPERATIONAL
+2025-10-11 04:11:36,499 - INFO - Tool call: vscode_health with args: {}
+2025-10-11 04:11:42,028 - INFO - Tool call: vscode_list_open_files with args: {}
+2025-10-11 04:11:47,444 - INFO - Tool call: vscode_get_workspace_folders with args: {}
+2025-10-11 04:11:53,947 - INFO - Tool call: vscode_get_active_file with args: {}
+2025-10-11 04:13:01,681 - INFO - Tool call: vscode_find_files with args: {'pattern': '**/*.py'}
+2025-10-11 04:13:06,173 - INFO - Tool call: vscode_run_terminal_command with args: {'command': 'echo test'}
+2025-10-11 11:34:43,042 - INFO - VS Code API MCP Bridge initializing...
+2025-10-11 11:34:43,042 - INFO - VS Code API MCP Bridge ready for requests
+2025-10-11 11:34:43,042 - INFO - Backend: http://localhost:9001
+2025-10-11 11:34:43,050 - INFO - VS Code API backend is OPERATIONAL
+2025-10-11 11:39:00,103 - INFO - VS Code API MCP Bridge initializing...
+2025-10-11 11:39:00,103 - INFO - VS Code API MCP Bridge ready for requests
+2025-10-11 11:39:00,104 - INFO - Backend: http://localhost:9001
+2025-10-11 11:39:00,111 - INFO - VS Code API backend is OPERATIONAL
+2025-10-11 12:44:19,946 - INFO - VS Code API MCP Bridge initializing...
+2025-10-11 12:44:19,946 - INFO - VS Code API MCP Bridge ready for requests
+2025-10-11 12:44:19,946 - INFO - Backend: http://localhost:9001
+2025-10-11 12:44:19,994 - INFO - VS Code API backend is OPERATIONAL
+2025-10-11 15:34:40,750 - INFO - VS Code API MCP Bridge initializing...
+2025-10-11 15:34:40,750 - INFO - VS Code API MCP Bridge ready for requests
+2025-10-11 15:34:40,750 - INFO - Backend: http://localhost:9001
+2025-10-11 15:34:40,865 - INFO - VS Code API backend is OPERATIONAL
+2025-10-11 17:12:02,003 - INFO - Tool call: vscode_health with args: {}
+2025-10-11 17:13:52,359 - INFO - Tool call: vscode_execute_command with args: {'command': 'workbench.action.reloadWindow'}
+2025-10-11 17:22:04,962 - INFO - Tool call: vscode_execute_command with args: {'command': 'workbench.action.showRuntimeExtensions'}
+2025-10-11 17:52:04,778 - INFO - VS Code API MCP Bridge initializing...
+2025-10-11 17:52:04,778 - INFO - VS Code API MCP Bridge ready for requests
+2025-10-11 17:52:04,778 - INFO - Backend: http://localhost:9001
+2025-10-11 17:52:09,016 - ERROR - Backend health check failed: HTTPConnectionPool(host='localhost', port=9001): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F03B281270>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-10-11 17:52:09,016 - WARNING - VS Code API backend may not be available
+2025-10-11 18:55:37,906 - INFO - Tool call: vscode_execute_command with args: {'command': 'workbench.extensions.action.showInstalledExtensions'}
+2025-10-11 22:12:01,183 - INFO - VS Code API MCP Bridge initializing...
+2025-10-11 22:12:01,184 - INFO - VS Code API MCP Bridge ready for requests
+2025-10-11 22:12:01,187 - INFO - Backend: http://localhost:9001
+2025-10-11 22:12:01,236 - INFO - VS Code API backend is OPERATIONAL
+2025-10-12 00:25:19,981 - INFO - VS Code API MCP Bridge initializing...
+2025-10-12 00:25:19,981 - INFO - VS Code API MCP Bridge ready for requests
+2025-10-12 00:25:19,981 - INFO - Backend: http://localhost:9001
+2025-10-12 00:25:26,600 - INFO - VS Code API backend is OPERATIONAL
+2025-10-12 00:25:52,776 - INFO - Tool call: vscode_health with args: {}
+2025-10-12 00:25:58,349 - INFO - Tool call: vscode_execute_command with args: {'command': 'workbench.action.chat.open'}
+2025-10-12 00:26:03,497 - INFO - Tool call: vscode_execute_command with args: {'command': 'github.copilot.generate'}
+2025-10-12 00:26:09,450 - INFO - Tool call: vscode_get_active_file with args: {}
+2025-10-12 00:26:15,991 - INFO - Tool call: vscode_execute_command with args: {'command': 'workbench.action.focusActiveEditorGroup'}
+2025-10-12 00:26:25,790 - INFO - Tool call: vscode_list_open_files with args: {}

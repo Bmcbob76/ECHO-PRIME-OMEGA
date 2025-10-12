@@ -1,0 +1,54 @@
+2025-10-03 17:52:15,625 - MultiLLMDefense - INFO - Initializing Multi-LLM Defense Engines...
+2025-10-03 17:52:16,091 - MultiLLMDefense - INFO - ✅ gpt-4 initialized with REAL OpenAI API key
+2025-10-03 17:52:16,678 - MultiLLMDefense - INFO - ✅ gpt-3.5-turbo initialized with REAL OpenAI API key
+2025-10-03 17:52:16,678 - MultiLLMDefense - WARNING - ⚠️ claude-3-opus disabled - no Anthropic API key found
+2025-10-03 17:52:16,678 - MultiLLMDefense - WARNING - ⚠️ claude-3-sonnet disabled - no Anthropic API key found
+2025-10-03 17:52:16,679 - MultiLLMDefense - WARNING - ⚠️ llama3-70b-groq disabled - no Groq API key found
+2025-10-03 17:52:16,679 - MultiLLMDefense - WARNING - ⚠️ mixtral-8x7b-groq disabled - no Groq API key found
+2025-10-03 17:52:16,679 - MultiLLMDefense - WARNING - ⚠️ gemma-7b-groq disabled - no Groq API key found
+2025-10-03 17:52:18,681 - MultiLLMDefense - ERROR - ❌ Ollama connection failed for llama2-70b: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2025-10-03 17:52:20,684 - MultiLLMDefense - ERROR - ❌ Ollama connection failed for codellama-34b: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2025-10-03 17:52:22,686 - MultiLLMDefense - ERROR - ❌ Ollama connection failed for mistral-7b: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2025-10-03 17:52:24,690 - MultiLLMDefense - ERROR - ❌ Ollama connection failed for neural-chat: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2025-10-03 17:52:26,694 - MultiLLMDefense - ERROR - ❌ Ollama connection failed for orca-mini: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2025-10-03 17:52:28,697 - MultiLLMDefense - ERROR - ❌ Ollama connection failed for wizard-coder: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2025-10-03 17:52:30,700 - MultiLLMDefense - ERROR - ❌ Ollama connection failed for phi-2: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2025-10-03 17:52:32,702 - MultiLLMDefense - ERROR - ❌ Ollama connection failed for gemma-7b: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2025-10-03 17:52:34,705 - MultiLLMDefense - ERROR - ❌ Ollama connection failed for deepseek-coder: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2025-10-03 17:52:36,708 - MultiLLMDefense - ERROR - ❌ Ollama connection failed for stablelm-zephyr: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2025-10-03 17:52:36,708 - MultiLLMDefense - INFO - 🚀 Multi-LLM Defense System: 9/17 engines active
+2025-10-03 17:52:36,708 - MultiLLMDefense - INFO - 🔍 Starting real-time monitoring with Multi-LLM analysis...
+2025-10-03 17:52:36,711 - MultiLLMDefense - INFO - ✅ Started network_monitor
+2025-10-03 17:52:36,717 - MultiLLMDefense - INFO - ✅ Started process_monitor
+2025-10-03 17:52:36,739 - MultiLLMDefense - INFO - ✅ Started file_monitor
+2025-10-03 17:52:36,764 - MultiLLMDefense - INFO - ✅ Started registry_monitor
+2025-10-03 17:52:36,777 - MultiLLMDefense - INFO - ✅ Started system_health_monitor
+2025-10-03 17:52:36,788 - MultiLLMDefense - INFO - 🚀 All monitoring systems active with 6 threads
+🧪 Testing with sample threat...
+2025-10-03 17:52:36,789 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_threat
+2025-10-03 17:52:38,790 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-03 17:52:38,984 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-03 17:52:41,069 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+📊 Analysis consensus: {
+  "consensus_severity": 5.0,
+  "consensus_risk_level": "MEDIUM",
+  "consensus_attack_vector": "unknown",
+  "aggregated_recommendations": [],
+  "aggregated_iocs": [],
+  "participating_llms": [
+    "gpt-3.5-turbo",
+    "gpt-4"
+  ],
+  "confidence_score": 0.4,
+  "synthesis_timestamp": "2025-10-03T17:52:49.665874"
+}
+🔍 System running - monitoring for threats...
+Press Ctrl+C to stop
+📈 Status: 9 LLMs active, 80 threats queued
+2025-10-03 17:52:50,893 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-03 17:52:53,644 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-03 17:53:02,175 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-03 17:53:04,591 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+2025-10-03 17:53:14,531 - MultiLLMDefense - INFO - Starting multi-LLM analysis for threat: network_anomaly
+2025-10-03 17:53:16,322 - MultiLLMDefense - ERROR - Error analyzing threat with mistral-7b: 'client'
+📈 Status: 9 LLMs active, 75 threats queued

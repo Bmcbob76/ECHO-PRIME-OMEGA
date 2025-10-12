@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "E:\ECHO_XV4\MLS\servers\test_gpu_inference.py", line 21, in <module>
+    from gpu_inference_client import GPUInferenceClient, GPUServerConfig
+  File "E:\ECHO_XV4\MLS\servers\gpu_inference_client.py", line 23, in <module>
+    from gs343_foundation_core import GS343UniversalFoundation
+ModuleNotFoundError: No module named 'gs343_foundation_core'

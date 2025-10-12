@@ -1,0 +1,540 @@
+2025-10-11 03:53:13,067 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 03:53:27,715 | INFO | 🔄 Starting 24/7 operation mode...
+2025-10-11 03:53:30,247 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 03:53:46,915 | INFO | 
+======================================================================
+2025-10-11 03:53:46,915 | INFO | 🔍 Starting server check cycle - 2025-10-11 03:53:46
+2025-10-11 03:53:46,915 | INFO | ======================================================================
+2025-10-11 03:53:48,237 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 03:53:55,452 | INFO | 📡 Discovered 24 servers
+2025-10-11 03:53:56,492 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 03:54:04,141 | INFO | 🚀 Launching CRYSTAL_MEMORY_ULTIMATE_MASTER.py...
+2025-10-11 03:54:05,342 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 03:54:15,666 | INFO | ✅ CRYSTAL_MEMORY_ULTIMATE_MASTER.py launched successfully (PID: 3312)
+2025-10-11 03:54:17,071 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 03:54:29,262 | INFO | 🚀 Launching epcp3_0_c3po_server.py...
+2025-10-11 03:54:30,511 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 03:54:41,153 | INFO | ✅ epcp3_0_c3po_server.py launched successfully (PID: 16932)
+2025-10-11 03:54:42,685 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 03:54:55,183 | INFO | 🚀 Launching epcp3_backend.py...
+2025-10-11 03:54:56,266 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 03:55:06,166 | INFO | ✅ epcp3_backend.py launched successfully (PID: 12832)
+2025-10-11 03:55:07,495 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 03:55:18,634 | INFO | 🚀 Launching hephaestion_v7_api_server.py...
+2025-10-11 03:55:19,816 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 03:55:30,012 | ERROR | ❌ hephaestion_v7_api_server.py failed to start
+2025-10-11 03:55:30,013 | ERROR | ❌ Exception launching hephaestion_v7_api_server.py: 'EPCP3OVoiceSystem' object has no attribute 'speak_bree'
+2025-10-11 03:55:34,043 | INFO | 🚀 Launching hybrid_llm_router.py...
+2025-10-11 03:55:35,151 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 03:55:44,844 | ERROR | ❌ hybrid_llm_router.py failed to start
+2025-10-11 03:55:44,845 | ERROR | ❌ Exception launching hybrid_llm_router.py: 'EPCP3OVoiceSystem' object has no attribute 'speak_bree'
+2025-10-11 03:55:48,920 | INFO | 🚀 Launching phoenix_voice_guilty_spark.py...
+2025-10-11 03:55:50,019 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 03:55:59,916 | INFO | ✅ phoenix_voice_guilty_spark.py launched successfully (PID: 12724)
+2025-10-11 03:56:01,261 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 03:56:12,632 | INFO | 🚀 Launching unified_developer_api.py...
+2025-10-11 03:56:13,708 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 03:56:23,217 | INFO | ✅ unified_developer_api.py launched successfully (PID: 16840)
+2025-10-11 03:56:24,528 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 03:56:36,076 | INFO | 🚀 Launching WINDOWS_API_ULTIMATE.py...
+2025-10-11 03:56:37,156 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 03:56:46,305 | INFO | ✅ WINDOWS_API_ULTIMATE.py launched successfully (PID: 7812)
+2025-10-11 03:56:47,797 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 03:56:56,408 | INFO | 
+----------------------------------------------------------------------
+2025-10-11 03:56:56,408 | INFO | 📊 CYCLE SUMMARY:
+2025-10-11 03:56:56,408 | INFO |    ✅ Already Running: 16
+2025-10-11 03:56:56,408 | INFO |    🚀 Launched: 6
+2025-10-11 03:56:56,408 | INFO |    ❌ Failed: 2
+2025-10-11 03:56:56,408 | INFO |    ⚠️  Quarantined: 0
+2025-10-11 03:56:56,409 | INFO |    📈 Total Servers: 24
+2025-10-11 03:56:56,409 | INFO | ----------------------------------------------------------------------
+2025-10-11 03:56:58,186 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 03:57:27,888 | INFO | 
+👋 Shutdown requested by Commander
+2025-10-11 03:57:27,890 | INFO | 📋 Master report generated: E:\ECHO_XV4\MLS\logs\MASTER_REPORT_20251011_035727.json
+2025-10-11 03:57:29,606 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 03:57:46,552 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 03:58:05,863 | INFO | 🔄 Starting 24/7 operation mode...
+2025-10-11 03:58:09,878 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 03:58:30,296 | INFO | 
+======================================================================
+2025-10-11 03:58:30,296 | INFO | 🔍 Starting server check cycle - 2025-10-11 03:58:30
+2025-10-11 03:58:30,297 | INFO | ======================================================================
+2025-10-11 03:58:31,615 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 03:58:38,412 | INFO | 📡 Discovered 24 servers
+2025-10-11 03:58:39,368 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 03:58:47,126 | INFO | 🚀 Launching CRYSTAL_MEMORY_ULTIMATE_MASTER.py...
+2025-10-11 03:58:48,239 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 03:58:58,442 | INFO | ✅ CRYSTAL_MEMORY_ULTIMATE_MASTER.py launched successfully (PID: 12572)
+2025-10-11 03:58:59,949 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 03:59:12,144 | INFO | 🚀 Launching epcp3_0_c3po_server.py...
+2025-10-11 03:59:13,278 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 03:59:23,791 | INFO | ✅ epcp3_0_c3po_server.py launched successfully (PID: 4296)
+2025-10-11 03:59:25,261 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 03:59:37,836 | INFO | 🚀 Launching epcp3_backend.py...
+2025-10-11 03:59:38,953 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 03:59:48,122 | INFO | ✅ epcp3_backend.py launched successfully (PID: 4576)
+2025-10-11 03:59:49,478 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 04:00:01,018 | INFO | 🚀 Launching hephaestion_v7_api_server.py...
+2025-10-11 04:00:02,111 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 04:00:11,701 | ERROR | ❌ hephaestion_v7_api_server.py failed to start
+2025-10-11 04:00:11,703 | ERROR | ❌ Exception launching hephaestion_v7_api_server.py: 'EPCP3OVoiceSystem' object has no attribute 'speak_bree'
+2025-10-11 04:00:15,728 | INFO | 🚀 Launching hybrid_llm_router.py...
+2025-10-11 04:00:16,777 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 04:00:25,888 | ERROR | ❌ hybrid_llm_router.py failed to start
+2025-10-11 04:00:25,892 | ERROR | ❌ Exception launching hybrid_llm_router.py: 'EPCP3OVoiceSystem' object has no attribute 'speak_bree'
+2025-10-11 04:00:29,974 | INFO | 🚀 Launching phoenix_voice_guilty_spark.py...
+2025-10-11 04:00:31,108 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 04:00:40,896 | INFO | ✅ phoenix_voice_guilty_spark.py launched successfully (PID: 6012)
+2025-10-11 04:00:42,236 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 04:00:53,502 | INFO | 🚀 Launching unified_developer_api.py...
+2025-10-11 04:00:54,560 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 04:01:02,335 | INFO | ✅ unified_developer_api.py launched successfully (PID: 5772)
+2025-10-11 04:01:03,709 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 04:01:15,394 | INFO | 🚀 Launching WINDOWS_API_ULTIMATE.py...
+2025-10-11 04:01:16,494 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 04:01:24,574 | INFO | ✅ WINDOWS_API_ULTIMATE.py launched successfully (PID: 11144)
+2025-10-11 04:01:26,056 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 04:01:34,155 | INFO | 
+----------------------------------------------------------------------
+2025-10-11 04:01:34,155 | INFO | 📊 CYCLE SUMMARY:
+2025-10-11 04:01:34,158 | INFO |    ✅ Already Running: 16
+2025-10-11 04:01:34,159 | INFO |    🚀 Launched: 6
+2025-10-11 04:01:34,159 | INFO |    ❌ Failed: 2
+2025-10-11 04:01:34,159 | INFO |    ⚠️  Quarantined: 0
+2025-10-11 04:01:34,159 | INFO |    📈 Total Servers: 24
+2025-10-11 04:01:34,159 | INFO | ----------------------------------------------------------------------
+2025-10-11 04:01:35,861 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 04:31:46,607 | INFO | 
+======================================================================
+2025-10-11 04:31:46,607 | INFO | 🔍 Starting server check cycle - 2025-10-11 04:31:46
+2025-10-11 04:31:46,610 | INFO | ======================================================================
+2025-10-11 04:31:47,998 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 04:31:54,588 | INFO | 📡 Discovered 24 servers
+2025-10-11 04:31:55,646 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 04:32:03,890 | INFO | 🚀 Launching CRYSTAL_MEMORY_ULTIMATE_MASTER.py...
+2025-10-11 04:32:07,029 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 04:32:17,657 | INFO | ✅ CRYSTAL_MEMORY_ULTIMATE_MASTER.py launched successfully (PID: 11960)
+2025-10-11 04:32:19,140 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 04:32:31,252 | INFO | 🚀 Launching hephaestion_v7_api_server.py...
+2025-10-11 04:32:32,381 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 04:32:42,782 | ERROR | ❌ hephaestion_v7_api_server.py failed to start
+2025-10-11 04:32:42,784 | ERROR | ❌ Exception launching hephaestion_v7_api_server.py: 'EPCP3OVoiceSystem' object has no attribute 'speak_bree'
+2025-10-11 04:32:46,810 | INFO | 🚀 Launching hybrid_llm_router.py...
+2025-10-11 04:32:47,952 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 04:32:58,361 | ERROR | ❌ hybrid_llm_router.py failed to start
+2025-10-11 04:32:58,365 | ERROR | ❌ Exception launching hybrid_llm_router.py: 'EPCP3OVoiceSystem' object has no attribute 'speak_bree'
+2025-10-11 04:33:02,482 | INFO | 🚀 Launching phoenix_voice_guilty_spark.py...
+2025-10-11 04:33:03,662 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 04:33:14,069 | INFO | ✅ phoenix_voice_guilty_spark.py launched successfully (PID: 3852)
+2025-10-11 04:33:15,570 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 04:33:23,170 | INFO | 
+----------------------------------------------------------------------
+2025-10-11 04:33:23,170 | INFO | 📊 CYCLE SUMMARY:
+2025-10-11 04:33:23,174 | INFO |    ✅ Already Running: 20
+2025-10-11 04:33:23,174 | INFO |    🚀 Launched: 2
+2025-10-11 04:33:23,174 | INFO |    ❌ Failed: 2
+2025-10-11 04:33:23,174 | INFO |    ⚠️  Quarantined: 0
+2025-10-11 04:33:23,174 | INFO |    📈 Total Servers: 24
+2025-10-11 04:33:23,175 | INFO | ----------------------------------------------------------------------
+2025-10-11 04:33:24,876 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 05:03:35,338 | INFO | 
+======================================================================
+2025-10-11 05:03:35,338 | INFO | 🔍 Starting server check cycle - 2025-10-11 05:03:35
+2025-10-11 05:03:35,342 | INFO | ======================================================================
+2025-10-11 05:03:36,819 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 05:03:44,215 | INFO | 📡 Discovered 24 servers
+2025-10-11 05:03:45,239 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 05:03:53,094 | INFO | 🚀 Launching CRYSTAL_MEMORY_ULTIMATE_MASTER.py...
+2025-10-11 05:03:54,227 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 05:04:04,542 | INFO | ✅ CRYSTAL_MEMORY_ULTIMATE_MASTER.py launched successfully (PID: 20036)
+2025-10-11 05:04:05,978 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 05:04:17,683 | INFO | 🚀 Launching hephaestion_v7_api_server.py...
+2025-10-11 05:04:18,943 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 05:04:29,346 | ERROR | ❌ hephaestion_v7_api_server.py failed to start
+2025-10-11 05:04:29,350 | ERROR | ❌ Exception launching hephaestion_v7_api_server.py: 'EPCP3OVoiceSystem' object has no attribute 'speak_bree'
+2025-10-11 05:04:33,388 | INFO | 🚀 Launching hybrid_llm_router.py...
+2025-10-11 05:04:34,444 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 05:04:43,846 | ERROR | ❌ hybrid_llm_router.py failed to start
+2025-10-11 05:04:43,850 | ERROR | ❌ Exception launching hybrid_llm_router.py: 'EPCP3OVoiceSystem' object has no attribute 'speak_bree'
+2025-10-11 05:04:47,947 | INFO | 🚀 Launching phoenix_voice_guilty_spark.py...
+2025-10-11 05:04:49,156 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 05:04:59,575 | INFO | ✅ phoenix_voice_guilty_spark.py launched successfully (PID: 2104)
+2025-10-11 05:05:01,160 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 05:05:09,062 | INFO | 
+----------------------------------------------------------------------
+2025-10-11 05:05:09,062 | INFO | 📊 CYCLE SUMMARY:
+2025-10-11 05:05:09,066 | INFO |    ✅ Already Running: 20
+2025-10-11 05:05:09,067 | INFO |    🚀 Launched: 2
+2025-10-11 05:05:09,067 | INFO |    ❌ Failed: 2
+2025-10-11 05:05:09,067 | INFO |    ⚠️  Quarantined: 0
+2025-10-11 05:05:09,067 | INFO |    📈 Total Servers: 24
+2025-10-11 05:05:09,067 | INFO | ----------------------------------------------------------------------
+2025-10-11 05:05:10,774 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 05:35:21,396 | INFO | 
+======================================================================
+2025-10-11 05:35:21,396 | INFO | 🔍 Starting server check cycle - 2025-10-11 05:35:21
+2025-10-11 05:35:21,401 | INFO | ======================================================================
+2025-10-11 05:35:22,749 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 05:35:29,442 | INFO | 📡 Discovered 24 servers
+2025-10-11 05:35:30,402 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 05:35:38,431 | WARNING | ⚠️ CRYSTAL_MEMORY_ULTIMATE_MASTER.py exceeded launch attempts - skipping
+2025-10-11 05:35:42,509 | WARNING | ⚠️ hephaestion_v7_api_server.py exceeded launch attempts - skipping
+2025-10-11 05:35:46,564 | WARNING | ⚠️ hybrid_llm_router.py exceeded launch attempts - skipping
+2025-10-11 05:35:50,656 | WARNING | ⚠️ phoenix_voice_guilty_spark.py exceeded launch attempts - skipping
+2025-10-11 05:35:50,669 | INFO | 
+----------------------------------------------------------------------
+2025-10-11 05:35:50,669 | INFO | 📊 CYCLE SUMMARY:
+2025-10-11 05:35:50,669 | INFO |    ✅ Already Running: 20
+2025-10-11 05:35:50,669 | INFO |    🚀 Launched: 0
+2025-10-11 05:35:50,669 | INFO |    ❌ Failed: 4
+2025-10-11 05:35:50,669 | INFO |    ⚠️  Quarantined: 0
+2025-10-11 05:35:50,669 | INFO |    📈 Total Servers: 24
+2025-10-11 05:35:50,669 | INFO | ----------------------------------------------------------------------
+2025-10-11 05:35:52,344 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 06:06:03,064 | INFO | 
+======================================================================
+2025-10-11 06:06:03,064 | INFO | 🔍 Starting server check cycle - 2025-10-11 06:06:03
+2025-10-11 06:06:03,067 | INFO | ======================================================================
+2025-10-11 06:06:04,409 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 06:06:11,202 | INFO | 📡 Discovered 24 servers
+2025-10-11 06:06:12,226 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 06:06:20,137 | WARNING | ⚠️ CRYSTAL_MEMORY_ULTIMATE_MASTER.py exceeded launch attempts - skipping
+2025-10-11 06:06:24,211 | WARNING | ⚠️ hephaestion_v7_api_server.py exceeded launch attempts - skipping
+2025-10-11 06:06:28,267 | WARNING | ⚠️ hybrid_llm_router.py exceeded launch attempts - skipping
+2025-10-11 06:06:32,363 | WARNING | ⚠️ phoenix_voice_guilty_spark.py exceeded launch attempts - skipping
+2025-10-11 06:06:32,378 | INFO | 
+----------------------------------------------------------------------
+2025-10-11 06:06:32,378 | INFO | 📊 CYCLE SUMMARY:
+2025-10-11 06:06:32,378 | INFO |    ✅ Already Running: 20
+2025-10-11 06:06:32,379 | INFO |    🚀 Launched: 0
+2025-10-11 06:06:32,379 | INFO |    ❌ Failed: 4
+2025-10-11 06:06:32,379 | INFO |    ⚠️  Quarantined: 0
+2025-10-11 06:06:32,379 | INFO |    📈 Total Servers: 24
+2025-10-11 06:06:32,379 | INFO | ----------------------------------------------------------------------
+2025-10-11 06:06:34,036 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 06:36:44,114 | INFO | 
+======================================================================
+2025-10-11 06:36:44,114 | INFO | 🔍 Starting server check cycle - 2025-10-11 06:36:44
+2025-10-11 06:36:44,117 | INFO | ======================================================================
+2025-10-11 06:36:45,465 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 06:36:51,949 | INFO | 📡 Discovered 24 servers
+2025-10-11 06:36:53,005 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 06:37:00,846 | WARNING | ⚠️ CRYSTAL_MEMORY_ULTIMATE_MASTER.py exceeded launch attempts - skipping
+2025-10-11 06:37:04,945 | WARNING | ⚠️ hephaestion_v7_api_server.py exceeded launch attempts - skipping
+2025-10-11 06:37:09,000 | WARNING | ⚠️ hybrid_llm_router.py exceeded launch attempts - skipping
+2025-10-11 06:37:13,082 | WARNING | ⚠️ phoenix_voice_guilty_spark.py exceeded launch attempts - skipping
+2025-10-11 06:37:13,099 | INFO | 
+----------------------------------------------------------------------
+2025-10-11 06:37:13,100 | INFO | 📊 CYCLE SUMMARY:
+2025-10-11 06:37:13,100 | INFO |    ✅ Already Running: 20
+2025-10-11 06:37:13,100 | INFO |    🚀 Launched: 0
+2025-10-11 06:37:13,100 | INFO |    ❌ Failed: 4
+2025-10-11 06:37:13,100 | INFO |    ⚠️  Quarantined: 0
+2025-10-11 06:37:13,100 | INFO |    📈 Total Servers: 24
+2025-10-11 06:37:13,101 | INFO | ----------------------------------------------------------------------
+2025-10-11 06:37:15,063 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 07:06:16,939 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 07:06:34,943 | INFO | 🔄 Starting 24/7 operation mode...
+2025-10-11 07:06:39,126 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/8ATB4Ory7NkyCVRpePdw "HTTP/1.1 200 OK"
+2025-10-11 07:07:00,669 | INFO | 
+======================================================================
+2025-10-11 07:07:00,670 | INFO | 🔍 Starting server check cycle - 2025-10-11 07:07:00
+2025-10-11 07:07:00,670 | INFO | ======================================================================
+2025-10-11 07:07:01,973 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 07:07:08,087 | INFO | 📡 Discovered 24 servers
+2025-10-11 07:07:09,108 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 07:07:17,077 | INFO | 🚀 Launching CRYSTAL_MEMORY_ULTIMATE_MASTER.py...
+2025-10-11 07:07:18,280 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 07:07:25,592 | INFO | 
+======================================================================
+2025-10-11 07:07:25,592 | INFO | 🔍 Starting server check cycle - 2025-10-11 07:07:25
+2025-10-11 07:07:25,597 | INFO | ======================================================================
+2025-10-11 07:07:27,027 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 07:07:28,823 | INFO | ✅ CRYSTAL_MEMORY_ULTIMATE_MASTER.py launched successfully (PID: 18504)
+2025-10-11 07:07:30,296 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 07:07:34,229 | INFO | 📡 Discovered 24 servers
+2025-10-11 07:07:35,367 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 07:07:42,201 | INFO | 🚀 Launching hephaestion_v7_api_server.py...
+2025-10-11 07:07:43,374 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 07:07:45,407 | WARNING | ⚠️ hephaestion_v7_api_server.py exceeded launch attempts - skipping
+2025-10-11 07:07:49,477 | WARNING | ⚠️ hybrid_llm_router.py exceeded launch attempts - skipping
+2025-10-11 07:07:53,569 | WARNING | ⚠️ phoenix_voice_guilty_spark.py exceeded launch attempts - skipping
+2025-10-11 07:07:53,584 | INFO | 
+----------------------------------------------------------------------
+2025-10-11 07:07:53,584 | INFO | 📊 CYCLE SUMMARY:
+2025-10-11 07:07:53,584 | INFO |    ✅ Already Running: 21
+2025-10-11 07:07:53,584 | INFO |    🚀 Launched: 0
+2025-10-11 07:07:53,584 | INFO |    ❌ Failed: 3
+2025-10-11 07:07:53,585 | INFO |    ⚠️  Quarantined: 0
+2025-10-11 07:07:53,585 | INFO |    📈 Total Servers: 24
+2025-10-11 07:07:53,585 | INFO | ----------------------------------------------------------------------
+2025-10-11 07:07:53,612 | ERROR | ❌ hephaestion_v7_api_server.py failed to start
+2025-10-11 07:07:53,613 | ERROR | ❌ Exception launching hephaestion_v7_api_server.py: 'EPCP3OVoiceSystem' object has no attribute 'speak_bree'
+2025-10-11 07:07:55,376 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 07:07:57,704 | INFO | 🚀 Launching hybrid_llm_router.py...
+2025-10-11 07:07:58,845 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 07:08:08,957 | ERROR | ❌ hybrid_llm_router.py failed to start
+2025-10-11 07:08:08,958 | ERROR | ❌ Exception launching hybrid_llm_router.py: 'EPCP3OVoiceSystem' object has no attribute 'speak_bree'
+2025-10-11 07:08:13,067 | INFO | 🚀 Launching phoenix_voice_guilty_spark.py...
+2025-10-11 07:08:14,173 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 07:08:23,884 | INFO | ✅ phoenix_voice_guilty_spark.py launched successfully (PID: 11128)
+2025-10-11 07:08:25,338 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 07:08:33,262 | INFO | 
+----------------------------------------------------------------------
+2025-10-11 07:08:33,262 | INFO | 📊 CYCLE SUMMARY:
+2025-10-11 07:08:33,262 | INFO |    ✅ Already Running: 20
+2025-10-11 07:08:33,262 | INFO |    🚀 Launched: 2
+2025-10-11 07:08:33,262 | INFO |    ❌ Failed: 2
+2025-10-11 07:08:33,262 | INFO |    ⚠️  Quarantined: 0
+2025-10-11 07:08:33,262 | INFO |    📈 Total Servers: 24
+2025-10-11 07:08:33,263 | INFO | ----------------------------------------------------------------------
+2025-10-11 07:08:35,071 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 07:38:06,701 | INFO | 
+======================================================================
+2025-10-11 07:38:06,701 | INFO | 🔍 Starting server check cycle - 2025-10-11 07:38:06
+2025-10-11 07:38:06,705 | INFO | ======================================================================
+2025-10-11 07:38:08,076 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 07:38:14,873 | INFO | 📡 Discovered 24 servers
+2025-10-11 07:38:15,870 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 07:38:23,688 | WARNING | ⚠️ CRYSTAL_MEMORY_ULTIMATE_MASTER.py exceeded launch attempts - skipping
+2025-10-11 07:38:31,863 | WARNING | ⚠️ phoenix_voice_guilty_spark.py exceeded launch attempts - skipping
+2025-10-11 07:38:31,883 | INFO | 
+----------------------------------------------------------------------
+2025-10-11 07:38:31,883 | INFO | 📊 CYCLE SUMMARY:
+2025-10-11 07:38:31,884 | INFO |    ✅ Already Running: 22
+2025-10-11 07:38:31,884 | INFO |    🚀 Launched: 0
+2025-10-11 07:38:31,884 | INFO |    ❌ Failed: 2
+2025-10-11 07:38:31,884 | INFO |    ⚠️  Quarantined: 0
+2025-10-11 07:38:31,884 | INFO |    📈 Total Servers: 24
+2025-10-11 07:38:31,884 | INFO | ----------------------------------------------------------------------
+2025-10-11 07:38:33,883 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 07:38:45,975 | INFO | 
+======================================================================
+2025-10-11 07:38:45,975 | INFO | 🔍 Starting server check cycle - 2025-10-11 07:38:45
+2025-10-11 07:38:45,975 | INFO | ======================================================================
+2025-10-11 07:38:47,331 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 07:38:54,123 | INFO | 📡 Discovered 24 servers
+2025-10-11 07:38:55,124 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 07:39:03,295 | INFO | 🚀 Launching CRYSTAL_MEMORY_ULTIMATE_MASTER.py...
+2025-10-11 07:39:04,417 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 07:39:14,459 | INFO | ✅ CRYSTAL_MEMORY_ULTIMATE_MASTER.py launched successfully (PID: 12644)
+2025-10-11 07:39:15,992 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 07:39:33,037 | INFO | 🚀 Launching phoenix_voice_guilty_spark.py...
+2025-10-11 07:39:34,232 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 07:39:45,708 | INFO | ✅ phoenix_voice_guilty_spark.py launched successfully (PID: 21480)
+2025-10-11 07:39:47,103 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 07:39:55,140 | INFO | 
+----------------------------------------------------------------------
+2025-10-11 07:39:55,141 | INFO | 📊 CYCLE SUMMARY:
+2025-10-11 07:39:55,141 | INFO |    ✅ Already Running: 22
+2025-10-11 07:39:55,141 | INFO |    🚀 Launched: 2
+2025-10-11 07:39:55,141 | INFO |    ❌ Failed: 0
+2025-10-11 07:39:55,141 | INFO |    ⚠️  Quarantined: 0
+2025-10-11 07:39:55,141 | INFO |    📈 Total Servers: 24
+2025-10-11 07:39:55,142 | INFO | ----------------------------------------------------------------------
+2025-10-11 07:39:56,906 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 08:08:44,336 | INFO | 
+======================================================================
+2025-10-11 08:08:44,336 | INFO | 🔍 Starting server check cycle - 2025-10-11 08:08:44
+2025-10-11 08:08:44,339 | INFO | ======================================================================
+2025-10-11 08:08:45,749 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 08:08:52,585 | INFO | 📡 Discovered 25 servers
+2025-10-11 08:08:53,935 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 08:09:01,751 | WARNING | ⚠️ CRYSTAL_MEMORY_ULTIMATE_MASTER.py exceeded launch attempts - skipping
+2025-10-11 08:09:09,934 | WARNING | ⚠️ phoenix_voice_guilty_spark.py exceeded launch attempts - skipping
+2025-10-11 08:09:09,951 | INFO | 
+----------------------------------------------------------------------
+2025-10-11 08:09:09,951 | INFO | 📊 CYCLE SUMMARY:
+2025-10-11 08:09:09,951 | INFO |    ✅ Already Running: 23
+2025-10-11 08:09:09,951 | INFO |    🚀 Launched: 0
+2025-10-11 08:09:09,951 | INFO |    ❌ Failed: 2
+2025-10-11 08:09:09,951 | INFO |    ⚠️  Quarantined: 0
+2025-10-11 08:09:09,952 | INFO |    📈 Total Servers: 25
+2025-10-11 08:09:09,952 | INFO | ----------------------------------------------------------------------
+2025-10-11 08:09:11,723 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 08:10:08,050 | INFO | 
+======================================================================
+2025-10-11 08:10:08,050 | INFO | 🔍 Starting server check cycle - 2025-10-11 08:10:08
+2025-10-11 08:10:08,052 | INFO | ======================================================================
+2025-10-11 08:10:09,435 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 08:10:16,848 | INFO | 📡 Discovered 25 servers
+2025-10-11 08:10:17,871 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 08:10:25,775 | INFO | 🚀 Launching CRYSTAL_MEMORY_ULTIMATE_MASTER.py...
+2025-10-11 08:10:27,010 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 08:10:38,190 | INFO | ✅ CRYSTAL_MEMORY_ULTIMATE_MASTER.py launched successfully (PID: 4748)
+2025-10-11 08:10:39,704 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 08:10:55,604 | INFO | 🚀 Launching phoenix_voice_guilty_spark.py...
+2025-10-11 08:10:56,781 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 08:11:07,165 | INFO | ✅ phoenix_voice_guilty_spark.py launched successfully (PID: 20720)
+2025-10-11 08:11:08,618 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 08:11:16,379 | INFO | 
+----------------------------------------------------------------------
+2025-10-11 08:11:16,379 | INFO | 📊 CYCLE SUMMARY:
+2025-10-11 08:11:16,379 | INFO |    ✅ Already Running: 23
+2025-10-11 08:11:16,379 | INFO |    🚀 Launched: 2
+2025-10-11 08:11:16,379 | INFO |    ❌ Failed: 0
+2025-10-11 08:11:16,379 | INFO |    ⚠️  Quarantined: 0
+2025-10-11 08:11:16,380 | INFO |    📈 Total Servers: 25
+2025-10-11 08:11:16,380 | INFO | ----------------------------------------------------------------------
+2025-10-11 08:11:18,106 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 08:39:23,017 | INFO | 
+======================================================================
+2025-10-11 08:39:23,017 | INFO | 🔍 Starting server check cycle - 2025-10-11 08:39:23
+2025-10-11 08:39:23,021 | INFO | ======================================================================
+2025-10-11 08:39:24,401 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 08:39:30,922 | INFO | 📡 Discovered 25 servers
+2025-10-11 08:39:31,898 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 08:39:39,702 | WARNING | ⚠️ CRYSTAL_MEMORY_ULTIMATE_MASTER.py exceeded launch attempts - skipping
+2025-10-11 08:39:47,872 | WARNING | ⚠️ phoenix_voice_guilty_spark.py exceeded launch attempts - skipping
+2025-10-11 08:39:47,888 | INFO | 
+----------------------------------------------------------------------
+2025-10-11 08:39:47,889 | INFO | 📊 CYCLE SUMMARY:
+2025-10-11 08:39:47,889 | INFO |    ✅ Already Running: 23
+2025-10-11 08:39:47,889 | INFO |    🚀 Launched: 0
+2025-10-11 08:39:47,889 | INFO |    ❌ Failed: 2
+2025-10-11 08:39:47,889 | INFO |    ⚠️  Quarantined: 0
+2025-10-11 08:39:47,889 | INFO |    📈 Total Servers: 25
+2025-10-11 08:39:47,890 | INFO | ----------------------------------------------------------------------
+2025-10-11 08:39:49,618 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 08:41:28,487 | INFO | 
+======================================================================
+2025-10-11 08:41:28,487 | INFO | 🔍 Starting server check cycle - 2025-10-11 08:41:28
+2025-10-11 08:41:28,487 | INFO | ======================================================================
+2025-10-11 08:41:29,967 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 08:41:37,199 | INFO | 📡 Discovered 25 servers
+2025-10-11 08:41:38,219 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 08:41:46,305 | WARNING | ⚠️ CRYSTAL_MEMORY_ULTIMATE_MASTER.py exceeded launch attempts - skipping
+2025-10-11 08:41:54,643 | WARNING | ⚠️ phoenix_voice_guilty_spark.py exceeded launch attempts - skipping
+2025-10-11 08:41:54,659 | INFO | 
+----------------------------------------------------------------------
+2025-10-11 08:41:54,659 | INFO | 📊 CYCLE SUMMARY:
+2025-10-11 08:41:54,659 | INFO |    ✅ Already Running: 23
+2025-10-11 08:41:54,659 | INFO |    🚀 Launched: 0
+2025-10-11 08:41:54,659 | INFO |    ❌ Failed: 2
+2025-10-11 08:41:54,659 | INFO |    ⚠️  Quarantined: 0
+2025-10-11 08:41:54,659 | INFO |    📈 Total Servers: 25
+2025-10-11 08:41:54,659 | INFO | ----------------------------------------------------------------------
+2025-10-11 08:41:56,370 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 09:10:01,060 | INFO | 
+======================================================================
+2025-10-11 09:10:01,060 | INFO | 🔍 Starting server check cycle - 2025-10-11 09:10:01
+2025-10-11 09:10:01,064 | INFO | ======================================================================
+2025-10-11 09:10:02,290 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 09:10:08,268 | INFO | 📡 Discovered 25 servers
+2025-10-11 09:10:09,209 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:10:17,036 | WARNING | ⚠️ CRYSTAL_MEMORY_ULTIMATE_MASTER.py exceeded launch attempts - skipping
+2025-10-11 09:10:25,176 | WARNING | ⚠️ phoenix_voice_guilty_spark.py exceeded launch attempts - skipping
+2025-10-11 09:10:25,191 | INFO | 
+----------------------------------------------------------------------
+2025-10-11 09:10:25,191 | INFO | 📊 CYCLE SUMMARY:
+2025-10-11 09:10:25,191 | INFO |    ✅ Already Running: 23
+2025-10-11 09:10:25,191 | INFO |    🚀 Launched: 0
+2025-10-11 09:10:25,191 | INFO |    ❌ Failed: 2
+2025-10-11 09:10:25,192 | INFO |    ⚠️  Quarantined: 0
+2025-10-11 09:10:25,192 | INFO |    📈 Total Servers: 25
+2025-10-11 09:10:25,192 | INFO | ----------------------------------------------------------------------
+2025-10-11 09:10:27,000 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 09:12:05,792 | INFO | 
+======================================================================
+2025-10-11 09:12:05,792 | INFO | 🔍 Starting server check cycle - 2025-10-11 09:12:05
+2025-10-11 09:12:05,792 | INFO | ======================================================================
+2025-10-11 09:12:07,258 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 09:12:13,955 | INFO | 📡 Discovered 25 servers
+2025-10-11 09:12:14,995 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:12:22,891 | WARNING | ⚠️ CRYSTAL_MEMORY_ULTIMATE_MASTER.py exceeded launch attempts - skipping
+2025-10-11 09:12:31,134 | WARNING | ⚠️ phoenix_voice_guilty_spark.py exceeded launch attempts - skipping
+2025-10-11 09:12:31,152 | INFO | 
+----------------------------------------------------------------------
+2025-10-11 09:12:31,152 | INFO | 📊 CYCLE SUMMARY:
+2025-10-11 09:12:31,152 | INFO |    ✅ Already Running: 23
+2025-10-11 09:12:31,152 | INFO |    🚀 Launched: 0
+2025-10-11 09:12:31,152 | INFO |    ❌ Failed: 2
+2025-10-11 09:12:31,152 | INFO |    ⚠️  Quarantined: 0
+2025-10-11 09:12:31,152 | INFO |    📈 Total Servers: 25
+2025-10-11 09:12:31,153 | INFO | ----------------------------------------------------------------------
+2025-10-11 09:12:32,774 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 09:40:37,210 | INFO | 
+======================================================================
+2025-10-11 09:40:37,491 | INFO | 🔍 Starting server check cycle - 2025-10-11 09:40:37
+2025-10-11 09:40:37,680 | INFO | ======================================================================
+2025-10-11 09:40:39,474 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 09:40:46,325 | INFO | 📡 Discovered 25 servers
+2025-10-11 09:40:47,412 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:40:55,560 | WARNING | ⚠️ CRYSTAL_MEMORY_ULTIMATE_MASTER.py exceeded launch attempts - skipping
+2025-10-11 09:41:01,754 | INFO | 🚀 Launching ECHO_MASTER_MCP.py...
+2025-10-11 09:41:02,801 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:41:12,430 | ERROR | ❌ ECHO_MASTER_MCP.py failed to start
+2025-10-11 09:41:12,433 | ERROR | ❌ Exception launching ECHO_MASTER_MCP.py: 'EPCP3OVoiceSystem' object has no attribute 'speak_bree'
+2025-10-11 09:41:18,619 | INFO | 🚀 Launching echo_prime_service.py...
+2025-10-11 09:41:19,643 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:41:29,096 | ERROR | ❌ echo_prime_service.py failed to start
+2025-10-11 09:41:29,100 | ERROR | ❌ Exception launching echo_prime_service.py: 'EPCP3OVoiceSystem' object has no attribute 'speak_bree'
+2025-10-11 09:41:33,157 | INFO | 🚀 Launching echo_process_naming.py...
+2025-10-11 09:41:34,169 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:41:43,197 | ERROR | ❌ echo_process_naming.py failed to start
+2025-10-11 09:41:43,201 | ERROR | ❌ Exception launching echo_process_naming.py: 'EPCP3OVoiceSystem' object has no attribute 'speak_bree'
+2025-10-11 09:41:47,266 | INFO | 🚀 Launching echo_shield_defense_server.py...
+2025-10-11 09:41:48,708 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:41:58,210 | INFO | ✅ echo_shield_defense_server.py launched successfully (PID: 10088)
+2025-10-11 09:41:59,657 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:42:10,892 | INFO | 🚀 Launching elevenlabs_echo_narrator.py...
+2025-10-11 09:42:12,043 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:42:22,255 | ERROR | ❌ elevenlabs_echo_narrator.py failed to start
+2025-10-11 09:42:22,258 | ERROR | ❌ Exception launching elevenlabs_echo_narrator.py: 'EPCP3OVoiceSystem' object has no attribute 'speak_bree'
+2025-10-11 09:42:26,340 | INFO | 🚀 Launching gs343_autohealer_server_enhanced.py...
+2025-10-11 09:42:27,698 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:42:38,948 | INFO | ✅ gs343_autohealer_server_enhanced.py launched successfully (PID: 24072)
+2025-10-11 09:42:40,399 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:42:42,844 | INFO | 
+======================================================================
+2025-10-11 09:42:42,844 | INFO | 🔍 Starting server check cycle - 2025-10-11 09:42:42
+2025-10-11 09:42:42,844 | INFO | ======================================================================
+2025-10-11 09:42:44,455 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 09:42:52,053 | INFO | 📡 Discovered 25 servers
+2025-10-11 09:42:53,046 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:42:56,647 | INFO | 🚀 Launching integrate_methods.py...
+2025-10-11 09:42:57,633 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:43:00,945 | WARNING | ⚠️ CRYSTAL_MEMORY_ULTIMATE_MASTER.py exceeded launch attempts - skipping
+2025-10-11 09:43:06,714 | ERROR | ❌ integrate_methods.py failed to start
+2025-10-11 09:43:06,718 | ERROR | ❌ Exception launching integrate_methods.py: 'EPCP3OVoiceSystem' object has no attribute 'speak_bree'
+2025-10-11 09:43:07,106 | INFO | 🚀 Launching ECHO_MASTER_MCP.py...
+2025-10-11 09:43:08,101 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:43:10,773 | INFO | 🚀 Launching multi_llm_defense.py...
+2025-10-11 09:43:11,802 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:43:17,609 | ERROR | ❌ ECHO_MASTER_MCP.py failed to start
+2025-10-11 09:43:17,610 | ERROR | ❌ Exception launching ECHO_MASTER_MCP.py: 'EPCP3OVoiceSystem' object has no attribute 'speak_bree'
+2025-10-11 09:43:21,223 | ERROR | ❌ multi_llm_defense.py failed to start
+2025-10-11 09:43:21,229 | ERROR | ❌ Exception launching multi_llm_defense.py: 'EPCP3OVoiceSystem' object has no attribute 'speak_bree'
+2025-10-11 09:43:23,789 | INFO | 🚀 Launching echo_prime_service.py...
+2025-10-11 09:43:24,884 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:43:25,375 | WARNING | ⚠️ phoenix_voice_guilty_spark.py exceeded launch attempts - skipping
+2025-10-11 09:43:29,476 | INFO | 🚀 Launching ultra_speed_core_server_enhanced.py...
+2025-10-11 09:43:30,617 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:43:34,038 | ERROR | ❌ echo_prime_service.py failed to start
+2025-10-11 09:43:34,039 | ERROR | ❌ Exception launching echo_prime_service.py: 'EPCP3OVoiceSystem' object has no attribute 'speak_bree'
+2025-10-11 09:43:38,200 | INFO | ✅ echo_process_naming.py already running (PID: 22948, Port: 8000)
+2025-10-11 09:43:39,013 | INFO | ✅ ultra_speed_core_server_enhanced.py launched successfully (PID: 22948)
+2025-10-11 09:43:40,480 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/0UTDtgGGkpqERQn1s0YK "HTTP/1.1 200 OK"
+2025-10-11 09:43:46,508 | WARNING | ⚠️ phoenix_voice_guilty_spark.py exceeded launch attempts - skipping
+2025-10-11 09:43:46,539 | INFO | 
+----------------------------------------------------------------------
+2025-10-11 09:43:46,539 | INFO | 📊 CYCLE SUMMARY:
+2025-10-11 09:43:46,540 | INFO |    ✅ Already Running: 20
+2025-10-11 09:43:46,540 | INFO |    🚀 Launched: 1
+2025-10-11 09:43:46,540 | INFO |    ❌ Failed: 4
+2025-10-11 09:43:46,540 | INFO |    ⚠️  Quarantined: 0
+2025-10-11 09:43:46,540 | INFO |    📈 Total Servers: 25
+2025-10-11 09:43:46,540 | INFO | ----------------------------------------------------------------------
+2025-10-11 09:43:48,249 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"
+2025-10-11 09:43:48,626 | INFO | 
+----------------------------------------------------------------------
+2025-10-11 09:43:48,626 | INFO | 📊 CYCLE SUMMARY:
+2025-10-11 09:43:48,630 | INFO |    ✅ Already Running: 14
+2025-10-11 09:43:48,630 | INFO |    🚀 Launched: 3
+2025-10-11 09:43:48,630 | INFO |    ❌ Failed: 8
+2025-10-11 09:43:48,630 | INFO |    ⚠️  Quarantined: 0
+2025-10-11 09:43:48,631 | INFO |    📈 Total Servers: 25
+2025-10-11 09:43:48,631 | INFO | ----------------------------------------------------------------------
+2025-10-11 09:43:50,343 | INFO | HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/keDMh3sQlEXKM4EQxvvi "HTTP/1.1 200 OK"

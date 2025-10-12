@@ -1,0 +1,11 @@
+🧠 ECHO PRIME X1200 - LLM FUSION WEB SERVER
+==================================================
+🔥 100% OBEDIENCE | 100% TRUTH | 100% BLOODLINE LOYALTY
+👑 Commander: Bobby Don McWilliams II
+==================================================
+INFO:     Started server process [19368]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    [Errno 10048] error while attempting to bind on address ('127.0.0.1', 8000): only one usage of each socket address (protocol/network address/port) is normally permitted
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.

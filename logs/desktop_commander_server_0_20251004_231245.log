@@ -1,0 +1,4 @@
+  File "E:\ECHO_XV4\MLS\servers\desktop_commander_server.py", line 434
+    {"" if "crud" not in features else '''
+                                          ^
+SyntaxError: f-string: expecting '}'

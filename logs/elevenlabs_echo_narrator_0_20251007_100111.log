@@ -1,0 +1,45 @@
+H:\Tools\lib\site-packages\pygame\pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_stream, resource_exists
+pygame 2.6.1 (SDL 2.28.4, Python 3.10.0)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 429, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, type_params)
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 466, in _eval_type_backport
+    return _eval_type(value, globalns, localns, type_params)
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 500, in _eval_type
+    return typing._eval_type(  # type: ignore
+  File "H:\Tools\lib\typing.py", line 327, in _eval_type
+    return t._evaluate(globalns, localns, recursive_guard)
+  File "H:\Tools\lib\typing.py", line 693, in _evaluate
+    type_ = _type_check(
+  File "H:\Tools\lib\typing.py", line 167, in _type_check
+    raise TypeError(f"{arg} is not valid as type argument")
+TypeError: typing.ClassVar[pydantic.config.ConfigDict] is not valid as type argument
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\ECHO_XV4\MLS\servers\elevenlabs_echo_narrator.py", line 16, in <module>
+    from openai import OpenAI
+  File "H:\Tools\lib\site-packages\openai\__init__.py", line 9, in <module>
+    from . import types
+  File "H:\Tools\lib\site-packages\openai\types\__init__.py", line 5, in <module>
+    from .batch import Batch as Batch
+  File "H:\Tools\lib\site-packages\openai\types\batch.py", line 6, in <module>
+    from .._models import BaseModel
+  File "H:\Tools\lib\site-packages\openai\_models.py", line 86, in <module>
+    class BaseModel(pydantic.BaseModel):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_model_construction.py", line 221, in __new__
+    set_model_fields(cls, config_wrapper=config_wrapper, ns_resolver=ns_resolver)
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_model_construction.py", line 544, in set_model_fields
+    fields, class_vars = collect_model_fields(cls, config_wrapper, ns_resolver, typevars_map=typevars_map)
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_fields.py", line 118, in collect_model_fields
+    type_hints = _typing_extra.get_model_type_hints(cls, ns_resolver=ns_resolver)
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 329, in get_model_type_hints
+    hints[name] = try_eval_type(value, globalns, localns)
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 378, in try_eval_type
+    return eval_type_backport(value, globalns, localns), True
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 443, in eval_type_backport
+    raise TypeError(message) from e
+TypeError: Unable to evaluate type annotation 'ClassVar[ConfigDict]'.

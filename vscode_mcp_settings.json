@@ -1,0 +1,40 @@
+{
+  "mcpServers": {
+    "orchestrator": {
+      "command": "H:\\Tools\\python.exe",
+      "args": ["E:\\ECHO_XV4\\MLS\\servers\\MCP_CONSTELLATION\\orchestrator\\mcp_orchestrator.py"]
+    },
+    "filesystem": {
+      "command": "H:\\Tools\\python.exe",
+      "args": ["E:\\ECHO_XV4\\MLS\\servers\\MCP_CONSTELLATION\\filesystem\\mcp_filesystem.py"]
+    },
+    "windows": {
+      "command": "H:\\Tools\\python.exe",
+      "args": ["E:\\ECHO_XV4\\MLS\\servers\\MCP_CONSTELLATION\\windows_api\\mcp_windows.py"]
+    },
+    "process": {
+      "command": "H:\\Tools\\python.exe",
+      "args": ["E:\\ECHO_XV4\\MLS\\servers\\MCP_CONSTELLATION\\process_control\\mcp_process.py"]
+    },
+    "crystal": {
+      "command": "H:\\Tools\\python.exe",
+      "args": ["E:\\ECHO_XV4\\MLS\\servers\\MCP_CONSTELLATION\\crystal_memory\\mcp_crystal.py"]
+    },
+    "workflow": {
+      "command": "H:\\Tools\\python.exe",
+      "args": ["E:\\ECHO_XV4\\MLS\\servers\\MCP_CONSTELLATION\\workflow_engine\\mcp_workflow.py"]
+    },
+    "voice": {
+      "command": "H:\\Tools\\python.exe",
+      "args": ["E:\\ECHO_XV4\\MLS\\servers\\MCP_CONSTELLATION\\voice_system\\mcp_voice.py"]
+    },
+    "network": {
+      "command": "H:\\Tools\\python.exe",
+      "args": ["E:\\ECHO_XV4\\MLS\\servers\\MCP_CONSTELLATION\\network_tools\\mcp_network.py"]
+    },
+    "healing": {
+      "command": "H:\\Tools\\python.exe",
+      "args": ["E:\\ECHO_XV4\\MLS\\servers\\MCP_CONSTELLATION\\healing_protocols\\mcp_healing.py"]
+    }
+  }
+}

@@ -1,0 +1,4 @@
+  File "E:\ECHO_XV4\MLS\servers\desktop_commander_server.py", line 29
+    logging.basicConfig(
+                       ^
+SyntaxError: '(' was never closed

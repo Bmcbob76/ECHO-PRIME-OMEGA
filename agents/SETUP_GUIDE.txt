@@ -1,0 +1,66 @@
+====================================
+PhD AGENT - SETUP & TROUBLESHOOTING
+====================================
+
+QUICK START:
+============
+
+1. Install dependencies (ONE TIME):
+   E:\ECHO_XV4\MLS\agents\reinstall_deps.bat
+
+2. Run agent:
+   E:\ECHO_XV4\MLS\agents\run_phd_agent.bat
+
+
+TROUBLESHOOTING:
+================
+
+ERROR: Version conflicts / Import errors
+SOLUTION: Run reinstall_deps.bat to fix dependency versions
+
+ERROR: OPENAI_API_KEY not found
+SOLUTION: Check E:\ECHO_XV4\CONFIG\echo_x_complete_api_keychain.env exists
+
+ERROR: Module not found
+SOLUTION: Reinstall dependencies with reinstall_deps.bat
+
+
+MANUAL INSTALLATION:
+====================
+
+If reinstall_deps.bat fails, run manually:
+
+H:\Tools\python.exe -m pip uninstall -y openai pydantic typing-extensions
+H:\Tools\python.exe -m pip install --upgrade pip
+H:\Tools\python.exe -m pip install openai>=1.12.0
+H:\Tools\python.exe -m pip install pydantic>=2.6.0,<3.0.0
+H:\Tools\python.exe -m pip install psutil>=5.9.0
+H:\Tools\python.exe -m pip install pywin32>=306
+H:\Tools\python.exe -m pip install typing-extensions>=4.9.0
+
+
+VERIFICATION:
+=============
+
+Test installation:
+H:\Tools\python.exe -c "from openai import OpenAI; print('✅ OpenAI OK')"
+
+Check Python version:
+H:\Tools\python.exe --version
+(Requires Python 3.9+)
+
+
+FILES:
+======
+- phd_agent.py (684 lines) - Main agent code
+- requirements.txt - Dependency versions
+- run_phd_agent.bat - Quick start
+- reinstall_deps.bat - Fix dependencies
+- README.md - Full documentation
+- SETUP_GUIDE.txt - This file
+
+
+SUPPORT:
+========
+Authority Level: 11.0
+Commander Bobby Don McWilliams II

@@ -1,0 +1,11 @@
+# Ignore Python cache and bytecode
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
+servers/ACTIVE_SERVERS/venv_mcp_py312/
+
+# Other typical ignores
+*.pyo
+*.pyd

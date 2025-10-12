@@ -1,0 +1,22 @@
+Warning: Network Guardian modules not found: No module named 'NETWORK_GUARDIAN'
+✅ Process name set (fallback): ECHO_XV4: Network Guardian Integration - Port 8012
+🛡️ ECHO Network Guardian Integration
+=====================================
+❌ Network Guardian modules not available
+
+📊 System Status:
+{
+  "running": false,
+  "web_interface_running": false,
+  "devices": {
+    "total": 0,
+    "online": 0,
+    "blocked": 0
+  },
+  "connections": {
+    "active": 0
+  },
+  "error": "Guardian not initialized"
+}
+
+🔄 Running... (Press Ctrl+C to stop)

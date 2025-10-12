@@ -1,0 +1,4 @@
+⚠️ MCP not available - install with: pip install mcp
+✅ Process name set (fallback): ECHO_XV4: Ultra Speed Mcp Server - Port 8016
+⚡ ERROR: MCP package not installed
+⚡ Install: pip install mcp

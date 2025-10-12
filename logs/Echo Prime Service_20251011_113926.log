@@ -1,0 +1,7 @@
+⚠️ setproctitle not installed - process naming disabled
+Traceback (most recent call last):
+  File "E:\ECHO_XV4\MLS\servers\ACTIVE_SERVERS\echo_prime_service.py", line 291, in <module>
+    main()
+  File "E:\ECHO_XV4\MLS\servers\ACTIVE_SERVERS\echo_prime_service.py", line 252, in main
+    servicemanager.StartServiceCtrlDispatcher()
+pywintypes.error: (1063, 'StartServiceCtrlDispatcher', 'The service process could not connect to the service controller.')

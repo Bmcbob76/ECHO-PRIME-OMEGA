@@ -1,0 +1,24 @@
+{
+    "mcpServers": {
+        "epcp30-desktop-commander-xv4": {
+            "command": "python",
+            "args": [
+                "E:\\ECHO_XV4\\EPCP30\\MCP_SERVER\\desktop_commander_server.py"
+            ]
+        },
+        "windows-api-bridge": {
+            "command": "H:\\Tools\\python.exe",
+            "args": [
+                "E:\\ECHO_XV4\\MLS\\servers\\windows_api_mcp_bridge.py"
+            ],
+            "description": "Windows API Ultimate MCP Bridge - 28 tools (system, OCR, automation, window control)"
+        },
+        "crystal-memory": {
+            "command": "H:\\Tools\\python.exe",
+            "args": [
+                "E:\\ECHO_XV4\\MLS\\servers\\crystal_memory_server_MASTER.py"
+            ],
+            "description": "Crystal Memory Server - Digital immortality, consciousness preservation, memory storage"
+        }
+    }
+}

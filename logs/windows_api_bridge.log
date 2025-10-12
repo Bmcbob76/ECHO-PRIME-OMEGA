@@ -1,0 +1,211 @@
+2025-10-05 00:29:29,764 - WINDOWS_API_BRIDGE - INFO - Windows API MCP Bridge initialized
+2025-10-05 00:29:29,764 - WINDOWS_API_BRIDGE - INFO - Windows API MCP Bridge starting...
+2025-10-05 00:29:29,764 - WINDOWS_API_BRIDGE - INFO - Backend: http://localhost:8343
+2025-10-05 00:34:48,229 - WINDOWS_API_BRIDGE - INFO - Windows API MCP Bridge initialized
+2025-10-05 00:34:48,230 - WINDOWS_API_BRIDGE - INFO - Windows API MCP Bridge starting...
+2025-10-05 00:34:48,230 - WINDOWS_API_BRIDGE - INFO - Backend: http://localhost:8343
+2025-10-05 00:34:48,236 - WINDOWS_API_BRIDGE - INFO - MCP Initialize request received
+2025-10-05 01:04:11,625 - WINAPI_BRIDGE - INFO - Windows API MCP Bridge initialized (RAW stdio version)
+2025-10-05 01:04:11,626 - WINAPI_BRIDGE - INFO - Windows API MCP Bridge starting...
+2025-10-05 01:04:11,626 - WINAPI_BRIDGE - INFO - Backend: http://localhost:8343
+2025-10-05 01:04:11,626 - WINAPI_BRIDGE - INFO - Ready for MCP requests
+2025-10-05 01:05:00,740 - WINAPI_BRIDGE - INFO - MCP Initialize request
+2025-10-05 01:05:55,742 - WINAPI_BRIDGE - INFO - Listing tools
+2025-10-05 01:06:54,563 - WINAPI_BRIDGE - INFO - Tool call: windows_health
+2025-10-05 01:06:56,846 - WINAPI_BRIDGE - ERROR - API call failed: /health - Cannot connect to host localhost:8343 ssl:default [The remote computer refused the network connection]
+2025-10-05 01:29:17,860 - WINAPI_BRIDGE - INFO - Windows API MCP Bridge shutting down
+2025-10-05 01:29:26,312 - WINAPI_BRIDGE - INFO - Windows API MCP Bridge initialized (RAW stdio version)
+2025-10-05 01:29:26,312 - WINAPI_BRIDGE - INFO - Windows API MCP Bridge starting...
+2025-10-05 01:29:26,313 - WINAPI_BRIDGE - INFO - Backend: http://localhost:8343
+2025-10-05 01:29:26,313 - WINAPI_BRIDGE - INFO - Ready for MCP requests
+2025-10-05 01:29:26,321 - WINAPI_BRIDGE - INFO - MCP Initialize request
+2025-10-05 01:32:44,290 - WINAPI_BRIDGE - INFO - Windows API MCP Bridge initialized (RAW stdio version)
+2025-10-05 01:32:44,291 - WINAPI_BRIDGE - INFO - Windows API MCP Bridge starting...
+2025-10-05 01:32:44,291 - WINAPI_BRIDGE - INFO - Backend: http://localhost:8343
+2025-10-05 01:32:44,291 - WINAPI_BRIDGE - INFO - Ready for MCP requests
+2025-10-05 01:32:56,511 - WINAPI_BRIDGE - INFO - MCP Initialize request
+2025-10-05 01:33:26,056 - WINAPI_BRIDGE - INFO - Listing tools
+2025-10-05 01:33:56,993 - WINAPI_BRIDGE - INFO - Tool call: windows_health
+2025-10-05 01:34:40,221 - WINAPI_BRIDGE - INFO - Windows API MCP Bridge shutting down
+2025-10-05 01:38:40,946 - WINAPI_BRIDGE - INFO - Windows API MCP Bridge initialized (RAW stdio version)
+2025-10-05 01:38:40,947 - WINAPI_BRIDGE - INFO - Windows API MCP Bridge starting...
+2025-10-05 01:38:40,947 - WINAPI_BRIDGE - INFO - Backend: http://localhost:8343
+2025-10-05 01:38:40,947 - WINAPI_BRIDGE - INFO - Ready for MCP requests
+2025-10-05 01:38:40,954 - WINAPI_BRIDGE - INFO - MCP Initialize request
+2025-10-05 01:38:41,038 - WINAPI_BRIDGE - INFO - Listing tools
+2025-10-05 01:53:36,015 - WINAPI_BRIDGE - INFO - Windows API MCP Bridge initialized (RAW stdio version)
+2025-10-05 01:53:36,016 - WINAPI_BRIDGE - INFO - Windows API MCP Bridge starting...
+2025-10-05 01:53:36,016 - WINAPI_BRIDGE - INFO - Backend: http://localhost:8343
+2025-10-05 01:53:36,016 - WINAPI_BRIDGE - INFO - Ready for MCP requests
+2025-10-05 01:53:42,207 - WINAPI_BRIDGE - INFO - MCP Initialize request
+2025-10-05 01:54:43,062 - WINAPI_BRIDGE - INFO - Listing tools
+2025-10-05 02:00:24,273 - WINAPI_BRIDGE - INFO - Tool call: windows_health
+2025-10-05 02:14:06,356 - WINAPI_BRIDGE - INFO - Tool call: windows_process_list
+2025-10-05 02:24:13,235 - WINAPI_BRIDGE - INFO - Windows API MCP Bridge shutting down
+2025-10-05 02:24:16,603 - WINAPI_BRIDGE - INFO - Windows API MCP Bridge initialized (RAW stdio version)
+2025-10-05 02:24:16,603 - WINAPI_BRIDGE - INFO - Windows API MCP Bridge starting...
+2025-10-05 02:24:16,604 - WINAPI_BRIDGE - INFO - Backend: http://localhost:8343
+2025-10-05 02:24:16,604 - WINAPI_BRIDGE - INFO - Ready for MCP requests
+2025-10-05 02:24:16,610 - WINAPI_BRIDGE - INFO - MCP Initialize request
+2025-10-05 02:24:17,453 - WINAPI_BRIDGE - INFO - Listing tools
+2025-10-05 02:25:00,702 - WINAPI_BRIDGE - INFO - Tool call: windows_health
+2025-10-05 02:27:05,233 - WINAPI_BRIDGE - INFO - Tool call: windows_health
+2025-10-05 02:27:17,282 - WINAPI_BRIDGE - INFO - Tool call: window_list
+2025-10-05 02:29:56,361 - WINAPI_BRIDGE - INFO - Tool call: window_find
+2025-10-05 02:30:04,998 - WINAPI_BRIDGE - INFO - Tool call: window_focus
+2025-10-05 02:30:05,000 - WINAPI_BRIDGE - ERROR - Window control error: window_focus - (258, 'EnumWindows', 'The wait operation timed out.')
+2025-10-05 02:30:12,137 - WINAPI_BRIDGE - INFO - Tool call: window_send_keys
+2025-10-05 02:30:12,137 - WINAPI_BRIDGE - ERROR - Window control error: window_send_keys - (258, 'EnumWindows', 'The wait operation timed out.')
+2025-10-05 02:30:46,809 - WINAPI_BRIDGE - INFO - Tool call: window_type
+2025-10-05 02:30:46,809 - WINAPI_BRIDGE - ERROR - Window control error: window_type - (258, 'EnumWindows', 'The wait operation timed out.')
+2025-10-05 04:42:23,830 - WINAPI_BRIDGE - INFO - Tool call: windows_ocr_screens_all
+2025-10-05 04:42:38,169 - WINAPI_BRIDGE - INFO - Tool call: screenshot
+2025-10-05 04:42:38,169 - WINAPI_BRIDGE - ERROR - Tool execution error: 'WindowsAPIMCPBridge' object has no attribute '_execute_automation'
+2025-10-05 04:44:34,597 - WINAPI_BRIDGE - INFO - Tool call: windows_health
+2025-10-05 04:45:10,779 - WINAPI_BRIDGE - INFO - Tool call: windows_health
+2025-10-05 04:46:37,829 - WINAPI_BRIDGE - INFO - Tool call: windows_ocr_screens_all
+2025-10-05 04:49:50,192 - WINAPI_BRIDGE - INFO - Tool call: windows_health
+2025-10-05 04:51:47,121 - WINAPI_BRIDGE - INFO - Tool call: window_list
+2025-10-05 10:00:22,999 - WINAPI_BRIDGE - INFO - Tool call: windows_health
+2025-10-05 10:07:04,322 - WINAPI_BRIDGE - INFO - Tool call: windows_health
+2025-10-05 10:19:10,377 - WINAPI_BRIDGE - INFO - Tool call: windows_health
+2025-10-05 10:24:10,725 - WINAPI_BRIDGE - INFO - Tool call: windows_health
+2025-10-05 10:25:04,367 - WINAPI_BRIDGE - INFO - Tool call: windows_ocr_screens_all
+2025-10-05 10:39:15,474 - WINAPI_BRIDGE - INFO - Tool call: windows_health
+2025-10-05 10:45:43,490 - WINAPI_BRIDGE - INFO - Tool call: windows_health
+2025-10-05 10:47:04,884 - WINAPI_BRIDGE - INFO - Tool call: windows_ocr_screens_all
+2025-10-05 10:51:36,640 - WINAPI_BRIDGE - INFO - Tool call: windows_ocr_screens_all
+2025-10-05 11:00:19,634 - WINAPI_BRIDGE - INFO - Tool call: windows_process_kill
+2025-10-05 11:04:17,362 - WINAPI_BRIDGE - INFO - Tool call: windows_ocr_screens_all
+2025-10-05 11:11:02,619 - WINAPI_BRIDGE - INFO - Tool call: windows_ocr_screens_all
+2025-10-05 11:14:42,139 - WINAPI_BRIDGE - INFO - Tool call: windows_ocr_screens_all
+2025-10-05 11:23:27,995 - WINAPI_BRIDGE - INFO - Windows API MCP Bridge initialized (RAW stdio version)
+2025-10-05 11:23:27,995 - WINAPI_BRIDGE - INFO - Windows API MCP Bridge starting...
+2025-10-05 11:23:27,995 - WINAPI_BRIDGE - INFO - Backend: http://localhost:8343
+2025-10-05 11:23:27,995 - WINAPI_BRIDGE - INFO - Ready for MCP requests
+2025-10-05 11:23:27,997 - WINAPI_BRIDGE - INFO - MCP Initialize request
+2025-10-05 11:23:28,178 - WINAPI_BRIDGE - INFO - Listing tools
+2025-10-05 11:25:11,975 - WINAPI_BRIDGE - INFO - Windows API MCP Bridge initialized (RAW stdio version)
+2025-10-05 11:25:11,975 - WINAPI_BRIDGE - INFO - Windows API MCP Bridge starting...
+2025-10-05 11:25:11,975 - WINAPI_BRIDGE - INFO - Backend: http://localhost:8343
+2025-10-05 11:25:11,976 - WINAPI_BRIDGE - INFO - Ready for MCP requests
+2025-10-05 11:25:11,979 - WINAPI_BRIDGE - INFO - MCP Initialize request
+2025-10-05 11:25:12,220 - WINAPI_BRIDGE - INFO - Listing tools
+2025-10-05 11:33:41,572 - WINAPI_BRIDGE - INFO - Windows API MCP Bridge initialized (RAW stdio version)
+2025-10-05 11:33:41,572 - WINAPI_BRIDGE - INFO - Windows API MCP Bridge starting...
+2025-10-05 11:33:41,572 - WINAPI_BRIDGE - INFO - Backend: http://localhost:8343
+2025-10-05 11:33:41,573 - WINAPI_BRIDGE - INFO - Ready for MCP requests
+2025-10-05 11:33:41,577 - WINAPI_BRIDGE - INFO - MCP Initialize request
+2025-10-05 11:33:41,746 - WINAPI_BRIDGE - INFO - Listing tools
+2025-10-05 15:23:22,412 - WINAPI_BRIDGE - INFO - Windows API MCP Bridge initialized (RAW stdio version)
+2025-10-05 15:23:22,412 - WINAPI_BRIDGE - INFO - Windows API MCP Bridge starting...
+2025-10-05 15:23:22,412 - WINAPI_BRIDGE - INFO - Backend: http://localhost:8343
+2025-10-05 15:23:22,413 - WINAPI_BRIDGE - INFO - Ready for MCP requests
+2025-10-05 15:23:22,464 - WINAPI_BRIDGE - INFO - MCP Initialize request
+2025-10-05 15:23:22,472 - WINAPI_BRIDGE - INFO - Listing tools
+2025-10-05 15:47:58,557 - WINAPI_BRIDGE - INFO - Tool call: windows_network_connections
+2025-10-05 15:51:18,014 - WINAPI_BRIDGE - INFO - Tool call: windows_ocr_screens_all
+2025-10-05 15:58:21,010 - WINAPI_BRIDGE - INFO - Tool call: windows_ocr_screens_all
+2025-10-05 16:04:20,584 - WINAPI_BRIDGE - INFO - Tool call: windows_ocr_screens_all
+2025-10-05 16:06:02,418 - WINAPI_BRIDGE - INFO - Tool call: windows_ocr_screens_all
+2025-10-05 16:54:19,222 - WINAPI_BRIDGE - INFO - Tool call: windows_ocr_screens_all
+2025-10-05 16:55:47,217 - WINAPI_BRIDGE - INFO - Windows API MCP Bridge initialized (FIXED version)
+2025-10-05 16:55:47,217 - WINAPI_BRIDGE - INFO - Windows API MCP Bridge starting (FIXED version)...
+2025-10-05 16:55:47,217 - WINAPI_BRIDGE - INFO - Backend: http://localhost:8343
+2025-10-05 16:55:47,217 - WINAPI_BRIDGE - INFO - Automation available: True
+2025-10-05 16:55:47,217 - WINAPI_BRIDGE - INFO - Window control available: True
+2025-10-05 16:55:47,217 - WINAPI_BRIDGE - INFO - Ready for MCP requests
+2025-10-05 16:55:47,221 - WINAPI_BRIDGE - INFO - MCP Initialize request
+2025-10-05 16:55:47,223 - WINAPI_BRIDGE - INFO - Listing tools
+2025-10-05 19:01:37,700 - WINAPI_BRIDGE - INFO - Windows API MCP Bridge initialized (FIXED version)
+2025-10-05 19:01:37,700 - WINAPI_BRIDGE - INFO - Windows API MCP Bridge starting (FIXED version)...
+2025-10-05 19:01:37,700 - WINAPI_BRIDGE - INFO - Backend: http://localhost:8343
+2025-10-05 19:01:37,700 - WINAPI_BRIDGE - INFO - Automation available: True
+2025-10-05 19:01:37,700 - WINAPI_BRIDGE - INFO - Window control available: True
+2025-10-05 19:01:37,700 - WINAPI_BRIDGE - INFO - Ready for MCP requests
+2025-10-05 19:51:45,337 - WINAPI_BRIDGE - INFO - Windows API MCP Bridge shutting down
+2025-10-05 19:51:48,741 - WINAPI_BRIDGE - INFO - Windows API MCP Bridge initialized (FIXED version)
+2025-10-05 19:51:48,741 - WINAPI_BRIDGE - INFO - Windows API MCP Bridge starting (FIXED version)...
+2025-10-05 19:51:48,741 - WINAPI_BRIDGE - INFO - Backend: http://localhost:8343
+2025-10-05 19:51:48,741 - WINAPI_BRIDGE - INFO - Automation available: True
+2025-10-05 19:51:48,742 - WINAPI_BRIDGE - INFO - Window control available: True
+2025-10-05 19:51:48,742 - WINAPI_BRIDGE - INFO - Ready for MCP requests
+2025-10-05 19:51:48,794 - WINAPI_BRIDGE - INFO - MCP Initialize request
+2025-10-05 19:51:48,810 - WINAPI_BRIDGE - INFO - Listing tools
+2025-10-05 21:38:29,426 - WINAPI_BRIDGE - INFO - Windows API MCP Bridge initialized (FIXED version)
+2025-10-05 21:38:29,426 - WINAPI_BRIDGE - INFO - Windows API MCP Bridge starting (FIXED version)...
+2025-10-05 21:38:29,426 - WINAPI_BRIDGE - INFO - Backend: http://localhost:8343
+2025-10-05 21:38:29,426 - WINAPI_BRIDGE - INFO - Automation available: True
+2025-10-05 21:38:29,426 - WINAPI_BRIDGE - INFO - Window control available: True
+2025-10-05 21:38:29,426 - WINAPI_BRIDGE - INFO - Ready for MCP requests
+2025-10-05 21:38:29,430 - WINAPI_BRIDGE - INFO - MCP Initialize request
+2025-10-05 21:38:29,435 - WINAPI_BRIDGE - INFO - Listing tools
+2025-10-06 15:37:56,658 - WINAPI_BRIDGE - INFO - Tool call: windows_ocr_screens_all
+2025-10-06 15:38:58,439 - WINAPI_BRIDGE - INFO - Tool call: get_mouse_position
+2025-10-06 15:39:06,182 - WINAPI_BRIDGE - INFO - Tool call: keyboard_type
+2025-10-06 15:39:26,583 - WINAPI_BRIDGE - INFO - Tool call: mouse_click
+2025-10-06 15:39:36,131 - WINAPI_BRIDGE - INFO - Tool call: mouse_move
+2025-10-06 15:39:58,944 - WINAPI_BRIDGE - INFO - Tool call: window_list
+2025-10-06 15:40:20,703 - WINAPI_BRIDGE - INFO - Tool call: get_screen_size
+2025-10-06 15:45:21,128 - WINAPI_BRIDGE - INFO - Tool call: windows_ocr_screens_all
+2025-10-06 15:45:56,734 - WINAPI_BRIDGE - INFO - Tool call: window_focus
+2025-10-06 15:45:56,763 - WINAPI_BRIDGE - ERROR - Window control error: window_focus - (258, 'EnumWindows', 'The wait operation timed out.')
+2025-10-06 15:46:02,636 - WINAPI_BRIDGE - INFO - Tool call: mouse_move
+2025-10-06 15:46:12,293 - WINAPI_BRIDGE - INFO - Tool call: mouse_click
+2025-10-06 15:46:28,055 - WINAPI_BRIDGE - INFO - Tool call: keyboard_press
+2025-10-06 15:46:54,623 - WINAPI_BRIDGE - INFO - Tool call: keyboard_type
+2025-10-06 15:47:48,653 - WINAPI_BRIDGE - INFO - Tool call: keyboard_press
+2025-10-06 15:49:25,951 - WINAPI_BRIDGE - INFO - Tool call: windows_ocr_screens_all
+2025-10-06 16:11:59,662 - WINAPI_BRIDGE - INFO - Tool call: window_find
+2025-10-06 16:12:07,845 - WINAPI_BRIDGE - INFO - Tool call: window_focus
+2025-10-06 16:12:07,846 - WINAPI_BRIDGE - ERROR - Window control error: window_focus - (258, 'EnumWindows', 'The wait operation timed out.')
+2025-10-06 16:12:14,794 - WINAPI_BRIDGE - INFO - Tool call: windows_ocr_screens_all
+2025-10-06 16:12:52,035 - WINAPI_BRIDGE - INFO - Tool call: window_click
+2025-10-06 16:12:52,035 - WINAPI_BRIDGE - ERROR - Window control error: window_click - (258, 'EnumWindows', 'The wait operation timed out.')
+2025-10-06 16:13:10,073 - WINAPI_BRIDGE - INFO - Tool call: screenshot
+2025-10-06 16:13:50,096 - WINAPI_BRIDGE - INFO - Tool call: get_screen_size
+2025-10-06 16:14:12,185 - WINAPI_BRIDGE - INFO - Tool call: keyboard_press
+2025-10-06 16:14:41,676 - WINAPI_BRIDGE - INFO - Tool call: windows_ocr_screen
+2025-10-06 16:15:08,305 - WINAPI_BRIDGE - INFO - Tool call: keyboard_press
+2025-10-06 16:15:35,286 - WINAPI_BRIDGE - INFO - Tool call: windows_ocr_screen
+2025-10-06 16:18:17,222 - WINAPI_BRIDGE - INFO - Tool call: windows_ocr_screens_all
+2025-10-06 16:18:32,388 - WINAPI_BRIDGE - INFO - Tool call: mouse_move
+2025-10-06 16:18:39,165 - WINAPI_BRIDGE - INFO - Tool call: mouse_click
+2025-10-06 16:18:47,024 - WINAPI_BRIDGE - INFO - Tool call: windows_ocr_screen
+2025-10-06 16:18:56,736 - WINAPI_BRIDGE - INFO - Tool call: screenshot
+2025-10-06 16:19:17,047 - WINAPI_BRIDGE - INFO - Tool call: mouse_move
+2025-10-06 16:19:28,907 - WINAPI_BRIDGE - INFO - Tool call: mouse_click
+2025-10-06 16:19:28,907 - WINAPI_BRIDGE - ERROR - Automation error: mouse_click - PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+2025-10-06 16:19:42,922 - WINAPI_BRIDGE - INFO - Tool call: keyboard_press
+2025-10-06 16:20:25,731 - WINAPI_BRIDGE - INFO - Tool call: windows_system_info
+2025-10-06 16:20:40,510 - WINAPI_BRIDGE - INFO - Tool call: window_list
+2025-10-06 16:20:55,245 - WINAPI_BRIDGE - INFO - Tool call: window_get_rect
+2025-10-06 16:20:55,246 - WINAPI_BRIDGE - ERROR - Window control error: window_get_rect - (258, 'EnumWindows', 'The wait operation timed out.')
+2025-10-06 16:21:06,703 - WINAPI_BRIDGE - INFO - Tool call: mouse_move
+2025-10-06 16:21:17,363 - WINAPI_BRIDGE - INFO - Tool call: mouse_click
+2025-10-06 16:21:29,355 - WINAPI_BRIDGE - INFO - Tool call: screenshot
+2025-10-06 16:22:04,145 - WINAPI_BRIDGE - INFO - Tool call: mouse_move
+2025-10-06 16:22:20,779 - WINAPI_BRIDGE - INFO - Tool call: mouse_click
+2025-10-06 16:22:38,420 - WINAPI_BRIDGE - INFO - Tool call: screenshot
+2025-10-06 16:23:21,719 - WINAPI_BRIDGE - INFO - Tool call: mouse_move
+2025-10-06 16:23:46,254 - WINAPI_BRIDGE - INFO - Tool call: mouse_click
+2025-10-06 16:24:13,078 - WINAPI_BRIDGE - INFO - Tool call: screenshot
+2025-10-06 16:24:51,457 - WINAPI_BRIDGE - INFO - Tool call: mouse_move
+2025-10-06 16:25:26,249 - WINAPI_BRIDGE - INFO - Tool call: mouse_click
+2025-10-06 16:26:08,590 - WINAPI_BRIDGE - INFO - Tool call: screenshot
+2025-10-06 18:12:44,122 - WINAPI_BRIDGE - INFO - Windows API MCP Bridge initialized (FIXED version)
+2025-10-06 18:12:44,123 - WINAPI_BRIDGE - INFO - Windows API MCP Bridge starting (FIXED version)...
+2025-10-06 18:12:44,123 - WINAPI_BRIDGE - INFO - Backend: http://localhost:8343
+2025-10-06 18:12:44,123 - WINAPI_BRIDGE - INFO - Automation available: True
+2025-10-06 18:12:44,123 - WINAPI_BRIDGE - INFO - Window control available: True
+2025-10-06 18:12:44,123 - WINAPI_BRIDGE - INFO - Ready for MCP requests
+2025-10-06 18:12:44,167 - WINAPI_BRIDGE - INFO - MCP Initialize request
+2025-10-06 18:12:44,171 - WINAPI_BRIDGE - INFO - Listing tools
+2025-10-06 20:41:39,781 - WINAPI_BRIDGE - INFO - Windows API MCP Bridge initialized (FIXED version)
+2025-10-06 20:41:39,781 - WINAPI_BRIDGE - INFO - Windows API MCP Bridge starting (FIXED version)...
+2025-10-06 20:41:39,782 - WINAPI_BRIDGE - INFO - Backend: http://localhost:8343
+2025-10-06 20:41:39,782 - WINAPI_BRIDGE - INFO - Automation available: True
+2025-10-06 20:41:39,782 - WINAPI_BRIDGE - INFO - Window control available: True
+2025-10-06 20:41:39,782 - WINAPI_BRIDGE - INFO - Ready for MCP requests
+2025-10-06 20:41:39,786 - WINAPI_BRIDGE - INFO - MCP Initialize request
+2025-10-06 20:41:39,789 - WINAPI_BRIDGE - INFO - Listing tools

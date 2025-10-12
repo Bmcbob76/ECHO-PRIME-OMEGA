@@ -1,0 +1,8 @@
+MCP not available. Install with: pip install mcp
+✅ Process name set: ECHO_XV4: Echo Master Mcp - Port 8004
+Traceback (most recent call last):
+  File "E:\ECHO_XV4\MLS\servers\ECHO_MASTER_MCP.py", line 61, in <module>
+    class EchoPrimeMasterMCP:
+  File "E:\ECHO_XV4\MLS\servers\ECHO_MASTER_MCP.py", line 311, in EchoPrimeMasterMCP
+    async def get_all_server_status(self) -> List[TextContent]:
+NameError: name 'TextContent' is not defined
