@@ -1,11 +1,67 @@
-# Ignore Python cache and bytecode
+# CRITICAL - API KEYS & SECRETS
+**/echo_x_complete_api_keychain.env
+**/*keychain*.env
+**/*api_key*.txt
+**/*secret*.txt
+**/.env
+**/.env.*
+
+# Python
 __pycache__/
-*.pyc
-
-# Ignore virtual environments
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 venv/
-servers/ACTIVE_SERVERS/venv_mcp_py312/
+ENV/
 
-# Other typical ignores
-*.pyo
-*.pyd
+# Logs
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Node modules (if any)
+node_modules/
+
+# Execution history
+execution_log.json
+*.history
+
+# Crystal memory (too large)
+**/CRYSTALS/
+**/crystals/
+
+# Backups
+*.backup
+*.bak
+*_backup.*
+*_old.*
