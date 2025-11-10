@@ -17,7 +17,7 @@ from openai import OpenAI
 
 # API Keys
 ELEVENLABS_API_KEY = "sk_2c0f0020651d25cc93485dfabfe000b7d3355f930ad44ea5"
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
 
 # Initialize clients
 elevenlabs_client = ElevenLabs(api_key=ELEVENLABS_API_KEY)
