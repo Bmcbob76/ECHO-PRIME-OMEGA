@@ -1,0 +1,87 @@
+{
+  "name": "ai-research-harvesters",
+  "displayName": "AI Research Harvesters",
+  "description": "Autonomous AI/ML research harvesting and EKM generation using ai-ml-mastery skill",
+  "version": "1.0.0",
+  "authority": 11.0,
+  "commander": "Bobby Don McWilliams II",
+  "classification": "TIER_S",
+  "category": "knowledge_acquisition",
+  
+  "command": "H:\\Tools\\python.exe",
+  "args": ["server.py"],
+  "cwd": "P:\\ECHO_PRIME\\MLS_CLEAN\\PRODUCTION\\GATEWAYS\\AI_RESEARCH_HARVESTERS",
+  
+  "transport": {
+    "type": "stdio"
+  },
+  
+  "capabilities": {
+    "research_harvesting": true,
+    "ekm_generation": true,
+    "multi_source": true,
+    "ai_ml_analysis": true
+  },
+  
+  "integration": {
+    "memory_orchestration": "M:\\MEMORY_ORCHESTRATION",
+    "ekm_output": "M:\\MEMORY_ORCHESTRATION\\L9_EKM\\RESEARCH_TIER_A",
+    "gs343_healing": true,
+    "phoenix_recovery": true,
+    "crystal_memory": true
+  },
+  
+  "sources": [
+    {
+      "name": "arXiv",
+      "api": "http://export.arxiv.org/api/query",
+      "categories": ["cs.AI", "cs.LG", "cs.CL", "cs.CV", "cs.NE", "stat.ML"]
+    },
+    {
+      "name": "Papers with Code",
+      "api": "https://paperswithcode.com/api/v1"
+    },
+    {
+      "name": "HuggingFace",
+      "api": "https://huggingface.co/api"
+    }
+  ],
+  
+  "thresholds": {
+    "min_citation_count": 5,
+    "min_content_length": 2000,
+    "default_max_papers": 20
+  },
+  
+  "ai_ml_skill": {
+    "active": true,
+    "ekm_count": "400+",
+    "tier": "TIER_A/S",
+    "topics": [
+      "Transformer architectures",
+      "LLM training strategies",
+      "Computer vision systems",
+      "Diffusion models",
+      "Model optimization",
+      "Multimodal AI",
+      "RAG systems"
+    ]
+  },
+  
+  "health_check": {
+    "tool": "ai_research_health",
+    "interval": 300
+  },
+  
+  "logging": {
+    "level": "INFO",
+    "checkpoint": "checkpoint.json",
+    "harvest_log": "harvest_log.json"
+  },
+  
+  "debug": {
+    "telemetry": true,
+    "verbose": true,
+    "gs343_integration": true
+  }
+}

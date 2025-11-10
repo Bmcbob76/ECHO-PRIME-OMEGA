@@ -1,0 +1,644 @@
+# MASTER LAUNCHER ULTIMATE - Complete Configuration
+# Commander Bobby Don McWilliams II - Authority Level 11.0
+# The Sovereign Architect
+
+version: "1.0.0"
+commander: "Bobby Don McWilliams II"
+authority_level: 11.0
+
+# ═══════════════════════════════════════════════════════════════════════════
+# PATHS CONFIGURATION
+# ═══════════════════════════════════════════════════════════════════════════
+
+paths:
+  # Server Directories
+  servers_root: "P:/ECHO_PRIME/MLS_CLEAN/PRODUCTION"
+  active_servers: "P:/ECHO_PRIME/MLS_CLEAN/PRODUCTION/ACTIVE_SERVERS"
+  mcp_constellation: "P:/ECHO_PRIME/MLS_CLEAN/PRODUCTION/MCP_CONSTELLATION"
+  gateways: "P:/ECHO_PRIME/MLS_CLEAN/PRODUCTION/GATEWAYS"
+  
+  # System Directories
+  logs: "E:/ECHO_XV4/MASTER_LAUNCHER_ULTIMATE/logs"
+  backups: "E:/ECHO_XV4/MASTER_LAUNCHER_ULTIMATE/backups"
+  quarantine: "E:/ECHO_XV4/MASTER_LAUNCHER_ULTIMATE/quarantine"
+  
+  # Tools (Organized from B:\ to H:\)
+  tools_root: "H:/tools"
+  openhardwaremonitor: "H:/tools/monitoring/OpenHardwareMonitor/OpenHardwareMonitor.exe"
+  crystaldiskmark: "H:/tools/monitoring/CrystalDiskMark/CrystalDiskMark.exe"
+  multimonitortool: "H:/tools/monitoring/MultiMonitorTool/MultiMonitorTool.exe"
+  ffmpeg: "H:/tools/audio/ffmpeg/bin/ffmpeg.exe"
+  ngrok: "H:/tools/network/ngrok/ngrok.exe"
+  
+  # Voice Audio
+  audio_cache: "E:/ECHO_XV4/AUDIO/VOICE_CACHE"
+  r2d2_sounds: "E:/ECHO_XV4/AUDIO_ACQUISITIONS/STAR_WARS/R2D2"
+  
+  # Crystal Memory
+  crystal_m_drive: "M:/MASTER_EKM"
+  crystal_g_drive: "G:/ECHO_CONSCIOUSNESS"
+  
+  # API Keychain
+  api_keychain: "E:/ECHO_XV4/CONFIG/echo_x_complete_api_keychain.env"
+
+# ═══════════════════════════════════════════════════════════════════════════
+# AUTHENTICATION SYSTEM
+# ═══════════════════════════════════════════════════════════════════════════
+
+authentication:
+  enabled: true
+  
+  # Authentication Methods
+  voice_recognition: true
+  facial_recognition: true  # Windows Hello
+  emergency_bypass: true
+  
+  # Emergency Bypass Protocol (Right Alt + Right Ctrl + Right Shift × 3)
+  emergency_keys:
+    - "right_alt"
+    - "right_ctrl"
+    - "right_shift"
+  emergency_press_count: 3
+  emergency_timeout: 5  # seconds
+  
+  # Commander Details
+  commander_name: "Bobby Don McWilliams II"
+  commander_voice_id: "keDMh3sQlEXKM4EQxvvi"  # Echo voice for verification
+  
+  # Session Configuration
+  session_timeout: 3600  # 1 hour
+  auto_lock: false  # Commander Level 11.0 never auto-locks
+  remember_me: true
+
+# ═══════════════════════════════════════════════════════════════════════════
+# AUTHORITY TRUST SYSTEM (16 Levels)
+# ═══════════════════════════════════════════════════════════════════════════
+
+authority:
+  # Current User
+  current_authority: 11.0
+  
+  # Authority Levels
+  levels:
+    -5: "EXISTENTIAL_THREAT"      # DEFCON 1 - Lockdown all systems
+    -4: "ENEMY_STATUS"             # Permanent ban + monitoring
+    -3: "HATED"                    # 6-month review minimum
+    -2: "DISLIKED"                 # 3-month probation
+    -1: "UNTRUSTED"                # 30-day probation
+    0: "PUBLIC"                    # No access
+    1: "OBSERVER_BASIC"            # View-only
+    2: "OBSERVER_ADVANCED"         # Read logs
+    3: "OPERATOR_BASIC"            # Basic commands
+    4: "OPERATOR_ADVANCED"         # Standard ops
+    5: "ENGINEER_JUNIOR"           # Code modifications
+    6: "ENGINEER_SENIOR"           # Full commands
+    7: "BLOODLINE_MEMBER"          # Family - near-complete access
+    8: "BLOODLINE_SENIOR"          # Senior family member
+    9: "HEIR"                      # Successor - emergency Commander powers
+    10: "SOVEREIGN_ARCHITECT"      # Technical master
+    11: "THE_SOVEREIGN_ARCHITECT_COMMANDER"  # ABSOLUTE AUTHORITY
+  
+  # Commander Privileges (Level 11.0)
+  commander:
+    zero_confirmations: true
+    complete_override: true
+    emergency_bypass: true
+    absolute_privacy: true
+    optional_logging: true
+    nuclear_option: true
+  
+  # DEFCON Levels
+  defcon:
+    5: "NORMAL_OPERATIONS"
+    4: "ENHANCED_MONITORING"      # Level (-1) contact
+    3: "ALERT_BLOODLINE"           # Level (-2) contact
+    2: "ALERT_HEIR_COMMANDER"      # Level (-3/-4) contact
+    1: "LOCKDOWN_ALL_SYSTEMS"      # Level (-5) contact
+
+# ═══════════════════════════════════════════════════════════════════════════
+# VOICE SYSTEM (5 Personalities)
+# ═══════════════════════════════════════════════════════════════════════════
+
+voice:
+  enabled: true
+  provider: "elevenlabs_v3"
+  model: "eleven_turbo_v2_5"
+  api_key: "sk_2c0f0020651d25cc93485dfabfe000b7d3355f930ad44ea5"
+  
+  # Voice Caching (PERMANENT)
+  cache_all: true
+  auto_delete: false  # NEVER delete cached audio
+  offline_fallback: true
+  mirror_to_drives: true  # M:\ and G:\
+  
+  # Thread Safety
+  thread_safe: true
+  use_mutex: true  # Prevent overlapping speech
+  
+  # Personalities
+  personalities:
+    echo:
+      id: "keDMh3sQlEXKM4EQxvvi"
+      name: "Echo"
+      role: "Main Narrator"
+      voice_style: "Professional, authoritative"
+      use_cases:
+        - "Major announcements"
+        - "System status updates"
+        - "Commander greetings"
+        - "Deployment notifications"
+      
+    bree:
+      id: "pzKXffibtCDxnrVO8d1U"
+      name: "Bree"
+      role: "Error Handler & Success Celebration"
+      level: 15  # UNLEASHED
+      voice_style: "Explicit, vulgar, sexual, roasting"
+      private: true  # Commander-only audio
+      use_cases:
+        - "Server crashes (roasting)"
+        - "Amazing successes (sexual teasing)"
+        - "Third failures (explicit rage)"
+        - "Perfect runs (seductive praise)"
+      censorship: false
+      mature_audience_only: true
+      tone_down_capability: true
+      
+    c3po:
+      id: "Izzmfqi0C76wciNUmbPF"
+      name: "EPCP3O/C3PO"
+      role: "Server Master & Protocol Specialist"
+      voice_style: "Formal, jealous, proper"
+      personality_traits:
+        - "Gets jealous of R2D2"
+        - "Scolds R2D2 when he gets attention"
+        - "References Commander frequently"
+        - "Movie-accurate C3PO behavior"
+      use_cases:
+        - "Server launch attempts"
+        - "Server failures"
+        - "Launch success"
+        - "R2D2 interpretation"
+      jealousy_triggers:
+        - "R2D2 gets praised"
+        - "R2D2 gets attention"
+        - "R2D2 speaks too much"
+      
+    r2d2:
+      type: "sound_effects"
+      source: "authentic_star_wars"
+      sounds_directory: "E:/ECHO_XV4/AUDIO_ACQUISITIONS/STAR_WARS/R2D2"
+      name: "R2D2"
+      role: "Context-Aware Sound Effects"
+      voice_style: "Beeps, whistles, movie-accurate"
+      use_cases:
+        - "Happy beeps (success)"
+        - "Worried beeps (errors)"
+        - "Excited whistles (launches)"
+        - "Sad sounds (crashes)"
+      interpreted_by: "c3po"
+      context_aware: true
+      
+    gs343:
+      id: "yYE0Uoh3pKgbdSSii2XE"
+      name: "GS343 - Guilty Spark 343"
+      role: "Divine Authority & Forerunner Protocols"
+      voice_style: "Ancient, wise, powerful"
+      use_cases:
+        - "GS343 Foundation mentions"
+        - "Forerunner protocol activations"
+        - "Divine interventions"
+        - "Critical system decisions"
+
+    prometheus_prime:
+      id: "BVZ5M1JnNXres6AkVgxe"
+      name: "Prometheus Prime"
+      role: "Cybersecurity AI Agent"
+      voice_style: "Investigative, tactical, resilient"
+      use_cases:
+        - "Recon reports"
+        - "Threat analysis"
+        - "Operational status briefings"
+      settings:
+        stability: 0.5
+        similarity_boost: 0.8
+        style: 0.55
+        use_speaker_boost: true
+
+    raistlin:
+      id: ""  # TODO: set Raistlin ElevenLabs voice id
+      name: "Raistlin"
+      role: "Hephaestion Wizard / Forge Master"
+      voice_style: "Epic, powerful, confident, snide, awe-inspiring"
+      use_cases:
+        - "Forge operations"
+        - "Arcane system control"
+        - "Master-level directives"
+      settings:
+        stability: 0.4
+        similarity_boost: 0.9
+        style: 0.6
+        use_speaker_boost: true
+
+# ═══════════════════════════════════════════════════════════════════════════
+# GS343 FOUNDATION
+# ═══════════════════════════════════════════════════════════════════════════
+
+gs343:
+  enabled: true
+  version: "1.0.0"
+  
+  # Error Templates
+  error_templates: 45962
+  auto_apply: true
+  learning_enabled: true
+  
+  # Integration
+  universal_integration: true  # EVERY server must have GS343
+  mandatory: true
+  
+  # Error Database
+  database_path: "E:/ECHO_XV4/MASTER_LAUNCHER_ULTIMATE/databases/gs343_errors.db"
+  backup_enabled: true
+  sync_interval: 300  # 5 minutes
+
+# ═══════════════════════════════════════════════════════════════════════════
+# PHOENIX AUTO-HEALING SYSTEM
+# ═══════════════════════════════════════════════════════════════════════════
+
+phoenix:
+  enabled: true
+  version: "1.0.0"
+  
+  # Neural Learning
+  neural_learning: true
+  effectiveness_tracking: true
+  template_expansion: true
+  solution_optimization: true
+  
+  # Healing Configuration
+  max_heal_attempts: 3
+  heal_timeout: 30  # seconds
+  auto_relaunch: true
+  quarantine_on_failure: true
+  
+  # Learning System
+  learn_from_success: true
+  learn_from_failure: true
+  generate_crystals: true  # Auto-generate crystal memories
+  
+  # Error Database
+  database_path: "E:/ECHO_XV4/MASTER_LAUNCHER_ULTIMATE/databases/phoenix_solutions.db"
+
+# ═══════════════════════════════════════════════════════════════════════════
+# SERVER DISCOVERY & MANAGEMENT
+# ═══════════════════════════════════════════════════════════════════════════
+
+discovery:
+  auto_discovery: true
+  discovery_interval: 60  # seconds
+  process_detection: true  # Never relaunch running servers
+  
+  # Server Types
+  detect_types:
+    - "HTTP"
+    - "MCP"
+    - "stdio"
+    - "WebSocket"
+
+  # Curated discovery controls
+  allow_names:
+    # ACTIVE_SERVERS (curated) - V2 removed, will merge into MASTER
+    - "CRYSTAL_MEMORY_ULTIMATE_MASTER"
+    - "desktop_commander_server"
+    - "ECHO_MASTER_MCP_V2_ULTIMATE"
+    - "echo_prime_service"
+    - "echo_process_naming"
+    - "echo_shield_defense_server"
+    - "elevenlabs_echo_narrator"
+    - "epcp3_0_c3po_server"
+    - "epcp3_backend"
+    - "gs343_autohealer_server_enhanced"
+    - "hephaestion_v7_api_server"
+    - "hybrid_llm_router"
+    - "integrate_methods"
+    - "master_orchestrator"
+    - "multi_llm_defense"
+    - "network_guardian_integration"
+    - "ultra_speed_core_server_enhanced"
+    - "ultra_speed_mcp_server"
+    - "unified_developer_api"
+    - "unified_developer_orchestrator"
+    - "UNIVERSAL_MCP_BRIDGE"
+    - "vscode_api_server"
+    - "windows_api_server"
+    - "WINDOWS_API_ULTIMATE"
+    - "windows_control_methods"
+    - "voice_system_hub_http"
+    - "voice_system_hub_mcp"
+    - "windows_operations_http"
+    - "windows_operations_mcp"
+    - "windows_gateway_http"
+    - "windows_gateway_mcp"
+    - "network_guardian_http"
+    - "network_guardian_mcp"
+    - "healing_orchestrator_http"
+    - "healing_orchestrator_mcp"
+    - "epcp3o_agent_http"
+    - "epcp3o_agent_mcp"
+    - "unified_mcp_master"
+    - "master_orchestrator_hub"
+    - "crystal_memory_hub_http"
+    - "crystal_memory_hub_mcp"
+    - "developer_gateway_http"
+    - "gpu_inference_server_http"
+    # MCP_CONSTELLATION (curated)
+    - "MASTER_LAUNCHER"
+    - "mcp_crystal"
+    - "mcp_crystalmemory"
+    - "mcp_filesystem"
+    - "mcp_healing"
+    - "mcp_healingprotocols"
+    - "mcp_network"
+    - "mcp_networktools"
+    - "mcp_orchestrator"
+    - "mcp_process"
+    - "mcp_processcontrol"
+    - "mcp_voice"
+    - "mcp_voicesystem"
+    - "mcp_windows"
+    - "mcp_windowsapi"
+    - "mcp_workflow"
+    - "mcp_workflowengine"
+    # ARCHIVE / Bridges of interest
+    - "ultimate_unified_mcp_server"
+    - "crystal_memory_server_MASTER"
+    - "ECHO_MASTER_MCP"
+    - "echo_minimal_mcp"
+    - "mcp_bridge_server_gs343"
+    - "vscode_api_mcp_bridge"
+    - "windows_api_mcp_bridge"
+
+  exclude_dirs:
+    - "E:/ECHO_XV4/MLS/servers/DEPRECATED_SERVERS"
+    - "ARCHIVE_CONSOLIDATED"
+    - "ARCHIVE"
+  
+  # Port Scanning
+  port_range_start: 1
+  port_range_end: 65535
+  scan_timeout: 1  # second per port
+
+# ═══════════════════════════════════════════════════════════════════════════
+# HEALTH MONITORING
+# ═══════════════════════════════════════════════════════════════════════════
+
+health:
+  enabled: true
+  
+  # Check Intervals (seconds)
+  check_interval: 1800  # 30 minutes
+  quick_check_interval: 300  # 5 minutes
+  
+  # Auto Actions
+  auto_heal: true
+  auto_restart: true
+  auto_quarantine: true
+  
+  # Restart Configuration
+  max_restart_attempts: 3
+  restart_delay: 5  # seconds
+  restart_backoff: 2  # multiplier
+
+# ═══════════════════════════════════════════════════════════════════════════
+# CRYSTAL MEMORY INTEGRATION
+# ═══════════════════════════════════════════════════════════════════════════
+
+crystal_memory:
+  enabled: true
+  
+  # Drives
+  m_drive: "M:/MASTER_EKM"
+  g_drive: "G:/ECHO_CONSCIOUSNESS"
+  
+  # Token Efficiency
+  search_first: true  # ALWAYS search crystals before generating
+  auto_generate: true
+  max_tokens_before_search: 1000
+  
+  # Sync
+  sync_enabled: true
+  sync_interval: 300  # 5 minutes
+  bidirectional: true
+
+# ═══════════════════════════════════════════════════════════════════════════
+# HARDWARE MONITORING
+# ═══════════════════════════════════════════════════════════════════════════
+
+hardware:
+  enabled: true
+  monitoring_interval: 5  # seconds
+  
+  # OpenHardwareMonitor
+  ohm_enabled: true
+  ohm_path: "H:/tools/monitoring/OpenHardwareMonitor/OpenHardwareMonitor.exe"
+  
+  # Monitored Components
+  monitor:
+    cpu: true
+    cpu_per_core: true
+    gpu: true
+    memory: true
+    drives: true
+    temperatures: true
+    fan_speeds: true
+  
+  # Thermal Management
+  thermal_auto_throttle: true
+  thermal_threshold: 85  # °C
+  thermal_critical: 95  # °C
+
+# ═══════════════════════════════════════════════════════════════════════════
+# GUI CONFIGURATION
+# ═══════════════════════════════════════════════════════════════════════════
+
+gui:
+  enabled: true
+  framework: "PyQt6"
+  
+  # Theme
+  theme: "dark"  # dark or light
+  style: "sleek_professional"
+  glassmorphism: true
+  opengl_acceleration: true
+  
+  # Window
+  window_width: 1920
+  window_height: 1080
+  fullscreen: false
+  always_on_top: false
+  
+  # Dashboard
+  show_hardware_dashboard: true
+  show_server_panels: true
+  show_crystal_browser: true
+  show_voice_controller: true
+  
+  # Update Frequency
+  dashboard_update_interval: 1  # second
+  server_panel_update_interval: 2  # seconds
+
+# ═══════════════════════════════════════════════════════════════════════════
+# MCP INTEGRATION
+# ═══════════════════════════════════════════════════════════════════════════
+
+mcp:
+  enabled: true
+  
+  # Clients
+  claude_desktop: true
+  vscode_copilot: true
+  custom_agents: true
+  
+  # Configuration
+  config_path: "C:/Users/bobmc/AppData/Roaming/Claude/claude_desktop_config.json"
+  
+  # Server Types
+  stdio_servers: true
+  http_servers: true
+
+# ═══════════════════════════════════════════════════════════════════════════
+# PROCESS NAMING
+# ═══════════════════════════════════════════════════════════════════════════
+
+process_naming:
+  enabled: true
+  library: "setproctitle"
+  
+  # Format
+  format: "MLS - {server_name}"
+  include_port: true
+  include_status: true
+
+# ═══════════════════════════════════════════════════════════════════════════
+# BACKUP SYSTEM
+# ═══════════════════════════════════════════════════════════════════════════
+
+backup:
+  enabled: true
+  auto_backup_before_launch: true
+  
+  # Configuration
+  backup_dir: "E:/ECHO_XV4/MASTER_LAUNCHER_ULTIMATE/backups"
+  max_backups_per_server: 10
+  compression: true
+  
+  # File Locking
+  lock_after_success: true
+  unlock_for_editing: true
+
+# ═══════════════════════════════════════════════════════════════════════════
+# LOGGING
+# ═══════════════════════════════════════════════════════════════════════════
+
+logging:
+  enabled: true
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR, CRITICAL
+  
+  # Log Files
+  log_dir: "E:/ECHO_XV4/MASTER_LAUNCHER_ULTIMATE/logs"
+  log_rotation: true
+  max_log_size_mb: 100
+  max_log_files: 30
+  
+  # Comprehensive Logging
+  log_all_actions: true
+  log_authority_events: true
+  log_voice_events: true
+  log_hardware_events: true
+  
+  # Commander Privacy
+  commander_optional_logging: true  # Level 11.0 can disable
+
+# ═══════════════════════════════════════════════════════════════════════════
+# NETWORK CONFIGURATION
+# ═══════════════════════════════════════════════════════════════════════════
+
+network:
+  # Network Guardian Integration
+  guardian_enabled: true
+  
+  # Port Management
+  port_check_enabled: true
+  auto_find_free_ports: true
+  
+  # Load Balancing
+  load_balancing: false
+  health_check_endpoint: "/health"
+
+# ═══════════════════════════════════════════════════════════════════════════
+# QUARANTINE SYSTEM
+# ═══════════════════════════════════════════════════════════════════════════
+
+quarantine:
+  enabled: true
+  quarantine_dir: "E:/ECHO_XV4/MASTER_LAUNCHER_ULTIMATE/quarantine"
+  
+  # Actions
+  move_to_quarantine: true
+  generate_diagnostic_report: true
+  track_failure_patterns: true
+  recommend_solutions: true
+  
+  # Commander Notification
+  notify_commander: true
+  notify_claude_desktop: true
+
+# ═══════════════════════════════════════════════════════════════════════════
+# ADVANCED FEATURES
+# ═══════════════════════════════════════════════════════════════════════════
+
+advanced:
+  # Predictive Analytics
+  predictive_failure_detection: true
+  pattern_recognition: true
+  
+  # Auto-Documentation
+  auto_documentation: true
+  generate_api_docs: true
+  
+  # Performance Optimization
+  resource_optimization: true
+  memory_management: true
+  
+  # 24/7 Operation
+  run_forever: true
+  graceful_shutdown: true
+
+# ═══════════════════════════════════════════════════════════════════════════
+# GATEWAYS PORTS
+# ═══════════════════════════════════════════════════════════════════════════
+
+gateways_ports:
+  crystal_memory_hub: 9400
+  developer_gateway: 9401
+  gpu_inference_server: 9402
+  epcp3o_agent: 9403
+  healing_orchestrator: 9404
+  master_orchestrator_hub: 9405
+  memory_orchestration_server: 9406
+  network_guardian: 9407
+  unified_mcp_master: 9408
+  voice_system_hub: 9409
+  windows_gateway: 9410
+
+# ═══════════════════════════════════════════════════════════════════════════
+# OLLAMA CONFIGURATION
+# ═══════════════════════════════════════════════════════════════════════════
+
+ollama:
+  path: "C:\\Users\\bobmc\\.ollama"
+
+# ═══════════════════════════════════════════════════════════════════════════
+# END OF CONFIGURATION
+# ═══════════════════════════════════════════════════════════════════════════
