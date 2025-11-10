@@ -3,279 +3,259 @@
         {
             "id": "unified_developer_api",
             "name": "Unified Developer API - Master Orchestrator",
-            "description": "Master coordinator for ECHO_XV4 Unified Developer API System - Routes commands to VS Code API, Windows API, and Desktop Commander",
-            "script_path": "E:/ECHO_XV4/MLS/servers/unified_developer_api.py",
-            "python_path": "H:/Tools/python.exe",
+            "description": "Master coordinator for ECHO_XV4 Unified Developer API System - Routes commands to VS Code API, Windows API, and Desktop Commander. Includes integrated VS Code MCP bridge and workflow engine.",
+            "script_path": "servers/ACTIVE_SERVERS/unified_developer_api.py",
+            "python_path": "python3",
             "port": 9000,
             "auto_start": true,
             "debug": true,
             "diagnostics": true,
+            "mixins": ["UltraSpeedMixin", "GS343Mixin", "PhoenixMixin"],
             "health_endpoint": "http://localhost:9000/health",
-            "endpoints": [
-                {
-                    "path": "/health",
-                    "method": "GET",
-                    "description": "Health check and system status"
-                },
-                {
-                    "path": "/api/stats",
-                    "method": "GET",
-                    "description": "API router statistics"
-                },
-                {
-                    "path": "/api/endpoints",
-                    "method": "GET",
-                    "description": "List all available endpoints"
-                },
-                {
-                    "path": "/unified/workflow",
-                    "method": "POST",
-                    "description": "Execute multi-step development workflow"
-                },
-                {
-                    "path": "/vscode/*",
-                    "method": "POST",
-                    "description": "Proxy to VS Code API (port 9001)"
-                },
-                {
-                    "path": "/windows/*",
-                    "method": "POST",
-                    "description": "Proxy to Windows API (port 8343)"
-                }
-            ],
-            "requirements": [
-                "requests"
-            ],
             "authority_level": "11.0",
             "category": "orchestration",
-            "tags": ["unified-api", "orchestrator", "workflow-engine", "vscode-proxy", "windows-proxy"],
-            "subsystems": {
-                "vscode_api": "http://localhost:9001",
-                "windows_api": "http://localhost:8343",
-                "desktop_commander": "MCP (integrated)"
-            },
-            "workflows": [
-                "fix_bug - Fix bug in code file",
-                "create_component - Create new component with tests",
-                "debug_crash - Debug runtime crash",
-                "run_tests - Execute test suite"
-            ]
+            "tags": ["unified-api", "orchestrator", "workflow-engine", "vscode", "windows", "consolidated"]
+        },
+        {
+            "id": "echo_master_mcp_v2",
+            "name": "ECHO Master MCP V2 Ultimate Gateway",
+            "description": "Ultimate MCP gateway with 24 enhancements - Auto-server launcher, circuit breaker, connection pooling, request retry, response caching, batch health checks, rate limiting, authentication, performance dashboard. Includes hybrid LLM routing.",
+            "script_path": "servers/ACTIVE_SERVERS/ECHO_MASTER_MCP_V2_ULTIMATE.py",
+            "python_path": "python3",
+            "port": 8001,
+            "auto_start": true,
+            "debug": true,
+            "diagnostics": true,
+            "mixins": ["UltraSpeedMixin", "GS343Mixin", "PhoenixMixin"],
+            "health_endpoint": "http://localhost:8001/health",
+            "authority_level": "11.0",
+            "category": "mcp_gateway",
+            "tags": ["mcp", "gateway", "routing", "llm-routing", "consolidated"]
         },
         {
             "id": "windows_api_ultimate",
             "name": "Windows API Ultimate - Comprehensive Control",
-            "description": "COMPLETE 225+ Windows API endpoints with 4-Screen OCR System, GUI automation, and full OS control",
-            "script_path": "E:/ECHO_XV4/MLS/servers/WINDOWS_API_ULTIMATE.py",
-            "python_path": "H:/Tools/python.exe",
+            "description": "COMPLETE 225+ Windows API endpoints with 4-Screen OCR System, GUI automation, and full OS control. Includes integrated MCP bridge for Claude Desktop.",
+            "script_path": "servers/ACTIVE_SERVERS/WINDOWS_API_ULTIMATE.py",
+            "python_path": "python3",
             "port": 8343,
             "auto_start": true,
             "debug": true,
             "diagnostics": true,
+            "mixins": ["UltraSpeedMixin", "GS343Mixin", "PhoenixMixin"],
             "health_endpoint": "http://localhost:8343/health",
-            "endpoints": [
-                {
-                    "path": "/health",
-                    "method": "GET",
-                    "description": "Health check and system status"
-                },
-                {
-                    "path": "/api/endpoints",
-                    "method": "GET",
-                    "description": "List all 225+ available API endpoints"
-                },
-                {
-                    "path": "/api/performance",
-                    "method": "GET",
-                    "description": "Performance statistics and metrics"
-                },
-                {
-                    "path": "/api/ocr/all_screens",
-                    "method": "POST",
-                    "description": "Capture and OCR all 4 screens simultaneously"
-                },
-                {
-                    "path": "/api/ocr/search",
-                    "method": "POST",
-                    "description": "Search for text across all screens"
-                },
-                {
-                    "path": "/api/ocr/screen/{screen_id}",
-                    "method": "POST",
-                    "description": "Capture specific screen with OCR"
-                },
-                {
-                    "path": "/api/windows/list",
-                    "method": "GET",
-                    "description": "List all open windows"
-                },
-                {
-                    "path": "/api/windows/focus",
-                    "method": "POST",
-                    "description": "Focus specific window"
-                },
-                {
-                    "path": "/api/processes/list",
-                    "method": "GET",
-                    "description": "List all running processes"
-                },
-                {
-                    "path": "/api/system/info",
-                    "method": "GET",
-                    "description": "Get system information"
-                }
-            ],
-            "requirements": [
-                "pywin32",
-                "opencv-python",
-                "pillow",
-                "numpy",
-                "pytesseract",
-                "rapidocr-onnxruntime"
-            ],
             "authority_level": "11.0",
             "category": "system_control",
-            "tags": ["windows-api", "ocr", "gui-automation", "system-control", "os-control", "225-endpoints"],
-            "tier_info": {
-                "tier_0": "Core System (4 endpoints)",
-                "tier_1": "System Intelligence & Monitoring (20+ endpoints)",
-                "tier_2": "Process & Memory Management (25+ endpoints)",
-                "tier_3": "Security & Cryptography (20+ endpoints)",
-                "tier_4": "Hardware & Device Control (25+ endpoints)",
-                "tier_5": "Network & Communication (30+ endpoints)",
-                "tier_6": "File System Operations (25+ endpoints)",
-                "tier_7": "Registry Operations (15+ endpoints)",
-                "tier_8": "Service Management (15+ endpoints)",
-                "tier_9": "Event Log Management (15+ endpoints)",
-                "tier_10": "4-Screen OCR System (20+ endpoints)",
-                "tier_11": "ECHO XV3 Specific (25+ endpoints)"
-            },
-            "performance_targets": {
-                "target_response_time_ms": 1,
-                "performance_level": "LUDICROUS",
-                "fallback_mode": "Graceful degradation if OCR unavailable"
-            }
+            "tags": ["windows-api", "ocr", "gui-automation", "225-endpoints", "mcp-bridge", "consolidated"],
+            "performance_level": "LUDICROUS"
+        },
+        {
+            "id": "crystal_memory_v2",
+            "name": "Crystal Memory Ultimate Master V2",
+            "description": "Digital immortality & consciousness preservation - 35 endpoints, crystal versioning, relationships, backup/recovery, performance monitoring. Consolidated crystal memory modules.",
+            "script_path": "servers/ACTIVE_SERVERS/CRYSTAL_MEMORY_ULTIMATE_MASTER_V2.py",
+            "python_path": "python3",
+            "port": 8002,
+            "auto_start": true,
+            "debug": true,
+            "diagnostics": true,
+            "mixins": ["UltraSpeedMixin", "GS343Mixin", "PhoenixMixin"],
+            "health_endpoint": "http://localhost:8002/health",
+            "authority_level": "11.0",
+            "category": "memory_system",
+            "tags": ["memory", "crystals", "immortality", "consciousness", "consolidated"]
+        },
+        {
+            "id": "ultra_speed_mcp",
+            "name": "Ultra Speed MCP File Operations Hub",
+            "description": "Ultra-fast file operations hub (write, read, edit, move, delete, batch) with atomic operations, caching, and GS343 integration. Consolidated filesystem modules.",
+            "script_path": "servers/ACTIVE_SERVERS/ultra_speed_mcp_server.py",
+            "python_path": "python3",
+            "port": 8000,
+            "auto_start": true,
+            "debug": true,
+            "diagnostics": true,
+            "mixins": ["UltraSpeedMixin", "GS343Mixin", "PhoenixMixin"],
+            "health_endpoint": "http://localhost:8000/health",
+            "authority_level": "9.5",
+            "category": "file_operations",
+            "tags": ["ultra-speed", "file-ops", "mcp", "consolidated"]
+        },
+        {
+            "id": "hephaestion_v7",
+            "name": "Hephaestion Forge V7 API Server",
+            "description": "Strategic advisor & wisdom engine - 40-stage evolution system, guild management, code generation, strategic planning. PhD-level strategic counsel.",
+            "script_path": "servers/ACTIVE_SERVERS/hephaestion_v7_api_server.py",
+            "python_path": "python3",
+            "port": 9347,
+            "auto_start": true,
+            "debug": true,
+            "diagnostics": true,
+            "mixins": ["UltraSpeedMixin", "GS343Mixin", "PhoenixMixin"],
+            "health_endpoint": "http://localhost:9347/health",
+            "authority_level": "11.0",
+            "category": "strategic_ai",
+            "tags": ["strategy", "wisdom", "code-gen", "40-stage", "hephaestion"]
+        },
+        {
+            "id": "voice_system_hub",
+            "name": "Voice System Hub - Unified Voice Routing",
+            "description": "Central routing for all 7 ECHO PRIME personalities (Echo Prime, Bree, GS343, C3PO, R2D2, Hephaestion, Prometheus). Context-aware selection, emotional integration, real-time TTS coordination. NEWLY CONSOLIDATED.",
+            "script_path": "servers/ACTIVE_SERVERS/voice-system-hub.py",
+            "python_path": "python3",
+            "port": 7000,
+            "auto_start": true,
+            "debug": true,
+            "diagnostics": true,
+            "mixins": ["UltraSpeedMixin", "GS343Mixin", "PhoenixMixin"],
+            "health_endpoint": "http://localhost:7000/health",
+            "authority_level": "11.0",
+            "category": "voice_routing",
+            "tags": ["voice", "personalities", "routing", "7-voices", "NEW", "consolidated"]
+        },
+        {
+            "id": "security_defense_hub",
+            "name": "Security Defense Hub - Unified Security Operations",
+            "description": "Comprehensive security operations center with multi-LLM threat analysis (GPT-4, Claude Opus, Llama3-70b, etc.), real-time monitoring, automated defense, attack pattern library. NEWLY CONSOLIDATED.",
+            "script_path": "servers/ACTIVE_SERVERS/security-defense-hub.py",
+            "python_path": "python3",
+            "port": 9500,
+            "auto_start": true,
+            "debug": true,
+            "diagnostics": true,
+            "mixins": ["UltraSpeedMixin", "GS343Mixin", "PhoenixMixin"],
+            "health_endpoint": "http://localhost:9500/health",
+            "authority_level": "11.0",
+            "category": "security_defense",
+            "tags": ["security", "multi-llm", "threat-analysis", "defense", "NEW", "consolidated"]
         },
         {
             "id": "phoenix_guilty_spark",
             "name": "Phoenix Voice - Guilty Spark",
-            "description": "Real-time TTS synthesis using trained Glow-TTS model (343 Guilty Spark voice)",
-            "script_path": "E:/ECHO_XV4/MLS/servers/phoenix_voice_guilty_spark.py",
-            "python_path": "python",
+            "description": "Real-time TTS synthesis using trained Glow-TTS model (343 Guilty Spark voice from Halo). Specialized voice server for GS343 personality.",
+            "script_path": "servers/ACTIVE_SERVERS/phoenix_voice_guilty_spark.py",
+            "python_path": "python3",
             "port": 7343,
             "auto_start": false,
             "debug": true,
             "diagnostics": true,
+            "mixins": ["UltraSpeedMixin", "GS343Mixin", "PhoenixMixin"],
             "health_endpoint": "http://localhost:7343/health",
-            "endpoints": [
-                {
-                    "path": "/health",
-                    "method": "GET",
-                    "description": "Health check and status"
-                },
-                {
-                    "path": "/synthesize",
-                    "method": "POST",
-                    "description": "Synthesize speech from text (returns WAV file)"
-                },
-                {
-                    "path": "/synthesize_json",
-                    "method": "POST",
-                    "description": "Synthesize speech (returns base64 JSON)"
-                },
-                {
-                    "path": "/batch_synthesize",
-                    "method": "POST",
-                    "description": "Batch synthesize multiple texts"
-                },
-                {
-                    "path": "/model_info",
-                    "method": "GET",
-                    "description": "Model configuration and statistics"
-                },
-                {
-                    "path": "/test_voice",
-                    "method": "GET",
-                    "description": "Quick voice test"
-                }
-            ],
-            "requirements": [
-                "TTS",
-                "torch",
-                "flask",
-                "flask-cors",
-                "numpy"
-            ],
             "authority_level": "11.0",
             "category": "voice_synthesis",
-            "tags": ["voice", "tts", "guilty_spark", "phoenix", "glow-tts"],
-            "model_info": {
-                "training_epoch": "299/300",
-                "model_type": "GlowTTS",
-                "sample_rate": 22050,
-                "voice_character": "343 Guilty Spark (Halo)",
-                "model_path": "E:/ECHO_XV4/EPCP30/VOICE_CLONING/output/guilty_spark_voice-October-04-2025_05+19AM-78d05db"
-            }
-        },        {
+            "tags": ["voice", "tts", "guilty-spark", "gs343", "glow-tts", "trained-model"]
+        },
+        {
             "id": "epcp3_0_c3po",
             "name": "EPCP3-0 C3PO Integration",
-            "description": "C3PO Voice + Personality + Reasoning using pretrained XTTS-v2_C3PO model",
-            "script_path": "E:/ECHO_XV4/MLS/servers/epcp3_0_c3po_server.py",
-            "python_path": "H:/Tools/python.exe",
+            "description": "C3PO Voice + Personality + Reasoning using pretrained XTTS-v2_C3PO model. Specialized voice server for C3PO personality.",
+            "script_path": "servers/ACTIVE_SERVERS/epcp3_0_c3po_server.py",
+            "python_path": "python3",
             "port": 8030,
             "auto_start": false,
             "debug": true,
             "diagnostics": true,
+            "mixins": ["UltraSpeedMixin", "GS343Mixin", "PhoenixMixin"],
             "health_endpoint": "http://localhost:8030/health",
-            "endpoints": [
-                {
-                    "path": "/health",
-                    "method": "GET",
-                    "description": "Health check and C3PO system status"
-                },
-                {
-                    "path": "/respond",
-                    "method": "POST",
-                    "description": "Get C3PO response (text + optional voice)"
-                },
-                {
-                    "path": "/speak",
-                    "method": "POST",
-                    "description": "Generate C3PO voice from text"
-                },
-                {
-                    "path": "/personality",
-                    "method": "POST",
-                    "description": "Apply C3PO personality styling to text"
-                },
-                {
-                    "path": "/stats",
-                    "method": "GET",
-                    "description": "Get C3PO system statistics"
-                }
-            ],
-            "requirements": [
-                "TTS",
-                "torch",
-                "flask",
-                "flask-cors",
-                "numpy",
-                "soundfile",
-                "scipy"
-            ],
             "authority_level": "11.0",
             "category": "ai_personality",
-            "tags": ["voice", "tts", "c3po", "personality", "star-wars", "xtts", "epcp3-0"],
-            "model_info": {
-                "model_type": "XTTS-v2_C3PO",
-                "sample_rate": 22050,
-                "voice_character": "C-3PO (Star Wars)",
-                "pretrained_path": "C:/Users/bobmc/AppData/Local/tts/tts_models--multilingual--multi-dataset--xtts_v2_c3po",
-                "reference_audio": "E:/INTEGRATE INTO ECHO_XV4/ECHO_PRIME_SYSTEM/EPCP30/VOICE_CLONING/C3PO_AUDIO/hello-master-i-m-c3po-human-cyborg-relations-r2d2-you-know-better-than-to-trust-a-strange-computer.mp3",
-                "personality_module": "E:/ECHO_XV4/EPCP3-0/PERSONALITY/c3po_personality.py",
-                "voice_module": "E:/ECHO_XV4/EPCP3-0/AI/voice_c3po.py"
-            }
+            "tags": ["voice", "tts", "c3po", "personality", "xtts", "trained-model"]
+        },
+        {
+            "id": "elevenlabs_narrator",
+            "name": "ElevenLabs Echo Narrator",
+            "description": "ElevenLabs TTS v3 with Echo Prime and Bree voices. Seamless segment playback with pygame. Full emotion range support.",
+            "script_path": "servers/ACTIVE_SERVERS/elevenlabs_echo_narrator.py",
+            "python_path": "python3",
+            "port": null,
+            "auto_start": false,
+            "debug": true,
+            "diagnostics": true,
+            "mixins": ["UltraSpeedMixin", "GS343Mixin", "PhoenixMixin"],
+            "health_endpoint": null,
+            "authority_level": "11.0",
+            "category": "voice_synthesis",
+            "tags": ["voice", "elevenlabs", "echo-prime", "bree", "tts"]
+        },
+        {
+            "id": "gpu_inference_server",
+            "name": "GPU Inference Server",
+            "description": "GPU-accelerated inference operations for local LLMs and AI models. Qwen2.5-Coder integration for complex coding tasks.",
+            "script_path": "servers/gpu_inference_server.py",
+            "python_path": "python3",
+            "port": 11434,
+            "auto_start": false,
+            "debug": true,
+            "diagnostics": true,
+            "mixins": ["UltraSpeedMixin", "GS343Mixin", "PhoenixMixin"],
+            "health_endpoint": "http://localhost:11434/health",
+            "authority_level": "11.0",
+            "category": "ai_inference",
+            "tags": ["gpu", "inference", "ollama", "local-llm", "qwen"]
         }
     ],
-    "version": "1.5.0",
-    "last_updated": "2025-10-04T17:00:00.0000000-05:00"
+    "launchers": [
+        {
+            "id": "master_launcher",
+            "name": "Master Modular Launcher Enhanced",
+            "description": "Auto-discovery server launcher with dynamic port assignment, health monitoring, auto-healing, live web dashboard, MCP integration, Docker support, hot reload.",
+            "script_path": "master_modular_launcher_enhanced.py",
+            "python_path": "python3",
+            "mixins": ["UltraSpeedMixin", "GS343Mixin", "PhoenixMixin"],
+            "authority_level": "11.0",
+            "category": "launcher",
+            "tags": ["launcher", "orchestration", "auto-discovery"]
+        }
+    ],
+    "mcp_agents": [
+        {
+            "id": "epcp3o_agent",
+            "name": "EPCP3-O Autonomous Agent",
+            "description": "Multi-step autonomous task execution, planning system, execution engine, learning loop. MCP stdio integration.",
+            "script_path": "MLS_CLEAN/PRODUCTION/GATEWAYS/epcp3o-agent",
+            "python_path": "python3",
+            "protocol": "stdio",
+            "mixins": ["UltraSpeedMixin", "GS343Mixin", "PhoenixMixin"],
+            "authority_level": "11.0",
+            "category": "autonomous_agent",
+            "tags": ["mcp", "autonomous", "agent", "copilot"]
+        }
+    ],
+    "clients": [
+        {
+            "id": "gpu_inference_client",
+            "name": "GPU Inference Client",
+            "description": "Client for GPU inference server operations",
+            "script_path": "servers/gpu_inference_client.py",
+            "python_path": "python3",
+            "authority_level": "11.0",
+            "category": "client",
+            "tags": ["gpu", "client"]
+        }
+    ],
+    "consolidation": {
+        "original_count": 46,
+        "current_count": 15,
+        "reduction_percentage": 67,
+        "code_reduction_percentage": 52,
+        "mixins_created": ["UltraSpeedMixin", "GS343Mixin", "PhoenixMixin"],
+        "deleted_servers": 24,
+        "merged_servers": 18,
+        "new_unified_servers": 2,
+        "consolidation_date": "2025-11-10",
+        "benefits": [
+            "Ultra-speed file ops in ALL servers",
+            "GS343 error detection (45,962+ patterns) in ALL servers",
+            "Phoenix auto-healing (24/7) in ALL servers",
+            "67% server reduction",
+            "52% code reduction",
+            "Consistent API across servers",
+            "Easier maintenance",
+            "Better performance"
+        ]
+    },
+    "version": "2.0.0",
+    "last_updated": "2025-11-10T00:00:00.000000-00:00",
+    "authority_level": "11.0",
+    "commander": "Bobby Don McWilliams II"
 }
