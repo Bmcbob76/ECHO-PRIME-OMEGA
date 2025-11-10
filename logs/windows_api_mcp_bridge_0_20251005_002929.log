@@ -1,0 +1,3 @@
+2025-10-05 00:29:29,764 - WINDOWS_API_BRIDGE - INFO - Windows API MCP Bridge initialized
+2025-10-05 00:29:29,764 - WINDOWS_API_BRIDGE - INFO - Windows API MCP Bridge starting...
+2025-10-05 00:29:29,764 - WINDOWS_API_BRIDGE - INFO - Backend: http://localhost:8343

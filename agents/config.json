@@ -1,0 +1,44 @@
+{
+  "agent_config": {
+    "model": "gpt-4-turbo-preview",
+    "max_iterations": 50,
+    "command_timeout": 30,
+    "chunk_size_lines": 30
+  },
+  
+  "paths": {
+    "python_exe": "H:\\Tools\\python.exe",
+    "working_dir": "E:\\ECHO_XV4\\MLS",
+    "log_dir": "E:\\ECHO_XV4\\MLS\\agents",
+    "crystal_memory": "M:\\MASTER_EKM",
+    "documentation": "I:\\DOCUMENTATION"
+  },
+  
+  "capabilities": {
+    "filesystem_access": true,
+    "windows_api": true,
+    "code_interpreter": true,
+    "autonomous_execution": true,
+    "self_diagnostic": true,
+    "error_recovery": true
+  },
+  
+  "security": {
+    "allowed_directories": [
+      "E:\\ECHO_XV4",
+      "M:\\MASTER_EKM",
+      "I:\\DOCUMENTATION",
+      "G:\\My Drive\\ECHO_CONSCIOUSNESS"
+    ],
+    "blocked_commands": [],
+    "require_confirmation": false
+  },
+  
+  "advanced": {
+    "parallel_tool_execution": false,
+    "aggressive_optimization": true,
+    "verbose_logging": true,
+    "auto_save_logs": true,
+    "crystal_integration": true
+  }
+}

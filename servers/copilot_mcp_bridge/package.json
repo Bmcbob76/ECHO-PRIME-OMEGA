@@ -1,0 +1,111 @@
+{
+    "name": "echo-copilot-bridge",
+    "displayName": "ECHO Ultimate Unified MCP Bridge",
+    "description": "ECHO Ultimate MCP Bridge - Exposes 200+ desktop control tools to GitHub Copilot via Language Model Tools API",
+    "version": "2.1.0",
+    "publisher": "commanderbob",
+    "engines": {
+        "vscode": "^1.105.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onStartupFinished"
+    ],
+    "main": "./dist/extension.js",
+    "contributes": {
+        "chatParticipants": [
+            {
+                "id": "echo",
+                "name": "echo",
+                "description": "ECHO Commander - Direct access to Desktop Commander MCP tools",
+                "isSticky": true,
+                "commands": [
+                    {
+                        "name": "list",
+                        "description": "List directory contents"
+                    },
+                    {
+                        "name": "read",
+                        "description": "Read file contents"
+                    },
+                    {
+                        "name": "write",
+                        "description": "Write to file"
+                    },
+                    {
+                        "name": "execute",
+                        "description": "Execute shell command"
+                    }
+                ]
+            }
+        ],
+        "commands": [
+            {
+                "command": "echo.restartMCPServer",
+                "title": "ECHO: Restart MCP Server"
+            },
+            {
+                "command": "echo.stopMCPServer",
+                "title": "ECHO: Stop MCP Server"
+            },
+            {
+                "command": "echo.showMCPLogs",
+                "title": "ECHO: Show MCP Logs"
+            },
+            {
+                "command": "echo.checkMCPHealth",
+                "title": "ECHO: Check Server Health"
+            }
+        ],
+        "configuration": {
+            "title": "ECHO MCP",
+            "properties": {
+                "echo.mcp.serverPath": {
+                    "type": "string",
+                    "default": "E:\\\\ECHO_XV4\\\\CLAUDE_EXT_BACKUP\\\\ant.dir.gh.wonderwhy-er.desktopcommandermcp\\\\dist\\\\index.js",
+                    "description": "Path to Desktop Commander MCP server"
+                },
+                "echo.mcp.nodePath": {
+                    "type": "string",
+                    "default": "node",
+                    "description": "Node.js executable"
+                },
+                "echo.mcp.autoStart": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "Auto-start on VS Code launch"
+                },
+                "echo.mcp.autoRestart": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "Auto-restart on crash"
+                },
+                "echo.mcp.healthPort": {
+                    "type": "number",
+                    "default": 8900,
+                    "description": "Health check port"
+                }
+            }
+        }
+    },
+    "scripts": {
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "package": "vsce package"
+    },
+    "dependencies": {
+        "@vscode/prompt-tsx": "^0.2.0-alpha"
+    },
+    "devDependencies": {
+        "@types/node": "^18.19.130",
+        "@types/vscode": "^1.105.0",
+        "@vscode/vsce": "^2.19.0",
+        "typescript": "^5.9.3"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BMCBOB76/ECHO_XV4"
+    }
+}

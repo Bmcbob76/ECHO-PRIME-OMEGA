@@ -1,0 +1,4 @@
+  File "E:\ECHO_XV4\MLS\servers\windows_api_mcp_bridge.py", line 92
+    return [
+           ^
+SyntaxError: '[' was never closed

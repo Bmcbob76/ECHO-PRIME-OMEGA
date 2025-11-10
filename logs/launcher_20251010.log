@@ -1,0 +1,190 @@
+2025-10-10 22:40:56,332 | INFO | 🔄 Starting 24/7 operation mode...
+2025-10-10 22:40:56,332 | INFO | 
+======================================================================
+2025-10-10 22:40:56,333 | INFO | 🔍 Starting server check cycle - 2025-10-10 22:40:56
+2025-10-10 22:40:56,333 | INFO | ======================================================================
+2025-10-10 22:40:56,349 | INFO | 📡 Discovered 24 servers
+2025-10-10 22:41:00,640 | INFO | 🚀 Launching epcp3_0_c3po_server.py...
+2025-10-10 22:41:05,782 | INFO | ✅ epcp3_0_c3po_server.py launched successfully (PID: 44984)
+2025-10-10 22:41:10,002 | INFO | 🚀 Launching epcp3_backend.py...
+2025-10-10 22:41:15,125 | INFO | ✅ epcp3_backend.py launched successfully (PID: 36692)
+2025-10-10 22:41:19,376 | INFO | 🚀 Launching hephaestion_v7_api_server.py...
+2025-10-10 22:41:24,490 | ERROR | ❌ hephaestion_v7_api_server.py failed to start
+2025-10-10 22:41:28,665 | INFO | 🚀 Launching phoenix_voice_guilty_spark.py...
+2025-10-10 22:41:33,720 | INFO | ✅ phoenix_voice_guilty_spark.py launched successfully (PID: 23168)
+2025-10-10 22:41:33,753 | INFO | 
+----------------------------------------------------------------------
+2025-10-10 22:41:33,753 | INFO | 📊 CYCLE SUMMARY:
+2025-10-10 22:41:33,753 | INFO |    ✅ Already Running: 20
+2025-10-10 22:41:33,754 | INFO |    🚀 Launched: 3
+2025-10-10 22:41:33,754 | INFO |    ❌ Failed: 1
+2025-10-10 22:41:33,755 | INFO |    ⚠️  Quarantined: 0
+2025-10-10 22:41:33,755 | INFO |    📈 Total Servers: 24
+2025-10-10 22:41:33,755 | INFO | ----------------------------------------------------------------------
+2025-10-10 23:11:34,068 | INFO | 
+======================================================================
+2025-10-10 23:11:34,069 | INFO | 🔍 Starting server check cycle - 2025-10-10 23:11:34
+2025-10-10 23:11:34,070 | INFO | ======================================================================
+2025-10-10 23:11:34,085 | INFO | 📡 Discovered 24 servers
+2025-10-10 23:11:38,371 | INFO | 🚀 Launching hephaestion_v7_api_server.py...
+2025-10-10 23:11:43,493 | ERROR | ❌ hephaestion_v7_api_server.py failed to start
+2025-10-10 23:11:47,714 | INFO | 🚀 Launching phoenix_voice_guilty_spark.py...
+2025-10-10 23:11:52,811 | INFO | ✅ phoenix_voice_guilty_spark.py launched successfully (PID: 20848)
+2025-10-10 23:11:52,852 | INFO | 
+----------------------------------------------------------------------
+2025-10-10 23:11:52,854 | INFO | 📊 CYCLE SUMMARY:
+2025-10-10 23:11:52,854 | INFO |    ✅ Already Running: 22
+2025-10-10 23:11:52,854 | INFO |    🚀 Launched: 1
+2025-10-10 23:11:52,855 | INFO |    ❌ Failed: 1
+2025-10-10 23:11:52,855 | INFO |    ⚠️  Quarantined: 0
+2025-10-10 23:11:52,855 | INFO |    📈 Total Servers: 24
+2025-10-10 23:11:52,855 | INFO | ----------------------------------------------------------------------
+2025-10-10 23:41:53,096 | INFO | 
+======================================================================
+2025-10-10 23:41:53,096 | INFO | 🔍 Starting server check cycle - 2025-10-10 23:41:53
+2025-10-10 23:41:53,096 | INFO | ======================================================================
+2025-10-10 23:41:53,105 | INFO | 📡 Discovered 24 servers
+2025-10-10 23:41:57,413 | INFO | 🚀 Launching hephaestion_v7_api_server.py...
+2025-10-10 23:42:02,549 | ERROR | ❌ hephaestion_v7_api_server.py failed to start
+2025-10-10 23:42:02,550 | ERROR | ❌ Exception launching hephaestion_v7_api_server.py: Object of type datetime is not JSON serializable
+2025-10-10 23:42:06,741 | INFO | 🚀 Launching phoenix_voice_guilty_spark.py...
+2025-10-10 23:42:11,843 | INFO | ✅ phoenix_voice_guilty_spark.py launched successfully (PID: 36156)
+2025-10-10 23:42:11,869 | INFO | 
+----------------------------------------------------------------------
+2025-10-10 23:42:11,869 | INFO | 📊 CYCLE SUMMARY:
+2025-10-10 23:42:11,871 | INFO |    ✅ Already Running: 22
+2025-10-10 23:42:11,871 | INFO |    🚀 Launched: 1
+2025-10-10 23:42:11,871 | INFO |    ❌ Failed: 1
+2025-10-10 23:42:11,872 | INFO |    ⚠️  Quarantined: 0
+2025-10-10 23:42:11,872 | INFO |    📈 Total Servers: 24
+2025-10-10 23:42:11,872 | INFO | ----------------------------------------------------------------------
+2025-10-11 00:12:12,102 | INFO | 
+======================================================================
+2025-10-11 00:12:12,102 | INFO | 🔍 Starting server check cycle - 2025-10-11 00:12:12
+2025-10-11 00:12:12,102 | INFO | ======================================================================
+2025-10-11 00:12:12,108 | INFO | 📡 Discovered 24 servers
+2025-10-11 00:12:16,303 | WARNING | ⚠️ hephaestion_v7_api_server.py exceeded launch attempts - skipping
+2025-10-11 00:12:20,551 | WARNING | ⚠️ phoenix_voice_guilty_spark.py exceeded launch attempts - skipping
+2025-10-11 00:12:20,573 | INFO | 
+----------------------------------------------------------------------
+2025-10-11 00:12:20,573 | INFO | 📊 CYCLE SUMMARY:
+2025-10-11 00:12:20,573 | INFO |    ✅ Already Running: 22
+2025-10-11 00:12:20,574 | INFO |    🚀 Launched: 0
+2025-10-11 00:12:20,574 | INFO |    ❌ Failed: 2
+2025-10-11 00:12:20,574 | INFO |    ⚠️  Quarantined: 0
+2025-10-11 00:12:20,574 | INFO |    📈 Total Servers: 24
+2025-10-11 00:12:20,574 | INFO | ----------------------------------------------------------------------
+2025-10-11 00:42:20,908 | INFO | 
+======================================================================
+2025-10-11 00:42:21,154 | INFO | 🔍 Starting server check cycle - 2025-10-11 00:42:21
+2025-10-11 00:42:21,470 | INFO | ======================================================================
+2025-10-11 00:42:21,723 | INFO | 📡 Discovered 24 servers
+2025-10-11 00:42:27,621 | WARNING | ⚠️ hephaestion_v7_api_server.py exceeded launch attempts - skipping
+2025-10-11 00:42:33,866 | WARNING | ⚠️ phoenix_voice_guilty_spark.py exceeded launch attempts - skipping
+2025-10-11 00:42:34,021 | INFO | 
+----------------------------------------------------------------------
+2025-10-11 00:42:34,173 | INFO | 📊 CYCLE SUMMARY:
+2025-10-11 00:42:34,316 | INFO |    ✅ Already Running: 22
+2025-10-11 00:42:34,479 | INFO |    🚀 Launched: 0
+2025-10-11 00:42:34,485 | INFO |    ❌ Failed: 2
+2025-10-11 00:42:34,486 | INFO |    ⚠️  Quarantined: 0
+2025-10-11 00:42:34,487 | INFO |    📈 Total Servers: 24
+2025-10-11 00:42:34,488 | INFO | ----------------------------------------------------------------------
+2025-10-11 01:12:34,668 | INFO | 
+======================================================================
+2025-10-11 01:12:34,668 | INFO | 🔍 Starting server check cycle - 2025-10-11 01:12:34
+2025-10-11 01:12:34,668 | INFO | ======================================================================
+2025-10-11 01:12:34,681 | INFO | 📡 Discovered 24 servers
+2025-10-11 01:12:41,161 | WARNING | ⚠️ hephaestion_v7_api_server.py exceeded launch attempts - skipping
+2025-10-11 01:12:49,841 | WARNING | ⚠️ phoenix_voice_guilty_spark.py exceeded launch attempts - skipping
+2025-10-11 01:12:50,155 | INFO | 
+----------------------------------------------------------------------
+2025-10-11 01:12:50,156 | INFO | 📊 CYCLE SUMMARY:
+2025-10-11 01:12:50,156 | INFO |    ✅ Already Running: 22
+2025-10-11 01:12:50,156 | INFO |    🚀 Launched: 0
+2025-10-11 01:12:50,156 | INFO |    ❌ Failed: 2
+2025-10-11 01:12:50,156 | INFO |    ⚠️  Quarantined: 0
+2025-10-11 01:12:50,157 | INFO |    📈 Total Servers: 24
+2025-10-11 01:12:50,157 | INFO | ----------------------------------------------------------------------
+2025-10-11 01:42:50,335 | INFO | 
+======================================================================
+2025-10-11 01:42:50,335 | INFO | 🔍 Starting server check cycle - 2025-10-11 01:42:50
+2025-10-11 01:42:50,335 | INFO | ======================================================================
+2025-10-11 01:42:50,354 | INFO | 📡 Discovered 24 servers
+2025-10-11 01:42:54,617 | WARNING | ⚠️ hephaestion_v7_api_server.py exceeded launch attempts - skipping
+2025-10-11 01:42:58,858 | WARNING | ⚠️ phoenix_voice_guilty_spark.py exceeded launch attempts - skipping
+2025-10-11 01:42:58,901 | INFO | 
+----------------------------------------------------------------------
+2025-10-11 01:42:58,901 | INFO | 📊 CYCLE SUMMARY:
+2025-10-11 01:42:58,901 | INFO |    ✅ Already Running: 22
+2025-10-11 01:42:58,902 | INFO |    🚀 Launched: 0
+2025-10-11 01:42:58,902 | INFO |    ❌ Failed: 2
+2025-10-11 01:42:58,902 | INFO |    ⚠️  Quarantined: 0
+2025-10-11 01:42:58,903 | INFO |    📈 Total Servers: 24
+2025-10-11 01:42:58,903 | INFO | ----------------------------------------------------------------------
+2025-10-11 02:12:59,588 | INFO | 
+======================================================================
+2025-10-11 02:12:59,588 | INFO | 🔍 Starting server check cycle - 2025-10-11 02:12:59
+2025-10-11 02:12:59,588 | INFO | ======================================================================
+2025-10-11 02:12:59,595 | INFO | 📡 Discovered 24 servers
+2025-10-11 02:13:05,758 | INFO | 🚀 Launching ECHO_MASTER_MCP.py...
+2025-10-11 02:13:10,818 | ERROR | ❌ ECHO_MASTER_MCP.py failed to start
+2025-10-11 02:13:16,958 | INFO | 🚀 Launching echo_prime_service.py...
+2025-10-11 02:13:22,003 | ERROR | ❌ echo_prime_service.py failed to start
+2025-10-11 02:13:26,102 | INFO | 🚀 Launching echo_process_naming.py...
+2025-10-11 02:13:31,168 | ERROR | ❌ echo_process_naming.py failed to start
+2025-10-11 02:13:35,278 | INFO | 🚀 Launching echo_shield_defense_server.py...
+2025-10-11 02:13:40,350 | INFO | ✅ echo_shield_defense_server.py launched successfully (PID: 27964)
+2025-10-11 02:13:44,457 | INFO | 🚀 Launching elevenlabs_echo_narrator.py...
+2025-10-11 02:13:49,527 | ERROR | ❌ elevenlabs_echo_narrator.py failed to start
+2025-10-11 02:13:53,622 | INFO | 🚀 Launching gs343_autohealer_server_enhanced.py...
+2025-10-11 02:13:58,660 | INFO | ✅ gs343_autohealer_server_enhanced.py launched successfully (PID: 7340)
+2025-10-11 02:14:02,769 | WARNING | ⚠️ hephaestion_v7_api_server.py exceeded launch attempts - skipping
+2025-10-11 02:14:06,873 | INFO | 🚀 Launching integrate_methods.py...
+2025-10-11 02:14:11,942 | ERROR | ❌ integrate_methods.py failed to start
+2025-10-11 02:14:16,048 | INFO | 🚀 Launching multi_llm_defense.py...
+2025-10-11 02:14:21,101 | ERROR | ❌ multi_llm_defense.py failed to start
+2025-10-11 02:14:25,218 | WARNING | ⚠️ phoenix_voice_guilty_spark.py exceeded launch attempts - skipping
+2025-10-11 02:14:29,335 | INFO | 🚀 Launching ultra_speed_core_server_enhanced.py...
+2025-10-11 02:14:32,352 | INFO | ✅ ultra_speed_core_server_enhanced.py launched successfully (PID: 33456)
+2025-10-11 02:14:32,364 | INFO | 
+----------------------------------------------------------------------
+2025-10-11 02:14:32,364 | INFO | 📊 CYCLE SUMMARY:
+2025-10-11 02:14:32,364 | INFO |    ✅ Already Running: 13
+2025-10-11 02:14:32,364 | INFO |    🚀 Launched: 3
+2025-10-11 02:14:32,365 | INFO |    ❌ Failed: 8
+2025-10-11 02:14:32,365 | INFO |    ⚠️  Quarantined: 0
+2025-10-11 02:14:32,365 | INFO |    📈 Total Servers: 24
+2025-10-11 02:14:32,365 | INFO | ----------------------------------------------------------------------
+2025-10-11 02:44:32,590 | INFO | 
+======================================================================
+2025-10-11 02:44:32,590 | INFO | 🔍 Starting server check cycle - 2025-10-11 02:44:32
+2025-10-11 02:44:32,590 | INFO | ======================================================================
+2025-10-11 02:44:32,597 | INFO | 📡 Discovered 24 servers
+2025-10-11 02:44:36,727 | WARNING | ⚠️ hephaestion_v7_api_server.py exceeded launch attempts - skipping
+2025-10-11 02:44:40,848 | WARNING | ⚠️ phoenix_voice_guilty_spark.py exceeded launch attempts - skipping
+2025-10-11 02:44:40,861 | INFO | 
+----------------------------------------------------------------------
+2025-10-11 02:44:40,861 | INFO | 📊 CYCLE SUMMARY:
+2025-10-11 02:44:40,861 | INFO |    ✅ Already Running: 22
+2025-10-11 02:44:40,861 | INFO |    🚀 Launched: 0
+2025-10-11 02:44:40,861 | INFO |    ❌ Failed: 2
+2025-10-11 02:44:40,861 | INFO |    ⚠️  Quarantined: 0
+2025-10-11 02:44:40,862 | INFO |    📈 Total Servers: 24
+2025-10-11 02:44:40,862 | INFO | ----------------------------------------------------------------------
+2025-10-11 03:14:41,087 | INFO | 
+======================================================================
+2025-10-11 03:14:41,087 | INFO | 🔍 Starting server check cycle - 2025-10-11 03:14:41
+2025-10-11 03:14:41,087 | INFO | ======================================================================
+2025-10-11 03:14:41,093 | INFO | 📡 Discovered 24 servers
+2025-10-11 03:14:45,215 | WARNING | ⚠️ hephaestion_v7_api_server.py exceeded launch attempts - skipping
+2025-10-11 03:14:49,335 | WARNING | ⚠️ phoenix_voice_guilty_spark.py exceeded launch attempts - skipping
+2025-10-11 03:14:49,350 | INFO | 
+----------------------------------------------------------------------
+2025-10-11 03:14:49,350 | INFO | 📊 CYCLE SUMMARY:
+2025-10-11 03:14:49,350 | INFO |    ✅ Already Running: 22
+2025-10-11 03:14:49,350 | INFO |    🚀 Launched: 0
+2025-10-11 03:14:49,351 | INFO |    ❌ Failed: 2
+2025-10-11 03:14:49,351 | INFO |    ⚠️  Quarantined: 0
+2025-10-11 03:14:49,351 | INFO |    📈 Total Servers: 24
+2025-10-11 03:14:49,351 | INFO | ----------------------------------------------------------------------

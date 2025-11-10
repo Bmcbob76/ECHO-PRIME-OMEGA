@@ -1,0 +1,3 @@
+FastAPI not available - ECHO Fusion Server requires FastAPI
+✅ Process name set: ECHO_XV4: Echo Fusion Server - Port 8003
+❌ ECHO Fusion Server requires FastAPI. Install with: pip install fastapi uvicorn

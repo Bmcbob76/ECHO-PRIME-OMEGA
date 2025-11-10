@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "E:\ECHO_XV4\MLS\servers\WINDOWS_API_ULTIMATE.py", line 123, in <module>
+    logging.FileHandler(f"E:/ECHO_XV3/LOGS/comprehensive_api_ultimate_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\logging\__init__.py", line 1181, in __init__
+    StreamHandler.__init__(self, self._open())
+                                 ^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\logging\__init__.py", line 1213, in _open
+    return open_func(self.baseFilename, self.mode,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'E:\\ECHO_XV3\\LOGS\\comprehensive_api_ultimate_20251004_003924.log'

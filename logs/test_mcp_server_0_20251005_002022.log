@@ -1,0 +1,19 @@
+================================================================================
+                        EPCP30 XV4 MCP SERVER TEST SUITE                        
+================================================================================
+
+[1/8] Python version... ✓ PASS
+[2/8] Directories... ✗ FAIL
+  Missing: E:\ECHO_XV4\EPCP30\LOGS
+[3/8] Dependencies... ✗ FAIL - cannot import name 'validate_core_schema' from 'pydantic_core' (H:\Tools\lib\site-packages\pydantic_core\__init__.py)
+[4/8] MCP server file... ✗ FAIL
+[5/8] MLS registry... ✓ PASS
+[6/8] File operations... ✗ FAIL - [Errno 2] No such file or directory: 'E:\\ECHO_XV4\\EPCP30\\test.txt'
+[7/8] Socket operations... ✓ PASS (tested port 64171)
+[8/8] MCP server syntax... ✗ FAIL - [Errno 2] No such file or directory: 'E:\\ECHO_XV4\\EPCP30\\MCP_SERVER\\desktop_commander_server.py'
+
+================================================================================
+                          Results: 3 PASSED, 5 FAILED                           
+================================================================================
+                   
+⚠️ SOME TESTS FAILED - Check errors above                   

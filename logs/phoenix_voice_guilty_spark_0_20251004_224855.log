@@ -1,0 +1,22 @@
+H:\Tools\lib\site-packages\librosa\core\intervals.py:8: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+2025-10-04 22:49:01,439 - [PHOENIX-GS343] INFO - ======================================================================
+2025-10-04 22:49:01,439 - [PHOENIX-GS343] INFO - 🔷 PHOENIX VOICE - GUILTY SPARK SERVER
+2025-10-04 22:49:01,439 - [PHOENIX-GS343] INFO - 🎖️  AUTHORITY LEVEL: 11.0
+2025-10-04 22:49:01,440 - [PHOENIX-GS343] INFO - 🏠 ROOT: E:\ECHO_XV4
+2025-10-04 22:49:01,440 - [PHOENIX-GS343] INFO - ======================================================================
+2025-10-04 22:49:01,440 - [PHOENIX-GS343] INFO - ======================================================================
+2025-10-04 22:49:01,440 - [PHOENIX-GS343] INFO - 🔷 PHOENIX VOICE - GUILTY SPARK MODEL INITIALIZATION
+2025-10-04 22:49:01,440 - [PHOENIX-GS343] INFO - ======================================================================
+2025-10-04 22:49:01,459 - [PHOENIX-GS343] INFO - 💻 Device: cuda
+2025-10-04 22:49:01,461 - [PHOENIX-GS343] INFO - 🎮 GPU: NVIDIA GeForce GTX 1080
+2025-10-04 22:49:01,462 - [PHOENIX-GS343] INFO - 📊 VRAM: 8.59 GB
+2025-10-04 22:49:01,462 - [PHOENIX-GS343] INFO - 📂 Loading config: E:/ECHO_XV4/EPCP30/VOICE_CLONING/output/guilty_spark_voice-October-04-2025_05+19AM-78d05db\config.json
+2025-10-04 22:49:01,462 - [PHOENIX-GS343] ERROR - ❌ CRITICAL: Model loading failed
+Traceback (most recent call last):
+  File "E:\ECHO_XV4\MLS\servers\phoenix_voice_guilty_spark.py", line 72, in load_guilty_spark_model
+    config.load_json(CONFIG_PATH)
+  File "H:\Tools\lib\site-packages\coqpit\coqpit.py", line 726, in load_json
+    with open(file_name, "r", encoding="utf8") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'E:/ECHO_XV4/EPCP30/VOICE_CLONING/output/guilty_spark_voice-October-04-2025_05+19AM-78d05db\\config.json'
+2025-10-04 22:49:01,463 - [PHOENIX-GS343] ERROR - ❌ CRITICAL: Failed to load model. Exiting.

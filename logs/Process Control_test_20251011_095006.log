@@ -1,0 +1,45 @@
+Traceback (most recent call last):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 455, in eval_type_backport
+    return _eval_type_backport(value, globalns, localns, type_params)
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 492, in _eval_type_backport
+    return _eval_type(value, globalns, localns, type_params)
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 526, in _eval_type
+    return typing._eval_type(  # type: ignore
+  File "H:\Tools\lib\typing.py", line 327, in _eval_type
+    return t._evaluate(globalns, localns, recursive_guard)
+  File "H:\Tools\lib\typing.py", line 693, in _evaluate
+    type_ = _type_check(
+  File "H:\Tools\lib\typing.py", line 167, in _type_check
+    raise TypeError(f"{arg} is not valid as type argument")
+TypeError: typing.ClassVar[pydantic_settings.main.SettingsConfigDict] is not valid as type argument
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\ECHO_XV4\MLS\servers\MCP_CONSTELLATION\process_control\mcp_process.py", line 8, in <module>
+    from mcp.server.models import InitializationOptions
+  File "H:\Tools\lib\site-packages\mcp\__init__.py", line 4, in <module>
+    from .server.session import ServerSession
+  File "H:\Tools\lib\site-packages\mcp\server\__init__.py", line 1, in <module>
+    from .fastmcp import FastMCP
+  File "H:\Tools\lib\site-packages\mcp\server\fastmcp\__init__.py", line 7, in <module>
+    from .server import Context, FastMCP
+  File "H:\Tools\lib\site-packages\mcp\server\fastmcp\server.py", line 15, in <module>
+    from pydantic_settings import BaseSettings, SettingsConfigDict
+  File "H:\Tools\lib\site-packages\pydantic_settings\__init__.py", line 2, in <module>
+    from .main import BaseSettings, CliApp, SettingsConfigDict
+  File "H:\Tools\lib\site-packages\pydantic_settings\main.py", line 113, in <module>
+    class BaseSettings(BaseModel):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_model_construction.py", line 242, in __new__
+    set_model_fields(cls, config_wrapper=config_wrapper, ns_resolver=ns_resolver)
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_model_construction.py", line 566, in set_model_fields
+    fields, class_vars = collect_model_fields(cls, config_wrapper, ns_resolver, typevars_map=typevars_map)
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_fields.py", line 257, in collect_model_fields
+    type_hints = _typing_extra.get_model_type_hints(cls, ns_resolver=ns_resolver)
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 350, in get_model_type_hints
+    hints[name] = try_eval_type(value, globalns, localns)
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 404, in try_eval_type
+    return eval_type_backport(value, globalns, localns), True
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_typing_extra.py", line 469, in eval_type_backport
+    raise TypeError(message) from e
+TypeError: Unable to evaluate type annotation 'ClassVar[SettingsConfigDict]'.

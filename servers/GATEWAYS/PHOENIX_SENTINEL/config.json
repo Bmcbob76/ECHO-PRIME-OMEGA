@@ -1,0 +1,41 @@
+{
+  "phoenix_sentinel": {
+    "version": "1.0.0",
+    "authority_level": 11.0,
+    "components": {
+      "windows_api": {
+        "enabled": true,
+        "debug_privileges": true,
+        "injection_allowed": false
+      },
+      "autonomous_cpu": {
+        "enabled": true,
+        "cpu_threshold": 80,
+        "memory_threshold": 85,
+        "decision_interval_seconds": 2,
+        "learning_enabled": true
+      },
+      "jarvis_voice": {
+        "enabled": true,
+        "wake_word": "sentinel",
+        "voice_rate": 175,
+        "voice_volume": 0.9,
+        "listen_timeout": 5
+      },
+      "gs343_healing": {
+        "enabled": true,
+        "auto_heal": true,
+        "pattern_matching": true
+      }
+    },
+    "logging": {
+      "level": "INFO",
+      "file": "sentinel.log",
+      "console": true
+    },
+    "mls_integration": {
+      "enabled": true,
+      "registry_path": "P:\\ECHO_PRIME\\MLS_CLEAN\\PRODUCTION\\mls_registry.json"
+    }
+  }
+}

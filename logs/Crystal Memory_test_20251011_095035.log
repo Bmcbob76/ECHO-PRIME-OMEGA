@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "E:\ECHO_XV4\MLS\servers\MCP_CONSTELLATION\crystal_memory\mcp_crystal.py", line 8, in <module>
+    from mcp.server.models import InitializationOptions
+  File "H:\Tools\lib\site-packages\mcp\__init__.py", line 1, in <module>
+    from .client.session import ClientSession
+  File "H:\Tools\lib\site-packages\mcp\client\session.py", line 10, in <module>
+    import mcp.types as types
+  File "H:\Tools\lib\site-packages\mcp\types.py", line 1181, in <module>
+    class Root(BaseModel):
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_model_construction.py", line 255, in __new__
+    complete_model_class(
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_model_construction.py", line 648, in complete_model_class
+    schema = gen_schema.generate_schema(cls)
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_generate_schema.py", line 702, in generate_schema
+    def generate_schema(
+KeyboardInterrupt

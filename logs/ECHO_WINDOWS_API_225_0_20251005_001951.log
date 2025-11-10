@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "E:\ECHO_XV4\MLS\servers\ECHO_WINDOWS_API_225.py", line 25, in <module>
+    import mcp  # Model Context Protocol
+  File "H:\Tools\lib\site-packages\mcp\__init__.py", line 1, in <module>
+    from .client.session import ClientSession
+  File "H:\Tools\lib\site-packages\mcp\client\session.py", line 8, in <module>
+    from pydantic import AnyUrl, TypeAdapter
+  File "H:\Tools\lib\site-packages\pydantic\__init__.py", line 435, in __getattr__
+    module = import_module(module_name, package=package)
+  File "H:\Tools\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "H:\Tools\lib\site-packages\pydantic\networks.py", line 29, in <module>
+    from .json_schema import JsonSchemaValue
+  File "H:\Tools\lib\site-packages\pydantic\json_schema.py", line 46, in <module>
+    from ._internal import (
+  File "H:\Tools\lib\site-packages\pydantic\_internal\_core_utils.py", line 9, in <module>
+    from pydantic_core import validate_core_schema as _validate_core_schema
+ImportError: cannot import name 'validate_core_schema' from 'pydantic_core' (H:\Tools\lib\site-packages\pydantic_core\__init__.py)

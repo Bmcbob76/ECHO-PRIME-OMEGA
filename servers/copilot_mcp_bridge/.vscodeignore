@@ -1,0 +1,32 @@
+# Build artifacts
+src/**
+tsconfig.json
+*.map
+
+# Development files
+.vscode-test/**
+.gitignore
+.git/**
+
+# Node modules (keep only production deps)
+node_modules/**/test/**
+node_modules/**/tests/**
+node_modules/**/*.md
+node_modules/**/*.txt
+node_modules/**/LICENSE*
+node_modules/**/.github/**
+
+# Documentation
+*.md
+!README.md
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp

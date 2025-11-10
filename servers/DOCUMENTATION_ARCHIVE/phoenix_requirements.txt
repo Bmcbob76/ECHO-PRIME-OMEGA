@@ -1,0 +1,20 @@
+# Phoenix Voice - Guilty Spark Requirements
+# ECHO_XV4 Voice Synthesis System
+
+# TTS Engine
+TTS>=0.13.0
+
+# Deep Learning
+torch>=2.0.0
+numpy>=1.24.0
+
+# Web Server
+flask>=2.3.0
+flask-cors>=4.0.0
+
+# Audio Processing
+soundfile>=0.12.0
+librosa>=0.10.0
+
+# Utilities
+psutil>=5.9.0

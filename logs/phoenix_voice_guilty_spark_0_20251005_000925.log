@@ -1,0 +1,27 @@
+H:\Tools\lib\site-packages\librosa\core\intervals.py:8: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+Traceback (most recent call last):
+  File "E:\ECHO_XV4\MLS\servers\phoenix_voice_guilty_spark.py", line 14, in <module>
+    from TTS.tts.models.glow_tts import GlowTTS
+  File "H:\Tools\lib\site-packages\TTS\tts\models\glow_tts.py", line 13, in <module>
+    from TTS.tts.models.base_tts import BaseTTS
+  File "H:\Tools\lib\site-packages\TTS\tts\models\base_tts.py", line 14, in <module>
+    from TTS.tts.datasets.dataset import TTSDataset
+  File "H:\Tools\lib\site-packages\TTS\tts\datasets\__init__.py", line 10, in <module>
+    from TTS.tts.datasets.formatters import *
+  File "H:\Tools\lib\site-packages\TTS\tts\datasets\formatters.py", line 8, in <module>
+    import pandas as pd
+  File "H:\Tools\lib\site-packages\pandas\__init__.py", line 22, in <module>
+    from pandas.compat import is_numpy_dev as _is_numpy_dev  # pyright: ignore # noqa:F401
+  File "H:\Tools\lib\site-packages\pandas\compat\__init__.py", line 18, in <module>
+    from pandas.compat.numpy import (
+  File "H:\Tools\lib\site-packages\pandas\compat\numpy\__init__.py", line 4, in <module>
+    from pandas.util.version import Version
+  File "H:\Tools\lib\site-packages\pandas\util\__init__.py", line 2, in <module>
+    from pandas.util._decorators import (  # noqa:F401
+  File "H:\Tools\lib\site-packages\pandas\util\_decorators.py", line 14, in <module>
+    from pandas._libs.properties import cache_readonly
+  File "H:\Tools\lib\site-packages\pandas\_libs\__init__.py", line 13, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas\_libs\interval.pyx", line 1, in init pandas._libs.interval
+ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject

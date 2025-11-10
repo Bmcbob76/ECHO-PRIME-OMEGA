@@ -1,0 +1,15 @@
+H:\Tools\lib\site-packages\pygame\pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_stream, resource_exists
+pygame 2.6.1 (SDL 2.28.4, Python 3.10.0)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+H:\Tools\lib\site-packages\pydub\utils.py:170: RuntimeWarning: Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work
+  warn("Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work", RuntimeWarning)
+📄 Loading: compass_artifact_wf-1e4f961d-8cef-41ac-9215-c2723a88b3aa_text_markdown.md
+✅ Loaded 115 segments
+
+📋 NARRATION OPTIONS:
+1. Full document (115 segments)
+2. First 10 segments (test)
+3. Custom range
+
+Select option (1-3): 

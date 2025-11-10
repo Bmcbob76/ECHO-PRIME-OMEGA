@@ -1,0 +1,37 @@
+⚠️ WARNING: GS343 Foundation not loaded - Limited functionality
+💎 ECHO_XV4 Crystal Memory Server - GS343 Foundation
+💎 Commander Bobby Don McWilliams II - Authority Level 11.0
+============================================================
+💎 2025-10-03 17:51:54,994 - Crystal[CrystalMemoryServer] - INFO - 💎 Crystal Memory Server initialized on port 8000
+💎 2025-10-03 17:51:54,994 - Crystal[CrystalMemoryServer] - INFO - 💎 Crystal Memory Server running with GS343 Foundation
+💎 2025-10-03 17:51:54,994 - Crystal[CrystalMemoryServer] - INFO - 💎 Phoenix Auto-Heal: Inactive
+💎 2025-10-03 17:51:54,994 - Crystal[CrystalMemoryServer] - INFO - 💎 Authority Level: 9.5
+💎 2025-10-03 17:51:54,994 - Crystal[CrystalMemoryServer] - INFO - 💎 Listening on port: 8000
+💎 2025-10-03 17:52:00,592 - Crystal[CrystalMemoryServer] - INFO - 💎 Crystal Memory Server shutdown complete
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "E:\ECHO_XV4\MLS\servers\crystal_memory_server_enhanced.py", line 164, in main
+    await server.run_server()
+  File "E:\ECHO_XV4\MLS\servers\crystal_memory_server_enhanced.py", line 139, in run_server
+    await asyncio.sleep(30)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py", line 649, in sleep
+    return await future
+           ^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\ECHO_XV4\MLS\servers\crystal_memory_server_enhanced.py", line 171, in <module>
+    asyncio.run(main())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 123, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt

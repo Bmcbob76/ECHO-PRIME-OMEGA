@@ -1,0 +1,4 @@
+2025-10-11 11:34:43,042 - INFO - VS Code API MCP Bridge initializing...
+2025-10-11 11:34:43,042 - INFO - VS Code API MCP Bridge ready for requests
+2025-10-11 11:34:43,042 - INFO - Backend: http://localhost:9001
+2025-10-11 11:34:43,050 - INFO - VS Code API backend is OPERATIONAL

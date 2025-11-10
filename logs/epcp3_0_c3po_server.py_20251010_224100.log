@@ -1,0 +1,68 @@
+H:\Tools\lib\site-packages\torch\cuda\__init__.py:61: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+H:\Tools\lib\site-packages\librosa\core\intervals.py:8: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+Traceback (most recent call last):
+  File "E:\ECHO_XV4/EPCP3-0\AI\voice_c3po_standalone.py", line 61, in initialize
+    self.model = TTS("tts_models/multilingual/multi-dataset/xtts_v2").to("cuda")
+  File "H:\Tools\lib\site-packages\TTS\api.py", line 74, in __init__
+    self.load_tts_model_by_name(model_name, gpu)
+  File "H:\Tools\lib\site-packages\TTS\api.py", line 177, in load_tts_model_by_name
+    self.synthesizer = Synthesizer(
+  File "H:\Tools\lib\site-packages\TTS\utils\synthesizer.py", line 109, in __init__
+    self._load_tts_from_dir(model_dir, use_cuda)
+  File "H:\Tools\lib\site-packages\TTS\utils\synthesizer.py", line 161, in _load_tts_from_dir
+    config = load_config(os.path.join(model_dir, "config.json"))
+  File "H:\Tools\lib\site-packages\TTS\config\__init__.py", line 97, in load_config
+    config_class = register_config(model_name.lower())
+  File "H:\Tools\lib\site-packages\TTS\config\__init__.py", line 40, in register_config
+    from TTS.tts.configs.xtts_config import XttsConfig
+  File "H:\Tools\lib\site-packages\TTS\tts\configs\xtts_config.py", line 5, in <module>
+    from TTS.tts.models.xtts import XttsArgs, XttsAudioConfig
+  File "H:\Tools\lib\site-packages\TTS\tts\models\xtts.py", line 12, in <module>
+    from TTS.tts.layers.xtts.stream_generator import init_stream_support
+  File "H:\Tools\lib\site-packages\TTS\tts\layers\xtts\stream_generator.py", line 13, in <module>
+    from transformers import (
+ImportError: cannot import name 'BeamSearchScorer' from 'transformers' (H:\Tools\lib\site-packages\transformers\__init__.py)
+✅ Process name set (fallback): ECHO_XV4: Epcp3 0 C3Po Server - Port Unknown
+⚠️  GS343 Foundation not available - running standalone
+======================================================================
+🎖️ EPCP3-0 C3PO SERVER
+======================================================================
+Port: 8030
+Debug: False
+GS343 Foundation: UNAVAILABLE
+======================================================================
+
+Initializing C3PO Integration...
+🎖️ Initializing C3PO Integration...
+   ✅ C3PO Personality loaded
+🎤 Loading C3PO voice model...
+ > tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
+❌ Failed to load C3PO voice model: cannot import name 'BeamSearchScorer' from 'transformers' (H:\Tools\lib\site-packages\transformers\__init__.py)
+   ⚠️  C3PO Voice failed (text-only mode)
+✅ C3PO Integration complete
+
+✅ C3PO Integration initialized successfully
+✅ C3PO Ready
+
+🚀 Starting server on http://localhost:8030
+📡 Health: http://localhost:8030/health
+🤖 Respond: POST http://localhost:8030/respond
+🔊 Speak: POST http://localhost:8030/speak
+💬 Personality: POST http://localhost:8030/personality
+📊 Stats: GET http://localhost:8030/stats
+======================================================================
+
+ * Serving Flask app 'epcp3_0_c3po_server'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8030
+ * Running on http://192.168.1.200:8030
+Press CTRL+C to quit
+forrtl: error (200): program aborting due to window-CLOSE event
+Image              PC                Routine            Line        Source             
+KERNELBASE.dll     00007FFB727DC1BD  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFB738AE8D7  Unknown               Unknown  Unknown
+ntdll.dll          00007FFB74DCC53C  Unknown               Unknown  Unknown

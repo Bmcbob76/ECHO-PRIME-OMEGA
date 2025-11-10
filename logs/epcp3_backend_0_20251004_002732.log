@@ -1,0 +1,48 @@
+⚠️ WARNING: GS343 Foundation not found. Running in standalone mode.
+⚠️ WARNING: GS343 Foundation not found in AI module
+⚠️ Memory manager not available
+⚠️ Core initialization failed: cannot import name 'ModelManager' from 'AI.model_manager' (E:\ECHO_XV4/EPCP3-0\AI\model_manager.py)
+🎤 Voice Command Integration Initialized
+🎭 Current Voice: Echo
+✅ Loaded API keys for 14 providers
+E:\ECHO_XV4\MLS\servers\epcp3_backend.py:189: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+E:\ECHO_XV4\MLS\servers\epcp3_backend.py:217: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("shutdown")
+======================================================================
+🚀 EPCP3-0 ULTIMATE Backend Server Starting...
+======================================================================
+✅ GS343 Foundation: STANDALONE
+✅ Phoenix Auto-Heal: ENABLED
+✅ Authority Level: 11.0
+✅ Commander: Bobby Don McWilliams II
+======================================================================
+🌐 Server URL: http://localhost:7331
+🌐 EPCP Code IDE: http://localhost:7331/epcp-code
+🔌 WebSocket: ws://localhost:7331/ws/ai-chat
+======================================================================
+INFO:     Started server process [4524]
+INFO:     Waiting for application startup.
+🚀 Starting EPCP3-0 ULTIMATE with Phase 1 enhancements...
+🧠 GS343 Swarm Integration Initialized
+🔗 API Endpoint: http://localhost:8343
+❌ Failed to connect to GS343: Cannot connect to host localhost:8343 ssl:default [The remote computer refused the network connection]
+⚠️ Swarm Brain offline (GS343 server not running)
+✅ Connected to ElevenLabs
+✅ Voice commands ready: 6 personalities available
+INFO:     Application startup complete.
+ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 7331): only one usage of each socket address (protocol/network address/port) is normally permitted
+INFO:     Waiting for application shutdown.
+🔌 Disconnected from GS343
+🔌 Voice integration disconnected
+INFO:     Application shutdown complete.

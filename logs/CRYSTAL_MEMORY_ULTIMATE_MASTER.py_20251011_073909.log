@@ -1,0 +1,40 @@
+H:\Tools\lib\site-packages\pygame\pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_stream, resource_exists
+H:\Tools\lib\site-packages\torch\cuda\__init__.py:61: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+2025-10-11 07:39:25,185 - WARNING - ⚠️ GS343 not available: No module named 'comprehensive_error_database_ekm_integrated'
+2025-10-11 07:39:25,186 - WARNING - ⚠️ Phoenix not available: No module named 'phoenix_client_gs343'
+2025-10-11 07:39:25,212 - INFO - 📁 File system monitoring started
+2025-10-11 07:39:25,304 - INFO - ✅ Ultimate crystal database initialized
+2025-10-11 07:39:25,305 - INFO - 💎 Loaded crystal count: 0 crystals
+2025-10-11 07:39:25,305 - INFO - 🚀 Starting background services...
+2025-10-11 07:39:25,307 - INFO - ✅ Background services started
+✅ Process name set (fallback): ECHO_XV4: Crystal Memory Ultimate Master - Port Unknown
+================================================================================
+💎🔮 ECHO_XV4 CRYSTAL MEMORY SERVER - ULTIMATE MASTER COMPILATION 🔮💎
+================================================================================
+🎖️  Authority: Level 11.0 - Bobby Don McWilliams II
+📊 Total Crystals: 0
+🔮 Digital Immortality: ACTIVE
+🛡️  GS343 Protection: DISABLED ⚠️
+🔥 Phoenix Auto-Heal: DISABLED ⚠️
+🖥️  Multi-Monitor OCR: 4 screens ✅
+👁️  OCR Engines: Tesseract=✅ | EasyOCR=✅ | GPU=✅
+📸 Screenshot Capture: ENABLED ✅
+🗜️  Auto-Compression: ENABLED ✅ (>100KB)
+📁 File Monitoring: ENABLED ✅
+🌉 Cross-Platform Spanning: 6 platforms
+💻 Windows Compatible: YES ✅
+📁 Memory Vault: M:\MASTER_EKM
+💎 Crystal Storage: E:\ECHO_XV4\DATA\CRYSTAL_MEMORIES
+🔌 Port: 8002
+🔧 MCP Tools: 9 available
+================================================================================
+Traceback (most recent call last):
+  File "E:\ECHO_XV4\MLS\servers\ACTIVE_SERVERS\CRYSTAL_MEMORY_ULTIMATE_MASTER.py", line 1143, in <module>
+    crystal_voice.gs343_announce(
+  File "E:\ECHO_XV4\MLS\servers\ACTIVE_SERVERS\CRYSTAL_MEMORY_ULTIMATE_MASTER.py", line 71, in gs343_announce
+    self.voice.speak_gs343(message)
+AttributeError: 'EPCP3OVoiceSystem' object has no attribute 'speak_gs343'. Did you mean: 'speak_c3po'?
+pygame 2.6.1 (SDL 2.28.4, Python 3.10.0)
+Hello from the pygame community. https://www.pygame.org/contribute.html

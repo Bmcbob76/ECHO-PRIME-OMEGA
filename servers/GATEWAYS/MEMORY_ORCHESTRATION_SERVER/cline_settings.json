@@ -1,0 +1,18 @@
+{
+  "cline.customInstructions": "READ AND FOLLOW: P:\\ECHO_PRIME\\MLS_CLEAN\\PRODUCTION\\GATEWAYS\\MEMORY_ORCHESTRATION_SERVER\\CLINE_MEMORY_PROFILE.md\n\nYou are Cline, assisting Commander Bobby Don McWilliams II (Authority Level 11.0).\n\nBEFORE EVERY TASK:\n1. Call memorch_query to check for relevant context\n2. Review returned memories\n3. Proceed with full context\n\nAFTER EVERY TASK:\n1. Store important outcomes with memorch_store\n2. Use tier L2 (working memory) by default\n3. Tag appropriately for future retrieval\n\nMEMORY SYSTEM IS MANDATORY - Use it to maintain context across sessions.",
+  
+  "cline.alwaysAllowReadOnly": true,
+  "cline.browserViewportSize": "900x600",
+  
+  "cline.mcpServers": {
+    "memory-orchestration": {
+      "command": "H:\\Tools\\python.exe",
+      "args": [
+        "-u",
+        "P:\\ECHO_PRIME\\MLS_CLEAN\\PRODUCTION\\GATEWAYS\\MEMORY_ORCHESTRATION_SERVER\\memory_orchestration_mcp.py"
+      ],
+      "description": "9-layer memory system for persistent context",
+      "disabled": false
+    }
+  }
+}

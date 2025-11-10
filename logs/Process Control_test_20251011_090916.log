@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "E:\ECHO_XV4\MLS\servers\MCP_CONSTELLATION\process_control\mcp_process.py", line 8, in <module>
+    import psutil
+  File "H:\Tools\lib\site-packages\psutil\__init__.py", line 100, in <module>
+    from . import _pswindows as _psplatform
+  File "H:\Tools\lib\site-packages\psutil\_pswindows.py", line 30, in <module>
+    from ._psutil_windows import ABOVE_NORMAL_PRIORITY_CLASS
+KeyboardInterrupt

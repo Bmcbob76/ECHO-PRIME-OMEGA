@@ -1,0 +1,87 @@
+{
+    "name": "echo-vscode-api",
+    "displayName": "ECHO VS Code API - Developer Control",
+    "description": "REST API server for programmatic VS Code control - ECHO_XV4 Unified Developer API",
+    "version": "1.0.0",
+    "publisher": "echo-prime",
+    "author": "Commander Bobby Don McWilliams II",
+    "license": "MIT",
+    "engines": {
+        "vscode": "^1.80.0"
+    },
+    "categories": [
+        "Other",
+        "Programming Languages"
+    ],
+    "activationEvents": [
+        "onStartupFinished"
+    ],
+    "main": "./out/extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "echo.startApiServer",
+                "title": "ECHO: Start API Server"
+            },
+            {
+                "command": "echo.stopApiServer",
+                "title": "ECHO: Stop API Server"
+            },
+            {
+                "command": "echo.getApiStatus",
+                "title": "ECHO: Get API Server Status"
+            }
+        ],
+        "configuration": {
+            "title": "ECHO VS Code API",
+            "properties": {
+                "echo.apiPort": {
+                    "type": "number",
+                    "default": 9001,
+                    "description": "Port for the REST API server"
+                },
+                "echo.autoStart": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "Automatically start API server on VS Code startup"
+                },
+                "echo.enableLogging": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "Enable detailed logging"
+                },
+                "echo.allowedOrigins": {
+                    "type": "array",
+                    "default": ["http://localhost:9000", "http://localhost:8343"],
+                    "description": "Allowed CORS origins for API requests"
+                }
+            }
+        }
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "pretest": "npm run compile",
+        "lint": "eslint src --ext ts",
+        "package": "vsce package",
+        "install-extension": "code --install-extension echo-vscode-api-1.0.0.vsix"
+    },
+    "devDependencies": {
+        "@types/node": "^18.0.0",
+        "@types/vscode": "^1.80.0",
+        "@types/express": "^4.17.17",
+        "@types/cors": "^2.8.13",
+        "@typescript-eslint/eslint-plugin": "^5.59.0",
+        "@typescript-eslint/parser": "^5.59.0",
+        "eslint": "^8.40.0",
+        "typescript": "^5.0.4",
+        "@vscode/vsce": "^2.19.0"
+    },
+    "dependencies": {
+        "express": "^4.18.2",
+        "cors": "^2.8.5",
+        "body-parser": "^1.20.2",
+        "axios": "^1.4.0"
+    }
+}

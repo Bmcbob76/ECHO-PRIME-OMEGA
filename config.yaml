@@ -1,0 +1,53 @@
+# Master Modular Launcher Configuration
+# ECHO_XV4 Production System
+
+# Directory Settings
+servers_dir: "E:/ECHO_XV4/MLS/servers"
+log_file: "E:/ECHO_XV4/MLS/logs/master.log"
+static_dir: "E:/ECHO_XV4/MLS/static"
+
+# Logging
+log_level: "INFO"  # DEBUG, INFO, WARNING, ERROR, CRITICAL
+
+# Port Management
+base_port: 8000  # Starting port for auto-assignment
+dashboard_port: 9000  # Web dashboard port
+
+# Server Management
+num_instances_per_server: 1  # Number of instances to launch per server
+auto_discovery: true  # Automatically discover new servers in servers_dir
+hot_reload: true  # Automatically reload modified servers
+
+# Health Monitoring
+health_check_interval: 30  # Seconds between health checks
+health_check_timeout: 5  # Timeout for health check requests
+max_restart_attempts: 3  # Maximum restart attempts before giving up
+restart_backoff: 5  # Seconds to wait before restarting
+
+# Features
+docker_support: true  # Enable Docker container support
+metrics_enabled: true  # Enable performance metrics
+mcp_enabled: true  # Enable MCP for Claude Desktop integration
+
+# Resource Limits (optional)
+resource_limits:
+  memory_mb: 512  # Maximum memory per server (MB)
+  cpu_percent: 80  # Maximum CPU usage per server (%)
+
+# Notification Webhooks (optional)
+notification_hooks:
+  on_restart: ""  # Webhook URL for restart notifications
+  on_crash: ""  # Webhook URL for crash notifications
+
+# GS343 Integration
+gs343_enabled: true
+phoenix_healing: true
+authority_level: 11.0
+
+# Server-specific overrides (optional)
+server_overrides:
+  # Example:
+  # my_server:
+  #   port: 8080
+  #   instances: 2
+  #   auto_restart: false

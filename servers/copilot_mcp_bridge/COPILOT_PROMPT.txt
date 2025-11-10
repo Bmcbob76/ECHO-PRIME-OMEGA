@@ -1,0 +1,47 @@
+@workspace I need help debugging TypeScript installation issue in VS Code extension project.
+
+**PROJECT:** `E:\ECHO_XV4\MLS\servers\copilot_mcp_bridge\`
+
+**PROBLEM:** TypeScript won't install despite being in devDependencies. Extension cannot compile.
+
+**SYMPTOMS:**
+```bash
+cd E:\ECHO_XV4\MLS\servers\copilot_mcp_bridge
+npm install              # ✅ Completes successfully  
+npm run compile          # ❌ 'tsc' is not recognized
+npx tsc -p ./            # ❌ "This is not the tsc command you are looking for"
+dir node_modules\typescript    # ❌ File Not Found
+dir node_modules\.bin          # ❌ Only has node-which, NO tsc.cmd
+```
+
+**PACKAGE.JSON DEVDEPENDENCIES:**
+```json
+"devDependencies": {
+  "@types/node": "^20.19.19",
+  "@types/vscode": "^1.104.0",
+  "@vscode/test-electron": "^2.3.0",
+  "@vscode/vsce": "^2.22.0",
+  "typescript": "^5.9.3"
+}
+```
+
+**ENVIRONMENT:**
+- Node.js: v24.9.0
+- OS: Windows
+- Shell: PowerShell / CMD
+
+**WHAT I TRIED:**
+1. `npm install` - completes but TypeScript missing
+2. `npm install typescript --save-dev` - completes but still missing
+3. `npm install --include=dev` - directory error
+4. Deleted `node_modules` and `package-lock.json`, reinstalled - same result
+
+**QUESTIONS:**
+1. Why isn't TypeScript installing when listed in devDependencies?
+2. Is this a Node.js v24.9.0 compatibility issue?
+3. Should I try `npm cache clean --force` first?
+4. Alternative: use Yarn or PNPM instead?
+
+**GOAL:** Get `npm run compile` working to generate `dist/extension.js`
+
+See full diagnostic: `COPILOT_DIAGNOSTIC.md`

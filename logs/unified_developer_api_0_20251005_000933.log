@@ -1,0 +1,66 @@
+✅ Process name set: ECHO_XV4: Unified Developer Api - Port 8018
+======================================================================
+ECHO UNIFIED DEVELOPER API - MASTER ORCHESTRATOR
+Commander Bobby Don McWilliams II - Authority Level 11.0
+======================================================================
+Coordinating:
+  - VS Code API (port 9001)
+  - Windows API (port 8343)
+  - Desktop Commander (MCP)
+======================================================================
+2025-10-05 00:09:34,216 [INFO] Unified Developer API initialized on port 9000
+2025-10-05 00:09:34,226 [INFO] ======================================================================
+2025-10-05 00:09:34,226 [INFO] ECHO UNIFIED DEVELOPER API - MASTER ORCHESTRATOR
+2025-10-05 00:09:34,226 [INFO] Commander Bobby Don McWilliams II - Authority Level 11.0
+2025-10-05 00:09:34,226 [INFO] ======================================================================
+2025-10-05 00:09:34,226 [INFO] Unified API Server running on port 9000
+2025-10-05 00:09:34,226 [INFO] VS Code API: http://localhost:9001
+2025-10-05 00:09:34,226 [INFO] Windows API: http://localhost:8343
+2025-10-05 00:09:34,226 [INFO] Desktop Commander: MCP (integrated)
+2025-10-05 00:09:34,227 [INFO] ======================================================================
+2025-10-05 00:09:34,227 [INFO] AVAILABLE WORKFLOWS:
+2025-10-05 00:09:34,227 [INFO]   - fix_bug: Fix bug in code file
+2025-10-05 00:09:34,227 [INFO]   - create_component: Create new component
+2025-10-05 00:09:34,227 [INFO]   - debug_crash: Debug runtime crash
+2025-10-05 00:09:34,227 [INFO]   - run_tests: Execute test suite
+2025-10-05 00:09:34,227 [INFO] ======================================================================
+2025-10-05 00:09:34,227 [INFO] SUBSYSTEM INTEGRATION:
+2025-10-05 00:09:34,227 [INFO]   ✓ VS Code API (port 9001) - Editor control
+2025-10-05 00:09:34,227 [INFO]   ✓ Windows API (port 8343) - OS + OCR control
+2025-10-05 00:09:34,227 [INFO]   ✓ Desktop Commander (MCP) - Filesystem operations
+2025-10-05 00:09:34,227 [INFO] ======================================================================
+2025-10-05 00:09:34,227 [INFO] API ACCESS:
+2025-10-05 00:09:34,228 [INFO]   Health: GET  http://localhost:9000/health
+2025-10-05 00:09:34,228 [INFO]   Stats:  GET  http://localhost:9000/api/stats
+2025-10-05 00:09:34,228 [INFO]   Endpoints: GET  http://localhost:9000/api/endpoints
+2025-10-05 00:09:34,228 [INFO]   Workflow: POST http://localhost:9000/unified/workflow
+2025-10-05 00:09:34,228 [INFO] ======================================================================
+2025-10-05 00:09:38,234 [WARNING] ⚠ VS Code API: OFFLINE - Start VS Code extension
+2025-10-05 00:09:40,238 [INFO] ✓ Windows API: ONLINE
+2025-10-05 00:09:40,238 [INFO] ✓ Desktop Commander: Available via MCP
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 61030)
+Traceback (most recent call last):
+  File "H:\Tools\lib\socketserver.py", line 316, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "H:\Tools\lib\socketserver.py", line 347, in process_request
+    self.finish_request(request, client_address)
+  File "H:\Tools\lib\socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "E:\ECHO_XV4\MLS\servers\unified_developer_api.py", line 432, in handler
+    return UnifiedAPIHandler(*args, server_instance=self, **kwargs)
+TypeError: BaseRequestHandler.__init__() got an unexpected keyword argument 'server_instance'
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 61031)
+Traceback (most recent call last):
+  File "H:\Tools\lib\socketserver.py", line 316, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "H:\Tools\lib\socketserver.py", line 347, in process_request
+    self.finish_request(request, client_address)
+  File "H:\Tools\lib\socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "E:\ECHO_XV4\MLS\servers\unified_developer_api.py", line 432, in handler
+    return UnifiedAPIHandler(*args, server_instance=self, **kwargs)
+TypeError: BaseRequestHandler.__init__() got an unexpected keyword argument 'server_instance'
+----------------------------------------
