@@ -1,3 +1,5 @@
+# ECHO PRIME OMEGA - Production .gitignore
+
 # CRITICAL - API KEYS & SECRETS
 **/echo_x_complete_api_keychain.env
 **/*keychain*.env
@@ -5,6 +7,9 @@
 **/*secret*.txt
 **/.env
 **/.env.*
+*.pem
+*.key
+*.crt
 
 # Python
 __pycache__/
@@ -24,52 +29,148 @@ parts/
 sdist/
 var/
 wheels/
+pip-wheel-metadata/
+share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+MANIFEST
+
+# Virtual Environments
 venv/
 ENV/
+env/
+.venv
+venv.bak/
+env.bak/
 
-# Logs
-*.log
-logs/
-*.pid
-*.seed
-*.pid.lock
-
-# IDE
+# IDE & Editors
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
+.sublime-project
+.sublime-workspace
+.atom/
+*.iml
 
-# OS
+# IDE caches
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytest_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+
+# OS Files
 .DS_Store
 Thumbs.db
 desktop.ini
+.AppleDouble
+.LSOverride
+ehthumbs.db
+Icon
 
-# Node modules (if any)
+# Logs & Temporary
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+tmp/
+temp/
+*_temp.py
+*_debug.py
+temp_db_query.db
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+test.db
+quantum_rollback.db
+echo_blockchain.db
+
+# Node modules
 node_modules/
+npm-debug.log
+yarn-error.log
 
-# Execution history
-execution_log.json
-*.history
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
 
-# Crystal memory (too large)
-**/CRYSTALS/
-**/crystals/
-
-# Backups
+# Backups & Old Files
 *.backup
 *.bak
 *_backup.*
 *_old.*
-
-# Archive directory (redundant files)
+BACKUPS/
+backups/
 ARCHIVE/
 
-# Virtual environments (redundant)
-**/venv/
-**/venv_*/
-**/.venv/
+# Generated Files
+execution_log.json
+*.history
+*.swp
+.cache/
+
+# Build Artifacts
+build/
+dist/
+*.whl
+*.tar.gz
+*.zip
+
+# Cache directories
+**/__pycache__/
+**/*.egg-info/
+
+# Large Media Files
+*.wav
+*.mp3
+*.ogg
+*.flac
+audio_segments/
+voice_samples/
+
+# Testing artifacts
+test_output/
+test_data/
+fixtures/
+
+# Performance profiling
+*.prof
+*.cprof
+prof_output/
+
+# Docker
+docker_data/
+.dockerignore
+
+# CI/CD logs
+.github/workflows/*.log
+
+# Virtual environment generated scripts
+Scripts/
+Lib/
+Include/
+bin/
+pyvenv.cfg
+
+# Private/Local files
+local_*
+private_*
+secret_*
+*.private
+
+# Old integration attempts (cleaned up)
+*_integrator.py
+*_emotions.py
