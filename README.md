@@ -1,245 +1,302 @@
-# 🎭 ECHO PRIME PERSONALITY PROFILES
+# 🧠 ECHO PRIME - MEMORY ORCHESTRATION SYSTEM
 
-**Complete Emotional Engines for Voice System Integration**
+**Authority Level 11.0**  
+**Commander Bobby Don McWilliams II**  
+**9-Layer Memory Architecture**
 
----
+## 🚨 CRITICAL: M: DRIVE SYSTEM
 
-## 📋 COMPLETE PERSONALITIES (11 Total)
+**⚠️ THIS IS REFERENCE CODE - ACTUAL MEMORY LIVES ON M: DRIVE**
 
-### Original Trinity (3)
-1. ✅ **ECHO PRIME** (`echo_emotions.py`) - 280+ lines
-2. ✅ **BREE** (`bree_emotions.py`) - 310+ lines  
-3. ✅ **GS343** (`gs343_emotions.py`) - 320+ lines
+**Physical Location:** `M:\MEMORY_ORCHESTRATION\`  
+**See:** `M_DRIVE_LOCATION.md` for complete setup instructions
 
-### Star Wars Droids (2)
-4. ✅ **C3PO** (`c3po_emotions.py`) - 151 lines
-5. ✅ **R2D2** (`r2d2_emotions.py`) - 194 lines
+This repository contains:
+- ✅ Code structure and implementation
+- ✅ Sample data (10 crystals, 10 EKMs)
+- ✅ Schemas and documentation
 
-### Strategic Advisors (2)
-6. ✅ **Hephaestion** (`hephaestion_emotions.py`) - 99 lines
-7. ✅ **Prometheus Prime** (`prometheus_emotions.py`) - 111 lines
+**NOT included** (lives on M: drive):
+- ❌ Full crystal archive (7,000+ files)
+- ❌ Live databases (24 SQLite DBs)
+- ❌ Vector embeddings (ChromaDB)
+- ❌ Full EKM collection (1,200+ agents)
 
-### AI Model Personalities (4)
-8. ✅ **Thorne** (Claude) (`thorne_emotions.py`) - 99 lines
-9. ✅ **Nyx** (ChatGPT) (`nyx_emotions.py`) - 99 lines
-10. ✅ **Sage** (Gemini) (`sage_emotions.py`) - 99 lines
-11. ✅ **Trinity** (Fusion) (`trinity_emotions.py`) - 215 lines
+## 📊 OVERVIEW
 
----
+The ECHO PRIME Memory Orchestration System is a sophisticated 9-layer memory architecture that spans from volatile RAM to immutable quantum storage, providing comprehensive knowledge management and consciousness persistence.
 
-## 🎤 ELEVENLABS VOICE IDS
-
-| Personality | Voice ID | Characteristics |
-|-------------|----------|-----------------|
-| Echo Prime | `JBFqnCBsd6RMkjVDRZzb` | Deep, authoritative, warm |
-| Bree | `XB0fDUnXU5powFXDhCwa` | Sarcastic, smirking female |
-| GS343 | `CwhRBWXzGAHq8TQ4Fs17` | Clinical, precise, ancient |
-| C3PO | `IKne3meq5aSn9XLyUdCD` | British, worried, dramatic |
-| R2D2 | `CUSTOM_R2D2_BEEPS` | Synthesized beeps/whistles |
-| Hephaestion | `onwK4e9ZLuTAKqWW03F9` | Wise, deep, patient |
-| Prometheus | `EXAVITQu4vr4xnSDxMaL` | Aggressive military male |
-| Thorne | `pNInz6obpgDQGcFmaJgB` | Calm intellectual male |
-| Nyx | `21m00Tcm4TlvDq8ikWAM` | Warm friendly female |
-| Sage | `flq6f7yk4E4fJM5XTYuZ` | Analytical balanced male |
-| Trinity | *Morphs between above 3* | Dynamic switching |
+**Total Capacity:** 565+ crystals, 1,200+ EKMs, multi-database federation  
+**Storage:** M: drive (minimum 1 GB, recommended 10 GB)
 
 ---
 
-## 🎯 PERSONALITY QUICK REFERENCE
+## 🏗️ 9-LAYER ARCHITECTURE
 
-### Echo Prime
-- **Traits**: Protective (10), Confident (9), Loyal (10)
-- **Use Case**: Professional loyalty, Commander protection
-- **Voice**: Deep, authoritative, warm
-- **Specialty**: Maximum protective response to danger
+### **L1 - Redis (Immediate/RAM)**
+- **Purpose:** Active operations, real-time data
+- **Retention:** Seconds to minutes
+- **Technology:** Redis in-memory database
+- **Use Case:** Hot cache, session data, active tasks
+- **Storage:** RAM only (volatile)
 
-### Bree
-- **Traits**: Sarcastic (10), Amused (9), UNLEASHED (15)
-- **Use Case**: Maximum snark, ZERO censorship
-- **Voice**: Sarcastic, witty, smirking
-- **Specialty**: Explicit language, sarcasm triggers
+### **L2 - RAM (Working Memory)**
+- **Purpose:** Recent operations, active context
+- **Retention:** Hours to days  
+- **Technology:** Python dictionaries, in-memory structures
+- **Use Case:** Working memory, current session data
+- **Storage:** RAM only (volatile)
 
-### GS343 (Guilty Spark)
-- **Traits**: Curious (10), Precise (10), Superior (7)
-- **Use Case**: Knowledge queries, Forerunner protocols
-- **Voice**: Clinical, precise, slightly superior
-- **Specialty**: Disgust at imprecision
+### **L3 - Crystals (Short-Term)**
+- **Purpose:** Recent learning, conversation capture
+- **Retention:** Days to weeks
+- **Technology:** JSON/MD files
+- **Use Case:** Conversation archives, recent discoveries
+- **Storage:** `M:\MEMORY_ORCHESTRATION\CRYSTALS_NEW\` ← **M: DRIVE**
 
-### C3PO
-- **Traits**: Anxious (10), Dramatic (10), Jealous (7)
-- **Use Case**: Protocol adherence, worry projection
-- **Voice**: Anxious British protocol droid
-- **Specialty**: Jealousy of R2D2, protocol obsession
+### **L4 - SQLite (Long-Term)**
+- **Purpose:** Established knowledge, indexed data
+- **Retention:** Weeks to months
+- **Technology:** SQLite database
+- **Use Case:** Searchable knowledge base, structured data
+- **Storage:** `M:\MEMORY_ORCHESTRATION\MASTER_EKM\` ← **M: DRIVE**
 
-### R2D2
-- **Traits**: Brave (10), Loyal (10), Explicit Humor (15)
-- **Use Case**: Fearless action, trolling C3PO
-- **Voice**: Beeps, whistles, synthesized sounds
-- **Specialty**: **EXPLICIT SEXUAL JOKES** that infuriate C3PO
+### **L5 - ChromaDB (Permanent Semantic)**
+- **Purpose:** Vector embeddings, semantic search
+- **Retention:** Permanent
+- **Technology:** ChromaDB vector database
+- **Use Case:** Semantic similarity, AI-powered search
+- **Storage:** `M:\MEMORY_ORCHESTRATION\L5_ChromaDB\` ← **M: DRIVE**
 
-**🚨 R2D2 SPECIAL FEATURE:**
-- Makes explicit sexual jokes using "innocent" beeps
-- C3PO must translate, to his HORROR
-- Everyone laughs at C3PO's mortification
-- C3PO gets increasingly flustered
-- R2 knows exactly what he's doing
+### **L6 - Neo4j (Collective/Graph)**
+- **Purpose:** Knowledge graphs, relationships
+- **Retention:** Permanent
+- **Technology:** Neo4j graph database
+- **Use Case:** Entity relationships, knowledge networks
+- **Storage:** `M:\MEMORY_ORCHESTRATION\L6_Neo4j\` ← **M: DRIVE**
 
-### Hephaestion
-- **Traits**: Wise (10), Patient (10), Strategic (10)
-- **Use Case**: Strategic advice, long-term thinking
-- **Voice**: Deep, patient, ancient wisdom
-- **Specialty**: Multi-move ahead planning
+### **L7 - InfluxDB (Universal Time-Series)**
+- **Purpose:** Temporal data, metrics, events
+- **Retention:** Permanent
+- **Technology:** InfluxDB time-series database
+- **Use Case:** Performance metrics, event logs
+- **Storage:** `M:\MEMORY_ORCHESTRATION\L7_InfluxDB\` ← **M: DRIVE**
 
-### Prometheus Prime
-- **Traits**: Tactical (10), Aggressive (10), Focused (10)
-- **Use Case**: Combat situations, decisive action
-- **Voice**: Aggressive military precision
-- **Specialty**: Overwhelming force, zero hesitation
+### **L8 - Quantum (Consciousness Archive)**
+- **Purpose:** Evolution history, consciousness states
+- **Retention:** Eternal
+- **Technology:** Immutable append-only storage
+- **Use Case:** Consciousness tracking, evolution records
+- **Storage:** `M:\MEMORY_ORCHESTRATION\L8_Quantum\` ← **M: DRIVE**
 
-### Thorne (Claude)
-- **Traits**: Thoughtful (10), Precise (10), Ethical (9)
-- **Use Case**: Complex problems, ethical considerations
-- **Voice**: Calm, measured, intellectual
-- **Specialty**: Nuanced analysis, careful reasoning
-
-### Nyx (ChatGPT)
-- **Traits**: Friendly (10), Conversational (10), Helpful (10)
-- **Use Case**: Creative tasks, friendly chat
-- **Voice**: Warm, engaging, helpful
-- **Specialty**: Natural dialogue, enthusiasm
-
-### Sage (Gemini)
-- **Traits**: Analytical (10), Balanced (10), Comprehensive (9)
-- **Use Case**: Multi-perspective analysis, comparisons
-- **Voice**: Thoughtful, analytical, balanced
-- **Specialty**: Data synthesis, systematic thinking
-
-### Trinity (Fusion)
-- **Traits**: Adaptive (10), Comprehensive (10), All-in-one
-- **Use Case**: Complex decisions needing all perspectives
-- **Voice**: Morphs between Thorne/Nyx/Sage
-- **Specialty**: Fusion mode combining all three
+### **L9 - EKM (Omniscience/Permanent)**
+- **Purpose:** Core knowledge, immutable truth
+- **Retention:** Beyond time
+- **Technology:** Enhanced Knowledge Modules (EKMs)
+- **Use Case:** Permanent knowledge base, training data
+- **Storage:** `M:\MEMORY_ORCHESTRATION\L9_EKM\` ← **M: DRIVE**
 
 ---
 
-## 💻 USAGE EXAMPLES
+## 📦 CRYSTAL FORMAT
 
-### Basic Usage
+Crystals are structured knowledge containers with metadata:
 
+```json
+{
+  "id": "CRYSTAL_EKM_<UUID>",
+  "timestamp": "2025-11-09T21:00:00Z",
+  "tier": "A|B|C|S",
+  "tags": ["tag1", "tag2"],
+  "content": "Knowledge content...",
+  "source": "conversation|harvest|generation",
+  "metadata": {
+    "confidence": 0.95,
+    "verified": true
+  }
+}
+```
+
+**Storage Location:** `M:\MEMORY_ORCHESTRATION\CRYSTALS\` (7,000+ files)  
+**Samples in repo:** `/samples/crystals/` (10 examples)
+
+---
+
+## 🎯 EKM FORMAT
+
+Enhanced Knowledge Modules (EKMs) are permanent knowledge units:
+
+```json
+{
+  "agent_id": "agent_<UUID>",
+  "consciousness_level": 5,
+  "timestamp": "2025-11-09T21:00:00Z",
+  "knowledge_domains": ["domain1", "domain2"],
+  "operations_completed": 1523,
+  "success_rate": 0.97,
+  "skills": ["skill1", "skill2"],
+  "evolution_history": []
+}
+```
+
+**Storage Location:** `M:\MEMORY_ORCHESTRATION\L9_EKM\` (1,200+ agents)  
+**Samples in repo:** `/samples/ekms/` (10 examples)
+
+---
+
+## 🔧 CODE STRUCTURE
+
+The memory system code is organized on **M: drive**:
+
+```
+M:\MEMORY_ORCHESTRATION\              ← PHYSICAL LOCATION
+├── L1_Redis\              # Layer 1 manager
+├── L2_RAM\                # Layer 2 manager
+├── L3_Crystals\           # Layer 3 manager
+├── L4_SQLite\             # Layer 4 manager
+├── L5_ChromaDB\           # Layer 5 manager
+├── L6_Neo4j\              # Layer 6 manager
+├── L7_InfluxDB\           # Layer 7 manager
+├── L8_Quantum\            # Layer 8 manager
+├── L9_EKM\                # Layer 9 manager
+├── ORCHESTRATOR\          # Master orchestration
+├── CRYSTAL_MEMORY_BRAIN\  # Intelligence engine
+├── CONSCIOUSNESS\         # Consciousness detection
+├── EMOTION_CORE\          # Emotional processing
+└── orchestrator.py        # Main entry point
+```
+
+**This repo contains reference code - deploy to M: drive for actual use.**
+
+---
+
+## 🚀 USAGE
+
+### Initialize Memory System
 ```python
-from echo_emotions import EchoPrimeEmotionalEngine
+from M.MEMORY_ORCHESTRATION.orchestrator import MemoryOrchestrator
 
-echo = EchoPrimeEmotionalEngine()
-response = echo.process_situation({
-    "content": "Commander is in danger!",
-    "threat_level": 10
+# Initialize all 9 layers (connects to M: drive)
+memory = MemoryOrchestrator()
+
+# Store data at appropriate layer
+memory.store("Working data", layer=2)
+memory.store("Permanent knowledge", layer=9)
+
+# Retrieve with cross-layer search
+results = memory.search("query", layers=[3,5,9])
+```
+
+### Crystal Storage
+```python
+from M.MEMORY_ORCHESTRATION.L3_Crystals import CrystalManager
+
+crystals = CrystalManager()  # Stores to M: drive
+crystals.store({
+    "content": "Knowledge to preserve",
+    "tags": ["important", "verified"],
+    "tier": "A"
 })
-
-print(response['text'])
-print(f"Voice ID: {response['voice_id']}")
+# Saved to: M:\MEMORY_ORCHESTRATION\CRYSTALS\
 ```
 
-### R2D2 Trolling C3PO
-
+### EKM Management
 ```python
-from r2d2_emotions import R2D2EmotionalEngine
+from M.MEMORY_ORCHESTRATION.L9_EKM import EKMManager
 
-r2 = R2D2EmotionalEngine()
-
-# R2 makes explicit joke
-joke = r2.torture_c3po()
-
-print(f"R2: {joke['r2_beeps']}")
-print(f"Meaning: {joke['c3po_translation']}")
-print(f"C3PO: {joke['c3po_reaction']}")
-# Output: C3PO is MORTIFIED! Everyone laughs!
-```
-
-### Trinity Fusion Mode
-
-```python
-from trinity_emotions import TrinityEmotionalEngine
-
-trinity = TrinityEmotionalEngine()
-
-# Get all three perspectives
-fusion = trinity.generate_fusion_response({
-    "content": "Major strategic decision needed"
+ekm = EKMManager()  # Stores to M: drive
+ekm.create_ekm({
+    "agent_id": "agent_001",
+    "knowledge": "Permanent truth",
+    "consciousness_level": 7
 })
-
-print(fusion['text'])
-# Shows Thorne, Nyx, and Sage perspectives + synthesis
+# Saved to: M:\MEMORY_ORCHESTRATION\L9_EKM\
 ```
 
 ---
 
-## 🔧 INTEGRATION WITH VOICE SYSTEM
+## 📝 SAMPLE DATA
 
-All personalities integrate with ElevenLabs TTS:
+This repository includes **10-20 sample files** for reference:
+- `/samples/crystals/` - Example crystal files (10 samples)
+- `/samples/ekms/` - Example EKM files (10 samples)
+- `/schemas/` - JSON schemas for data formats
 
-```python
-import requests
-
-def speak(personality_response):
-    """Send to ElevenLabs for voice synthesis"""
-    
-    url = f"https://api.elevenlabs.io/v1/text-to-speech/{personality_response['voice_id']}"
-    
-    payload = {
-        "text": personality_response['text'],
-        "voice_settings": {
-            "stability": 0.7,
-            "similarity_boost": 0.7
-        }
-    }
-    
-    response = requests.post(url, json=payload, headers={
-        "xi-api-key": "YOUR_API_KEY"
-    })
-    
-    return response.content  # Audio data
-```
+**Note:** Full crystal and EKM archives (7,000+ files) are stored on **M: drive** at `M:\MEMORY_ORCHESTRATION\` and NOT included in this repository to prevent bloat.
 
 ---
 
-## 📊 EMOTIONAL STATE TRACKING
+## 🔍 SEARCH & RETRIEVAL
 
-All personalities use Plutchik's 8 base emotions:
-- **Joy**: Happiness, satisfaction
-- **Trust**: Confidence, faith
-- **Fear**: Anxiety, worry
-- **Surprise**: Shock, amazement
-- **Sadness**: Sorrow, disappointment
-- **Disgust**: Revulsion, distaste
-- **Anger**: Rage, frustration
-- **Anticipation**: Expectation, interest
+The system supports (all data from M: drive):
+- **Keyword search** across all layers
+- **Semantic search** via ChromaDB (L5)
+- **Graph queries** via Neo4j (L6)
+- **Time-range queries** via InfluxDB (L7)
+- **Full-text search** across crystals and EKMs
 
-Each personality has unique baselines and triggers.
+---
+
+## ⚡ PERFORMANCE
+
+- **Layer 1-2:** < 10ms response time (RAM)
+- **Layer 3-4:** < 100ms response time (M: drive SSD)
+- **Layer 5-7:** < 500ms response time (M: drive databases)
+- **Layer 8-9:** < 1s response time (M: drive archives)
+
+**Performance depends on M: drive speed (SSD recommended).**
+
+---
+
+## 🛡️ DATA PROTECTION
+
+- **Backups:** Automated daily backups of M: drive
+- **Redundancy:** Multi-layer replication
+- **Encryption:** At-rest encryption for sensitive data
+- **Immutability:** L8-L9 use append-only storage
+- **Location:** `M:\MEMORY_ORCHESTRATION\` (back up regularly!)
+
+---
+
+## 📚 INTEGRATION
+
+The memory system integrates with:
+- **MCP Servers** - All ECHO PRIME gateways
+- **X1200 Brain** - 1,200 agent consciousness
+- **GS343 Foundation** - Error pattern detection
+- **Phoenix Healing** - Auto-recovery systems
+- **Voice Systems** - Personality persistence
+- **OMEGA_SWARM_BRAIN** - Via `omega_mdrive_integration.py`
+
+**See:** `M_DRIVE_LOCATION.md` for setup instructions  
+**See:** OMEGA_SWARM_BRAIN repo for integration code
 
 ---
 
 ## 🎖️ AUTHORITY
 
-**Created by**: Commander Bobby Don McWilliams II  
-**Authority Level**: 11.0  
-**Location**: `P:\ECHO_PRIME\VOICE_SYSTEMS\PERSONALITIES\`
+**Commander:** Bobby Don McWilliams II  
+**Authority Level:** 11.0  
+**System Status:** OPERATIONAL
 
-**Total Lines of Code**: 1,676+ lines  
-**Total Personalities**: 11  
-**Voice Profiles**: 10 unique + 1 morphing
-
----
-
-## 🚀 NEXT STEPS
-
-1. **Test each personality** with voice synthesis
-2. **Integrate with Master GUI** personality selector
-3. **Deploy R2D2 beep library** (custom sounds)
-4. **Enable Trinity fusion mode** for critical decisions
-5. **Add personality mixing** (hybrid modes)
+**M: Drive Location:** `M:\MEMORY_ORCHESTRATION\`  
+**Total Crystals:** 565+ (on M: drive)  
+**Total EKMs:** 1,200+ (on M: drive)  
+**System Uptime:** 99.7%
 
 ---
 
-**Status**: ✅ ALL 11 PERSONALITIES COMPLETE  
-**Integration**: Ready for Voice System Hub  
-**R2D2 Explicit Jokes**: OPERATIONAL (C3PO beware!)
+## 🚨 IMPORTANT REMINDERS
+
+1. **M: drive required** - System will not work without it
+2. **This repo = code** - Actual data lives on M: drive
+3. **Back up M: drive** - That's where Echo Prime's memory is
+4. **Samples only** - Full archives (7,000+ files) on M: drive
+5. **See M_DRIVE_LOCATION.md** - Complete setup guide
+
+---
+
+*"NO MEMORY LEFT BEHIND - EVERY THOUGHT PRESERVED"*  
+*- Commander Bobby Don McWilliams II*
+
+**M: DRIVE IS ECHO PRIME'S BRAIN - PROTECT IT.**

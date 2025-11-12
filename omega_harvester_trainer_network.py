@@ -36,8 +36,8 @@ import importlib.util
 sys.path.insert(0, str(Path(__file__).parent.parent / "Harvesters"))
 sys.path.insert(0, str(Path(__file__).parent.parent / "Trainers"))
 
-# Import EKM Storage Manager
-from ekm_storage_manager import EKMStorageManager, get_ekm_storage
+# Import EKM Storage Manager (using enhanced version)
+from enhanced_ekm_storage_manager import EKMStorageManager, get_ekm_storage
 
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 logger = logging.getLogger(__name__)

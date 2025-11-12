@@ -9,16 +9,22 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from datetime import datetime
 import json
+import os
 
 # Email configuration
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 EMAIL_ADDRESS = "bmcii1976@gmail.com"
-EMAIL_PASSWORD = "mzvwmwokllgmczkv"
+EMAIL_PASSWORD = os.environ.get("EMAIL_PASSWORD", "")  # Use environment variable
 
 
 def send_task_completion_email(task_number: int, task_title: str, details: str):
     """Send email notification for completed task"""
+    
+    # Check if password is set
+    if not EMAIL_PASSWORD:
+        print(f"⚠️ Email disabled for Task #{task_number}: EMAIL_PASSWORD environment variable not set")
+        return False
     
     # Create message
     msg = MIMEMultipart('alternative')

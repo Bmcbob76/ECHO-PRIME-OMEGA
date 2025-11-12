@@ -1,4 +1,4 @@
-"""
+r"""
 🎖️ ENHANCED EKM STORAGE MANAGER - High-Quality Knowledge Storage
 Implements the exact structure specified in CLINE_EKM_INTEGRATION_TASK.md
 
@@ -519,6 +519,16 @@ async def test_enhanced_ekm_storage():
         # Test related search
         related = await storage.find_related(ekm_id)
         print(f"✅ Found {len(related)} related EKMs")
+
+
+# Backward compatibility aliases
+EKMStorageManager = EnhancedEKMStorageManager
+
+def get_ekm_storage():
+    """Get singleton instance of EKM storage manager"""
+    if not hasattr(get_ekm_storage, '_instance'):
+        get_ekm_storage._instance = EnhancedEKMStorageManager()
+    return get_ekm_storage._instance
 
 
 if __name__ == "__main__":

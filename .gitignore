@@ -65,3 +65,11 @@ execution_log.json
 *.bak
 *_backup.*
 *_old.*
+
+# Archive directory (redundant files)
+ARCHIVE/
+
+# Virtual environments (redundant)
+**/venv/
+**/venv_*/
+**/.venv/

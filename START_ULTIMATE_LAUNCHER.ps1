@@ -13,7 +13,7 @@ Write-Host ""
 # Check if already running
 $existingProcess = Get-Process python* -ErrorAction SilentlyContinue | Where-Object {
     $cmdline = (Get-CimInstance Win32_Process -Filter "ProcessId = $($_.Id)" -ErrorAction SilentlyContinue).CommandLine
-    $cmdline -like "*ULTIMATE_AUTO_HEALING_LAUNCHER*"
+    $cmdline -like "*ULTIMATE_MLS_LAUNCHER*"
 }
 
 if ($existingProcess) {
@@ -47,8 +47,8 @@ Write-Host ""
 Write-Host "🚀 Starting Ultimate Auto-Healing Launcher..." -ForegroundColor Yellow
 Write-Host ""
 
-$pythonExe = "H:\Tools\python.exe"
-$launcherScript = "E:\ECHO_XV4\MLS\ULTIMATE_AUTO_HEALING_LAUNCHER.py"
+$pythonExe = "python"  # Use system Python
+$launcherScript = "$PSScriptRoot\ULTIMATE_MLS_LAUNCHER.py"  # Use current directory
 
 # Check files exist
 if (-not (Test-Path $pythonExe)) {
